@@ -1,14 +1,14 @@
 :root {
---bg: #f3efe7;
+--bg: #f2eee6;
 --surface: #fffdf9;
---surface-2: #ebe6dc;
---text: #1b241d;
---text-soft: #5e695f;
---border: #d7d1c5;
---primary: #2f5a43;
---primary-dark: #234633;
---accent: #b79a6a;
---shadow: 0 14px 34px rgba(27, 36, 29, 0.08);
+--surface-2: #e7e0d4;
+--text: #182018;
+--text-soft: #5d665e;
+--border: #d1c8ba;
+--primary: #1f3a2d;
+--primary-dark: #162a21;
+--accent: #a88c5d;
+--shadow: 0 16px 38px rgba(24, 32, 24, 0.08);
 --radius: 20px;
 --max-width: 1120px;
 --sticky-offset: calc(1rem + env(safe-area-inset-bottom));
@@ -28,7 +28,7 @@ body {
 margin: 0;
 font-family: Georgia, "Times New Roman", serif;
 color: var(--text);
-background: linear-gradient(180deg, #f8f5ef 0%, var(--bg) 100%);
+background: linear-gradient(180deg, #f7f3eb 0%, var(--bg) 100%);
 line-height: 1.6;
 }
 
@@ -61,8 +61,8 @@ position: sticky;
 top: 0;
 z-index: 100;
 backdrop-filter: blur(10px);
-background: rgba(243, 239, 231, 0.88);
-border-bottom: 1px solid rgba(215, 209, 197, 0.9);
+background: rgba(242, 238, 230, 0.9);
+border-bottom: 1px solid rgba(209, 200, 186, 0.95);
 }
 
 .header-inner {
@@ -87,7 +87,7 @@ height: 2.2rem;
 display: grid;
 place-items: center;
 border-radius: 999px;
-background: var(--text);
+background: var(--primary);
 color: #fff;
 font-size: 0.82rem;
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -100,8 +100,13 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 .rate-name,
 .rate-price,
 .note-title,
-.cta-note {
+.cta-note,
+.hero-points {
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.brand-text {
+letter-spacing: -0.01em;
 }
 
 .nav {
@@ -113,6 +118,11 @@ gap: 1rem;
 text-decoration: none;
 color: var(--text-soft);
 font-weight: 600;
+}
+
+.nav a:hover,
+.nav a:focus-visible {
+color: var(--primary);
 }
 
 .hero,
@@ -130,10 +140,10 @@ gap: 1.5rem;
 }
 
 .eyebrow {
-margin: 0 0 0.75rem;
-font-size: 0.78rem;
+margin: 0 0 0.8rem;
+font-size: 0.76rem;
 text-transform: uppercase;
-letter-spacing: 0.1em;
+letter-spacing: 0.12em;
 font-weight: 700;
 color: var(--primary);
 }
@@ -143,21 +153,21 @@ h2,
 h3 {
 margin: 0;
 line-height: 1.08;
-letter-spacing: -0.02em;
+letter-spacing: -0.025em;
 font-weight: 700;
 }
 
 h1 {
-font-size: clamp(2.3rem, 6vw, 4.6rem);
+font-size: clamp(2.4rem, 6vw, 4.8rem);
 max-width: 11ch;
 }
 
 h2 {
-font-size: clamp(1.9rem, 4vw, 3.1rem);
+font-size: clamp(1.95rem, 4vw, 3.15rem);
 }
 
 h3 {
-font-size: 1.2rem;
+font-size: 1.18rem;
 margin-bottom: 0.5rem;
 }
 
@@ -167,7 +177,11 @@ margin-bottom: 0.5rem;
 .cta-text,
 .hero-note p {
 color: var(--text-soft);
-font-size: 1.02rem;
+font-size: 1.03rem;
+}
+
+.hero-text {
+max-width: 58ch;
 }
 
 .hero-actions,
@@ -187,7 +201,7 @@ padding: 0.95rem 1.2rem;
 border-radius: 999px;
 text-decoration: none;
 font-weight: 700;
-transition: transform 0.2s ease, background-color 0.2s ease;
+transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
 }
 
 .button:hover,
@@ -211,9 +225,15 @@ border: 1px solid var(--border);
 color: var(--text);
 }
 
+.button-secondary:hover,
+.button-secondary:focus-visible {
+border-color: var(--primary);
+color: var(--primary);
+}
+
 .button-large {
 min-height: 3.5rem;
-padding-inline: 1.4rem;
+padding-inline: 1.45rem;
 }
 
 .hero-points {
@@ -221,9 +241,8 @@ list-style: none;
 padding: 0;
 margin: 1.5rem 0 0;
 display: grid;
-gap: 0.6rem;
+gap: 0.65rem;
 color: var(--text-soft);
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 .hero-points li {
@@ -257,29 +276,30 @@ overflow: hidden;
 }
 
 .hero-photo {
-min-height: 250px;
+min-height: 260px;
 background:
-linear-gradient(rgba(27, 36, 29, 0.2), rgba(27, 36, 29, 0.2)),
-linear-gradient(135deg, #5f6d5f 0%, #aab39c 45%, #d7d1c5 100%);
+linear-gradient(rgba(18, 24, 19, 0.28), rgba(18, 24, 19, 0.28)),
+linear-gradient(135deg, #31453a 0%, #697868 45%, #c8bfaf 100%);
 }
 
 .photo-placeholder {
-min-height: 250px;
+min-height: 260px;
 display: grid;
 place-items: center;
-color: rgba(255,255,255,0.92);
+color: rgba(255, 255, 255, 0.94);
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 font-weight: 700;
 letter-spacing: 0.04em;
 }
 
 .hero-note {
-padding: 1.1rem;
+padding: 1.15rem;
 }
 
 .note-title {
 margin: 0 0 0.35rem;
 font-weight: 700;
+color: var(--text);
 }
 
 .section-heading {
@@ -288,9 +308,9 @@ margin-bottom: 2rem;
 }
 
 .muted {
-background: rgba(235, 230, 220, 0.45);
-border-top: 1px solid rgba(215, 209, 197, 0.8);
-border-bottom: 1px solid rgba(215, 209, 197, 0.8);
+background: rgba(231, 224, 212, 0.4);
+border-top: 1px solid rgba(209, 200, 186, 0.85);
+border-bottom: 1px solid rgba(209, 200, 186, 0.85);
 }
 
 .card-grid {
@@ -299,7 +319,7 @@ gap: 1rem;
 }
 
 .card {
-padding: 1.35rem;
+padding: 1.4rem;
 }
 
 .rate-grid {
@@ -312,29 +332,34 @@ padding: 1.2rem 1.3rem;
 }
 
 .rate-name {
-margin: 0 0 0.35rem;
+margin: 0 0 0.4rem;
 font-weight: 700;
 color: var(--text-soft);
 text-transform: uppercase;
 letter-spacing: 0.08em;
-font-size: 0.8rem;
+font-size: 0.78rem;
 }
 
 .rate-price {
 margin: 0;
 font-size: 2rem;
 font-weight: 800;
-color: var(--text);
+color: var(--primary);
 }
 
 .cta-panel {
-padding: 1.4rem;
+padding: 1.5rem;
 display: grid;
 gap: 1rem;
 }
 
 .final-cta {
 padding-bottom: 7rem;
+}
+
+.cta-note {
+color: var(--text-soft);
+margin: 0;
 }
 
 .mobile-sticky-cta {
@@ -349,11 +374,16 @@ align-items: center;
 justify-content: center;
 border-radius: 999px;
 text-decoration: none;
-background: var(--text);
+background: var(--primary);
 color: #fff;
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 font-weight: 800;
-box-shadow: 0 12px 24px rgba(27, 36, 29, 0.2);
+box-shadow: 0 12px 24px rgba(16, 22, 17, 0.24);
+}
+
+.mobile-sticky-cta:hover,
+.mobile-sticky-cta:focus-visible {
+background: var(--primary-dark);
 }
 
 @media (min-width: 700px) {
@@ -363,6 +393,11 @@ width: min(100% - 2rem, var(--max-width));
 
 .nav {
 display: inline-flex;
+}
+
+.hero,
+.section {
+padding: 5rem 0;
 }
 
 .hero-grid {
@@ -399,6 +434,21 @@ display: none;
 
 .final-cta {
 padding-bottom: 4rem;
+}
+}
+
+@media (min-width: 980px) {
+.hero {
+padding-top: 3.5rem;
+}
+
+.hero-photo,
+.photo-placeholder {
+min-height: 320px;
+}
+
+.card {
+padding: 1.55rem;
 }
 }
 
