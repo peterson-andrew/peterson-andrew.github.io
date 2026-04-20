@@ -276,10 +276,11 @@ overflow: hidden;
 }
 
 .hero-photo {
-min-height: 260px;
+min-height: 280px;
 background:
-linear-gradient(rgba(18, 24, 19, 0.28), rgba(18, 24, 19, 0.28)),
-linear-gradient(135deg, #31453a 0%, #697868 45%, #c5cdc4 100%);
+  linear-gradient(rgba(10, 15, 12, 0.45), rgba(10, 15, 12, 0.45)),
+  url("IMG_4020.jpeg") center / cover no-repeat;
+background-position: center 60%; 
 }
 
 .photo-placeholder {
