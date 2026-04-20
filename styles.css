@@ -16,7 +16,13 @@
 *::before,
 *::after { box-sizing: border-box; }
 
-body {
+.h1 {
+font-size: clamp(2.4rem, 6vw, 4.8rem);
+max-width: 11ch;
+color: #fff;
+}
+
+.body {
 margin: 0;
 font-family: Georgia, serif;
 color: var(--text);
@@ -63,25 +69,65 @@ border-radius: 999px;
 /* HERO */
 .hero-image {
 background:
-linear-gradient(rgba(10,15,12,0.55), rgba(10,15,12,0.55)),
-url("IMG_4020.jpeg") center / cover no-repeat;
+linear-gradient(
+to bottom,
+rgba(10, 15, 12, 0.38) 0%,
+rgba(10, 15, 12, 0.44) 38%,
+rgba(10, 15, 12, 0.58) 72%,
+rgba(233, 236, 232, 0.92) 100%
+),
+linear-gradient(
+135deg,
+rgba(218, 165, 32, 0.22) 0%,
+rgba(184, 115, 51, 0.18) 45%,
+rgba(101, 67, 33, 0.14) 100%
+),
+url("IMG_4020.jpeg") center 42% / cover no-repeat;
 color: #fff;
-padding: 6rem 0;
+padding: 6rem 0 6.5rem;
 }
 
-.hero-copy { max-width: 600px; }
+.hero-copy {
+max-width: 600px;
+}
 
-.hero-text { color: rgba(255,255,255,0.85); }
+.hero-text {
+color: rgba(255, 255, 255, 0.9);
+max-width: 58ch;
+}
 
 .hero-points {
 list-style: none;
 padding: 0;
-color: rgba(255,255,255,0.85);
+margin: 1.5rem 0 0;
+display: grid;
+gap: 0.65rem;
+color: rgba(255, 255, 255, 0.88);
 }
 
 .hero-points li::before {
-content: "• ";
-color: var(--accent);
+content: "";
+position: absolute;
+left: 0;
+top: 0.55rem;
+width: 0.5rem;
+height: 0.5rem;
+border-radius: 999px;
+background: rgba(218, 165, 32, 0.9);
+}
+
+.button-secondary {
+background: rgba(255, 255, 255, 0.06);
+border: 1px solid rgba(255, 255, 255, 0.68);
+color: #fff;
+backdrop-filter: blur(4px);
+}
+
+.button-secondary:hover,
+.button-secondary:focus-visible {
+border-color: rgba(255, 255, 255, 0.95);
+color: #fff;
+background: rgba(255, 255, 255, 0.12);
 }
 
 /* BUTTONS */
@@ -97,11 +143,6 @@ font-weight: 700;
 
 .button-primary {
 background: var(--primary);
-color: #fff;
-}
-
-.button-secondary {
-border: 1px solid rgba(255,255,255,0.6);
 color: #fff;
 }
 
@@ -145,6 +186,15 @@ color: #fff;
 text-align: center;
 padding: 1rem;
 border-radius: 999px;
+}
+
+.eyebrow {
+margin: 0 0 0.8rem;
+font-size: 0.76rem;
+text-transform: uppercase;
+letter-spacing: 0.12em;
+font-weight: 700;
+color: rgba(255, 255, 255, 0.82);
 }
 
 /* DESKTOP */
