@@ -220,6 +220,9 @@ padding: 0.95rem 1.2rem;
 border-radius: 999px;
 text-decoration: none;
 font-weight: 700;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+border: none;
+cursor: pointer;
 transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 
@@ -253,6 +256,10 @@ color: var(--orange);
 .button-large {
 min-height: 3.5rem;
 padding-inline: 1.45rem;
+}
+
+.button-full {
+width: 100%;
 }
 
 .hero-points {
@@ -385,16 +392,22 @@ font-weight: 800;
 color: var(--orange);
 }
 
+/* ── CTA / Contact Form ─────────────────────────────────────── */
+
 .cta-panel {
 padding: 1.5rem;
 display: grid;
-gap: 1rem;
+gap: 2rem;
 background:
 linear-gradient(
 to bottom,
 #fffdfa 0%,
 #f8efe0 100%
 );
+}
+
+.cta-intro .cta-text {
+margin-top: 0.75rem;
 }
 
 .final-cta {
@@ -405,6 +418,66 @@ padding-bottom: 7rem;
 margin: 0;
 color: var(--text-soft);
 }
+
+/* Contact form */
+.contact-form {
+display: grid;
+gap: 1rem;
+}
+
+.form-row {
+display: grid;
+gap: 1rem;
+}
+
+.form-group {
+display: flex;
+flex-direction: column;
+gap: 0.4rem;
+}
+
+.form-group label {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+font-size: 0.78rem;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.08em;
+color: var(--text-soft);
+}
+
+.form-group input,
+.form-group textarea {
+font-family: Georgia, "Times New Roman", serif;
+font-size: 1rem;
+color: var(--text);
+background: var(--surface);
+border: 1px solid var(--border);
+border-radius: var(--radius-sm);
+padding: 0.75rem 1rem;
+width: 100%;
+transition: border-color 0.2s ease, box-shadow 0.2s ease;
+-webkit-appearance: none;
+appearance: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+color: #a0a89e;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+outline: none;
+border-color: var(--gold);
+box-shadow: 0 0 0 3px rgba(183, 139, 55, 0.15);
+}
+
+.form-group textarea {
+resize: vertical;
+min-height: 110px;
+}
+
+/* ── Mobile sticky CTA ──────────────────────────────────────── */
 
 .mobile-sticky-cta {
 position: fixed;
@@ -430,77 +503,83 @@ box-shadow: 0 12px 24px rgba(30, 18, 7, 0.16);
 background: linear-gradient(180deg, #3c301f 0%, #221b12 100%);
 }
 
+/* ── Responsive ─────────────────────────────────────────────── */
+
 @media (min-width: 700px) {
 .container {
-width: min(100% - 2rem, var(--max-width));
+  width: min(100% - 2rem, var(--max-width));
 }
 
 .nav {
-display: inline-flex;
+  display: inline-flex;
 }
 
 .hero,
 .section {
-padding: 5rem 0;
+  padding: 5rem 0;
 }
 
 .hero-grid {
-grid-template-columns: 1.02fr 0.98fr;
-align-items: center;
-gap: 2rem;
+  grid-template-columns: 1.02fr 0.98fr;
+  align-items: center;
+  gap: 2rem;
 }
 
 .three-up {
-grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .two-up,
 .rate-grid {
-grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .cta-panel {
-grid-template-columns: 1.2fr 0.8fr;
-align-items: center;
-padding: 2rem;
+  grid-template-columns: 1fr 1.2fr;
+  align-items: start;
+  padding: 2rem;
 }
 
 .hero-actions,
 .cta-actions {
-flex-direction: row;
-flex-wrap: wrap;
-align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form-row.two-col {
+  grid-template-columns: 1fr 1fr;
 }
 
 .mobile-sticky-cta {
-display: none;
+  display: none;
 }
 
 .final-cta {
-padding-bottom: 4rem;
+  padding-bottom: 4rem;
 }
 }
 
 @media (min-width: 980px) {
 .hero {
-padding-top: 3.5rem;
+  padding-top: 3.5rem;
 }
 
 .hero-photo {
-min-height: 420px;
+  min-height: 420px;
 }
 
 .card {
-padding: 1.55rem;
+  padding: 1.55rem;
 }
 }
 
 @media (prefers-reduced-motion: reduce) {
 html {
-scroll-behavior: auto;
+  scroll-behavior: auto;
 }
 
 * {
-transition: none !important;
+  transition: none !important;
 }
 }
