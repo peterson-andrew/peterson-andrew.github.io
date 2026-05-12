@@ -136,7 +136,7 @@ North Georgia access points.
 <article class="card">
 <h3>Toccoa River</h3>
 <p>
-One of the region’s most recognizable trout fisheries, with strong
+One of the region's most recognizable trout fisheries, with strong
 opportunities for both learning and serious fishing.
 </p>
 </article>
@@ -159,7 +159,7 @@ anglers who want a memorable day in Western North Carolina.
 <h2>Clear pricing. No mystery.</h2>
 <p>
 Straightforward trip options for anglers who want to know what kind of day
-they’re booking.
+they're booking.
 </p>
 </div>
 
@@ -190,11 +190,11 @@ they’re booking.
 <section class="section muted" id="testimonials">
 <div class="container">
 <div class="section-heading">
-<p class="eyebrow">Who it’s for</p>
+<p class="eyebrow">Who it's for</p>
 <h2>Comfortable for beginners. Worth booking for experienced anglers.</h2>
 <p>
 We guide people who have never picked up a fly rod, and people who already
-know exactly why they’re coming.
+know exactly why they're coming.
 </p>
 </div>
 
@@ -219,8 +219,9 @@ and access to a more efficient and better-planned day.
 </section>
 
 <section class="section final-cta" id="cta">
-<div class="container cta-panel">
-<div>
+<div class="container">
+<div class="cta-panel">
+<div class="cta-intro">
 <p class="eyebrow">Book your date</p>
 <h2>Ready to get on the water?</h2>
 <p class="cta-text">
@@ -229,14 +230,68 @@ option for your experience level.
 </p>
 </div>
 
-<div class="cta-actions">
-<a class="button button-primary button-large" href="mailto:admin@georgiaflyfishingguides.com">Book a Trip</a>
-<p class="cta-note">admin@georgiaflyfishingguides.com</p>
+<form
+class="contact-form"
+action="https://formspree.io/f/xeennvdq"
+method="POST"
+>
+<div class="form-row two-col">
+<div class="form-group">
+<label for="name">Name</label>
+<input
+type="text"
+id="name"
+name="name"
+placeholder="Your name"
+required
+autocomplete="name"
+/>
+</div>
+
+<div class="form-group">
+<label for="phone">Phone</label>
+<input
+type="tel"
+id="phone"
+name="phone"
+placeholder="(555) 000-0000"
+autocomplete="tel"
+/>
+</div>
+</div>
+
+<div class="form-group">
+<label for="email">Email</label>
+<input
+type="email"
+id="email"
+name="email"
+placeholder="you@example.com"
+required
+autocomplete="email"
+/>
+</div>
+
+<div class="form-group">
+<label for="message">Message</label>
+<textarea
+id="message"
+name="message"
+rows="4"
+placeholder="Type your message here. Please try to include the dates you are considering."
+required
+></textarea>
+</div>
+
+<button type="submit" class="button button-primary button-large button-full">
+Send Inquiry
+</button>
+</form>
 </div>
 </div>
 </section>
 </main>
 
-<a class="mobile-sticky-cta" href="mailto:admin@georgiaflyfishingguides.com" aria-label="Book a Trip">Book a Trip</a>
+<a class="mobile-sticky-cta" href="#cta" aria-label="Book a Trip">Book a Trip</a>
 </body>
 </html>
