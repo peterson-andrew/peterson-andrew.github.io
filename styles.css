@@ -1,0 +1,962 @@
+:root {
+--bg: #eff2ee;
+--surface: #ffffff;
+--surface-warm: #fcf7ef;
+--text: #182018;
+--text-soft: #596258;
+--border: #d6dccf;
+
+--primary: #3b3122; /* dark trout back */
+--primary-dark: #261f15;
+--gold: #b78b37; /* trout midtone */
+--orange: #c86e2a; /* trout belly accent */
+--olive: #5b6444; /* moss/riverbank support */
+
+--shadow: 0 16px 38px rgba(24, 22, 18, 0.08);
+--radius: 20px;
+--radius-sm: 14px;
+--max-width: 1120px;
+--sticky-offset: calc(1rem + env(safe-area-inset-bottom));
+}
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+margin: 0;
+font-family: Georgia, "Times New Roman", serif;
+color: var(--text);
+background:
+linear-gradient(
+to bottom,
+#f4f6f1 0%,
+#eef1eb 48%,
+#ece8de 100%
+);
+line-height: 1.6;
+}
+
+a {
+color: inherit;
+}
+
+.container {
+width: min(100% - 1.5rem, var(--max-width));
+margin-inline: auto;
+}
+
+.skip-link {
+position: absolute;
+left: -9999px;
+top: 0;
+background: var(--text);
+color: #fff;
+padding: 0.75rem 1rem;
+z-index: 1000;
+}
+
+.skip-link:focus {
+left: 1rem;
+top: 1rem;
+}
+
+.site-header {
+position: sticky;
+top: 0;
+z-index: 100;
+backdrop-filter: blur(10px);
+background: rgba(244, 246, 241, 0.9);
+border-bottom: 1px solid rgba(214, 220, 207, 0.9);
+}
+
+.header-inner {
+min-height: 4.5rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 1rem;
+}
+
+.brand {
+text-decoration: none;
+display: inline-flex;
+align-items: center;
+gap: 0.75rem;
+font-weight: 700;
+}
+
+.brand-mark {
+width: 2.2rem;
+height: 2.2rem;
+display: grid;
+place-items: center;
+border-radius: 999px;
+background: linear-gradient(180deg, var(--olive) 0%, var(--orange) 100%);
+color: #fff;
+font-size: 0.82rem;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.brand-text,
+.nav a,
+.button,
+.eyebrow,
+.rate-name,
+.rate-price,
+.note-title,
+.cta-note,
+.hero-points {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.brand-text {
+letter-spacing: -0.01em;
+color: var(--text);
+}
+
+.nav {
+display: none;
+gap: 1rem;
+}
+
+.nav a {
+text-decoration: none;
+color: var(--text-soft);
+font-weight: 600;
+}
+
+.nav a:hover,
+.nav a:focus-visible {
+color: var(--primary);
+}
+
+.hero,
+.section {
+padding: 4rem 0;
+}
+
+.hero {
+padding-top: 3rem;
+}
+
+.hero-grid {
+display: grid;
+gap: 1.5rem;
+}
+
+.hero-copy {
+color: var(--text);
+}
+
+.eyebrow {
+margin: 0 0 0.8rem;
+font-size: 0.76rem;
+text-transform: uppercase;
+letter-spacing: 0.12em;
+font-weight: 700;
+color: var(--gold);
+}
+
+h1,
+h2,
+h3 {
+margin: 0;
+line-height: 1.08;
+letter-spacing: -0.025em;
+font-weight: 700;
+}
+
+h1 {
+font-size: clamp(2.4rem, 6vw, 4.8rem);
+max-width: 11ch;
+color: var(--primary);
+}
+
+h2 {
+font-size: clamp(1.95rem, 4vw, 3.15rem);
+color: var(--primary);
+}
+
+h3 {
+font-size: 1.18rem;
+margin-bottom: 0.5rem;
+color: var(--primary);
+}
+
+.hero-text,
+.section-heading p,
+.card p,
+.cta-text,
+.hero-note p {
+font-size: 1.03rem;
+color: var(--text-soft);
+}
+
+.hero-text {
+max-width: 58ch;
+}
+
+.hero-actions,
+.cta-actions {
+display: flex;
+flex-direction: column;
+gap: 0.85rem;
+margin-top: 1.5rem;
+}
+
+.button {
+display: inline-flex;
+justify-content: center;
+align-items: center;
+min-height: 3.25rem;
+padding: 0.95rem 1.2rem;
+border-radius: 999px;
+text-decoration: none;
+font-weight: 700;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+border: none;
+cursor: pointer;
+transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.button:hover,
+.button:focus-visible {
+transform: translateY(-1px);
+}
+
+.button-primary {
+background: linear-gradient(180deg, #4a3c28 0%, #2d2418 100%);
+color: #fff9f0;
+}
+
+.button-primary:hover,
+.button-primary:focus-visible {
+background: linear-gradient(180deg, #3c301f 0%, #221b12 100%);
+}
+
+.button-secondary {
+background: transparent;
+border: 1px solid rgba(59, 49, 34, 0.22);
+color: var(--primary);
+}
+
+.button-secondary:hover,
+.button-secondary:focus-visible {
+border-color: var(--orange);
+color: var(--orange);
+}
+
+.button-large {
+min-height: 3.5rem;
+padding-inline: 1.45rem;
+}
+
+.button-full {
+width: 100%;
+}
+
+.hero-points {
+list-style: none;
+padding: 0;
+margin: 1.5rem 0 0;
+display: grid;
+gap: 0.65rem;
+color: var(--text-soft);
+}
+
+.hero-points li {
+position: relative;
+padding-left: 1.4rem;
+}
+
+.hero-points li::before {
+content: "";
+position: absolute;
+left: 0;
+top: 0.55rem;
+width: 0.5rem;
+height: 0.5rem;
+border-radius: 999px;
+background: var(--orange);
+}
+
+.hero-panel,
+.card,
+.rate-card,
+.cta-panel {
+background: var(--surface);
+border: 1px solid var(--border);
+box-shadow: var(--shadow);
+border-radius: var(--radius);
+}
+
+.hero-panel {
+overflow: hidden;
+background: var(--surface);
+}
+
+.hero-photo {
+min-height: 320px;
+background:
+linear-gradient(
+to bottom,
+rgba(60, 49, 30, 0.12) 0%,
+rgba(183, 139, 55, 0.06) 55%,
+rgba(200, 110, 42, 0.08) 100%
+),
+url("./IMG_4021.jpeg") center 42% / cover no-repeat;
+}
+
+.hero-note {
+padding: 1.15rem;
+background:
+linear-gradient(
+to right,
+rgba(91, 100, 68, 0.04) 0%,
+rgba(200, 110, 42, 0.05) 100%
+);
+}
+
+.note-title {
+margin: 0 0 0.35rem;
+font-weight: 700;
+color: var(--primary);
+}
+
+.section-heading {
+max-width: 42rem;
+margin-bottom: 2rem;
+}
+
+.muted {
+background:
+linear-gradient(
+to bottom,
+rgba(183, 139, 55, 0.06) 0%,
+rgba(200, 110, 42, 0.04) 100%
+);
+border-top: 1px solid rgba(214, 220, 207, 0.8);
+border-bottom: 1px solid rgba(214, 220, 207, 0.8);
+}
+
+.card-grid {
+display: grid;
+gap: 1rem;
+}
+
+.card {
+padding: 1.4rem;
+background:
+linear-gradient(
+to bottom,
+#ffffff 0%,
+var(--surface-warm) 100%
+);
+}
+
+.rate-grid {
+display: grid;
+gap: 1rem;
+}
+
+.rate-card {
+padding: 1.2rem 1.3rem;
+background:
+linear-gradient(
+to bottom,
+#fffdfa 0%,
+#f8efe0 100%
+);
+}
+
+.rate-name {
+margin: 0 0 0.4rem;
+font-weight: 700;
+color: var(--text-soft);
+text-transform: uppercase;
+letter-spacing: 0.08em;
+font-size: 0.78rem;
+}
+
+.rate-price {
+margin: 0;
+font-size: 2rem;
+font-weight: 800;
+color: var(--orange);
+}
+
+/* ── CTA / Contact Form ─────────────────────────────────────── */
+
+.cta-panel {
+padding: 1.5rem;
+display: grid;
+gap: 2rem;
+background:
+linear-gradient(
+to bottom,
+#fffdfa 0%,
+#f8efe0 100%
+);
+}
+
+.cta-intro .cta-text {
+margin-top: 0.75rem;
+}
+
+.final-cta {
+padding-bottom: 7rem;
+}
+
+.cta-note {
+margin: 0;
+color: var(--text-soft);
+}
+
+/* Contact form */
+.contact-form {
+display: grid;
+gap: 1rem;
+}
+
+.form-row {
+display: grid;
+gap: 1rem;
+}
+
+.form-group {
+display: flex;
+flex-direction: column;
+gap: 0.4rem;
+}
+
+.form-group label {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+font-size: 0.78rem;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.08em;
+color: var(--text-soft);
+}
+
+.form-group input,
+.form-group textarea {
+font-family: Georgia, "Times New Roman", serif;
+font-size: 1rem;
+color: var(--text);
+background: var(--surface);
+border: 1px solid var(--border);
+border-radius: var(--radius-sm);
+padding: 0.75rem 1rem;
+width: 100%;
+transition: border-color 0.2s ease, box-shadow 0.2s ease;
+-webkit-appearance: none;
+appearance: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+color: #a0a89e;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+outline: none;
+border-color: var(--gold);
+box-shadow: 0 0 0 3px rgba(183, 139, 55, 0.15);
+}
+
+.form-group textarea {
+resize: vertical;
+min-height: 110px;
+}
+
+/* ── Mobile sticky CTA ──────────────────────────────────────── */
+
+.mobile-sticky-cta {
+position: fixed;
+left: 0.75rem;
+right: 0.75rem;
+bottom: var(--sticky-offset);
+z-index: 150;
+min-height: 3.5rem;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+border-radius: 999px;
+text-decoration: none;
+background: linear-gradient(180deg, #4a3c28 0%, #2d2418 100%);
+color: #fff9f0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+font-weight: 800;
+box-shadow: 0 12px 24px rgba(30, 18, 7, 0.16);
+}
+
+.mobile-sticky-cta:hover,
+.mobile-sticky-cta:focus-visible {
+background: linear-gradient(180deg, #3c301f 0%, #221b12 100%);
+}
+
+/* ── Responsive ─────────────────────────────────────────────── */
+
+@media (min-width: 700px) {
+.container {
+  width: min(100% - 2rem, var(--max-width));
+}
+
+.nav {
+  display: inline-flex;
+}
+
+.hero,
+.section {
+  padding: 5rem 0;
+}
+
+.hero-grid {
+  grid-template-columns: 1.02fr 0.98fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.three-up {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.two-up,
+.rate-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cta-panel {
+  grid-template-columns: 1fr 1.2fr;
+  align-items: start;
+  padding: 2rem;
+}
+
+.hero-actions,
+.cta-actions {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form-row.two-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.mobile-sticky-cta {
+  display: none;
+}
+
+.final-cta {
+  padding-bottom: 4rem;
+}
+}
+
+@media (min-width: 980px) {
+.hero {
+  padding-top: 3.5rem;
+}
+
+.hero-photo {
+  min-height: 420px;
+}
+
+.card {
+  padding: 1.55rem;
+}
+}
+
+@media (prefers-reduced-motion: reduce) {
+html {
+  scroll-behavior: auto;
+}
+
+* {
+  transition: none !important;
+}
+}
+
+/* ── River pages ─────────────────────────────────────────────── */
+
+.river-hero .hero-copy h1 {
+  max-width: 16ch;
+}
+
+.chatt-photo {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(60, 49, 30, 0.18) 0%,
+      rgba(91, 100, 68, 0.08) 100%
+    ),
+    url("./IMG_4021.jpeg") center 40% / cover no-repeat;
+}
+
+/* Table of contents */
+.toc-section {
+  padding: 2rem 0;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(183, 139, 55, 0.05) 0%,
+      rgba(200, 110, 42, 0.03) 100%
+    );
+  border-top: 1px solid rgba(214, 220, 207, 0.8);
+  border-bottom: 1px solid rgba(214, 220, 207, 0.8);
+}
+
+.toc-nav .eyebrow {
+  margin-bottom: 1rem;
+}
+
+.toc-links {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr;
+}
+
+.toc-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-soft);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(214, 220, 207, 0.5);
+  transition: color 0.2s ease;
+}
+
+.toc-link:hover,
+.toc-link:focus-visible {
+  color: var(--orange);
+}
+
+.toc-num {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--gold);
+  letter-spacing: 0.05em;
+  min-width: 1.8rem;
+}
+
+/* River section layout */
+.river-section {
+  display: grid;
+  gap: 2rem;
+}
+
+.river-intro p {
+  color: var(--text-soft);
+  font-size: 1.03rem;
+  margin: 0 0 1rem;
+}
+
+.river-intro p:last-child {
+  margin-bottom: 0;
+}
+
+.river-intro h2 {
+  margin-bottom: 1.25rem;
+}
+
+/* Fact cards */
+.river-facts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  align-content: start;
+}
+
+.fact-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.fact-label {
+  margin: 0 0 0.25rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+}
+
+.fact-value {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+/* Season cards */
+.season-card h3 {
+  margin-bottom: 0.6rem;
+}
+
+.season-tip {
+  margin: 0.75rem 0 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--orange);
+}
+
+/* Fly cards */
+.fly-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.fly-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.4rem;
+  background: linear-gradient(to bottom, #ffffff 0%, var(--surface-warm) 100%);
+}
+
+.fly-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.6rem;
+}
+
+.fly-header h3 {
+  margin: 0;
+}
+
+.fly-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--surface);
+  background: var(--olive);
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  white-space: nowrap;
+}
+
+.fly-card p {
+  color: var(--text-soft);
+  font-size: 1rem;
+  margin: 0 0 0.5rem;
+}
+
+.fly-detail {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.8rem !important;
+  font-weight: 600;
+  color: var(--gold) !important;
+  margin: 0 !important;
+}
+
+/* Hatch table */
+.hatch-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.hatch-table {
+  width: 100%;
+  min-width: 700px;
+  border-collapse: collapse;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+  background: var(--surface);
+}
+
+.hatch-table thead tr {
+  background: linear-gradient(90deg, var(--primary) 0%, var(--primary-dark) 100%);
+}
+
+.hatch-table thead th {
+  padding: 0.75rem 0.6rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #fff9f0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hatch-table thead th:first-child {
+  text-align: left;
+  padding-left: 1rem;
+  min-width: 140px;
+}
+
+.hatch-table tbody tr {
+  border-bottom: 1px solid var(--border);
+}
+
+.hatch-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.hatch-table tbody tr:nth-child(odd) {
+  background: #fdfbf7;
+}
+
+.hatch-table tbody tr:nth-child(even) {
+  background: #ffffff;
+}
+
+.insect-name {
+  padding: 0.7rem 0.6rem 0.7rem 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-align: left;
+  white-space: nowrap;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-right: 2px solid var(--border);
+}
+
+.hatch-table td.active {
+  background: linear-gradient(135deg, #c9a84c 0%, #b78b37 100%);
+  border: 1px solid rgba(183, 139, 55, 0.3);
+}
+
+.hatch-table td.inactive {
+  background: #f5f3ef;
+  border: 1px solid rgba(214, 220, 207, 0.5);
+}
+
+.hatch-table td {
+  padding: 0.7rem 0.4rem;
+  text-align: center;
+  min-width: 42px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.hatch-legend {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.8rem;
+  color: var(--text-soft);
+  font-weight: 600;
+}
+
+.legend-active,
+.legend-inactive {
+  display: inline-block;
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 4px;
+}
+
+.legend-active {
+  background: linear-gradient(135deg, #c9a84c 0%, #b78b37 100%);
+}
+
+.legend-inactive {
+  background: #f5f3ef;
+  border: 1px solid var(--border);
+}
+
+.hatch-note {
+  margin-top: 1rem;
+  font-size: 0.88rem;
+  color: var(--text-soft);
+  font-style: italic;
+}
+
+/* River card links on homepage */
+.river-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.river-card p {
+  flex: 1;
+}
+
+.river-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--orange);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.river-link:hover,
+.river-link:focus-visible {
+  color: var(--primary);
+}
+
+.river-link-soon {
+  color: var(--text-soft);
+  font-style: italic;
+  font-weight: 400;
+  cursor: default;
+}
+
+/* ── River page responsive ───────────────────────────────────── */
+
+@media (min-width: 700px) {
+  .toc-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .river-section {
+    grid-template-columns: 1.4fr 0.6fr;
+    align-items: start;
+  }
+
+  .fly-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 980px) {
+  .fly-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .toc-links {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
