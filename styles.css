@@ -960,3 +960,14 @@ html {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+/* ── Toccoa river photo placeholder ─────────────────────────── */
+.toccoa-photo {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(60, 49, 30, 0.18) 0%,
+      rgba(91, 100, 68, 0.08) 100%
+    ),
+    url("./IMG_4021.jpeg") center 50% / cover no-repeat;
+}
