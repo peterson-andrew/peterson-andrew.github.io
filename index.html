@@ -51,8 +51,41 @@ content="fly fishing guide Georgia, Chattahoochee fly fishing, Toccoa river guid
   <a href="#rates">Rates</a>
   <a href="#cta">Book</a>
 </nav>
+<button class="hamburger" aria-label="Open menu" aria-expanded="false" onclick="toggleMenu(this)">
+  <span></span><span></span><span></span>
+</button>
 </div>
 </header>
+
+<!-- Mobile nav drawer -->
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+  <a href="#trips" onclick="closeMenu()">Trips</a>
+  <a href="#waters" onclick="closeMenu()">Waters</a>
+  <a href="#rates" onclick="closeMenu()">Rates</a>
+  <div class="nav-divider"></div>
+  <a href="chattahoochee-fly-fishing.html" onclick="closeMenu()">Chattahoochee River</a>
+  <a href="toccoa-fly-fishing.html" onclick="closeMenu()">Toccoa River</a>
+  <div class="nav-divider"></div>
+  <a href="#cta" onclick="closeMenu()" style="color:var(--orange);">Book a Trip</a>
+</nav>
+
+<script>
+function toggleMenu(btn) {
+  const nav = document.getElementById('mobile-nav');
+  const open = nav.classList.toggle('is-open');
+  btn.classList.toggle('is-open', open);
+  btn.setAttribute('aria-expanded', open);
+  document.body.style.overflow = open ? 'hidden' : '';
+}
+function closeMenu() {
+  const nav = document.getElementById('mobile-nav');
+  const btn = document.querySelector('.hamburger');
+  nav.classList.remove('is-open');
+  btn.classList.remove('is-open');
+  btn.setAttribute('aria-expanded', 'false');
+  document.body.style.overflow = '';
+}
+</script>
 
 <main id="main-content">
 <section class="hero">

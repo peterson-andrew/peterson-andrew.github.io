@@ -53,8 +53,45 @@ content="Chattahoochee River fly fishing, Chattahoochee fly fishing guide, fly f
   <a href="index.html#rates">Rates</a>
   <a href="index.html#cta">Book</a>
 </nav>
+<button class="hamburger" aria-label="Open menu" aria-expanded="false" onclick="toggleMenu(this)">
+  <span></span><span></span><span></span>
+</button>
 </div>
 </header>
+
+<!-- Mobile nav drawer -->
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+  <a href="index.html" onclick="closeMenu()">Home</a>
+  <a href="index.html#trips" onclick="closeMenu()">Trips</a>
+  <a href="index.html#rates" onclick="closeMenu()">Rates</a>
+  <div class="nav-divider"></div>
+  <a href="#tailwater" onclick="closeMenu()">Tailwater</a>
+  <a href="#tailwater-hatch" onclick="closeMenu()">Tailwater Hatch Chart</a>
+  <a href="#upper" onclick="closeMenu()">Upper River</a>
+  <a href="#upper-hatch" onclick="closeMenu()">Upper River Hatch Chart</a>
+  <div class="nav-divider"></div>
+  <a href="toccoa-fly-fishing.html" onclick="closeMenu()">Toccoa River</a>
+  <div class="nav-divider"></div>
+  <a href="#book" onclick="closeMenu()" style="color:var(--orange);">Book a Trip</a>
+</nav>
+
+<script>
+function toggleMenu(btn) {
+  const nav = document.getElementById('mobile-nav');
+  const open = nav.classList.toggle('is-open');
+  btn.classList.toggle('is-open', open);
+  btn.setAttribute('aria-expanded', open);
+  document.body.style.overflow = open ? 'hidden' : '';
+}
+function closeMenu() {
+  const nav = document.getElementById('mobile-nav');
+  const btn = document.querySelector('.hamburger');
+  nav.classList.remove('is-open');
+  btn.classList.remove('is-open');
+  btn.setAttribute('aria-expanded', 'false');
+  document.body.style.overflow = '';
+}
+</script>
 
 <main id="main-content">
 
@@ -121,8 +158,12 @@ content="Chattahoochee River fly fishing, Chattahoochee fly fishing guide, fly f
         <span class="toc-num">07</span>
         <span>Upper River Fly Selection</span>
       </a>
-      <a href="#book" class="toc-link">
+      <a href="#upper-hatch" class="toc-link">
         <span class="toc-num">08</span>
+        <span>Upper River Hatch Chart</span>
+      </a>
+      <a href="#book" class="toc-link">
+        <span class="toc-num">09</span>
         <span>Book a Guided Trip</span>
       </a>
     </div>
@@ -860,7 +901,7 @@ content="Chattahoochee River fly fishing, Chattahoochee fly fishing guide, fly f
 
   </div>
 
-  <div style="margin-top:2rem;">
+  <div style="margin-top:2rem;" id="upper-hatch">
     <div class="section-heading">
       <p class="eyebrow">Upper River Hatch Chart</p>
       <h3 style="font-size:clamp(1.4rem,3vw,2rem); margin-bottom:0.75rem;">Upper Chattahoochee Hatch Chart</h3>
