@@ -1,7 +1,7 @@
 name: Update USGS River Conditions
 
 
-on:
+'on':
   workflow_dispatch:
   schedule:
     - cron: "0 12 * * *"  # runs daily at 12:00 UTC
