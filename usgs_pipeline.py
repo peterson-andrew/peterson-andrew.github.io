@@ -1,6 +1,7 @@
 import asyncio
 from pathlib import Path
 from typing import Any, Dict, List, Optional
+from datetime import datetime, timezone
 
 import httpx
 
@@ -157,6 +158,9 @@ def render_usgs_conditions_html(conditions: Dict[str, Any], display_name: str) -
         </div>
 
         <p class="river-updated">Updated: {updated_at}</p>
+        <p> class="pipeline-updated">
+            Pipeline run: {datetime.now(timezone.utc).isoformat()}
+        </p>
         </section>
         """.strip()
 
