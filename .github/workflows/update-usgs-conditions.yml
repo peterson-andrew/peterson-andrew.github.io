@@ -31,6 +31,7 @@ jobs:
         run: |
           python usgs_pipeline.py
 
+      
       - name: Commit updated river conditions
         run: |
           git config user.name "github-actions"
@@ -38,5 +39,10 @@ jobs:
 
           git add site_snippets/chattahoochee_conditions.html
 
-          git diff --cached --quiet || git commit -m "Update USGS river conditions"
-          git push
+          if git diff --cached --quiet; then
+            echo "No river condition changes to commit"
+          else
+            git commit -m "Update USGS river conditions"
+            git pull --rebase origin main
+            git push
+          fi
