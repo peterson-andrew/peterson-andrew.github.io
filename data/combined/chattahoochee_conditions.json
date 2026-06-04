@@ -1,0 +1,50 @@
+{
+  "generated_at_utc": "2026-06-04T01:48:09.323283+00:00",
+  "river": "Chattahoochee River at Norcross",
+  "weather": {
+    "location_name": "Chattahoochee River below Buford Dam",
+    "latitude": 34.1567,
+    "longitude": -84.0784,
+    "forecast_time": "2026-06-03T21:00:00-04:00",
+    "air_temp_f": 70,
+    "temperature_unit": "F",
+    "wind_speed": "0 mph",
+    "wind_direction": "",
+    "short_forecast": "Clear",
+    "pressure_station": "KGVL",
+    "pressure_mb": 1024.7,
+    "pressure_inhg": 30.26
+  },
+  "river_conditions": {
+    "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
+    "site_code": "02335000",
+    "readings": {
+      "water_temp": {
+        "parameter_code": "00010",
+        "name": "Temperature, water, &#176;C",
+        "value": 14.2,
+        "timestamp": "2026-06-03T21:15:00.000-04:00",
+        "value_c": 14.2,
+        "value_f": 57.6
+      },
+      "flow_cfs": {
+        "parameter_code": "00060",
+        "name": "Streamflow, ft&#179;/s",
+        "value": 858.0,
+        "timestamp": "2026-06-03T21:15:00.000-04:00"
+      },
+      "gage_height_ft": {
+        "parameter_code": "00065",
+        "name": "Gage height, ft",
+        "value": 1.97,
+        "timestamp": "2026-06-03T21:15:00.000-04:00"
+      },
+      "turbidity": {
+        "parameter_code": "63680",
+        "name": "Turbidity, water, unfiltered, monochrome near infra-red LED light, 780-900 nm, detection angle 90 &#177;2.5&#176;, formazin nephelometric units (FNU)",
+        "value": 3.0,
+        "timestamp": "2026-06-03T21:15:00.000-04:00"
+      }
+    }
+  }
+}
