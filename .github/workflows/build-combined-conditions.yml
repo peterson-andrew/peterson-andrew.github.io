@@ -1,0 +1,45 @@
+name: Build Combined Fishing Conditions
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 12 * * *"  # daily at 12:30 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  build-combined-conditions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install httpx
+
+      - name: Build combined conditions JSON
+        run: |
+          python combined_conditions.py
+
+      - name: Commit combined conditions JSON
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add data/combined/chattahoochee_conditions.json
+
+          if git diff --cached --quiet; then
+            echo "No combined conditions changes to commit"
+          else
+            git commit -m "Update combined fishing conditions"
+            git pull --rebase origin main
+            git push
+          fi
