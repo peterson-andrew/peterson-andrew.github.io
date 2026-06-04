@@ -25,9 +25,17 @@ jobs:
         run: |
           pip install httpx
 
+      - name: Sync with latest main
+        run: |
+          git pull --ff-only origin main
+
       - name: Build combined conditions JSON
         run: |
           python combined_conditions.py
+
+      - name: Show generated file
+        run: |
+          cat data/combined/chattahoochee_conditions.json
 
       - name: Commit combined conditions JSON
         run: |
@@ -40,6 +48,5 @@ jobs:
             echo "No combined conditions changes to commit"
           else
             git commit -m "Update combined fishing conditions"
-            git pull --rebase origin main
             git push
           fi
