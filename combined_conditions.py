@@ -43,9 +43,16 @@ async def main() -> None:
 		river_display_name=site_config["display_name"],
 	)
 
+	timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H-%M-%SZ")
+	
 	save_json(
 		data=fishing_conditions,
 		output_path="data/combined/chattahoochee_conditions.json",
+	)
+
+	save_json(
+		data=fishing_conditions,
+		output_path=f"data/history/chattahoochee/{timestamp}.json",
 	)
 
 	print(json.dumps(fishing_conditions, indent=2))
@@ -53,3 +60,4 @@ async def main() -> None:
 
 if __name__ == "__main__":
 	asyncio.run(main())
+	
