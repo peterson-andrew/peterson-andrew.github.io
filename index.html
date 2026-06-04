@@ -8,13 +8,65 @@
 <title>Georgia Fly Fishing Guides</title>
 
 <link rel="stylesheet" href="style.css?v=20260601">
+<style>
+body {
+margin: 0;
+background: #fff;
+min-height: 100vh;
+}
 
+.river-guy {
+position: fixed;
+bottom: 0;
+right: 0;
+width: 140px;
+z-index: 999;
+cursor: default;
+}
+
+.river-guy img {
+width: 100%;
+display: block;
+clip-path: polygon(
+28% 0%, 68% 0%, 85% 12%, 95% 28%,
+90% 55%, 78% 70%, 72% 88%, 55% 100%,
+40% 100%, 24% 85%, 18% 65%, 10% 42%, 12% 18%
+);
+filter: drop-shadow(-3px 0 6px rgba(0,0,0,0.15));
+}
+
+.river-guy::after {
+content: "Just out here grinding 🎣";
+position: absolute;
+bottom: 85%;
+right: 10px;
+background: #222;
+color: #fff;
+font-family: Georgia, serif;
+font-size: 0.8rem;
+padding: 7px 12px;
+border-radius: 6px;
+white-space: nowrap;
+opacity: 0;
+transform: translateY(6px);
+transition: opacity 0.2s, transform 0.2s;
+pointer-events: none;
+}
+
+.river-guy:hover::after {
+opacity: 1;
+transform: translateY(0);
+}
+</style>
 </head>
-
 <body>
 
 <h1>Site Under Maintenance</h1>
 <p>We're updating river reports and site features. Please check back soon.</p>
 
-</body>
+<div class="river-guy">
+<!-- Update src to your actual image path, e.g. /assets/images/IMG_2649.jpeg -->
+<img src="IMG_2649.jpg" alt="" />
+</div>
+</body> 
 </html>
