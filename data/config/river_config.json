@@ -1,0 +1,113 @@
+{
+  "chattahoochee": {
+  "display_name": "Chattahoochee River",
+  "river_type": "tailwater",
+
+  "noaa": {
+    "lat": 34.1567,
+    "lon": -84.0784
+  },
+
+  "usgs": {
+    "site_id": "02335000"
+  },
+
+  "features": {
+    "turbidity": true,
+    "stocking": true
+  },
+
+  "rules": {
+    "use_flow_for_fishing_quality": false,
+    "allow_wading_safety_claims": false
+  }
+},
+
+"toccoa": {
+"display_name": "Toccoa River",
+"river_type": "tailwater",
+
+  "noaa": {
+  },
+
+  "usgs": {
+    "site_id": null
+  },
+
+  "features": {
+    "turbidity": false,
+    "stocking": true
+  },
+
+  "rules": {
+    "use_flow_for_fishing_quality": false,
+    "allow_wading_safety_claims": false
+  }
+},
+
+"soque": {
+"display_name": "Soque River",
+"river_type": "freestone",
+
+"noaa": {
+},
+
+"usgs": {
+  "site_id": null
+},
+
+"features": {
+  "turbidity": false,
+  "stocking": false
+},
+
+"rules": {
+  "use_flow_for_fishing_quality": false,
+  "allow_wading_safety_claims": false
+}
+},
+
+"etowah": {
+"display_name": "Etowah River",
+"river_type": "freestone",
+
+  "noaa": {
+  },
+
+  "usgs": {
+    "site_id": null
+  },
+
+  "features": {
+    "turbidity": false,
+    "stocking": true
+  },
+
+"rules": {
+  "use_flow_for_fishing_quality": false,
+  "allow_wading_safety_claims": false
+}
+},
+
+"nantahala": {
+"display_name": "Nantahala River",
+"river_type": "tailwater",
+
+  "noaa": {    
+  },
+
+  "usgs": {
+    "site_id": null
+  },
+
+  "features": {
+    "turbidity": false,
+    "stocking": true
+  },
+
+  "rules": {
+    "use_flow_for_fishing_quality": false,
+    "allow_wading_safety_claims": false
+}
+}
+}
