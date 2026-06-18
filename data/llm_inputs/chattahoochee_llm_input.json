@@ -1,0 +1,113 @@
+{
+  "instructions": [
+    "Generate a weekly fishing report",
+    "Evaluate fishing quality",
+    "Do not make wading safety claims",
+    "For Chattahoochee tailwaters, do not use flow or gauage height to score fishing quality.",
+    "Recommend 3-5 flies from inventory only."
+  ],
+  "conditions": {
+    "generated_at_utc": "2026-06-18T03:08:27.154246+00:00",
+    "river": "Chattahoochee River at Norcross",
+    "weather": {
+      "location_name": "Chattahoochee River below Buford Dam",
+      "latitude": 34.1567,
+      "longitude": -84.0784,
+      "forecast_time": "2026-06-17T23:00:00-04:00",
+      "air_temp_f": 75,
+      "temperature_unit": "F",
+      "wind_speed": "10 mph",
+      "wind_direction": "SW",
+      "short_forecast": "Mostly Clear",
+      "pressure_station": "KCNI",
+      "pressure_mb": 1013.2,
+      "pressure_inhg": 29.92
+    },
+    "river_conditions": {
+      "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
+      "site_code": "02335000",
+      "readings": {
+        "water_temp": {
+          "parameter_code": "00010",
+          "name": "Temperature, water, &#176;C",
+          "value": 15.2,
+          "timestamp": "2026-06-17T22:15:00.000-04:00",
+          "value_c": 15.2,
+          "value_f": 59.4
+        },
+        "flow_cfs": {
+          "parameter_code": "00060",
+          "name": "Streamflow, ft&#179;/s",
+          "value": 681.0,
+          "timestamp": "2026-06-17T22:15:00.000-04:00"
+        },
+        "gage_height_ft": {
+          "parameter_code": "00065",
+          "name": "Gage height, ft",
+          "value": 1.93,
+          "timestamp": "2026-06-17T22:15:00.000-04:00"
+        },
+        "turbidity": {
+          "parameter_code": "63680",
+          "name": "Turbidity, water, unfiltered, monochrome near infra-red LED light, 780-900 nm, detection angle 90 &#177;2.5&#176;, formazin nephelometric units (FNU)",
+          "value": 4.3,
+          "timestamp": "2026-06-17T22:15:00.000-04:00"
+        }
+      }
+    }
+  },
+  "available_flies": [
+    {
+      "name": "Black Zebra Midge",
+      "category": "nymph",
+      "sizes": [
+        18,
+        20,
+        22
+      ],
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "clear water",
+        "tailwater",
+        "cold_water",
+        "winter"
+      ],
+      "product_url": "/shop/black-zebra-midge.html"
+    },
+    {
+      "name": "Cream Egg",
+      "category": "egg",
+      "sizes": [
+        14
+      ],
+      "colors": [
+        "cream"
+      ],
+      "tags": [
+        "stocking",
+        "winter",
+        "high_fish_density"
+      ],
+      "product_url": "/shop/cream-egg.html"
+    },
+    {
+      "name": "Olive Woolly Bugger",
+      "category": "streamer",
+      "sizes": [
+        8,
+        10
+      ],
+      "colors": [
+        "olive"
+      ],
+      "tags": [
+        "stained water",
+        "cloudy",
+        "higher_flows"
+      ],
+      "product_url": "/shop/olive-woolly-bugger.html"
+    }
+  ]
+}
