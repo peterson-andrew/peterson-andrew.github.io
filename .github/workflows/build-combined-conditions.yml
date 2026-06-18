@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: build-combined-conditions
+  cancel-in-progress: false
+
 jobs:
   build-combined-conditions:
     runs-on: ubuntu-latest
@@ -33,21 +37,20 @@ jobs:
         run: |
           python combined_conditions.py
 
-      - name: Show generated file
+      - name: Build LLM context
         run: |
-          cat data/combined/chattahoochee_conditions.json
+          python build_llm_context.py
 
-      - name: Commit combined conditions JSON
+      - name: Commit generated data artifacts
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add data/combined/chattahoochee_conditions.json
-          git add data/history/chattahoochee/
+          git add data/
 
           if git diff --cached --quiet; then
-            echo "No combined conditions changes to commit"
+            echo "No generated data changes to commit"
           else
-            git commit -m "Update combined fishing conditions"
+            git commit -m "Update combined fishing data artifacts"
             git push
           fi
