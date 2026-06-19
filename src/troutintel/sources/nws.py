@@ -173,6 +173,14 @@ def normalize_current_weather(
         "wind_direction": first_hour["windDirection"],
         "short_forecast": first_hour["shortForecast"],
         "pressure_station": pressure["station_id"],
-        "pressure_mb": round(pressure["pressure_mb"], 1),
-        "pressure_inhg": round(pressure["pressure_inhg"], 2),
+        "pressure_mb": (
+            round(pressure["pressure_mb"], 1)
+            if pressure["pressure_mb"] is not None
+            else None
+        ),
+        "pressure_inhg": (
+            round(pressure["pressure_inhg"], 2)
+            if pressure["pressure_inhg"] is not None
+            else None
+        )
     }
