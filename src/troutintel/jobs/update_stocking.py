@@ -1,7 +1,16 @@
 from datetime import date
+from io import BytesIO
 from pathlib import Path
+from typing import Dict, List
+
+import httpx
+from pypdf import PdfReader
 
 from troutintel.io import save_json
+from troutintel.sources.gadnr import (
+    GA_DNR_STOCKING_PDF_URL,
+    normalize_waterbody,
+)
 
 
 TRACKED_RIVERS = [
@@ -13,98 +22,145 @@ TRACKED_RIVERS = [
 ]
 
 
-def build_stocking_data():
+def download_pdf() -> bytes:
+    response = httpx.get(
+        GA_DNR_STOCKING_PDF_URL,
+        timeout=30.0,
+    )
+    response.raise_for_status()
+    return response.content
 
-    # Temporary until we automate PDF parsing
 
-    stocked = {
-        "chattahoochee": {
-            "stocked": True,
-            "last_stocked": "2026-06-08",
-        },
+def extract_pdf_text(pdf_bytes: bytes) -> str:
+    reader = PdfReader(BytesIO(pdf_bytes))
 
-        "toccoa": {
-            "stocked": True,
-            "last_stocked": "2026-06-09",
-        },
+    text_parts = []
 
-        "soque": {
-            "stocked": True,
-            "last_stocked": "2026-06-09",
-        },
+    for page in reader.pages:
+        text_parts.append(page.extract_text())
 
-        "etowah": {
-            "stocked": True,
-            "last_stocked": "2026-06-11",
-        },
+    return "\n".join(text_parts)
 
-        "nantahala": {
-            "stocked": None,
+
+def parse_stocking_rows(text: str) -> List[Dict[str, str]]:
+    rows = []
+
+    for line in text.splitlines():
+        parts = line.strip().split()
+
+        if not parts:
+            continue
+
+        if not parts[0].count("/") == 2:
+            continue
+
+        stocking_date = parts[0]
+        county = parts[1]
+
+        waterbody = " ".join(parts[2:])
+
+        rows.append(
+            {
+                "date": stocking_date,
+                "county": county,
+                "waterbody": waterbody,
+            }
+        )
+
+    return rows
+
+
+def build_stocking_data(rows: List[Dict[str, str]]) -> Dict[str, Dict]:
+    stocking = {
+        river: {
+            "stocked": False,
             "last_stocked": None,
-        },
+            "matched_waterbodies": [],
+        }
+        for river in TRACKED_RIVERS
     }
 
-    return stocked
+    stocking["nantahala"] = {
+        "stocked": None,
+        "last_stocked": None,
+        "matched_waterbodies": [],
+        "note": "NC stocking data not integrated yet",
+    }
+
+    for row in rows:
+        river_key = normalize_waterbody(row["waterbody"])
+
+        if river_key is None:
+            continue
+
+        current = stocking[river_key]
+
+        current["stocked"] = True
+        current["last_stocked"] = row["date"]
+        current["matched_waterbodies"].append(
+            {
+                "date": row["date"],
+                "county": row["county"],
+                "waterbody": row["waterbody"],
+            }
+        )
+
+    return stocking
 
 
-def render_html(river: str, data: dict) -> str:
-
+def render_html(river: str, data: Dict) -> str:
     if data["stocked"] is True:
-
-        status = "✅ Recently Stocked"
-
+        status = "Recently Stocked"
     elif data["stocked"] is False:
-
-        status = "❌ Not Recently Stocked"
-
+        status = "Not Recently Stocked"
     else:
-
-        status = "ℹ️ Stocking Data Not Available"
+        status = "Stocking Data Not Available"
 
     return f"""
 <section class="stocking-card">
-
-<h3>Stocking Status</h3>
-
-<p>{status}</p>
-
-<p>Last Stocked: {data['last_stocked']}</p>
-
+  <h3>Stocking Status</h3>
+  <p>{status}</p>
+  <p>Last Stocked: {data["last_stocked"]}</p>
 </section>
 """.strip()
 
 
-def main():
+def main() -> None:
+    pdf_bytes = download_pdf()
+    text = extract_pdf_text(pdf_bytes)
+    rows = parse_stocking_rows(text)
 
-    stocking = build_stocking_data()
+    stocking = build_stocking_data(rows)
 
     save_json(
         stocking,
         "data/stocking/current_stocking.json",
     )
 
+    save_json(
+        stocking,
+        f"data/history/stocking/{date.today().isoformat()}.json",
+    )
+
     for river, data in stocking.items():
+        html = render_html(river, data)
 
-        html = render_html(
-            river,
-            data,
+        path = Path(
+            f"site_snippets/{river}_stocking_status.html"
         )
 
-        path = (
-            f"site_snippets/"
-            f"{river}_stocking_status.html"
+        path.parent.mkdir(
+            parents=True,
+            exist_ok=True,
         )
 
-        Path(path).write_text(
+        path.write_text(
             html,
             encoding="utf-8",
         )
 
-    print(
-        "Stocking update complete"
-    )
+    print("Stocking update complete")
 
 
 if __name__ == "__main__":
-
     main()
