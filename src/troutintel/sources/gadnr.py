@@ -12,6 +12,7 @@ RIVER_MAPPINGS = {
     "Blueridge Tailwater": "toccoa",
     "Soque River": "soque",
     "Etowah River": "etowah",
+    "Toccoa River (F)": "toccoa"
 }
 
 
