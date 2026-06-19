@@ -1,1 +1,51 @@
+name: Update Weather
 
+on:
+  schedule:
+    - cron: "30 11 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-weather
+  cancel-in-progress: false
+
+jobs:
+  update-weather:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run weather job
+        env:
+          PYTHONPATH: src
+        run: |
+          python -m troutintel.jobs.update_weather
+
+      - name: Commit weather updates
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add data/weather/
+
+          if git diff --cached --quiet; then
+            echo "No weather changes"
+          else
+            git commit -m "Update weather data"
+            git push
+          fi
