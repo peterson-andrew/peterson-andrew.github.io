@@ -2,7 +2,7 @@ import asyncio
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from datetime import datetime, timezone
-from troutintel.sources.usgs import (
+from src.troutintel.sources.usgs import (
     fetch_json,
     get_usgs_instant_values,
     normalize_usgs_instant_values
