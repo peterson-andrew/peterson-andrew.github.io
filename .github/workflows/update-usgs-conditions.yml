@@ -27,11 +27,11 @@ jobs:
         run: |
           pip install httpx
 
-      - name: Run USGS pipeline
+      - name: Run live conditions job
         env:
           PYTHONPATH: src
         run: |
-          python usgs_pipeline.py
+          python -m troutintel.jobs.update_live_conditions
 
       
       - name: Commit updated river conditions
@@ -39,7 +39,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add site_snippets/chattahoochee_conditions.html
+          git add site_snippets/
 
           if git diff --cached --quiet; then
             echo "No river condition changes to commit"
