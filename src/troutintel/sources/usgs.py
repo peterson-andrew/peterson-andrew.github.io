@@ -1,6 +1,9 @@
 from typing import Any, Dict, List, Optional
 import httpx
 
+
+USGS_IV_URL = "https://waterservices.usgs.gov/nwis/iv/"
+
 async def fetch_json(client: httpx.AsyncClient, url: str, params: Optional[Dict[str, str]] = None,) -> Dict[str, Any]:
     response = await client.get(url, params=params)
     response.raise_for_status()
