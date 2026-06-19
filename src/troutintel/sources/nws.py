@@ -102,16 +102,30 @@ async def get_barometric_pressure(
 
     observation = await get_latest_observation(client, station_id)
 
-    pressure_pa = observation["properties"]["barometricPressure"]["value"]
+    pressure_pa = (
+         observation["properties"]
+         .get("barometricPressure", {})
+         .get("value")
+     )
+
+    if pressure_pa is None:
+         return {
+             "station_id": station_id,
+             "pressure_pa": None,
+             "pressure_mb": None,
+             "pressure_inhg": None,
+             "raw_observation": observation,
+         }
 
     return {
-        "station_id": station_id,
-        "pressure_pa": pressure_pa,
-        "pressure_mb": pascals_to_millibars(pressure_pa),
-        "pressure_inhg": pascals_to_inches_hg(pressure_pa),
-        "raw_observation": observation,
-    }
-
+         "station_id": station_id,
+         "pressure_pa": pressure_pa,
+         "pressure_mb": pascals_to_millibars(pressure_pa),
+         "pressure_inhg": pascals_to_inches_hg(pressure_pa),
+         "raw_observation": observation,
+     }
+    
+  
 
 async def get_weather_bundle(
     client: httpx.AsyncClient,
