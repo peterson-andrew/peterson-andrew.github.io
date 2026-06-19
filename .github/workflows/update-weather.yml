@@ -1,8 +1,9 @@
-name: Update Weather
+name: Update Stocking
 
 on:
+
   schedule:
-    - cron: "30 11 * * *"
+    - cron: "0 14 * * 6"
 
   workflow_dispatch:
 
@@ -10,19 +11,23 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-weather
+  group: update-stocking
   cancel-in-progress: false
 
 jobs:
-  update-weather:
+
+  update-stocking:
+
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Check out repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
+
         with:
           python-version: "3.11"
 
@@ -30,22 +35,35 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run weather job
+      - name: Run stocking job
         env:
           PYTHONPATH: src
-        run: |
-          python -m troutintel.jobs.update_weather
 
-      - name: Commit weather updates
         run: |
+          python -m troutintel.jobs.update_stocking
+
+      - name: Commit stocking updates
+
+        run: |
+
           git config user.name "github-actions"
+
           git config user.email "github-actions@github.com"
 
-          git add data/weather/
+          git add data/stocking/
+
+          git add data/history/stocking/
+
+          git add site_snippets/
 
           if git diff --cached --quiet; then
-            echo "No weather changes"
+
+            echo "No stocking changes"
+
           else
-            git commit -m "Update weather data"
+
+            git commit -m "Update stocking data"
+
             git push
+
           fi
