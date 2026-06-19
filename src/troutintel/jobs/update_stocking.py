@@ -46,12 +46,16 @@ def parse_stocking_rows(text: str) -> List[Dict[str, str]]:
     rows = []
 
     for line in text.splitlines():
+        
         parts = line.strip().split()
 
         if not parts:
             continue
 
         if not parts[0].count("/") == 2:
+            continue
+
+        if len(parts) < 3:
             continue
 
         stocking_date = parts[0]
