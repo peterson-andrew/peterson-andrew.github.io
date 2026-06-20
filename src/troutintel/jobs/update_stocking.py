@@ -42,34 +42,43 @@ def extract_pdf_text(pdf_bytes: bytes) -> str:
     return "\n".join(text_parts)
 
 
-def parse_stocking_rows(text: str) -> List[Dict[str, str]]:
+def parse_stocking_rows(text: str):
+
     rows = []
 
-    for line in text.splitlines():
-        
-        parts = line.strip().split()
+    lines = [
+        line.strip()
+        for line in text.splitlines()
+        if line.strip()
+    ]
 
-        if not parts:
-            continue
+    i = 0
 
-        if not parts[0].count("/") == 2:
-            continue
+    while i < len(lines) - 2:
 
-        if len(parts) < 3:
-            continue
+        line = lines[i]
 
-        stocking_date = parts[0]
-        county = parts[1]
+        if line.count("/") == 2:
 
-        waterbody = " ".join(parts[2:])
+            stocking_date = line
 
-        rows.append(
-            {
-                "date": stocking_date,
-                "county": county,
-                "waterbody": waterbody,
-            }
-        )
+            county = lines[i + 1]
+
+            waterbody = lines[i + 2]
+
+            rows.append(
+                {
+                    "date": stocking_date,
+                    "county": county,
+                    "waterbody": waterbody,
+                }
+            )
+
+            i += 3
+
+        else:
+
+            i += 1
 
     return rows
 
