@@ -1,0 +1,54 @@
+name: Update Stocking
+
+on:
+  schedule:
+    - cron: "0 14 * * 6"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-stocking
+  cancel-in-progress: false
+
+jobs:
+  update-stocking:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run stocking job
+        env:
+          PYTHONPATH: src
+        run: |
+          python -m troutintel.jobs.update_stocking
+
+      - name: Commit stocking updates
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add data/stocking/
+          git add data/history/stocking/
+          git add site_snippets/
+
+          if git diff --cached --quiet; then
+            echo "No stocking changes"
+          else
+            git commit -m "Update stocking data"
+            git pull --rebase origin main
+            git push
+          fi
