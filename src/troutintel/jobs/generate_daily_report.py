@@ -39,7 +39,7 @@ Context JSON:
 
 def generate_report_html(client: OpenAI, context: dict) -> str:
     response = client.responses.create(
-        model="gpt-5.5-mini",
+        model="gpt-4.1-mini",
         input=build_prompt(context),
     )
 
