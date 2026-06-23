@@ -1,0 +1,51 @@
+name: Generate Daily Report
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-daily-report
+  cancel-in-progress: false
+
+jobs:
+  generate-daily-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Generate daily reports
+        env:
+          PYTHONPATH: src
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python -m troutintel.jobs.generate_daily_report
+
+      - name: Commit generated reports
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add data/reports/
+          git add site_snippets/
+
+          if git diff --cached --quiet; then
+            echo "No report changes"
+          else
+            git commit -m "Generate daily fishing reports"
+            git pull --rebase origin main
+            git push
+          fi
