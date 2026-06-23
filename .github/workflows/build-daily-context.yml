@@ -1,1 +1,66 @@
+name: Build Daily Context
 
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-daily-context
+  cancel-in-progress: false
+
+jobs:
+
+  build-daily-context:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Build daily context
+        env:
+          PYTHONPATH: src
+
+        run: |
+          python -m troutintel.jobs.build_daily_context
+
+      - name: Commit generated context
+
+        run: |
+
+          git config user.name "github-actions"
+
+          git config user.email "github-actions@github.com"
+
+          git add data/llm_context/
+
+          if git diff --cached --quiet; then
+
+            echo "No context changes"
+
+          else
+
+            git commit -m "Update LLM context"
+
+            git pull --rebase origin main
+
+            git push
+
+          fi
