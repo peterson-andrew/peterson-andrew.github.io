@@ -1,0 +1,106 @@
+{
+  "river_key": "soque",
+  "river": {
+    "display_name": "Soque River",
+    "river_type": "freestone",
+    "noaa": {
+      "lat": 34.6186,
+      "lon": -83.5289
+    },
+    "usgs": {
+      "site_id": "023312495"
+    },
+    "features": {
+      "turbidity": false,
+      "stocking": false
+    },
+    "rules": {
+      "use_flow_for_fishing_quality": false,
+      "allow_wading_safety_claims": false
+    }
+  },
+  "weather": {
+    "latitude": 34.6186,
+    "longitude": -83.5289,
+    "forecast_time": "2026-06-19T14:00:00-04:00",
+    "air_temp_f": 85,
+    "temperature_unit": "F",
+    "wind_speed": "9 mph",
+    "wind_direction": "WNW",
+    "short_forecast": "Mostly Sunny",
+    "pressure_station": "KAJR",
+    "pressure_mb": null,
+    "pressure_inhg": null
+  },
+  "stocking": {
+    "stocked": true,
+    "last_stocked": "6/17/2026",
+    "matched_waterbodies": [
+      {
+        "date": "6/17/2026",
+        "county": "Habersham",
+        "waterbody": "Soque River"
+      }
+    ]
+  },
+  "available_flies": {
+    "zebra_midge": {
+      "name": "Zebra Midge",
+      "tags": [
+        "tailwater",
+        "winter",
+        "midge"
+      ]
+    },
+    "pheasant_tail": {
+      "name": "Pheasant Tail",
+      "tags": [
+        "mayfly",
+        "all-around"
+      ]
+    },
+    "haresear": {
+      "name": "Hare's Ear",
+      "tags": [
+        "mayfly",
+        "all-around"
+      ]
+    },
+    "egg_pattern": {
+      "name": "Egg Pattern",
+      "tags": [
+        "stocked",
+        "tailwater"
+      ]
+    },
+    "squirmy_worm": {
+      "name": "Squirmy Worm",
+      "tags": [
+        "dirty_water",
+        "stocked"
+      ]
+    },
+    "duracell": {
+      "name": "Duracell",
+      "tags": [
+        "attractor",
+        "tailwater"
+      ]
+    },
+    "woolly_bugger": {
+      "name": "Woolly Bugger",
+      "tags": [
+        "streamer",
+        "high_water"
+      ]
+    }
+  },
+  "instructions": [
+    "Generate a daily trout fishing report.",
+    "Use only the provided data.",
+    "If data is missing, say it is unavailable.",
+    "Do not make wading safety claims.",
+    "Recommend 3 to 5 flies from available_flies.",
+    "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "river_key": "chattahoochee",
+  "river": {
+    "display_name": "Chattahoochee River",
+    "river_type": "tailwater",
+    "noaa": {
+      "lat": 34.1567,
+      "lon": -84.0784
+    },
+    "usgs": {
+      "site_id": "02335000"
+    },
+    "features": {
+      "turbidity": true,
+      "stocking": true
+    },
+    "rules": {
+      "use_flow_for_fishing_quality": false,
+      "allow_wading_safety_claims": false
+    }
+  },
+  "weather": {
+    "latitude": 34.1567,
+    "longitude": -84.0784,
+    "forecast_time": "2026-06-19T14:00:00-04:00",
+    "air_temp_f": 82,
+    "temperature_unit": "F",
+    "wind_speed": "10 mph",
+    "wind_direction": "W",
+    "short_forecast": "Mostly Sunny",
+    "pressure_station": "KCNI",
+    "pressure_mb": 1015.6,
+    "pressure_inhg": 29.99
+  },
+  "stocking": {
+    "stocked": true,
+    "last_stocked": "6/15/2026",
+    "matched_waterbodies": [
+      {
+        "date": "6/15/2026",
+        "county": "Forsyth/Gwinnett",
+        "waterbody": "Lanier Tailwater"
+      }
+    ]
+  },
+  "available_flies": {
+    "zebra_midge": {
+      "name": "Zebra Midge",
+      "tags": [
+        "tailwater",
+        "winter",
+        "midge"
+      ]
+    },
+    "pheasant_tail": {
+      "name": "Pheasant Tail",
+      "tags": [
+        "mayfly",
+        "all-around"
+      ]
+    },
+    "haresear": {
+      "name": "Hare's Ear",
+      "tags": [
+        "mayfly",
+        "all-around"
+      ]
+    },
+    "egg_pattern": {
+      "name": "Egg Pattern",
+      "tags": [
+        "stocked",
+        "tailwater"
+      ]
+    },
+    "squirmy_worm": {
+      "name": "Squirmy Worm",
+      "tags": [
+        "dirty_water",
+        "stocked"
+      ]
+    },
+    "duracell": {
+      "name": "Duracell",
+      "tags": [
+        "attractor",
+        "tailwater"
+      ]
+    },
+    "woolly_bugger": {
+      "name": "Woolly Bugger",
+      "tags": [
+        "streamer",
+        "high_water"
+      ]
+    }
+  },
+  "instructions": [
+    "Generate a daily trout fishing report.",
+    "Use only the provided data.",
+    "If data is missing, say it is unavailable.",
+    "Do not make wading safety claims.",
+    "Recommend 3 to 5 flies from available_flies.",
+    "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
+  ]
+}

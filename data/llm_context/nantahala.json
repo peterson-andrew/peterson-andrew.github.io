@@ -1,0 +1,101 @@
+{
+  "river_key": "nantahala",
+  "river": {
+    "display_name": "Nantahala River",
+    "river_type": "tailwater",
+    "noaa": {
+      "lat": 35.199,
+      "lon": -83.652
+    },
+    "usgs": {
+      "site_id": null
+    },
+    "features": {
+      "turbidity": false,
+      "stocking": true
+    },
+    "rules": {
+      "use_flow_for_fishing_quality": false,
+      "allow_wading_safety_claims": false
+    }
+  },
+  "weather": {
+    "latitude": 35.199,
+    "longitude": -83.652,
+    "forecast_time": "2026-06-19T14:00:00-04:00",
+    "air_temp_f": 76,
+    "temperature_unit": "F",
+    "wind_speed": "6 mph",
+    "wind_direction": "NW",
+    "short_forecast": "Sunny",
+    "pressure_station": "K1A5",
+    "pressure_mb": null,
+    "pressure_inhg": null
+  },
+  "stocking": {
+    "stocked": null,
+    "last_stocked": null,
+    "matched_waterbodies": [],
+    "note": "NC stocking data not integrated yet"
+  },
+  "available_flies": {
+    "zebra_midge": {
+      "name": "Zebra Midge",
+      "tags": [
+        "tailwater",
+        "winter",
+        "midge"
+      ]
+    },
+    "pheasant_tail": {
+      "name": "Pheasant Tail",
+      "tags": [
+        "mayfly",
+        "all-around"
+      ]
+    },
+    "haresear": {
+      "name": "Hare's Ear",
+      "tags": [
+        "mayfly",
+        "all-around"
+      ]
+    },
+    "egg_pattern": {
+      "name": "Egg Pattern",
+      "tags": [
+        "stocked",
+        "tailwater"
+      ]
+    },
+    "squirmy_worm": {
+      "name": "Squirmy Worm",
+      "tags": [
+        "dirty_water",
+        "stocked"
+      ]
+    },
+    "duracell": {
+      "name": "Duracell",
+      "tags": [
+        "attractor",
+        "tailwater"
+      ]
+    },
+    "woolly_bugger": {
+      "name": "Woolly Bugger",
+      "tags": [
+        "streamer",
+        "high_water"
+      ]
+    }
+  },
+  "instructions": [
+    "Generate a daily trout fishing report.",
+    "Use only the provided data.",
+    "If data is missing, say it is unavailable.",
+    "Do not make wading safety claims.",
+    "Recommend 3 to 5 flies from available_flies.",
+    "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
+  ]
+}
