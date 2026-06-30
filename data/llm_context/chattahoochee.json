@@ -22,7 +22,7 @@
   "weather_summary": {
     "pressure_inhg": 30.12,
     "air_temp": {
-      "current_f": 83,
+      "current_f": 85,
       "low_f": 77.0,
       "high_f": 91.0
     },
@@ -44,6 +44,231 @@
       "avg_mph": 2.6,
       "max_gust_mph": 9.2,
       "predominant_direction": ""
+    }
+  },
+  "forecast_breakdown": {
+    "day1": {
+      "date": "2026-06-30",
+      "morning": {
+        "sky_cover": {
+          "min": 6,
+          "max": 14,
+          "avg": 10.17
+        },
+        "humidity": {
+          "min": 83,
+          "max": 86,
+          "avg": 84.6
+        },
+        "rain_probability": {
+          "min": 1,
+          "max": 7,
+          "avg": 3.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 78.0,
+          "max": 80.0,
+          "avg": 79.0
+        },
+        "wind_mph": {
+          "min": 3.5,
+          "max": 4.6,
+          "avg": 4.05
+        },
+        "wind_gust_mph": {
+          "min": 5.8,
+          "max": 8.1,
+          "avg": 6.93
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 14,
+          "max": 30,
+          "avg": 22.6
+        },
+        "humidity": {
+          "min": 66,
+          "max": 83,
+          "avg": 73.0
+        },
+        "rain_probability": {
+          "min": 1,
+          "max": 8,
+          "avg": 4.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 80.0,
+          "max": 87.0,
+          "avg": 84.0
+        },
+        "wind_gust_mph": {
+          "min": 9.2,
+          "max": 9.2,
+          "avg": 9.2
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 33,
+          "max": 49,
+          "avg": 42.6
+        },
+        "humidity": {
+          "min": 58,
+          "max": 64,
+          "avg": 61.17
+        },
+        "rain_probability": {
+          "min": 11,
+          "max": 15,
+          "avg": 13.4
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 88.0,
+          "max": 91.0,
+          "avg": 89.4
+        },
+        "wind_mph": {
+          "min": 3.5,
+          "max": 3.5,
+          "avg": 3.5
+        },
+        "wind_gust_mph": {
+          "min": 6.9,
+          "max": 8.1,
+          "avg": 7.5
+        }
+      }
+    },
+    "day2": {
+      "date": "2026-06-30",
+      "morning": {
+        "sky_cover": {
+          "min": 15,
+          "max": 36,
+          "avg": 26.14
+        },
+        "humidity": {
+          "min": 82,
+          "max": 85,
+          "avg": 83.6
+        },
+        "rain_probability": {
+          "min": 2,
+          "max": 2,
+          "avg": 2.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 77.0,
+          "max": 79.0,
+          "avg": 78.0
+        },
+        "wind_mph": {
+          "min": 1.2,
+          "max": 1.2,
+          "avg": 1.2
+        },
+        "wind_gust_mph": {
+          "min": 3.5,
+          "max": 4.6,
+          "avg": 4.05
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 10,
+          "max": 30,
+          "avg": 19.67
+        },
+        "humidity": {
+          "min": 61,
+          "max": 82,
+          "avg": 70.6
+        },
+        "rain_probability": {
+          "min": 3,
+          "max": 3,
+          "avg": 3.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 79.0,
+          "max": 88.0,
+          "avg": 83.8
+        },
+        "wind_mph": {
+          "min": 2.3,
+          "max": 2.3,
+          "avg": 2.3
+        },
+        "wind_gust_mph": {
+          "min": 3.5,
+          "max": 6.9,
+          "avg": 4.9
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 19,
+          "max": 22,
+          "avg": 20.6
+        },
+        "humidity": {
+          "min": 55,
+          "max": 59,
+          "avg": 57.0
+        },
+        "rain_probability": {
+          "min": 12,
+          "max": 12,
+          "avg": 12.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 89.0,
+          "max": 91.0,
+          "avg": 90.0
+        },
+        "wind_mph": {
+          "min": 2.3,
+          "max": 3.5,
+          "avg": 2.9
+        },
+        "wind_gust_mph": {
+          "min": 6.9,
+          "max": 9.2,
+          "avg": 8.07
+        }
+      }
     }
   },
   "stocking": {
@@ -115,6 +340,7 @@
     "If data is missing, say it is unavailable.",
     "Do not make wading safety claims.",
     "Recommend 3 to 5 flies from available_flies.",
+    "Use forecast_breakdown to distinguish day 1 vs day 2 and morning vs afternoon vs evening.",
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ]
 }
