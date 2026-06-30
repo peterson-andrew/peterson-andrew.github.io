@@ -8,14 +8,14 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "5 1 * * *"
+    - cron: "0 */4 * * *"
 
 permissions:
   contents: write
 
 concurrency:
   group: update-noaa-forecast
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update-noaa-forecast:
@@ -24,6 +24,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,6 +35,11 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+
+      - name: Sync with latest main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Run NOAA weather job
         env:
@@ -51,6 +58,5 @@ jobs:
             echo "No weather changes"
           else
             git commit -m "Update NOAA weather data"
-            git pull --rebase origin main
-            git push
+            git push origin main
           fi
