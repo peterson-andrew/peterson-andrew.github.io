@@ -1,37 +1,25 @@
 {
   "river_key": "chattahoochee",
   "river_name": "Chattahoochee River",
-  "generated_at_utc": "2026-06-30T10:45:56.347892+00:00",
+  "generated_at_utc": "2026-06-30T13:47:43.620801+00:00",
   "current": {
     "latitude": 34.1567,
     "longitude": -84.0784,
-    "forecast_time": "2026-06-30T06:00:00-04:00",
-    "air_temp_f": 78,
+    "forecast_time": "2026-06-30T09:00:00-04:00",
+    "air_temp_f": 80,
     "temperature_unit": "F",
     "wind_speed": "5 mph",
     "wind_direction": "NE",
     "short_forecast": "Sunny",
     "pressure_station": "KCNI",
-    "pressure_mb": 1020.3,
-    "pressure_inhg": 30.13
+    "pressure_mb": 1022.4,
+    "pressure_inhg": 30.19
   },
   "forecast_48h": {
     "skyCover": {
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-06-30T11:00:00+00:00",
-          "value": 22
-        },
-        {
-          "time": "2026-06-30T12:00:00+00:00",
-          "value": 27
-        },
-        {
-          "time": "2026-06-30T13:00:00+00:00",
-          "value": 23
-        },
         {
           "time": "2026-06-30T14:00:00+00:00",
           "value": 29
@@ -207,26 +195,22 @@
         {
           "time": "2026-07-02T10:00:00+00:00",
           "value": 6
+        },
+        {
+          "time": "2026-07-02T13:00:00+00:00",
+          "value": 7
         }
       ],
       "summary": {
         "min": 6,
         "max": 65,
-        "avg": 26.0
+        "avg": 25.71
       }
     },
     "relativeHumidity": {
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-06-30T11:00:00+00:00",
-          "value": 86
-        },
-        {
-          "time": "2026-06-30T13:00:00+00:00",
-          "value": 84
-        },
         {
           "time": "2026-06-30T14:00:00+00:00",
           "value": 76
@@ -390,26 +374,26 @@
         {
           "time": "2026-07-02T10:00:00+00:00",
           "value": 85
+        },
+        {
+          "time": "2026-07-02T12:00:00+00:00",
+          "value": 84
+        },
+        {
+          "time": "2026-07-02T13:00:00+00:00",
+          "value": 78
         }
       ],
       "summary": {
         "min": 55,
-        "max": 86,
-        "avg": 72.23
+        "max": 85,
+        "avg": 72.05
       }
     },
     "probabilityOfPrecipitation": {
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-06-30T12:00:00+00:00",
-          "value": 1
-        },
-        {
-          "time": "2026-06-30T13:00:00+00:00",
-          "value": 4
-        },
         {
           "time": "2026-06-30T14:00:00+00:00",
           "value": 7
@@ -537,22 +521,22 @@
         {
           "time": "2026-07-02T06:00:00+00:00",
           "value": 3
+        },
+        {
+          "time": "2026-07-02T12:00:00+00:00",
+          "value": 1
         }
       ],
       "summary": {
         "min": 1,
         "max": 18,
-        "avg": 8.47
+        "avg": 8.61
       }
     },
     "quantitativePrecipitation": {
       "available": true,
       "unit": "wmoUnit:mm",
       "values": [
-        {
-          "time": "2026-06-30T12:00:00+00:00",
-          "value": 0
-        },
         {
           "time": "2026-06-30T18:00:00+00:00",
           "value": 0
@@ -580,6 +564,10 @@
         {
           "time": "2026-07-02T06:00:00+00:00",
           "value": 0
+        },
+        {
+          "time": "2026-07-02T12:00:00+00:00",
+          "value": 0
         }
       ],
       "summary": {
@@ -592,14 +580,6 @@
       "available": true,
       "unit": "wmoUnit:degC",
       "values": [
-        {
-          "time": "2026-06-30T12:00:00+00:00",
-          "value": 26.11111111111111
-        },
-        {
-          "time": "2026-06-30T13:00:00+00:00",
-          "value": 26.666666666666668
-        },
         {
           "time": "2026-06-30T14:00:00+00:00",
           "value": 28.333333333333332
@@ -747,30 +727,22 @@
         {
           "time": "2026-07-02T09:00:00+00:00",
           "value": 25
+        },
+        {
+          "time": "2026-07-02T13:00:00+00:00",
+          "value": 26.666666666666668
         }
       ],
       "summary": {
         "min": 25,
         "max": 33.33,
-        "avg": 29.23
+        "avg": 29.31
       }
     },
     "dewpoint": {
       "available": true,
       "unit": "wmoUnit:degC",
       "values": [
-        {
-          "time": "2026-06-30T11:00:00+00:00",
-          "value": 22.77777777777778
-        },
-        {
-          "time": "2026-06-30T12:00:00+00:00",
-          "value": 23.333333333333332
-        },
-        {
-          "time": "2026-06-30T13:00:00+00:00",
-          "value": 23.88888888888889
-        },
         {
           "time": "2026-06-30T21:00:00+00:00",
           "value": 23.333333333333332
@@ -835,17 +807,13 @@
       "summary": {
         "min": 22.22,
         "max": 23.89,
-        "avg": 23.06
+        "avg": 23.0
       }
     },
     "windSpeed": {
       "available": true,
       "unit": "wmoUnit:km_h-1",
       "values": [
-        {
-          "time": "2026-06-30T11:00:00+00:00",
-          "value": 7.408
-        },
         {
           "time": "2026-06-30T17:00:00+00:00",
           "value": 5.556
@@ -886,17 +854,13 @@
       "summary": {
         "min": 1.85,
         "max": 7.41,
-        "avg": 4.63
+        "avg": 4.32
       }
     },
     "windGust": {
       "available": true,
       "unit": "wmoUnit:km_h-1",
       "values": [
-        {
-          "time": "2026-06-30T11:00:00+00:00",
-          "value": 14.816
-        },
         {
           "time": "2026-06-30T15:00:00+00:00",
           "value": 12.964
@@ -969,21 +933,13 @@
       "summary": {
         "min": 5.56,
         "max": 14.82,
-        "avg": 10.6
+        "avg": 10.35
       }
     },
     "windDirection": {
       "available": true,
       "unit": "wmoUnit:degree_(angle)",
       "values": [
-        {
-          "time": "2026-06-30T11:00:00+00:00",
-          "value": 50
-        },
-        {
-          "time": "2026-06-30T12:00:00+00:00",
-          "value": 60
-        },
         {
           "time": "2026-06-30T14:00:00+00:00",
           "value": 70
@@ -1076,7 +1032,7 @@
       "summary": {
         "min": 30,
         "max": 110,
-        "avg": 66.25
+        "avg": 67.27
       }
     }
   }
