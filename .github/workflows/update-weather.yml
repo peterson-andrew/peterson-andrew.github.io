@@ -1,33 +1,27 @@
-name: Update Stocking
+name: Update NOAA Forecast
 
 on:
-
-  schedule:
-    - cron: "0 14 * * 6"
-
   workflow_dispatch:
+  schedule:
+    - cron: "0 */4 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: update-stocking
+  group: update-noaa-forecast
   cancel-in-progress: false
 
 jobs:
-
-  update-stocking:
-
+  update-noaa-forecast:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Check out repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
-
         with:
           python-version: "3.11"
 
@@ -35,35 +29,23 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run stocking job
+      - name: Run NOAA weather job
         env:
           PYTHONPATH: src
-
         run: |
-          python -m troutintel.jobs.update_stocking
+          python -m troutintel.jobs.update_weather
 
-      - name: Commit stocking updates
-
+      - name: Commit weather updates
         run: |
-
           git config user.name "github-actions"
-
           git config user.email "github-actions@github.com"
 
-          git add data/stocking/
-
-          git add data/history/stocking/
-
-          git add site_snippets/
+          git add data/weather/
 
           if git diff --cached --quiet; then
-
-            echo "No stocking changes"
-
+            echo "No weather changes"
           else
-
-            git commit -m "Update stocking data"
-
+            git commit -m "Update NOAA weather data"
+            git pull --rebase origin main
             git push
-
           fi
