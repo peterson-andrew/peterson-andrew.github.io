@@ -3,7 +3,7 @@ name: Update NOAA Forecast
 on:
   workflow_dispatch:
   schedule:
-  - cron: "25 1 * * *"
+  - cron: "5 1 * * *"
 
 permissions:
   contents: write
