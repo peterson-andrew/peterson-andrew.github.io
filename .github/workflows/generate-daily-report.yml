@@ -8,7 +8,7 @@ permissions:
 
 concurrency:
   group: generate-daily-report
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   generate-daily-report:
@@ -17,6 +17,13 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync with latest main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -45,7 +52,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No report changes"
           else
-            git commit -m "Generate daily fishing reports"
-            git pull --rebase origin main
-            git push
+            git commit -m "Generate 48-hour fishing outlooks"
+            git push origin main
           fi
