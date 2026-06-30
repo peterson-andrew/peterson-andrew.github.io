@@ -57,5 +57,6 @@ jobs:
             echo "No report changes"
           else
             git commit -m "Generate 48-hour fishing outlooks"
+            git pull --rebase -X ours origin main
             git push origin main
           fi
