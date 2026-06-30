@@ -1,4 +1,5 @@
-from typing import Any, Dict
+from datetime import datetime
+from typing import Any, Dict, List, Optional
 
 from troutintel.config import load_river_config
 from troutintel.io import load_json, save_json
@@ -20,16 +21,169 @@ def safe_load_json(path: str) -> Any:
         return None
 
 
-def c_to_f(c: float) -> float:
+def c_to_f(c: Optional[float]) -> Optional[float]:
+    if c is None:
+        return None
     return round((c * 9 / 5) + 32, 1)
 
 
-def kmh_to_mph(kmh: float) -> float:
+def kmh_to_mph(kmh: Optional[float]) -> Optional[float]:
+    if kmh is None:
+        return None
     return round(kmh * 0.621371, 1)
 
 
-def mm_to_inches(mm: float) -> float:
+def mm_to_inches(mm: Optional[float]) -> Optional[float]:
+    if mm is None:
+        return None
     return round(mm / 25.4, 2)
+
+
+def summarize_values(values: List[float]) -> Dict[str, Optional[float]]:
+    if not values:
+        return {
+            "min": None,
+            "max": None,
+            "avg": None,
+        }
+
+    return {
+        "min": round(min(values), 2),
+        "max": round(max(values), 2),
+        "avg": round(sum(values) / len(values), 2),
+    }
+
+
+def get_grid_values(
+    weather: Dict[str, Any],
+    field_name: str,
+) -> List[Dict[str, Any]]:
+    return (
+        weather
+        .get("forecast_48h", {})
+        .get(field_name, {})
+        .get("values", [])
+    )
+
+
+def parse_time(value: str) -> Optional[datetime]:
+    try:
+        return datetime.fromisoformat(
+            value.replace("Z", "+00:00")
+        )
+    except Exception:
+        return None
+
+
+def split_forecast_windows(
+    weather: Dict[str, Any],
+) -> Dict[str, Dict[str, Dict[str, Any]]]:
+
+    all_times = []
+
+    for item in get_grid_values(weather, "temperature"):
+        parsed = parse_time(item["time"])
+
+        if parsed is not None:
+            all_times.append(parsed)
+
+    if not all_times:
+        return {}
+
+    start_date = min(all_times).date()
+
+    windows = {
+        "day1": {
+            "date": str(start_date),
+            "morning": {},
+            "afternoon": {},
+            "evening": {},
+        },
+        "day2": {
+            "date": str(start_date),
+            "morning": {},
+            "afternoon": {},
+            "evening": {},
+        },
+    }
+
+    def window_for_time(dt: datetime) -> Optional[str]:
+        hour = dt.hour
+
+        if 5 <= hour < 12:
+            return "morning"
+
+        if 12 <= hour < 18:
+            return "afternoon"
+
+        if 18 <= hour < 24:
+            return "evening"
+
+        return None
+
+    def day_key_for_time(dt: datetime) -> Optional[str]:
+        delta_days = (dt.date() - start_date).days
+
+        if delta_days == 0:
+            return "day1"
+
+        if delta_days == 1:
+            return "day2"
+
+        return None
+
+    fields = {
+        "sky_cover": "skyCover",
+        "humidity": "relativeHumidity",
+        "rain_probability": "probabilityOfPrecipitation",
+        "rain_inches": "quantitativePrecipitation",
+        "air_temp_f": "temperature",
+        "wind_mph": "windSpeed",
+        "wind_gust_mph": "windGust",
+    }
+
+    buckets: Dict[str, Dict[str, Dict[str, List[float]]]] = {}
+
+    for output_name, field_name in fields.items():
+        for item in get_grid_values(weather, field_name):
+            dt = parse_time(item["time"])
+            value = item.get("value")
+
+            if dt is None or value is None:
+                continue
+
+            day_key = day_key_for_time(dt)
+            window_key = window_for_time(dt)
+
+            if day_key is None or window_key is None:
+                continue
+
+            converted_value = value
+
+            if output_name == "air_temp_f":
+                converted_value = c_to_f(value)
+
+            if output_name in ["wind_mph", "wind_gust_mph"]:
+                converted_value = kmh_to_mph(value)
+
+            if output_name == "rain_inches":
+                converted_value = mm_to_inches(value)
+
+            buckets.setdefault(day_key, {})
+            buckets[day_key].setdefault(window_key, {})
+            buckets[day_key][window_key].setdefault(output_name, [])
+            buckets[day_key][window_key][output_name].append(
+                converted_value
+            )
+
+    for day_key, day_windows in buckets.items():
+        for window_key, values_by_field in day_windows.items():
+            for field_name, values in values_by_field.items():
+                windows[day_key][window_key][field_name] = summarize_values(
+                    values
+                )
+
+    return windows
 
 
 def summarize_weather(weather: Dict[str, Any]) -> Dict[str, Any]:
@@ -81,11 +235,13 @@ def build_context_for_river(
     )
 
     weather_summary = summarize_weather(weather)
+    forecast_breakdown = split_forecast_windows(weather) if weather else {}
 
     return {
         "river_key": river_key,
         "river": river_config,
         "weather_summary": weather_summary,
+        "forecast_breakdown": forecast_breakdown,
         "stocking": stocking.get(river_key),
         "available_flies": flies,
         "instructions": [
@@ -94,6 +250,7 @@ def build_context_for_river(
             "If data is missing, say it is unavailable.",
             "Do not make wading safety claims.",
             "Recommend 3 to 5 flies from available_flies.",
+            "Use forecast_breakdown to distinguish day 1 vs day 2 and morning vs afternoon vs evening.",
             "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies.",
         ],
     }
