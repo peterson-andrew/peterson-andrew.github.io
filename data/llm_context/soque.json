@@ -19,18 +19,32 @@
       "allow_wading_safety_claims": false
     }
   },
-  "weather": {
-    "latitude": 34.6186,
-    "longitude": -83.5289,
-    "forecast_time": "2026-06-19T14:00:00-04:00",
-    "air_temp_f": 85,
-    "temperature_unit": "F",
-    "wind_speed": "9 mph",
-    "wind_direction": "WNW",
-    "short_forecast": "Mostly Sunny",
-    "pressure_station": "KAJR",
-    "pressure_mb": null,
-    "pressure_inhg": null
+  "weather_summary": {
+    "pressure_inhg": 30.12,
+    "air_temp": {
+      "current_f": 81,
+      "low_f": 72.0,
+      "high_f": 91.0
+    },
+    "sky_cover": {
+      "min": 9,
+      "max": 74,
+      "avg": 32.7
+    },
+    "humidity": {
+      "min": 53,
+      "max": 91,
+      "avg": 74.87
+    },
+    "rain": {
+      "max_probability_percent": 22,
+      "expected_inches": 0.0
+    },
+    "wind": {
+      "avg_mph": 2.0,
+      "max_gust_mph": 8.1,
+      "predominant_direction": "N"
+    }
   },
   "stocking": {
     "stocked": true,
@@ -96,7 +110,7 @@
     }
   },
   "instructions": [
-    "Generate a daily trout fishing report.",
+    "Generate a 48-hour trout fishing outlook.",
     "Use only the provided data.",
     "If data is missing, say it is unavailable.",
     "Do not make wading safety claims.",
