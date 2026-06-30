@@ -1,9 +1,14 @@
 name: Update NOAA Forecast
 
 on:
+  push:
+    branches:
+      - main
+
   workflow_dispatch:
+
   schedule:
-  - cron: "5 1 * * *"
+    - cron: "5 1 * * *"
 
 permissions:
   contents: write
