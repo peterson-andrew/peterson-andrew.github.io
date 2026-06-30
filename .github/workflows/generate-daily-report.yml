@@ -1,6 +1,14 @@
 name: Generate Daily Report
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/troutintel/jobs/generate_daily_report.py"
+      - "data/llm_context/**"
+      - ".github/workflows/generate-daily-report.yml"
+
   workflow_dispatch:
 
 permissions:
