@@ -30,19 +30,19 @@
   "weather_summary": {
     "pressure_inhg": 30.18,
     "air_temp": {
-      "current_f": 74,
+      "current_f": 73,
       "low_f": 72.0,
       "high_f": 94.0
     },
     "sky_cover": {
       "min": 7,
       "max": 68,
-      "avg": 31.66
+      "avg": 31.71
     },
     "humidity": {
       "min": 46,
-      "max": 90,
-      "avg": 69.14
+      "max": 88,
+      "avg": 68.5
     },
     "rain": {
       "max_probability_percent": 44,
@@ -59,24 +59,14 @@
       "date": "2026-07-02",
       "morning": {
         "sky_cover": {
-          "min": 18,
+          "min": 36,
           "max": 36,
-          "avg": 27.6
-        },
-        "humidity": {
-          "min": 89,
-          "max": 90,
-          "avg": 89.5
-        },
-        "air_temp_f": {
-          "min": 73.0,
-          "max": 73.0,
-          "avg": 73.0
+          "avg": 36.0
         },
         "wind_mph": {
-          "min": 0.0,
+          "min": 1.2,
           "max": 1.2,
-          "avg": 0.6
+          "avg": 1.2
         }
       },
       "afternoon": {
@@ -340,7 +330,7 @@
   ],
   "angler_analysis": {
     "quality_label": "Fair",
-    "best_window": "day1 evening",
+    "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
