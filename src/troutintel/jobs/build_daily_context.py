@@ -248,7 +248,10 @@ def summarize_weather(weather: Dict[str, Any]) -> Dict[str, Any]:
             "predominant_direction": current["wind_direction"],
         },
     }
-
+    
+def attach_angler_analysis(context: Dict[str, Any]) -> Dict[str, Any]:
+    context["angler_analysis"] = build_angler_analysis(context)
+    return context
 
 def build_context_for_river(
     river_key: str,
@@ -261,15 +264,15 @@ def build_context_for_river(
         f"data/weather/{river_key}.json"
     )
 
+    usgs = safe_load_json(
+        f"data/usgs/{river_key}.json"
+    )
+
     weather_summary = summarize_weather(weather)
     forecast_breakdown = split_forecast_windows(weather) if weather else {}
-
-    usgs = safe_load_json(
-    f"data/usgs/{river_key}.json")
-
     usgs_summary = build_usgs_summary(usgs)
 
-    return {
+    context = {
         "river_key": river_key,
         "river": river_config,
         "usgs_summary": usgs_summary,
@@ -284,10 +287,15 @@ def build_context_for_river(
             "Do not make wading safety claims.",
             "Recommend 3 to 5 flies from available_flies.",
             "Use forecast_breakdown to distinguish day 1 vs day 2 and morning vs afternoon vs evening.",
+            "Use usgs_summary to describe current river conditions.",
+            "Use angler_analysis as the primary fishing interpretation.",
             "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies.",
         ],
     }
 
+    context["angler_analysis"] = build_angler_analysis(context)
+
+    return context
 
 def main() -> None:
     river_config = load_river_config()
