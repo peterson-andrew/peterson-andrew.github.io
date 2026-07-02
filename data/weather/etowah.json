@@ -1,22 +1,22 @@
 {
   "river_key": "etowah",
   "river_name": "Etowah River",
-  "generated_at_utc": "2026-07-02T17:22:32.357886+00:00",
+  "generated_at_utc": "2026-07-02T18:30:21.753879+00:00",
   "current": {
     "latitude": 34.4212,
     "longitude": -84.1191,
-    "forecast_time": "2026-07-02T13:00:00-04:00",
-    "air_temp_f": 92,
+    "forecast_time": "2026-07-02T14:00:00-04:00",
+    "air_temp_f": 93,
     "temperature_unit": "F",
     "wind_speed": "0 mph",
     "wind_direction": "",
     "short_forecast": "Mostly Sunny",
     "pressure_station": "KCNI",
-    "pressure_mb": 1021.7,
-    "pressure_inhg": 30.17
+    "pressure_mb": 1021.0,
+    "pressure_inhg": 30.15
   },
   "pressure_trend": {
-    "current_inhg": 30.17,
+    "current_inhg": 30.15,
     "previous_inhg": null,
     "change_since_last_run": null,
     "trend": "unknown"
@@ -26,10 +26,6 @@
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-07-02T18:00:00+00:00",
-          "value": 40
-        },
         {
           "time": "2026-07-02T19:00:00+00:00",
           "value": 38
@@ -209,22 +205,22 @@
         {
           "time": "2026-07-04T17:00:00+00:00",
           "value": 22
+        },
+        {
+          "time": "2026-07-04T18:00:00+00:00",
+          "value": 25
         }
       ],
       "summary": {
         "min": 10,
         "max": 43,
-        "avg": 24.57
+        "avg": 24.24
       }
     },
     "relativeHumidity": {
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-07-02T18:00:00+00:00",
-          "value": 53
-        },
         {
           "time": "2026-07-02T19:00:00+00:00",
           "value": 49
@@ -388,22 +384,22 @@
         {
           "time": "2026-07-04T17:00:00+00:00",
           "value": 48
+        },
+        {
+          "time": "2026-07-04T18:00:00+00:00",
+          "value": 45
         }
       ],
       "summary": {
-        "min": 47,
+        "min": 45,
         "max": 86,
-        "avg": 68.1
+        "avg": 67.9
       }
     },
     "probabilityOfPrecipitation": {
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-07-02T18:00:00+00:00",
-          "value": 14
-        },
         {
           "time": "2026-07-02T19:00:00+00:00",
           "value": 20
@@ -491,22 +487,22 @@
         {
           "time": "2026-07-04T12:00:00+00:00",
           "value": 5
+        },
+        {
+          "time": "2026-07-04T18:00:00+00:00",
+          "value": 13
         }
       ],
       "summary": {
         "min": 0,
         "max": 33,
-        "avg": 10.96
+        "avg": 10.91
       }
     },
     "quantitativePrecipitation": {
       "available": true,
       "unit": "wmoUnit:mm",
       "values": [
-        {
-          "time": "2026-07-02T18:00:00+00:00",
-          "value": 0.762
-        },
         {
           "time": "2026-07-03T00:00:00+00:00",
           "value": 0.508
@@ -534,22 +530,22 @@
         {
           "time": "2026-07-04T12:00:00+00:00",
           "value": 0
+        },
+        {
+          "time": "2026-07-04T18:00:00+00:00",
+          "value": 0
         }
       ],
       "summary": {
         "min": 0,
-        "max": 0.76,
-        "avg": 0.16
+        "max": 0.51,
+        "avg": 0.06
       }
     },
     "temperature": {
       "available": true,
       "unit": "wmoUnit:degC",
       "values": [
-        {
-          "time": "2026-07-02T18:00:00+00:00",
-          "value": 33.888888888888886
-        },
         {
           "time": "2026-07-02T19:00:00+00:00",
           "value": 35
@@ -701,6 +697,10 @@
         {
           "time": "2026-07-04T17:00:00+00:00",
           "value": 33.333333333333336
+        },
+        {
+          "time": "2026-07-04T18:00:00+00:00",
+          "value": 33.888888888888886
         }
       ],
       "summary": {
@@ -713,10 +713,6 @@
       "available": true,
       "unit": "wmoUnit:degC",
       "values": [
-        {
-          "time": "2026-07-02T18:00:00+00:00",
-          "value": 22.77777777777778
-        },
         {
           "time": "2026-07-02T20:00:00+00:00",
           "value": 22.22222222222222
@@ -832,22 +828,22 @@
         {
           "time": "2026-07-04T17:00:00+00:00",
           "value": 20.555555555555557
+        },
+        {
+          "time": "2026-07-04T18:00:00+00:00",
+          "value": 20
         }
       ],
       "summary": {
         "min": 20,
         "max": 23.89,
-        "avg": 21.93
+        "avg": 21.83
       }
     },
     "windSpeed": {
       "available": true,
       "unit": "wmoUnit:km_h-1",
       "values": [
-        {
-          "time": "2026-07-02T18:00:00+00:00",
-          "value": 3.704
-        },
         {
           "time": "2026-07-02T23:00:00+00:00",
           "value": 1.852
@@ -887,6 +883,10 @@
         {
           "time": "2026-07-04T17:00:00+00:00",
           "value": 1.852
+        },
+        {
+          "time": "2026-07-04T18:00:00+00:00",
+          "value": 3.704
         }
       ],
       "summary": {
@@ -899,10 +899,6 @@
       "available": true,
       "unit": "wmoUnit:km_h-1",
       "values": [
-        {
-          "time": "2026-07-02T18:00:00+00:00",
-          "value": 12.964
-        },
         {
           "time": "2026-07-02T19:00:00+00:00",
           "value": 11.112
@@ -978,22 +974,22 @@
         {
           "time": "2026-07-04T16:00:00+00:00",
           "value": 7.408
+        },
+        {
+          "time": "2026-07-04T18:00:00+00:00",
+          "value": 9.26
         }
       ],
       "summary": {
         "min": 5.56,
         "max": 14.82,
-        "avg": 8.8
+        "avg": 8.61
       }
     },
     "windDirection": {
       "available": true,
       "unit": "wmoUnit:degree_(angle)",
       "values": [
-        {
-          "time": "2026-07-02T18:00:00+00:00",
-          "value": 110
-        },
         {
           "time": "2026-07-02T20:00:00+00:00",
           "value": 60
@@ -1134,7 +1130,7 @@
       "summary": {
         "min": 0,
         "max": 350,
-        "avg": 106.0
+        "avg": 105.88
       }
     }
   }
