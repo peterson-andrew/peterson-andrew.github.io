@@ -3,111 +3,111 @@ from typing import Any, Dict, List
 
 def analyze_water_temp(temp_f: float | None) -> Dict[str, Any]:
     if temp_f is None:
-        return {
-            "status": "unknown",
-            "read": "Water temperature is unavailable.",
-            "positioning": [],
-            "tactics": [],
-        }
+        return {"status": "unknown", "read": "Water temperature is unavailable.", "positioning": [], "tactics": [], "score_adjustment": 0}
 
     if temp_f < 45:
-        return {
-            "status": "cold",
-            "read": "Water is cold; expect slower trout and deeper holding behavior.",
-            "positioning": ["deep pools", "slow seams", "softer edges"],
-            "tactics": ["slow presentations", "small midges", "dead drifts"],
-        }
+        return {"status": "cold", "read": "Water is cold; expect slower trout and deeper holding behavior.", "positioning": ["deep pools", "slow seams", "softer edges"], "tactics": ["slow presentations", "small midges", "dead drifts"], "score_adjustment": -1}
 
     if 45 <= temp_f <= 62:
-        return {
-            "status": "ideal",
-            "read": "Water temperature is in a strong trout range.",
-            "positioning": ["riffles", "runs", "seams", "structure"],
-            "tactics": ["nymphs", "midges", "soft hackles", "opportunistic streamers"],
-        }
+        return {"status": "ideal", "read": "Water temperature is in a strong trout range.", "positioning": ["riffles", "runs", "seams", "structure"], "tactics": ["nymphs", "midges", "soft hackles", "opportunistic streamers"], "score_adjustment": 2}
 
     if 62 < temp_f <= 67:
-        return {
-            "status": "warm",
-            "read": "Water is warming; trout may favor more oxygenated water.",
-            "positioning": ["riffles", "pocket water", "oxygenated runs"],
-            "tactics": ["early and late windows", "active nymphs", "oxygenated water"],
-        }
+        return {"status": "warm", "read": "Water is warming; trout may favor oxygenated water.", "positioning": ["riffles", "pocket water", "oxygenated runs"], "tactics": ["early and late windows", "active nymphs"], "score_adjustment": 0}
 
     if 67 < temp_f <= 70:
-        return {
-            "status": "hot",
-            "read": "Water is warm enough to increase trout stress.",
-            "positioning": ["fast oxygenated water", "deep plunge pools"],
-            "tactics": ["early morning only", "shorter sessions", "avoid stressing fish"],
-        }
+        return {"status": "hot", "read": "Water is warm enough to make trout stress a concern.", "positioning": ["fast oxygenated water", "deep plunge pools"], "tactics": ["early morning only", "shorter sessions"], "score_adjustment": -2}
 
-    return {
-        "status": "very_hot",
-        "read": "Water is very warm for trout.",
-        "positioning": ["cold-water refuge", "oxygenated water"],
-        "tactics": ["consider not targeting trout"],
-    }
+    return {"status": "very_hot", "read": "Water is very warm for trout.", "positioning": ["cold-water refuge", "oxygenated water"], "tactics": ["consider not targeting trout"], "score_adjustment": -4}
 
 
-def analyze_light_and_pressure(
-    weather_summary: Dict[str, Any],
-) -> Dict[str, Any]:
+def analyze_light_and_pressure(weather_summary: Dict[str, Any]) -> Dict[str, Any]:
     pressure = weather_summary.get("pressure_inhg")
-    sky_avg = (
-        weather_summary
-        .get("sky_cover", {})
-        .get("avg")
-    )
+    sky_avg = weather_summary.get("sky_cover", {}).get("avg")
 
     if pressure is None or sky_avg is None:
-        return {
-            "status": "unknown",
-            "read": "Light and pressure read is unavailable.",
-            "positioning": [],
-            "tactics": [],
-        }
+        return {"status": "unknown", "read": "Light and pressure read is unavailable.", "positioning": [], "tactics": [], "score_adjustment": 0}
 
     high_pressure = pressure >= 30.1
     low_clouds = sky_avg < 35
 
     if high_pressure and low_clouds:
-        return {
-            "status": "bright_high_pressure",
-            "read": "High pressure and low cloud cover may make trout more cautious and cover-oriented.",
-            "positioning": ["shade", "deeper runs", "undercut banks", "structure"],
-            "tactics": ["smaller natural flies", "careful drifts", "less aggressive presentations"],
-        }
+        return {"status": "bright_high_pressure", "read": "High pressure and low cloud cover should make this fishable but technical.", "positioning": ["shade", "deeper runs", "undercut banks", "structure"], "tactics": ["smaller natural flies", "careful drifts", "less aggressive presentations"], "score_adjustment": -1}
 
     if sky_avg >= 60:
-        return {
-            "status": "cloudy",
-            "read": "Higher cloud cover should reduce overhead exposure and may improve confidence.",
-            "positioning": ["runs", "riffle edges", "banks", "feeding lanes"],
-            "tactics": ["soft hackles", "streamers", "nymphs"],
-        }
+        return {"status": "cloudy", "read": "Higher cloud cover should reduce overhead exposure and may improve fish confidence.", "positioning": ["runs", "riffle edges", "banks", "feeding lanes"], "tactics": ["soft hackles", "streamers", "nymphs"], "score_adjustment": 1}
 
-    return {
-        "status": "neutral",
-        "read": "Light and pressure do not strongly favor an aggressive or defensive trout read.",
-        "positioning": ["runs", "seams", "structure"],
-        "tactics": ["balanced nymph approach"],
-    }
+    return {"status": "neutral", "read": "Light and pressure do not strongly push the outlook either way.", "positioning": ["runs", "seams", "structure"], "tactics": ["balanced nymph approach"], "score_adjustment": 0}
 
 
 def analyze_stocking(stocking: Dict[str, Any] | None) -> Dict[str, Any]:
     if not stocking or not stocking.get("stocked"):
-        return {
-            "status": "not_recently_stocked",
-            "read": "No recent stocking signal is available.",
-            "fly_bias": [],
-        }
+        return {"status": "not_recently_stocked", "read": "No recent stocking signal is available.", "fly_bias": [], "score_adjustment": 0}
 
-    return {
-        "status": "recently_stocked",
-        "read": "Recent stocking supports using simple attractors, eggs, and worm patterns.",
-        "fly_bias": ["egg_pattern", "squirmy_worm", "duracell"],
-    }
+    return {"status": "recently_stocked", "read": "Recent stocking supports eggs, worms, and attractor nymphs.", "fly_bias": ["egg_pattern", "squirmy_worm", "duracell"], "score_adjustment": 1}
+
+
+def choose_quality_label(score: int, light_status: str) -> str:
+    if score >= 3 and light_status == "bright_high_pressure":
+        return "Good but technical"
+    if score >= 3:
+        return "Good"
+    if score >= 1:
+        return "Fair to good"
+    if score >= -1:
+        return "Fair"
+    return "Tough"
+
+
+def choose_best_window(context: Dict[str, Any]) -> str:
+    breakdown = context.get("forecast_breakdown") or {}
+
+    best = None
+    best_score = -999
+
+    for day_key, day in breakdown.items():
+        if not isinstance(day, dict):
+            continue
+
+        for window_name in ["morning", "afternoon", "evening"]:
+            window = day.get(window_name) or {}
+
+            sky_avg = (window.get("sky_cover") or {}).get("avg")
+            gust_max = (window.get("wind_gust_mph") or {}).get("max")
+            rain_max = (window.get("rain_probability") or {}).get("max")
+            temp_max = (window.get("air_temp_f") or {}).get("max")
+
+            score = 0
+
+            if sky_avg is not None:
+                if 35 <= sky_avg <= 75:
+                    score += 2
+                elif sky_avg < 25:
+                    score -= 1
+
+            if gust_max is not None:
+                if gust_max <= 10:
+                    score += 1
+                elif gust_max >= 18:
+                    score -= 2
+
+            if rain_max is not None:
+                if rain_max <= 25:
+                    score += 1
+                elif rain_max >= 60:
+                    score -= 2
+
+            if temp_max is not None:
+                if temp_max >= 90:
+                    score -= 1
+
+            if window_name == "morning":
+                score += 1
+
+            if score > best_score:
+                best_score = score
+                best = f"{day_key} {window_name}"
+
+    return best or "Best window unavailable"
 
 
 def choose_flies(
@@ -117,20 +117,16 @@ def choose_flies(
     stocking_read: Dict[str, Any],
 ) -> List[str]:
     candidates: List[str] = []
-
     candidates.extend(stocking_read.get("fly_bias", []))
 
-    water_status = water_read.get("status")
-    light_status = light_read.get("status")
-
-    if water_status in ["cold", "ideal"]:
+    if water_read.get("status") in ["cold", "ideal"]:
         candidates.extend(["zebra_midge", "pheasant_tail", "haresear"])
 
-    if light_status == "bright_high_pressure":
+    if light_read.get("status") == "bright_high_pressure":
         candidates.extend(["zebra_midge", "pheasant_tail", "haresear"])
 
-    if light_status == "cloudy":
-        candidates.extend(["woolly_bugger", "duracell", "soft_hackle"])
+    if light_read.get("status") == "cloudy":
+        candidates.extend(["woolly_bugger", "duracell"])
 
     valid = []
     for fly_key in candidates:
@@ -140,46 +136,66 @@ def choose_flies(
     return valid[:5]
 
 
+def build_fly_reasoning(fly_keys: List[str]) -> Dict[str, str]:
+    reasons = {
+        "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
+        "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
+        "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
+        "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+        "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious.",
+        "haresear": "General-purpose natural nymph for seams and runs.",
+        "woolly_bugger": "Useful if clouds, stain, or low light make fish more willing to chase.",
+    }
+
+    return {
+        key: reasons.get(key, "Included based on current conditions.")
+        for key in fly_keys
+    }
+
+
 def build_angler_analysis(context: Dict[str, Any]) -> Dict[str, Any]:
     usgs = context.get("usgs_summary") or {}
     weather_summary = context.get("weather_summary") or {}
     stocking = context.get("stocking")
     available_flies = context.get("available_flies") or {}
 
-    water_read = analyze_water_temp(
-        usgs.get("water_temp_f")
+    water_read = analyze_water_temp(usgs.get("water_temp_f"))
+    light_read = analyze_light_and_pressure(weather_summary)
+    stocking_read = analyze_stocking(stocking)
+
+    recommended_flies = choose_flies(available_flies, water_read, light_read, stocking_read)
+
+    score = (
+        water_read.get("score_adjustment", 0)
+        + light_read.get("score_adjustment", 0)
+        + stocking_read.get("score_adjustment", 0)
     )
 
-    light_read = analyze_light_and_pressure(
-        weather_summary
-    )
+    trout_positioning = list(dict.fromkeys(
+        water_read.get("positioning", []) + light_read.get("positioning", [])
+    ))
 
-    stocking_read = analyze_stocking(
-        stocking
-    )
+    tactics = list(dict.fromkeys(
+        water_read.get("tactics", []) + light_read.get("tactics", [])
+    ))
 
-    recommended_flies = choose_flies(
-        available_flies=available_flies,
-        water_read=water_read,
-        light_read=light_read,
-        stocking_read=stocking_read,
-    )
-
-    trout_positioning = []
-    trout_positioning.extend(water_read.get("positioning", []))
-    trout_positioning.extend(light_read.get("positioning", []))
-
-    tactics = []
-    tactics.extend(water_read.get("tactics", []))
-    tactics.extend(light_read.get("tactics", []))
+    caution_notes = []
+    if light_read.get("status") == "bright_high_pressure":
+        caution_notes.append("Bright/high-pressure conditions may make fish cover-oriented and less forgiving.")
+    if usgs.get("water_temp_f") and usgs["water_temp_f"] > 67:
+        caution_notes.append("Warm water may increase trout stress.")
 
     return {
+        "quality_label": choose_quality_label(score, light_read.get("status")),
+        "best_window": choose_best_window(context),
         "water_temp_read": water_read,
         "light_pressure_read": light_read,
         "stocking_read": stocking_read,
-        "likely_trout_positioning": list(dict.fromkeys(trout_positioning)),
-        "recommended_tactics": list(dict.fromkeys(tactics)),
+        "likely_trout_positioning": trout_positioning,
+        "recommended_tactics": tactics,
         "recommended_fly_keys": recommended_flies,
+        "fly_reasoning": build_fly_reasoning(recommended_flies),
+        "caution_notes": caution_notes,
         "reasoning": [
             water_read.get("read"),
             light_read.get("read"),
