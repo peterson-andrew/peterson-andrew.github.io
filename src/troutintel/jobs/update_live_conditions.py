@@ -5,6 +5,7 @@ from typing import Any, Dict
 import httpx
 
 from troutintel.config import load_river_config
+from troutintel.io import save_json
 from troutintel.sources.usgs import (
     get_usgs_instant_values,
     normalize_usgs_instant_values,
@@ -51,6 +52,22 @@ def save_html(html: str, output_path: str) -> None:
     path.write_text(html, encoding="utf-8")
 
 
+def build_usgs_json(
+    river_key: str,
+    river: Dict[str, Any],
+    conditions: Dict[str, Any],
+) -> Dict[str, Any]:
+    readings = conditions.get("readings", {})
+
+    return {
+        "river_key": river_key,
+        "river_name": river["display_name"],
+        "site_name": conditions.get("site_name"),
+        "site_id": river["usgs"]["site_id"],
+        "readings": readings,
+    }
+
+
 async def process_river(
     client: httpx.AsyncClient,
     river_key: str,
@@ -75,11 +92,23 @@ async def process_river(
         conditions=conditions,
     )
 
-    output_path = f"site_snippets/{river_key}_conditions.html"
+    save_html(
+        html,
+        f"site_snippets/{river_key}_conditions.html",
+    )
 
-    save_html(html, output_path)
+    usgs_json = build_usgs_json(
+        river_key=river_key,
+        river=river,
+        conditions=conditions,
+    )
 
-    print(f"Wrote {output_path}")
+    save_json(
+        usgs_json,
+        f"data/usgs/{river_key}.json",
+    )
+
+    print(f"Wrote USGS outputs for {river_key}")
 
 
 async def main() -> None:
