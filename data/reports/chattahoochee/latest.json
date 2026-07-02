@@ -3,49 +3,49 @@
   "river_name": "Chattahoochee River",
   "title": "Chattahoochee River 48-Hour Fishing Outlook",
   "rating": {
-    "score": 7.0,
-    "label": "Good but technical"
+    "score": 8.0,
+    "label": "Very good"
   },
-  "best_window": "day2 morning",
+  "best_window": "day1 morning",
   "current_conditions": {
     "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-    "water_temp_f": 56.1,
-    "flow_cfs": 707.0,
-    "gage_height_ft": 1.73,
+    "water_temp_f": 58.6,
+    "flow_cfs": 768.0,
+    "gage_height_ft": 1.82,
     "turbidity": 2.4,
-    "observed_at": "2026-07-02T14:15:00.000-04:00"
+    "observed_at": "2026-07-02T18:15:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.12,
+    "pressure_inhg": 30.09,
     "air_temp": {
-      "current_f": 95,
+      "current_f": 92,
       "low_f": 77.0,
       "high_f": 94.0
     },
     "sky_cover": {
       "min": 10,
       "max": 39,
-      "avg": 23.0
+      "avg": 22.32
     },
     "humidity": {
       "min": 44,
       "max": 82,
-      "avg": 65.13
+      "avg": 64.84
     },
     "rain": {
-      "max_probability_percent": 23,
+      "max_probability_percent": 16,
       "expected_inches": 0.0
     },
     "wind": {
       "avg_mph": 1.6,
       "max_gust_mph": 10.4,
-      "predominant_direction": "E"
+      "predominant_direction": "NE"
     }
   },
   "angler_analysis": {
-    "quality_score": 7.0,
-    "quality_label": "Good but technical",
-    "best_window": "day2 morning",
+    "quality_score": 8.0,
+    "quality_label": "Very good",
+    "best_window": "day1 morning",
     "water_temp_read": {
       "status": "ideal",
       "read": "Water temperature is in a favorable trout range.",
@@ -64,20 +64,17 @@
       "score_adjustment": 2.0
     },
     "light_pressure_read": {
-      "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
       "positioning": [
-        "shade",
-        "deeper runs",
-        "undercut banks",
+        "runs",
+        "seams",
         "structure"
       ],
       "tactics": [
-        "smaller natural flies",
-        "careful drifts",
-        "less aggressive presentations"
+        "balanced nymph approach"
       ],
-      "score_adjustment": -1.0
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -100,19 +97,14 @@
       "riffles",
       "runs",
       "seams",
-      "structure",
-      "shade",
-      "deeper runs",
-      "undercut banks"
+      "structure"
     ],
     "recommended_tactics": [
       "nymphs",
       "midges",
       "soft hackles",
       "opportunistic streamers",
-      "smaller natural flies",
-      "careful drifts",
-      "less aggressive presentations"
+      "balanced nymph approach"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
@@ -128,12 +120,10 @@
       "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
       "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
     },
-    "caution_notes": [
-      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
-    ],
+    "caution_notes": [],
     "reasoning": [
       "Water temperature is in a favorable trout range.",
-      "High pressure and low cloud cover make this fishable but technical.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
@@ -166,10 +156,10 @@
     }
   ],
   "generated_text": {
-    "quick_read": "Trout fishing on the Chattahoochee River is good but technical due to bright, high-pressure conditions. Water temperature is ideal and recent stocking enhances fly effectiveness.",
-    "best_window": "Day 2 morning is best because water temperatures are favorable and light pressure conditions are ideal for trout activity, supporting use of natural flies and careful presentations in shaded and structured areas.",
-    "current_conditions": "Water temperature is 56.1\u00b0F, flow is 707 cfs, gage height is 1.73 ft, and turbidity is 2.4 NTU.",
-    "weather_setup": "Sky cover averages 23%, pressure is high at 30.12 inHg with an unknown trend, wind averages 1.6 mph from the east, and rain probability is low with no expected precipitation.",
-    "what_this_means": "Expect trout to hold in riffles, runs, seams, structure, shade, deeper runs, and undercut banks. Use nymphs, midges, soft hackles, opportunistic streamers, smaller natural flies, careful drifts, and less aggressive presentations, while prioritizing clean drifts and stocked-trout attractors. Caution is advised as bright/high-pressure conditions may cause fish to stay cover-oriented and less active."
+    "quick_read": "Trout fishing on the Chattahoochee River is very good with water temperature ideal for trout activity. Recent stocking supports effective use of eggs and attractor nymphs alongside natural patterns.",
+    "best_window": "The best window is day 1 morning due to low sky cover, moderate humidity, minimal rain chance, and calm winds, providing favorable conditions for trout feeding and clear clean drifts.",
+    "current_conditions": "Water temperature is 58.6\u00b0F, flow is 768 cfs, gage height is 1.82 ft, and turbidity is low at 2.4 NTU, indicating clear water conditions.",
+    "weather_setup": "Current sky cover averages 22%, pressure is steady at 30.09 inHg with unknown trend, wind is light from the NE at 1.6 mph with gusts up to 10.4 mph, and rainfall is minimal with a 16% chance and no expected accumulation.",
+    "what_this_means": "Trout are likely positioned near riffles, runs, seams, and structure, favoring comfortable feeding lanes close to cover during high light. Use smaller natural nymphs, midges, soft hackles, and stocked trout attractors like egg patterns and squirmy worms with an emphasis on clean drifts and balanced presentations. Caution is advised as pressure trend data is unavailable."
   }
 }
