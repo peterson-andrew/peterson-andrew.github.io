@@ -3,7 +3,7 @@
   "river_name": "Etowah River",
   "title": "Etowah River 48-Hour Fishing Outlook",
   "rating": {
-    "score": 2.0,
+    "score": 1.0,
     "label": "Tough"
   },
   "best_window": "day1 morning",
@@ -16,7 +16,7 @@
     "observed_at": "2026-07-02T19:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.09,
+    "pressure_inhg": 30.1,
     "air_temp": {
       "current_f": 90,
       "low_f": 73.0,
@@ -43,7 +43,7 @@
     }
   },
   "angler_analysis": {
-    "quality_score": 2.0,
+    "quality_score": 1.0,
     "quality_label": "Tough",
     "best_window": "day1 morning",
     "water_temp_read": {
@@ -59,17 +59,20 @@
       "score_adjustment": -4.0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
       "positioning": [
-        "runs",
-        "seams",
+        "shade",
+        "deeper runs",
+        "undercut banks",
         "structure"
       ],
       "tactics": [
-        "balanced nymph approach"
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -91,30 +94,38 @@
     "likely_trout_positioning": [
       "cold-water refuge",
       "oxygenated water",
-      "runs",
-      "seams",
+      "shade",
+      "deeper runs",
+      "undercut banks",
       "structure"
     ],
     "recommended_tactics": [
       "consider not targeting trout",
-      "balanced nymph approach"
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell"
+      "duracell",
+      "zebra_midge",
+      "pheasant_tail"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
+      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
     },
     "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving.",
       "Warm water may increase trout stress."
     ],
     "reasoning": [
       "Water is very warm for trout.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
@@ -134,13 +145,23 @@
       "key": "duracell",
       "name": "Duracell",
       "reason": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+    },
+    {
+      "key": "zebra_midge",
+      "name": "Zebra Midge",
+      "reason": "Small and natural for clear, pressured, technical conditions."
+    },
+    {
+      "key": "pheasant_tail",
+      "name": "Pheasant Tail",
+      "reason": "A reliable natural nymph when trout are feeding but cautious."
     }
   ],
   "generated_text": {
-    "quick_read": "Trout fishing on the Etowah River is tough due to very warm water temperatures near 82\u00b0F. Recent stocking supports some bite, but behavior will be cautious.",
-    "best_window": "Morning of day 1 is best because cooler temperatures and moderate humidity create the most comfortable conditions for trout, improving feeding activity despite overall warm water.",
-    "current_conditions": "Water temperature is 82\u00b0F, flow is 108 cfs, gage height is 3.77 feet, and turbidity is 8.7 NTU as of the latest USGS reading.",
-    "weather_setup": "Sky cover is partially cloudy around 22%, pressure steady at 30.09 inHg with no clear trend, light wind averaging 1.6 mph, and low rain probability with no expected rainfall.",
-    "what_this_means": "Trout will seek cold-water refuges and oxygenated pockets, positioning near runs, seams, and structure. Use small natural patterns and stocked trout attractors for clean drifts. Present nymphs delicately as trout are stressed by the warm water; caution is advised due to increased stress on fish."
+    "quick_read": "Water is very warm and conditions are bright with high pressure, making trout fishing tough. Recent stocking improves opportunities using stocked-trout attractors and natural flies.",
+    "best_window": "The day 1 morning window is best due to lower sky cover and humidity, along with manageable wind gusts, providing more comfortable and technical fishing conditions despite the warm water.",
+    "current_conditions": "USGS reports water temperature at 82\u00b0F, flow at 108 cfs, gage height at 3.77 ft, and turbidity at 8.7 NTU.",
+    "weather_setup": "Sky cover is low at about 23%, pressure is high at 30.1 inHg with an unknown trend, wind is light averaging 1.6 mph with gusts up to 9.2 mph, and rain probability is low at 14%.",
+    "what_this_means": "Trout will seek cold-water refuges, oxygenated water, shade, deeper runs, and structure, feeding cautiously in bright conditions. Use clean drifts with smaller natural flies and stocked-trout attractors, while considering less aggressive presentations due to warm water stress and bright/high-pressure conditions."
   }
 }

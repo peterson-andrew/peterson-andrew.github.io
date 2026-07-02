@@ -3,8 +3,8 @@
   "river_name": "Chattahoochee River",
   "title": "Chattahoochee River 48-Hour Fishing Outlook",
   "rating": {
-    "score": 8.0,
-    "label": "Very good"
+    "score": 7.0,
+    "label": "Good but technical"
   },
   "best_window": "day1 morning",
   "current_conditions": {
@@ -16,7 +16,7 @@
     "observed_at": "2026-07-02T18:15:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.09,
+    "pressure_inhg": 30.1,
     "air_temp": {
       "current_f": 92,
       "low_f": 77.0,
@@ -43,8 +43,8 @@
     }
   },
   "angler_analysis": {
-    "quality_score": 8.0,
-    "quality_label": "Very good",
+    "quality_score": 7.0,
+    "quality_label": "Good but technical",
     "best_window": "day1 morning",
     "water_temp_read": {
       "status": "ideal",
@@ -64,17 +64,20 @@
       "score_adjustment": 2.0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
       "positioning": [
-        "runs",
-        "seams",
+        "shade",
+        "deeper runs",
+        "undercut banks",
         "structure"
       ],
       "tactics": [
-        "balanced nymph approach"
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -97,14 +100,19 @@
       "riffles",
       "runs",
       "seams",
-      "structure"
+      "structure",
+      "shade",
+      "deeper runs",
+      "undercut banks"
     ],
     "recommended_tactics": [
       "nymphs",
       "midges",
       "soft hackles",
       "opportunistic streamers",
-      "balanced nymph approach"
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
@@ -120,10 +128,12 @@
       "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
       "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
     },
-    "caution_notes": [],
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
     "reasoning": [
       "Water temperature is in a favorable trout range.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
@@ -156,10 +166,10 @@
     }
   ],
   "generated_text": {
-    "quick_read": "Trout fishing on the Chattahoochee River is very good with water temperature ideal for trout activity. Recent stocking supports effective use of eggs and attractor nymphs alongside natural patterns.",
-    "best_window": "The best window is day 1 morning due to low sky cover, moderate humidity, minimal rain chance, and calm winds, providing favorable conditions for trout feeding and clear clean drifts.",
-    "current_conditions": "Water temperature is 58.6\u00b0F, flow is 768 cfs, gage height is 1.82 ft, and turbidity is low at 2.4 NTU, indicating clear water conditions.",
-    "weather_setup": "Current sky cover averages 22%, pressure is steady at 30.09 inHg with unknown trend, wind is light from the NE at 1.6 mph with gusts up to 10.4 mph, and rainfall is minimal with a 16% chance and no expected accumulation.",
-    "what_this_means": "Trout are likely positioned near riffles, runs, seams, and structure, favoring comfortable feeding lanes close to cover during high light. Use smaller natural nymphs, midges, soft hackles, and stocked trout attractors like egg patterns and squirmy worms with an emphasis on clean drifts and balanced presentations. Caution is advised as pressure trend data is unavailable."
+    "quick_read": "The Chattahoochee River is offering good but technical trout fishing conditions with ideal water temperatures and recent stocking support. Expect trout to be selective and favor shaded and structured areas due to bright, high pressure.",
+    "best_window": "The best window is day 1 morning due to lower wind, moderate sky cover, and minimal rain probability creating ideal conditions for trout to feed along riffles, runs, seams, and structure with smaller natural flies and careful presentations.",
+    "current_conditions": "Current USGS conditions show a water temperature of 58.6\u00b0F, flow at 768 cfs, gage height 1.82 ft, and low turbidity at 2.4 NTU, indicating clear and favorable water for trout activity.",
+    "weather_setup": "Weather features mostly clear skies with 22% average cloud cover, stable high pressure at 30.1 inHg, light northeast wind averaging 1.6 mph, and only a 16% chance of rain, supporting technical but good fishing.",
+    "what_this_means": "Trout are likely to stay close to cover in deeper runs, undercut banks, and shaded areas to avoid bright conditions. Presentations should prioritize clean drifts and smaller natural or stocked trout attractor flies like egg patterns, squirmy worms, and duracells. Use nymphs, midges, and cautious streamer approaches. Exercise caution as bright, high-pressure conditions can make trout less forgiving and more cover-oriented."
   }
 }
