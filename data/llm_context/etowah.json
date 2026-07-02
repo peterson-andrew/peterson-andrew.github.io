@@ -349,6 +349,71 @@
     "Do not make wading safety claims.",
     "Recommend 3 to 5 flies from available_flies.",
     "Use forecast_breakdown to distinguish day 1 vs day 2 and morning vs afternoon vs evening.",
+    "Use usgs_summary to describe current river conditions.",
+    "Use angler_analysis as the primary fishing interpretation.",
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
-  ]
+  ],
+  "angler_analysis": {
+    "water_temp_read": {
+      "status": "very_hot",
+      "read": "Water is very warm for trout.",
+      "positioning": [
+        "cold-water refuge",
+        "oxygenated water"
+      ],
+      "tactics": [
+        "consider not targeting trout"
+      ]
+    },
+    "light_pressure_read": {
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover may make trout more cautious and cover-oriented.",
+      "positioning": [
+        "shade",
+        "deeper runs",
+        "undercut banks",
+        "structure"
+      ],
+      "tactics": [
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
+      ]
+    },
+    "stocking_read": {
+      "status": "recently_stocked",
+      "read": "Recent stocking supports using simple attractors, eggs, and worm patterns.",
+      "fly_bias": [
+        "egg_pattern",
+        "squirmy_worm",
+        "duracell"
+      ]
+    },
+    "likely_trout_positioning": [
+      "cold-water refuge",
+      "oxygenated water",
+      "shade",
+      "deeper runs",
+      "undercut banks",
+      "structure"
+    ],
+    "recommended_tactics": [
+      "consider not targeting trout",
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
+    ],
+    "recommended_fly_keys": [
+      "egg_pattern",
+      "squirmy_worm",
+      "duracell",
+      "zebra_midge",
+      "pheasant_tail"
+    ],
+    "reasoning": [
+      "Water is very warm for trout.",
+      "High pressure and low cloud cover may make trout more cautious and cover-oriented.",
+      "Recent stocking supports using simple attractors, eggs, and worm patterns."
+    ]
+  }
 }
