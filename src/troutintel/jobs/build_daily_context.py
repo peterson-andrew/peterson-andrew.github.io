@@ -13,6 +13,31 @@ RIVERS = [
     "nantahala",
 ]
 
+def build_usgs_summary(usgs: Dict[str, Any] | None) -> Dict[str, Any] | None:
+    if not usgs:
+        return None
+
+    readings = usgs.get("readings", {})
+
+    water_temp = readings.get("water_temp")
+    flow = readings.get("flow_cfs")
+    gage = readings.get("gage_height_ft")
+    turbidity = readings.get("turbidity")
+
+    observed_at = None
+    for reading in (water_temp, flow, gage, turbidity):
+        if reading and reading.get("timestamp"):
+            observed_at = reading["timestamp"]
+            break
+
+    return {
+        "site_name": usgs.get("site_name"),
+        "water_temp_f": water_temp.get("value_f") if water_temp else None,
+        "flow_cfs": flow.get("value") if flow else None,
+        "gage_height_ft": gage.get("value") if gage else None,
+        "turbidity": turbidity.get("value") if turbidity else None,
+        "observed_at": observed_at,
+    }
 
 def safe_load_json(path: str) -> Any:
     try:
@@ -236,6 +261,11 @@ def build_context_for_river(
 
     weather_summary = summarize_weather(weather)
     forecast_breakdown = split_forecast_windows(weather) if weather else {}
+
+    usgs = safe_load_json(
+    f"data/usgs/{river_key}.json")
+
+    usgs_summary = build_usgs_summary(usgs)
 
     return {
         "river_key": river_key,
