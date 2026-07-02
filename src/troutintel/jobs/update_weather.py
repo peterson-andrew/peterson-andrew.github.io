@@ -5,7 +5,7 @@ from typing import Any, Dict, List, Optional
 import httpx
 
 from troutintel.config import load_river_config
-from troutintel.io import save_json
+from troutintel.io import load_json, save_json
 from troutintel.sources.nws import (
     get_weather_bundle,
     normalize_current_weather,
@@ -25,6 +25,13 @@ GRID_FIELDS = [
 ]
 
 
+def safe_load_json(path: str) -> Any:
+    try:
+        return load_json(path)
+    except FileNotFoundError:
+        return None
+
+
 def parse_valid_time_start(valid_time: str) -> Optional[datetime]:
     try:
         start = valid_time.split("/")[0]
@@ -35,16 +42,57 @@ def parse_valid_time_start(valid_time: str) -> Optional[datetime]:
 
 def summarize_numeric(values: List[float]) -> Dict[str, Any]:
     if not values:
-        return {
-            "min": None,
-            "max": None,
-            "avg": None,
-        }
+        return {"min": None, "max": None, "avg": None}
 
     return {
         "min": round(min(values), 2),
         "max": round(max(values), 2),
         "avg": round(sum(values) / len(values), 2),
+    }
+
+
+def build_pressure_trend(
+    river_name: str,
+    generated_at_utc: str,
+    current_pressure_inhg: float | None,
+) -> Dict[str, Any]:
+    history_path = f"data/weather_history/{river_name}.json"
+    history = safe_load_json(history_path) or []
+
+    previous_pressure = None
+
+    if history:
+        previous_pressure = history[-1].get("pressure_inhg")
+
+    trend = "unknown"
+    change = None
+
+    if current_pressure_inhg is not None and previous_pressure is not None:
+        change = round(current_pressure_inhg - previous_pressure, 2)
+
+        if change >= 0.03:
+            trend = "rising"
+        elif change <= -0.03:
+            trend = "falling"
+        else:
+            trend = "stable"
+
+    history.append(
+        {
+            "generated_at_utc": generated_at_utc,
+            "pressure_inhg": current_pressure_inhg,
+        }
+    )
+
+    history = history[-24:]
+
+    save_json(history, history_path)
+
+    return {
+        "current_inhg": current_pressure_inhg,
+        "previous_inhg": previous_pressure,
+        "change_since_last_run": change,
+        "trend": trend,
     }
 
 
@@ -139,6 +187,8 @@ async def process_river(
         print(f"Skipping {river_name}: no NOAA coordinates")
         return
 
+    generated_at_utc = datetime.now(timezone.utc).isoformat()
+
     weather_bundle = await get_weather_bundle(
         client=client,
         lat=lat,
@@ -153,11 +203,18 @@ async def process_river(
         weather_bundle
     )
 
+    pressure_trend = build_pressure_trend(
+        river_name=river_name,
+        generated_at_utc=generated_at_utc,
+        current_pressure_inhg=current_weather.get("pressure_inhg"),
+    )
+
     weather_output = {
         "river_key": river_name,
         "river_name": river["display_name"],
-        "generated_at_utc": datetime.now(timezone.utc).isoformat(),
+        "generated_at_utc": generated_at_utc,
         "current": current_weather,
+        "pressure_trend": pressure_trend,
         "forecast_48h": forecast_48h,
     }
 
