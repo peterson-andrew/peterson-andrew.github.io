@@ -1,0 +1,158 @@
+{
+  "river_key": "soque",
+  "river_name": "Soque River",
+  "title": "Soque River 48-Hour Fishing Outlook",
+  "rating": {
+    "score": 5.0,
+    "label": "Fair"
+  },
+  "best_window": "day1 evening",
+  "current_conditions": {
+    "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
+    "water_temp_f": null,
+    "flow_cfs": 65.1,
+    "gage_height_ft": 3.56,
+    "turbidity": null,
+    "observed_at": "2026-07-02T14:00:00.000-04:00"
+  },
+  "weather_summary": {
+    "pressure_inhg": 30.13,
+    "air_temp": {
+      "current_f": 97,
+      "low_f": 72.0,
+      "high_f": 96.0
+    },
+    "sky_cover": {
+      "min": 3,
+      "max": 56,
+      "avg": 23.2
+    },
+    "humidity": {
+      "min": 36,
+      "max": 86,
+      "avg": 63.92
+    },
+    "rain": {
+      "max_probability_percent": 19,
+      "expected_inches": 0.0
+    },
+    "wind": {
+      "avg_mph": 2.2,
+      "max_gust_mph": 11.5,
+      "predominant_direction": "ESE"
+    }
+  },
+  "angler_analysis": {
+    "quality_score": 5.0,
+    "quality_label": "Fair",
+    "best_window": "day1 evening",
+    "water_temp_read": {
+      "status": "unknown",
+      "read": "Water temperature is unavailable.",
+      "positioning": [],
+      "tactics": [],
+      "score_adjustment": 0
+    },
+    "light_pressure_read": {
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "positioning": [
+        "shade",
+        "deeper runs",
+        "undercut banks",
+        "structure"
+      ],
+      "tactics": [
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
+      ],
+      "score_adjustment": -1.0
+    },
+    "pressure_trend_read": {
+      "status": "unknown",
+      "read": "Pressure trend is unavailable.",
+      "score_adjustment": 0.0
+    },
+    "stocking_read": {
+      "status": "recently_stocked",
+      "read": "Recent stocking supports eggs, worms, and attractor nymphs.",
+      "fly_bias": [
+        "egg_pattern",
+        "squirmy_worm",
+        "duracell"
+      ],
+      "score_adjustment": 1.0
+    },
+    "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
+    "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
+    "likely_trout_positioning": [
+      "shade",
+      "deeper runs",
+      "undercut banks",
+      "structure"
+    ],
+    "recommended_tactics": [
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
+    ],
+    "recommended_fly_keys": [
+      "egg_pattern",
+      "squirmy_worm",
+      "duracell",
+      "zebra_midge",
+      "pheasant_tail"
+    ],
+    "fly_reasoning": {
+      "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
+      "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
+      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
+    },
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
+    "reasoning": [
+      "Water temperature is unavailable.",
+      "High pressure and low cloud cover make this fishable but technical.",
+      "Pressure trend is unavailable.",
+      "Recent stocking supports eggs, worms, and attractor nymphs."
+    ]
+  },
+  "recommended_flies": [
+    {
+      "key": "egg_pattern",
+      "name": "Egg Pattern",
+      "reason": "Recent stocking makes eggs a logical confidence fly."
+    },
+    {
+      "key": "squirmy_worm",
+      "name": "Squirmy Worm",
+      "reason": "A simple stocked-trout attractor and good dirty-water option."
+    },
+    {
+      "key": "duracell",
+      "name": "Duracell",
+      "reason": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+    },
+    {
+      "key": "zebra_midge",
+      "name": "Zebra Midge",
+      "reason": "Small and natural for clear, pressured, technical conditions."
+    },
+    {
+      "key": "pheasant_tail",
+      "name": "Pheasant Tail",
+      "reason": "A reliable natural nymph when trout are feeding but cautious."
+    }
+  ],
+  "generated_text": {
+    "quick_read": "Fishing conditions on the Soque River are fair with recent stocking enhancing trout activity. Bright skies and high pressure create a technical but fishable environment.",
+    "best_window": "The evening of day 1 is best due to moderate sky cover and stable conditions, aligning with trout favoring comfortable feeding lanes close to cover under bright, high-pressure conditions.",
+    "current_conditions": "Soque River current flow is 65.1 cfs with a gage height of 3.56 ft; water temperature and turbidity data are unavailable.",
+    "weather_setup": "Current weather features low average sky cover (23.2%), high pressure at 30.13 inHg, calm ESE winds averaging 2.2 mph, and low rain probability.",
+    "what_this_means": "Trout will position in shade, deeper runs, undercut banks, and near structure. Use smaller natural flies and careful drifts with less aggressive presentations. Recommended flies include egg pattern, squirmy worm, and duracell for stocked trout, plus zebra midge and pheasant tail for clear, technical water. Exercise caution as bright, high pressure conditions make trout cover-oriented and less forgiving."
+  }
+}

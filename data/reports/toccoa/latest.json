@@ -1,0 +1,158 @@
+{
+  "river_key": "toccoa",
+  "river_name": "Toccoa River",
+  "title": "Toccoa River 48-Hour Fishing Outlook",
+  "rating": {
+    "score": 5.0,
+    "label": "Fair"
+  },
+  "best_window": "day1 evening",
+  "current_conditions": {
+    "site_name": "TOCCOA RIVER NEAR DIAL, GA",
+    "water_temp_f": null,
+    "flow_cfs": 239.0,
+    "gage_height_ft": 1.24,
+    "turbidity": null,
+    "observed_at": "2026-07-02T13:30:00.000-04:00"
+  },
+  "weather_summary": {
+    "pressure_inhg": 30.17,
+    "air_temp": {
+      "current_f": 93,
+      "low_f": 72.0,
+      "high_f": 93.0
+    },
+    "sky_cover": {
+      "min": 7,
+      "max": 55,
+      "avg": 29.13
+    },
+    "humidity": {
+      "min": 44,
+      "max": 89,
+      "avg": 67.62
+    },
+    "rain": {
+      "max_probability_percent": 41,
+      "expected_inches": 0.17
+    },
+    "wind": {
+      "avg_mph": 1.5,
+      "max_gust_mph": 8.1,
+      "predominant_direction": ""
+    }
+  },
+  "angler_analysis": {
+    "quality_score": 5.0,
+    "quality_label": "Fair",
+    "best_window": "day1 evening",
+    "water_temp_read": {
+      "status": "unknown",
+      "read": "Water temperature is unavailable.",
+      "positioning": [],
+      "tactics": [],
+      "score_adjustment": 0
+    },
+    "light_pressure_read": {
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "positioning": [
+        "shade",
+        "deeper runs",
+        "undercut banks",
+        "structure"
+      ],
+      "tactics": [
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
+      ],
+      "score_adjustment": -1.0
+    },
+    "pressure_trend_read": {
+      "status": "unknown",
+      "read": "Pressure trend is unavailable.",
+      "score_adjustment": 0.0
+    },
+    "stocking_read": {
+      "status": "recently_stocked",
+      "read": "Recent stocking supports eggs, worms, and attractor nymphs.",
+      "fly_bias": [
+        "egg_pattern",
+        "squirmy_worm",
+        "duracell"
+      ],
+      "score_adjustment": 1.0
+    },
+    "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
+    "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
+    "likely_trout_positioning": [
+      "shade",
+      "deeper runs",
+      "undercut banks",
+      "structure"
+    ],
+    "recommended_tactics": [
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
+    ],
+    "recommended_fly_keys": [
+      "egg_pattern",
+      "squirmy_worm",
+      "duracell",
+      "zebra_midge",
+      "pheasant_tail"
+    ],
+    "fly_reasoning": {
+      "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
+      "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
+      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
+    },
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
+    "reasoning": [
+      "Water temperature is unavailable.",
+      "High pressure and low cloud cover make this fishable but technical.",
+      "Pressure trend is unavailable.",
+      "Recent stocking supports eggs, worms, and attractor nymphs."
+    ]
+  },
+  "recommended_flies": [
+    {
+      "key": "egg_pattern",
+      "name": "Egg Pattern",
+      "reason": "Recent stocking makes eggs a logical confidence fly."
+    },
+    {
+      "key": "squirmy_worm",
+      "name": "Squirmy Worm",
+      "reason": "A simple stocked-trout attractor and good dirty-water option."
+    },
+    {
+      "key": "duracell",
+      "name": "Duracell",
+      "reason": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+    },
+    {
+      "key": "zebra_midge",
+      "name": "Zebra Midge",
+      "reason": "Small and natural for clear, pressured, technical conditions."
+    },
+    {
+      "key": "pheasant_tail",
+      "name": "Pheasant Tail",
+      "reason": "A reliable natural nymph when trout are feeding but cautious."
+    }
+  ],
+  "generated_text": {
+    "quick_read": "Current trout fishing conditions on the Toccoa River are fair with technical challenges due to bright light and high pressure. Recent stocking provides good opportunities using egg patterns and attractor nymphs.",
+    "best_window": "The best fishing window is the evening of day 1 because moderate cloud cover and stable conditions make trout more willing to feed in comfortable cover and deeper runs, aligning with expert angler advice.",
+    "current_conditions": "The USGS reports a flow of 239 cfs and a gage height of 1.24 ft. Water temperature and turbidity data are unavailable.",
+    "weather_setup": "Sky cover averages about 29%, pressure is high at 30.17 inHg with no trend data, wind is light averaging 1.5 mph, and there is a 41% chance of light rain expected with 0.17 inches possible.",
+    "what_this_means": "Trout will favor shaded areas, deeper runs, and structure to avoid bright light and high pressure, making smaller natural flies and careful drifts effective. Use stocked trout attractors like egg patterns and duracell flies, and note that bright conditions require cautious presentation as fish may be less aggressive."
+  }
+}
