@@ -287,6 +287,7 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
+    "quality_score": 5.0,
     "quality_label": "Fair",
     "best_window": "day1 evening",
     "water_temp_read": {
@@ -298,7 +299,7 @@
     },
     "light_pressure_read": {
       "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover should make this fishable but technical.",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
       "positioning": [
         "shade",
         "deeper runs",
@@ -310,7 +311,12 @@
         "careful drifts",
         "less aggressive presentations"
       ],
-      "score_adjustment": -1
+      "score_adjustment": -1.0
+    },
+    "pressure_trend_read": {
+      "status": "unknown",
+      "read": "Pressure trend is unavailable.",
+      "score_adjustment": 0.0
     },
     "stocking_read": {
       "status": "recently_stocked",
@@ -320,8 +326,10 @@
         "squirmy_worm",
         "duracell"
       ],
-      "score_adjustment": 1
+      "score_adjustment": 1.0
     },
+    "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
+    "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
       "shade",
       "deeper runs",
@@ -352,7 +360,8 @@
     ],
     "reasoning": [
       "Water temperature is unavailable.",
-      "High pressure and low cloud cover should make this fishable but technical.",
+      "High pressure and low cloud cover make this fishable but technical.",
+      "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
   }

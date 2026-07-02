@@ -270,6 +270,7 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
+    "quality_score": 5.0,
     "quality_label": "Fair",
     "best_window": "day1 evening",
     "water_temp_read": {
@@ -284,14 +285,21 @@
       "read": "Light and pressure read is unavailable.",
       "positioning": [],
       "tactics": [],
-      "score_adjustment": 0
+      "score_adjustment": 0.0
+    },
+    "pressure_trend_read": {
+      "status": "unknown",
+      "read": "Pressure trend is unavailable.",
+      "score_adjustment": 0.0
     },
     "stocking_read": {
       "status": "not_recently_stocked",
       "read": "No recent stocking signal is available.",
       "fly_bias": [],
-      "score_adjustment": 0
+      "score_adjustment": 0.0
     },
+    "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
+    "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [],
     "recommended_tactics": [],
     "recommended_fly_keys": [],
@@ -300,6 +308,7 @@
     "reasoning": [
       "Water temperature is unavailable.",
       "Light and pressure read is unavailable.",
+      "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
   }
