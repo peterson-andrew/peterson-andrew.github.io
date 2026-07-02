@@ -1,0 +1,1764 @@
+{
+  "river_key": "etowah",
+  "river": {
+    "display_name": "Etowah River",
+    "river_type": "freestone",
+    "noaa": {
+      "lat": 34.4212,
+      "lon": -84.1191
+    },
+    "usgs": {
+      "site_id": "02389150"
+    },
+    "features": {
+      "turbidity": true,
+      "stocking": true
+    },
+    "rules": {
+      "use_flow_for_fishing_quality": false,
+      "allow_wading_safety_claims": false
+    }
+  },
+  "latest_report": {
+    "river_key": "etowah",
+    "river_name": "Etowah River",
+    "title": "Etowah River 48-Hour Fishing Outlook",
+    "rating": {
+      "score": 1.0,
+      "label": "Tough"
+    },
+    "best_window": "day1 morning",
+    "current_conditions": {
+      "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
+      "water_temp_f": 82.0,
+      "flow_cfs": 108.0,
+      "gage_height_ft": 3.77,
+      "turbidity": 8.7,
+      "observed_at": "2026-07-02T19:00:00.000-04:00"
+    },
+    "weather_summary": {
+      "pressure_inhg": 30.1,
+      "air_temp": {
+        "current_f": 90,
+        "low_f": 73.0,
+        "high_f": 94.0
+      },
+      "sky_cover": {
+        "min": 10,
+        "max": 42,
+        "avg": 22.74
+      },
+      "humidity": {
+        "min": 43,
+        "max": 88,
+        "avg": 64.67
+      },
+      "rain": {
+        "max_probability_percent": 14,
+        "expected_inches": 0.0
+      },
+      "wind": {
+        "avg_mph": 1.6,
+        "max_gust_mph": 9.2,
+        "predominant_direction": ""
+      }
+    },
+    "angler_analysis": {
+      "quality_score": 1.0,
+      "quality_label": "Tough",
+      "best_window": "day1 morning",
+      "water_temp_read": {
+        "status": "very_hot",
+        "read": "Water is very warm for trout.",
+        "positioning": [
+          "cold-water refuge",
+          "oxygenated water"
+        ],
+        "tactics": [
+          "consider not targeting trout"
+        ],
+        "score_adjustment": -4.0
+      },
+      "light_pressure_read": {
+        "status": "bright_high_pressure",
+        "read": "High pressure and low cloud cover make this fishable but technical.",
+        "positioning": [
+          "shade",
+          "deeper runs",
+          "undercut banks",
+          "structure"
+        ],
+        "tactics": [
+          "smaller natural flies",
+          "careful drifts",
+          "less aggressive presentations"
+        ],
+        "score_adjustment": -1.0
+      },
+      "pressure_trend_read": {
+        "status": "unknown",
+        "read": "Pressure trend is unavailable.",
+        "score_adjustment": 0.0
+      },
+      "stocking_read": {
+        "status": "recently_stocked",
+        "read": "Recent stocking supports eggs, worms, and attractor nymphs.",
+        "fly_bias": [
+          "egg_pattern",
+          "squirmy_worm",
+          "duracell"
+        ],
+        "score_adjustment": 1.0
+      },
+      "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
+      "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
+      "likely_trout_positioning": [
+        "cold-water refuge",
+        "oxygenated water",
+        "shade",
+        "deeper runs",
+        "undercut banks",
+        "structure"
+      ],
+      "recommended_tactics": [
+        "consider not targeting trout",
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
+      ],
+      "recommended_fly_keys": [
+        "egg_pattern",
+        "squirmy_worm",
+        "duracell",
+        "zebra_midge",
+        "pheasant_tail"
+      ],
+      "fly_reasoning": {
+        "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
+        "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
+        "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
+        "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+        "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
+      },
+      "caution_notes": [
+        "Bright/high-pressure conditions may make fish cover-oriented and less forgiving.",
+        "Warm water may increase trout stress."
+      ],
+      "reasoning": [
+        "Water is very warm for trout.",
+        "High pressure and low cloud cover make this fishable but technical.",
+        "Pressure trend is unavailable.",
+        "Recent stocking supports eggs, worms, and attractor nymphs."
+      ]
+    },
+    "recommended_flies": [
+      {
+        "key": "egg_pattern",
+        "name": "Egg Pattern",
+        "reason": "Recent stocking makes eggs a logical confidence fly."
+      },
+      {
+        "key": "squirmy_worm",
+        "name": "Squirmy Worm",
+        "reason": "A simple stocked-trout attractor and good dirty-water option."
+      },
+      {
+        "key": "duracell",
+        "name": "Duracell",
+        "reason": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+      },
+      {
+        "key": "zebra_midge",
+        "name": "Zebra Midge",
+        "reason": "Small and natural for clear, pressured, technical conditions."
+      },
+      {
+        "key": "pheasant_tail",
+        "name": "Pheasant Tail",
+        "reason": "A reliable natural nymph when trout are feeding but cautious."
+      }
+    ],
+    "generated_text": {
+      "quick_read": "The Etowah River is currently very warm for trout with high pressure and low cloud cover, making fishing tough but possible. Recent stocking improves fly options despite challenging conditions.",
+      "best_window": "The morning of day 1 is best because cooler temperatures and low wind gusts create slightly better conditions for trout to feed before the day warms further.",
+      "current_conditions": "Water temperature is 82\u00b0F, flow is 108 cfs, gage height is 3.77 ft, and turbidity is 8.7 NTU as of the latest USGS reading.",
+      "weather_setup": "Sky cover averages 22.7%, pressure is steady at 30.1 inHg, with light winds averaging 1.6 mph and a low 14% chance of rain, creating bright, high-pressure fishing conditions.",
+      "what_this_means": "Trout will favor cold-water refuges, oxygenated water, shade, deeper runs, and structure. Present smaller natural flies and stocked attractors carefully with less aggressive drifts. Due to warm water and bright, high-pressure conditions, trout may be stressed and less willing to chase, so use caution and prioritize subtle presentations."
+    }
+  },
+  "llm_context": {
+    "river_key": "etowah",
+    "river": {
+      "display_name": "Etowah River",
+      "river_type": "freestone",
+      "noaa": {
+        "lat": 34.4212,
+        "lon": -84.1191
+      },
+      "usgs": {
+        "site_id": "02389150"
+      },
+      "features": {
+        "turbidity": true,
+        "stocking": true
+      },
+      "rules": {
+        "use_flow_for_fishing_quality": false,
+        "allow_wading_safety_claims": false
+      }
+    },
+    "usgs_summary": {
+      "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
+      "water_temp_f": 82.0,
+      "flow_cfs": 108.0,
+      "gage_height_ft": 3.77,
+      "turbidity": 8.7,
+      "observed_at": "2026-07-02T19:00:00.000-04:00"
+    },
+    "weather_summary": {
+      "pressure_inhg": 30.1,
+      "air_temp": {
+        "current_f": 90,
+        "low_f": 73.0,
+        "high_f": 94.0
+      },
+      "sky_cover": {
+        "min": 10,
+        "max": 42,
+        "avg": 22.74
+      },
+      "humidity": {
+        "min": 43,
+        "max": 88,
+        "avg": 64.67
+      },
+      "rain": {
+        "max_probability_percent": 14,
+        "expected_inches": 0.0
+      },
+      "wind": {
+        "avg_mph": 1.6,
+        "max_gust_mph": 9.2,
+        "predominant_direction": ""
+      }
+    },
+    "forecast_breakdown": {
+      "day1": {
+        "date": "2026-07-03",
+        "morning": {
+          "sky_cover": {
+            "min": 10,
+            "max": 20,
+            "avg": 14.29
+          },
+          "humidity": {
+            "min": 82,
+            "max": 84,
+            "avg": 83.0
+          },
+          "rain_probability": {
+            "min": 1,
+            "max": 1,
+            "avg": 1.0
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 74.0,
+            "max": 77.0,
+            "avg": 75.5
+          },
+          "wind_gust_mph": {
+            "min": 3.5,
+            "max": 4.6,
+            "avg": 4.05
+          }
+        },
+        "afternoon": {
+          "sky_cover": {
+            "min": 10,
+            "max": 26,
+            "avg": 16.83
+          },
+          "humidity": {
+            "min": 52,
+            "max": 76,
+            "avg": 61.8
+          },
+          "rain_probability": {
+            "min": 2,
+            "max": 3,
+            "avg": 2.5
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 75.0,
+            "max": 91.0,
+            "avg": 84.33
+          },
+          "wind_mph": {
+            "min": 0.0,
+            "max": 2.3,
+            "avg": 1.15
+          },
+          "wind_gust_mph": {
+            "min": 5.8,
+            "max": 8.1,
+            "avg": 6.95
+          }
+        },
+        "evening": {
+          "sky_cover": {
+            "min": 22,
+            "max": 34,
+            "avg": 28.8
+          },
+          "humidity": {
+            "min": 48,
+            "max": 57,
+            "avg": 51.17
+          },
+          "rain_probability": {
+            "min": 6,
+            "max": 12,
+            "avg": 9.2
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 89.0,
+            "max": 93.0,
+            "avg": 91.4
+          },
+          "wind_mph": {
+            "min": 2.3,
+            "max": 3.5,
+            "avg": 2.9
+          },
+          "wind_gust_mph": {
+            "min": 6.9,
+            "max": 9.2,
+            "avg": 8.07
+          }
+        }
+      },
+      "day2": {
+        "date": "2026-07-03",
+        "morning": {
+          "sky_cover": {
+            "min": 12,
+            "max": 29,
+            "avg": 19.43
+          },
+          "humidity": {
+            "min": 79,
+            "max": 88,
+            "avg": 82.0
+          },
+          "rain_probability": {
+            "min": 3,
+            "max": 3,
+            "avg": 3.0
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 73.0,
+            "max": 76.0,
+            "avg": 74.5
+          },
+          "wind_mph": {
+            "min": 1.2,
+            "max": 2.3,
+            "avg": 1.75
+          },
+          "wind_gust_mph": {
+            "min": 3.5,
+            "max": 4.6,
+            "avg": 4.05
+          }
+        },
+        "afternoon": {
+          "sky_cover": {
+            "min": 16,
+            "max": 22,
+            "avg": 18.6
+          },
+          "humidity": {
+            "min": 46,
+            "max": 85,
+            "avg": 63.67
+          },
+          "rain_probability": {
+            "min": 5,
+            "max": 5,
+            "avg": 5.0
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 74.0,
+            "max": 93.0,
+            "avg": 84.5
+          },
+          "wind_mph": {
+            "min": 0.0,
+            "max": 1.2,
+            "avg": 0.6
+          },
+          "wind_gust_mph": {
+            "min": 3.5,
+            "max": 4.6,
+            "avg": 4.05
+          }
+        },
+        "evening": {
+          "sky_cover": {
+            "min": 22,
+            "max": 25,
+            "avg": 23.67
+          },
+          "humidity": {
+            "min": 43,
+            "max": 54,
+            "avg": 46.67
+          },
+          "rain_probability": {
+            "min": 13,
+            "max": 13,
+            "avg": 13.0
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 89.0,
+            "max": 94.0,
+            "avg": 91.8
+          },
+          "wind_mph": {
+            "min": 1.2,
+            "max": 2.3,
+            "avg": 1.75
+          },
+          "wind_gust_mph": {
+            "min": 4.6,
+            "max": 5.8,
+            "avg": 5.2
+          }
+        }
+      }
+    },
+    "stocking": {
+      "stocked": true,
+      "last_stocked": "6/24/2026",
+      "matched_waterbodies": [
+        {
+          "date": "6/24/2026",
+          "county": "Lumpkin",
+          "waterbody": "Etowah River"
+        }
+      ]
+    },
+    "available_flies": {
+      "zebra_midge": {
+        "name": "Zebra Midge",
+        "tags": [
+          "tailwater",
+          "winter",
+          "midge"
+        ]
+      },
+      "pheasant_tail": {
+        "name": "Pheasant Tail",
+        "tags": [
+          "mayfly",
+          "all-around"
+        ]
+      },
+      "haresear": {
+        "name": "Hare's Ear",
+        "tags": [
+          "mayfly",
+          "all-around"
+        ]
+      },
+      "egg_pattern": {
+        "name": "Egg Pattern",
+        "tags": [
+          "stocked",
+          "tailwater"
+        ]
+      },
+      "squirmy_worm": {
+        "name": "Squirmy Worm",
+        "tags": [
+          "dirty_water",
+          "stocked"
+        ]
+      },
+      "duracell": {
+        "name": "Duracell",
+        "tags": [
+          "attractor",
+          "tailwater"
+        ]
+      },
+      "woolly_bugger": {
+        "name": "Woolly Bugger",
+        "tags": [
+          "streamer",
+          "high_water"
+        ]
+      }
+    },
+    "instructions": [
+      "Generate a 48-hour trout fishing outlook.",
+      "Use only the provided data.",
+      "If data is missing, say it is unavailable.",
+      "Do not make wading safety claims.",
+      "Recommend 3 to 5 flies from available_flies.",
+      "Use forecast_breakdown to distinguish day 1 vs day 2 and morning vs afternoon vs evening.",
+      "Use usgs_summary to describe current river conditions.",
+      "Use angler_analysis as the primary fishing interpretation.",
+      "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
+    ],
+    "angler_analysis": {
+      "quality_score": 1.0,
+      "quality_label": "Tough",
+      "best_window": "day1 morning",
+      "water_temp_read": {
+        "status": "very_hot",
+        "read": "Water is very warm for trout.",
+        "positioning": [
+          "cold-water refuge",
+          "oxygenated water"
+        ],
+        "tactics": [
+          "consider not targeting trout"
+        ],
+        "score_adjustment": -4.0
+      },
+      "light_pressure_read": {
+        "status": "bright_high_pressure",
+        "read": "High pressure and low cloud cover make this fishable but technical.",
+        "positioning": [
+          "shade",
+          "deeper runs",
+          "undercut banks",
+          "structure"
+        ],
+        "tactics": [
+          "smaller natural flies",
+          "careful drifts",
+          "less aggressive presentations"
+        ],
+        "score_adjustment": -1.0
+      },
+      "pressure_trend_read": {
+        "status": "unknown",
+        "read": "Pressure trend is unavailable.",
+        "score_adjustment": 0.0
+      },
+      "stocking_read": {
+        "status": "recently_stocked",
+        "read": "Recent stocking supports eggs, worms, and attractor nymphs.",
+        "fly_bias": [
+          "egg_pattern",
+          "squirmy_worm",
+          "duracell"
+        ],
+        "score_adjustment": 1.0
+      },
+      "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
+      "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
+      "likely_trout_positioning": [
+        "cold-water refuge",
+        "oxygenated water",
+        "shade",
+        "deeper runs",
+        "undercut banks",
+        "structure"
+      ],
+      "recommended_tactics": [
+        "consider not targeting trout",
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
+      ],
+      "recommended_fly_keys": [
+        "egg_pattern",
+        "squirmy_worm",
+        "duracell",
+        "zebra_midge",
+        "pheasant_tail"
+      ],
+      "fly_reasoning": {
+        "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
+        "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
+        "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
+        "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+        "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
+      },
+      "caution_notes": [
+        "Bright/high-pressure conditions may make fish cover-oriented and less forgiving.",
+        "Warm water may increase trout stress."
+      ],
+      "reasoning": [
+        "Water is very warm for trout.",
+        "High pressure and low cloud cover make this fishable but technical.",
+        "Pressure trend is unavailable.",
+        "Recent stocking supports eggs, worms, and attractor nymphs."
+      ]
+    }
+  },
+  "current_conditions": {
+    "river_key": "etowah",
+    "river_name": "Etowah River",
+    "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
+    "site_id": "02389150",
+    "readings": {
+      "water_temp": {
+        "parameter_code": "00010",
+        "name": "Temperature, water, &#176;C",
+        "value": 27.8,
+        "timestamp": "2026-07-02T19:00:00.000-04:00",
+        "value_c": 27.8,
+        "value_f": 82.0
+      },
+      "flow_cfs": {
+        "parameter_code": "00060",
+        "name": "Streamflow, ft&#179;/s",
+        "value": 108.0,
+        "timestamp": "2026-07-02T19:00:00.000-04:00"
+      },
+      "gage_height_ft": {
+        "parameter_code": "00065",
+        "name": "Gage height, ft",
+        "value": 3.77,
+        "timestamp": "2026-07-02T19:00:00.000-04:00"
+      },
+      "turbidity": {
+        "parameter_code": "63680",
+        "name": "Turbidity, water, unfiltered, monochrome near infra-red LED light, 780-900 nm, detection angle 90 &#177;2.5&#176;, formazin nephelometric units (FNU)",
+        "value": 8.7,
+        "timestamp": "2026-07-02T19:00:00.000-04:00"
+      }
+    }
+  },
+  "weather": {
+    "river_key": "etowah",
+    "river_name": "Etowah River",
+    "generated_at_utc": "2026-07-02T23:46:06.668455+00:00",
+    "current": {
+      "latitude": 34.4212,
+      "longitude": -84.1191,
+      "forecast_time": "2026-07-02T19:00:00-04:00",
+      "air_temp_f": 90,
+      "temperature_unit": "F",
+      "wind_speed": "0 mph",
+      "wind_direction": "",
+      "short_forecast": "Chance Showers And Thunderstorms",
+      "pressure_station": "KCNI",
+      "pressure_mb": 1019.3,
+      "pressure_inhg": 30.1
+    },
+    "pressure_trend": {
+      "current_inhg": 30.1,
+      "previous_inhg": null,
+      "change_since_last_run": null,
+      "trend": "unknown"
+    },
+    "forecast_48h": {
+      "skyCover": {
+        "available": true,
+        "unit": "wmoUnit:percent",
+        "values": [
+          {
+            "time": "2026-07-03T00:00:00+00:00",
+            "value": 42
+          },
+          {
+            "time": "2026-07-03T01:00:00+00:00",
+            "value": 36
+          },
+          {
+            "time": "2026-07-03T02:00:00+00:00",
+            "value": 32
+          },
+          {
+            "time": "2026-07-03T03:00:00+00:00",
+            "value": 26
+          },
+          {
+            "time": "2026-07-03T04:00:00+00:00",
+            "value": 24
+          },
+          {
+            "time": "2026-07-03T05:00:00+00:00",
+            "value": 20
+          },
+          {
+            "time": "2026-07-03T06:00:00+00:00",
+            "value": 10
+          },
+          {
+            "time": "2026-07-03T07:00:00+00:00",
+            "value": 11
+          },
+          {
+            "time": "2026-07-03T08:00:00+00:00",
+            "value": 15
+          },
+          {
+            "time": "2026-07-03T09:00:00+00:00",
+            "value": 16
+          },
+          {
+            "time": "2026-07-03T10:00:00+00:00",
+            "value": 12
+          },
+          {
+            "time": "2026-07-03T11:00:00+00:00",
+            "value": 16
+          },
+          {
+            "time": "2026-07-03T12:00:00+00:00",
+            "value": 11
+          },
+          {
+            "time": "2026-07-03T13:00:00+00:00",
+            "value": 10
+          },
+          {
+            "time": "2026-07-03T14:00:00+00:00",
+            "value": 12
+          },
+          {
+            "time": "2026-07-03T15:00:00+00:00",
+            "value": 18
+          },
+          {
+            "time": "2026-07-03T16:00:00+00:00",
+            "value": 24
+          },
+          {
+            "time": "2026-07-03T17:00:00+00:00",
+            "value": 26
+          },
+          {
+            "time": "2026-07-03T18:00:00+00:00",
+            "value": 32
+          },
+          {
+            "time": "2026-07-03T19:00:00+00:00",
+            "value": 31
+          },
+          {
+            "time": "2026-07-03T20:00:00+00:00",
+            "value": 34
+          },
+          {
+            "time": "2026-07-03T22:00:00+00:00",
+            "value": 25
+          },
+          {
+            "time": "2026-07-03T23:00:00+00:00",
+            "value": 22
+          },
+          {
+            "time": "2026-07-04T00:00:00+00:00",
+            "value": 23
+          },
+          {
+            "time": "2026-07-04T01:00:00+00:00",
+            "value": 28
+          },
+          {
+            "time": "2026-07-04T02:00:00+00:00",
+            "value": 41
+          },
+          {
+            "time": "2026-07-04T03:00:00+00:00",
+            "value": 42
+          },
+          {
+            "time": "2026-07-04T04:00:00+00:00",
+            "value": 36
+          },
+          {
+            "time": "2026-07-04T05:00:00+00:00",
+            "value": 29
+          },
+          {
+            "time": "2026-07-04T06:00:00+00:00",
+            "value": 21
+          },
+          {
+            "time": "2026-07-04T07:00:00+00:00",
+            "value": 19
+          },
+          {
+            "time": "2026-07-04T08:00:00+00:00",
+            "value": 12
+          },
+          {
+            "time": "2026-07-04T09:00:00+00:00",
+            "value": 15
+          },
+          {
+            "time": "2026-07-04T10:00:00+00:00",
+            "value": 19
+          },
+          {
+            "time": "2026-07-04T11:00:00+00:00",
+            "value": 21
+          },
+          {
+            "time": "2026-07-04T12:00:00+00:00",
+            "value": 19
+          },
+          {
+            "time": "2026-07-04T14:00:00+00:00",
+            "value": 17
+          },
+          {
+            "time": "2026-07-04T15:00:00+00:00",
+            "value": 16
+          },
+          {
+            "time": "2026-07-04T16:00:00+00:00",
+            "value": 19
+          },
+          {
+            "time": "2026-07-04T17:00:00+00:00",
+            "value": 22
+          },
+          {
+            "time": "2026-07-04T18:00:00+00:00",
+            "value": 25
+          },
+          {
+            "time": "2026-07-04T19:00:00+00:00",
+            "value": 24
+          },
+          {
+            "time": "2026-07-04T20:00:00+00:00",
+            "value": 23
+          },
+          {
+            "time": "2026-07-04T21:00:00+00:00",
+            "value": 22
+          },
+          {
+            "time": "2026-07-04T22:00:00+00:00",
+            "value": 23
+          },
+          {
+            "time": "2026-07-04T23:00:00+00:00",
+            "value": 25
+          }
+        ],
+        "summary": {
+          "min": 10,
+          "max": 42,
+          "avg": 22.74
+        }
+      },
+      "relativeHumidity": {
+        "available": true,
+        "unit": "wmoUnit:percent",
+        "values": [
+          {
+            "time": "2026-07-03T00:00:00+00:00",
+            "value": 66
+          },
+          {
+            "time": "2026-07-03T01:00:00+00:00",
+            "value": 71
+          },
+          {
+            "time": "2026-07-03T02:00:00+00:00",
+            "value": 75
+          },
+          {
+            "time": "2026-07-03T03:00:00+00:00",
+            "value": 78
+          },
+          {
+            "time": "2026-07-03T04:00:00+00:00",
+            "value": 81
+          },
+          {
+            "time": "2026-07-03T07:00:00+00:00",
+            "value": 82
+          },
+          {
+            "time": "2026-07-03T08:00:00+00:00",
+            "value": 83
+          },
+          {
+            "time": "2026-07-03T09:00:00+00:00",
+            "value": 84
+          },
+          {
+            "time": "2026-07-03T13:00:00+00:00",
+            "value": 76
+          },
+          {
+            "time": "2026-07-03T14:00:00+00:00",
+            "value": 65
+          },
+          {
+            "time": "2026-07-03T15:00:00+00:00",
+            "value": 60
+          },
+          {
+            "time": "2026-07-03T16:00:00+00:00",
+            "value": 56
+          },
+          {
+            "time": "2026-07-03T17:00:00+00:00",
+            "value": 52
+          },
+          {
+            "time": "2026-07-03T18:00:00+00:00",
+            "value": 51
+          },
+          {
+            "time": "2026-07-03T19:00:00+00:00",
+            "value": 48
+          },
+          {
+            "time": "2026-07-03T20:00:00+00:00",
+            "value": 49
+          },
+          {
+            "time": "2026-07-03T21:00:00+00:00",
+            "value": 50
+          },
+          {
+            "time": "2026-07-03T22:00:00+00:00",
+            "value": 52
+          },
+          {
+            "time": "2026-07-03T23:00:00+00:00",
+            "value": 57
+          },
+          {
+            "time": "2026-07-04T00:00:00+00:00",
+            "value": 64
+          },
+          {
+            "time": "2026-07-04T01:00:00+00:00",
+            "value": 69
+          },
+          {
+            "time": "2026-07-04T02:00:00+00:00",
+            "value": 74
+          },
+          {
+            "time": "2026-07-04T03:00:00+00:00",
+            "value": 76
+          },
+          {
+            "time": "2026-07-04T04:00:00+00:00",
+            "value": 78
+          },
+          {
+            "time": "2026-07-04T05:00:00+00:00",
+            "value": 79
+          },
+          {
+            "time": "2026-07-04T06:00:00+00:00",
+            "value": 80
+          },
+          {
+            "time": "2026-07-04T08:00:00+00:00",
+            "value": 81
+          },
+          {
+            "time": "2026-07-04T11:00:00+00:00",
+            "value": 88
+          },
+          {
+            "time": "2026-07-04T12:00:00+00:00",
+            "value": 85
+          },
+          {
+            "time": "2026-07-04T13:00:00+00:00",
+            "value": 77
+          },
+          {
+            "time": "2026-07-04T14:00:00+00:00",
+            "value": 66
+          },
+          {
+            "time": "2026-07-04T15:00:00+00:00",
+            "value": 58
+          },
+          {
+            "time": "2026-07-04T16:00:00+00:00",
+            "value": 50
+          },
+          {
+            "time": "2026-07-04T17:00:00+00:00",
+            "value": 46
+          },
+          {
+            "time": "2026-07-04T18:00:00+00:00",
+            "value": 44
+          },
+          {
+            "time": "2026-07-04T19:00:00+00:00",
+            "value": 43
+          },
+          {
+            "time": "2026-07-04T20:00:00+00:00",
+            "value": 44
+          },
+          {
+            "time": "2026-07-04T21:00:00+00:00",
+            "value": 46
+          },
+          {
+            "time": "2026-07-04T22:00:00+00:00",
+            "value": 49
+          },
+          {
+            "time": "2026-07-04T23:00:00+00:00",
+            "value": 54
+          }
+        ],
+        "summary": {
+          "min": 43,
+          "max": 88,
+          "avg": 64.67
+        }
+      },
+      "probabilityOfPrecipitation": {
+        "available": true,
+        "unit": "wmoUnit:percent",
+        "values": [
+          {
+            "time": "2026-07-03T00:00:00+00:00",
+            "value": 13
+          },
+          {
+            "time": "2026-07-03T01:00:00+00:00",
+            "value": 14
+          },
+          {
+            "time": "2026-07-03T02:00:00+00:00",
+            "value": 7
+          },
+          {
+            "time": "2026-07-03T04:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-03T06:00:00+00:00",
+            "value": 1
+          },
+          {
+            "time": "2026-07-03T12:00:00+00:00",
+            "value": 2
+          },
+          {
+            "time": "2026-07-03T17:00:00+00:00",
+            "value": 3
+          },
+          {
+            "time": "2026-07-03T18:00:00+00:00",
+            "value": 9
+          },
+          {
+            "time": "2026-07-03T19:00:00+00:00",
+            "value": 11
+          },
+          {
+            "time": "2026-07-03T20:00:00+00:00",
+            "value": 12
+          },
+          {
+            "time": "2026-07-03T22:00:00+00:00",
+            "value": 8
+          },
+          {
+            "time": "2026-07-03T23:00:00+00:00",
+            "value": 6
+          },
+          {
+            "time": "2026-07-04T00:00:00+00:00",
+            "value": 4
+          },
+          {
+            "time": "2026-07-04T01:00:00+00:00",
+            "value": 3
+          },
+          {
+            "time": "2026-07-04T02:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-04T11:00:00+00:00",
+            "value": 3
+          },
+          {
+            "time": "2026-07-04T12:00:00+00:00",
+            "value": 5
+          },
+          {
+            "time": "2026-07-04T18:00:00+00:00",
+            "value": 13
+          }
+        ],
+        "summary": {
+          "min": 0,
+          "max": 14,
+          "avg": 6.33
+        }
+      },
+      "quantitativePrecipitation": {
+        "available": true,
+        "unit": "wmoUnit:mm",
+        "values": [
+          {
+            "time": "2026-07-03T00:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-03T06:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-03T12:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-03T18:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-04T00:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-04T06:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-04T12:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-04T18:00:00+00:00",
+            "value": 0
+          }
+        ],
+        "summary": {
+          "min": 0,
+          "max": 0,
+          "avg": 0.0
+        }
+      },
+      "temperature": {
+        "available": true,
+        "unit": "wmoUnit:degC",
+        "values": [
+          {
+            "time": "2026-07-03T00:00:00+00:00",
+            "value": 30.555555555555557
+          },
+          {
+            "time": "2026-07-03T01:00:00+00:00",
+            "value": 28.88888888888889
+          },
+          {
+            "time": "2026-07-03T02:00:00+00:00",
+            "value": 27.22222222222222
+          },
+          {
+            "time": "2026-07-03T03:00:00+00:00",
+            "value": 26.11111111111111
+          },
+          {
+            "time": "2026-07-03T04:00:00+00:00",
+            "value": 25.555555555555557
+          },
+          {
+            "time": "2026-07-03T05:00:00+00:00",
+            "value": 25
+          },
+          {
+            "time": "2026-07-03T06:00:00+00:00",
+            "value": 24.444444444444443
+          },
+          {
+            "time": "2026-07-03T07:00:00+00:00",
+            "value": 23.88888888888889
+          },
+          {
+            "time": "2026-07-03T09:00:00+00:00",
+            "value": 23.333333333333332
+          },
+          {
+            "time": "2026-07-03T12:00:00+00:00",
+            "value": 23.88888888888889
+          },
+          {
+            "time": "2026-07-03T13:00:00+00:00",
+            "value": 26.11111111111111
+          },
+          {
+            "time": "2026-07-03T14:00:00+00:00",
+            "value": 28.88888888888889
+          },
+          {
+            "time": "2026-07-03T15:00:00+00:00",
+            "value": 30.555555555555557
+          },
+          {
+            "time": "2026-07-03T16:00:00+00:00",
+            "value": 32.22222222222222
+          },
+          {
+            "time": "2026-07-03T17:00:00+00:00",
+            "value": 32.77777777777778
+          },
+          {
+            "time": "2026-07-03T18:00:00+00:00",
+            "value": 33.333333333333336
+          },
+          {
+            "time": "2026-07-03T19:00:00+00:00",
+            "value": 33.888888888888886
+          },
+          {
+            "time": "2026-07-03T20:00:00+00:00",
+            "value": 33.333333333333336
+          },
+          {
+            "time": "2026-07-03T22:00:00+00:00",
+            "value": 32.77777777777778
+          },
+          {
+            "time": "2026-07-03T23:00:00+00:00",
+            "value": 31.666666666666668
+          },
+          {
+            "time": "2026-07-04T00:00:00+00:00",
+            "value": 30
+          },
+          {
+            "time": "2026-07-04T01:00:00+00:00",
+            "value": 28.333333333333332
+          },
+          {
+            "time": "2026-07-04T02:00:00+00:00",
+            "value": 26.666666666666668
+          },
+          {
+            "time": "2026-07-04T03:00:00+00:00",
+            "value": 25.555555555555557
+          },
+          {
+            "time": "2026-07-04T04:00:00+00:00",
+            "value": 25
+          },
+          {
+            "time": "2026-07-04T05:00:00+00:00",
+            "value": 24.444444444444443
+          },
+          {
+            "time": "2026-07-04T06:00:00+00:00",
+            "value": 23.88888888888889
+          },
+          {
+            "time": "2026-07-04T07:00:00+00:00",
+            "value": 23.333333333333332
+          },
+          {
+            "time": "2026-07-04T08:00:00+00:00",
+            "value": 22.77777777777778
+          },
+          {
+            "time": "2026-07-04T12:00:00+00:00",
+            "value": 23.333333333333332
+          },
+          {
+            "time": "2026-07-04T13:00:00+00:00",
+            "value": 25.555555555555557
+          },
+          {
+            "time": "2026-07-04T14:00:00+00:00",
+            "value": 28.333333333333332
+          },
+          {
+            "time": "2026-07-04T15:00:00+00:00",
+            "value": 31.11111111111111
+          },
+          {
+            "time": "2026-07-04T16:00:00+00:00",
+            "value": 32.77777777777778
+          },
+          {
+            "time": "2026-07-04T17:00:00+00:00",
+            "value": 33.888888888888886
+          },
+          {
+            "time": "2026-07-04T19:00:00+00:00",
+            "value": 34.44444444444444
+          },
+          {
+            "time": "2026-07-04T20:00:00+00:00",
+            "value": 33.888888888888886
+          },
+          {
+            "time": "2026-07-04T21:00:00+00:00",
+            "value": 33.333333333333336
+          },
+          {
+            "time": "2026-07-04T22:00:00+00:00",
+            "value": 32.77777777777778
+          },
+          {
+            "time": "2026-07-04T23:00:00+00:00",
+            "value": 31.666666666666668
+          }
+        ],
+        "summary": {
+          "min": 22.78,
+          "max": 34.44,
+          "avg": 28.64
+        }
+      },
+      "dewpoint": {
+        "available": true,
+        "unit": "wmoUnit:degC",
+        "values": [
+          {
+            "time": "2026-07-03T00:00:00+00:00",
+            "value": 23.333333333333332
+          },
+          {
+            "time": "2026-07-03T01:00:00+00:00",
+            "value": 22.77777777777778
+          },
+          {
+            "time": "2026-07-03T02:00:00+00:00",
+            "value": 22.22222222222222
+          },
+          {
+            "time": "2026-07-03T04:00:00+00:00",
+            "value": 21.666666666666668
+          },
+          {
+            "time": "2026-07-03T05:00:00+00:00",
+            "value": 21.11111111111111
+          },
+          {
+            "time": "2026-07-03T08:00:00+00:00",
+            "value": 20.555555555555557
+          },
+          {
+            "time": "2026-07-03T12:00:00+00:00",
+            "value": 21.11111111111111
+          },
+          {
+            "time": "2026-07-03T13:00:00+00:00",
+            "value": 21.666666666666668
+          },
+          {
+            "time": "2026-07-03T16:00:00+00:00",
+            "value": 22.22222222222222
+          },
+          {
+            "time": "2026-07-03T17:00:00+00:00",
+            "value": 21.666666666666668
+          },
+          {
+            "time": "2026-07-03T20:00:00+00:00",
+            "value": 21.11111111111111
+          },
+          {
+            "time": "2026-07-03T22:00:00+00:00",
+            "value": 21.666666666666668
+          },
+          {
+            "time": "2026-07-03T23:00:00+00:00",
+            "value": 22.22222222222222
+          },
+          {
+            "time": "2026-07-04T02:00:00+00:00",
+            "value": 21.666666666666668
+          },
+          {
+            "time": "2026-07-04T03:00:00+00:00",
+            "value": 21.11111111111111
+          },
+          {
+            "time": "2026-07-04T05:00:00+00:00",
+            "value": 20.555555555555557
+          },
+          {
+            "time": "2026-07-04T06:00:00+00:00",
+            "value": 20
+          },
+          {
+            "time": "2026-07-04T08:00:00+00:00",
+            "value": 19.444444444444443
+          },
+          {
+            "time": "2026-07-04T10:00:00+00:00",
+            "value": 18.88888888888889
+          },
+          {
+            "time": "2026-07-04T11:00:00+00:00",
+            "value": 20.555555555555557
+          },
+          {
+            "time": "2026-07-04T12:00:00+00:00",
+            "value": 21.11111111111111
+          },
+          {
+            "time": "2026-07-04T14:00:00+00:00",
+            "value": 21.666666666666668
+          },
+          {
+            "time": "2026-07-04T15:00:00+00:00",
+            "value": 22.22222222222222
+          },
+          {
+            "time": "2026-07-04T16:00:00+00:00",
+            "value": 21.11111111111111
+          },
+          {
+            "time": "2026-07-04T17:00:00+00:00",
+            "value": 20.555555555555557
+          },
+          {
+            "time": "2026-07-04T18:00:00+00:00",
+            "value": 20
+          },
+          {
+            "time": "2026-07-04T22:00:00+00:00",
+            "value": 20.555555555555557
+          },
+          {
+            "time": "2026-07-04T23:00:00+00:00",
+            "value": 21.11111111111111
+          }
+        ],
+        "summary": {
+          "min": 18.89,
+          "max": 23.33,
+          "avg": 21.21
+        }
+      },
+      "windSpeed": {
+        "available": true,
+        "unit": "wmoUnit:km_h-1",
+        "values": [
+          {
+            "time": "2026-07-03T13:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-03T16:00:00+00:00",
+            "value": 3.704
+          },
+          {
+            "time": "2026-07-03T18:00:00+00:00",
+            "value": 5.556
+          },
+          {
+            "time": "2026-07-03T22:00:00+00:00",
+            "value": 3.704
+          },
+          {
+            "time": "2026-07-04T00:00:00+00:00",
+            "value": 1.852
+          },
+          {
+            "time": "2026-07-04T09:00:00+00:00",
+            "value": 3.704
+          },
+          {
+            "time": "2026-07-04T10:00:00+00:00",
+            "value": 1.852
+          },
+          {
+            "time": "2026-07-04T13:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-04T17:00:00+00:00",
+            "value": 1.852
+          },
+          {
+            "time": "2026-07-04T18:00:00+00:00",
+            "value": 3.704
+          },
+          {
+            "time": "2026-07-04T23:00:00+00:00",
+            "value": 1.852
+          }
+        ],
+        "summary": {
+          "min": 0,
+          "max": 5.56,
+          "avg": 2.53
+        }
+      },
+      "windGust": {
+        "available": true,
+        "unit": "wmoUnit:km_h-1",
+        "values": [
+          {
+            "time": "2026-07-03T00:00:00+00:00",
+            "value": 7.408
+          },
+          {
+            "time": "2026-07-03T02:00:00+00:00",
+            "value": 5.556
+          },
+          {
+            "time": "2026-07-03T03:00:00+00:00",
+            "value": 7.408
+          },
+          {
+            "time": "2026-07-03T04:00:00+00:00",
+            "value": 5.556
+          },
+          {
+            "time": "2026-07-03T09:00:00+00:00",
+            "value": 7.408
+          },
+          {
+            "time": "2026-07-03T11:00:00+00:00",
+            "value": 5.556
+          },
+          {
+            "time": "2026-07-03T16:00:00+00:00",
+            "value": 9.26
+          },
+          {
+            "time": "2026-07-03T17:00:00+00:00",
+            "value": 12.964
+          },
+          {
+            "time": "2026-07-03T18:00:00+00:00",
+            "value": 14.816
+          },
+          {
+            "time": "2026-07-03T20:00:00+00:00",
+            "value": 12.964
+          },
+          {
+            "time": "2026-07-03T23:00:00+00:00",
+            "value": 11.112
+          },
+          {
+            "time": "2026-07-04T00:00:00+00:00",
+            "value": 9.26
+          },
+          {
+            "time": "2026-07-04T01:00:00+00:00",
+            "value": 7.408
+          },
+          {
+            "time": "2026-07-04T05:00:00+00:00",
+            "value": 5.556
+          },
+          {
+            "time": "2026-07-04T06:00:00+00:00",
+            "value": 7.408
+          },
+          {
+            "time": "2026-07-04T13:00:00+00:00",
+            "value": 5.556
+          },
+          {
+            "time": "2026-07-04T16:00:00+00:00",
+            "value": 7.408
+          },
+          {
+            "time": "2026-07-04T18:00:00+00:00",
+            "value": 9.26
+          },
+          {
+            "time": "2026-07-04T23:00:00+00:00",
+            "value": 7.408
+          }
+        ],
+        "summary": {
+          "min": 5.56,
+          "max": 14.82,
+          "avg": 8.38
+        }
+      },
+      "windDirection": {
+        "available": true,
+        "unit": "wmoUnit:degree_(angle)",
+        "values": [
+          {
+            "time": "2026-07-03T00:00:00+00:00",
+            "value": 60
+          },
+          {
+            "time": "2026-07-03T01:00:00+00:00",
+            "value": 50
+          },
+          {
+            "time": "2026-07-03T02:00:00+00:00",
+            "value": 10
+          },
+          {
+            "time": "2026-07-03T03:00:00+00:00",
+            "value": 50
+          },
+          {
+            "time": "2026-07-03T04:00:00+00:00",
+            "value": 10
+          },
+          {
+            "time": "2026-07-03T05:00:00+00:00",
+            "value": 40
+          },
+          {
+            "time": "2026-07-03T06:00:00+00:00",
+            "value": 20
+          },
+          {
+            "time": "2026-07-03T07:00:00+00:00",
+            "value": 40
+          },
+          {
+            "time": "2026-07-03T08:00:00+00:00",
+            "value": 20
+          },
+          {
+            "time": "2026-07-03T10:00:00+00:00",
+            "value": 30
+          },
+          {
+            "time": "2026-07-03T11:00:00+00:00",
+            "value": 20
+          },
+          {
+            "time": "2026-07-03T12:00:00+00:00",
+            "value": 40
+          },
+          {
+            "time": "2026-07-03T13:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-03T16:00:00+00:00",
+            "value": 100
+          },
+          {
+            "time": "2026-07-03T17:00:00+00:00",
+            "value": 120
+          },
+          {
+            "time": "2026-07-03T18:00:00+00:00",
+            "value": 130
+          },
+          {
+            "time": "2026-07-03T19:00:00+00:00",
+            "value": 120
+          },
+          {
+            "time": "2026-07-03T20:00:00+00:00",
+            "value": 130
+          },
+          {
+            "time": "2026-07-03T21:00:00+00:00",
+            "value": 100
+          },
+          {
+            "time": "2026-07-03T23:00:00+00:00",
+            "value": 110
+          },
+          {
+            "time": "2026-07-04T00:00:00+00:00",
+            "value": 320
+          },
+          {
+            "time": "2026-07-04T01:00:00+00:00",
+            "value": 290
+          },
+          {
+            "time": "2026-07-04T02:00:00+00:00",
+            "value": 20
+          },
+          {
+            "time": "2026-07-04T03:00:00+00:00",
+            "value": 10
+          },
+          {
+            "time": "2026-07-04T04:00:00+00:00",
+            "value": 350
+          },
+          {
+            "time": "2026-07-04T05:00:00+00:00",
+            "value": 340
+          },
+          {
+            "time": "2026-07-04T07:00:00+00:00",
+            "value": 350
+          },
+          {
+            "time": "2026-07-04T13:00:00+00:00",
+            "value": 330
+          },
+          {
+            "time": "2026-07-04T15:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-04T16:00:00+00:00",
+            "value": 180
+          },
+          {
+            "time": "2026-07-04T20:00:00+00:00",
+            "value": 190
+          },
+          {
+            "time": "2026-07-04T22:00:00+00:00",
+            "value": 210
+          },
+          {
+            "time": "2026-07-04T23:00:00+00:00",
+            "value": 250
+          }
+        ],
+        "summary": {
+          "min": 0,
+          "max": 350,
+          "avg": 122.42
+        }
+      }
+    }
+  }
+}

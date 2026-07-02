@@ -1,0 +1,105 @@
+{
+  "title": "Georgia Trout Fishing",
+  "rivers": [
+    {
+      "river_key": "chattahoochee",
+      "display_name": "Chattahoochee River",
+      "rating": {
+        "score": 7.0,
+        "label": "Good but technical"
+      },
+      "best_window": "day1 morning",
+      "stocking": {
+        "stocked": true,
+        "last_stocked": "6/22/2026",
+        "matched_waterbodies": [
+          {
+            "date": "6/22/2026",
+            "county": "Forsyth/Gwinnett",
+            "waterbody": "Lanier Tailwater"
+          }
+        ]
+      }
+    },
+    {
+      "river_key": "toccoa",
+      "display_name": "Toccoa River",
+      "rating": {
+        "score": 5.0,
+        "label": "Fair"
+      },
+      "best_window": "day2 morning",
+      "stocking": {
+        "stocked": true,
+        "last_stocked": "6/25/2026",
+        "matched_waterbodies": [
+          {
+            "date": "6/24/2026",
+            "county": "Fannin",
+            "waterbody": "Blueridge TW"
+          },
+          {
+            "date": "6/25/2026",
+            "county": "Fannin",
+            "waterbody": "Toccoa River (F)"
+          }
+        ]
+      }
+    },
+    {
+      "river_key": "soque",
+      "display_name": "Soque River",
+      "rating": {
+        "score": 5.0,
+        "label": "Fair"
+      },
+      "best_window": "day1 morning",
+      "stocking": {
+        "stocked": true,
+        "last_stocked": "6/24/2026",
+        "matched_waterbodies": [
+          {
+            "date": "6/24/2026",
+            "county": "Habersham",
+            "waterbody": "Soque River"
+          }
+        ]
+      }
+    },
+    {
+      "river_key": "etowah",
+      "display_name": "Etowah River",
+      "rating": {
+        "score": 1.0,
+        "label": "Tough"
+      },
+      "best_window": "day1 morning",
+      "stocking": {
+        "stocked": true,
+        "last_stocked": "6/24/2026",
+        "matched_waterbodies": [
+          {
+            "date": "6/24/2026",
+            "county": "Lumpkin",
+            "waterbody": "Etowah River"
+          }
+        ]
+      }
+    },
+    {
+      "river_key": "nantahala",
+      "display_name": "Nantahala River",
+      "rating": {
+        "score": 5.0,
+        "label": "Fair"
+      },
+      "best_window": "day1 morning",
+      "stocking": {
+        "stocked": null,
+        "last_stocked": null,
+        "matched_waterbodies": [],
+        "note": "NC stocking data not integrated yet"
+      }
+    }
+  ]
+}
