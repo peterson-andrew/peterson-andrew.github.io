@@ -30,33 +30,61 @@ You are writing a 48-hour trout fishing outlook for GeorgiaTroutFishing.com.
 
 Use only the provided data.
 
-Primary rule:
-- Use angler_analysis as the primary fishing interpretation.
-- Treat angler_analysis as the expert angler's conclusions.
-- Do not override angler_analysis unless required data is clearly missing.
-- Use weather_summary, forecast_breakdown, usgs_summary, and stocking only as supporting evidence.
-
-Rules:
-- Do not invent data.
-- If data is missing, say it is unavailable.
-- Do not make wading safety claims.
-- Recommend 3 to 5 flies from the available fly inventory only.
-- Prefer flies listed in angler_analysis.recommended_fly_keys.
-- Use forecast_breakdown to compare day 1 vs day 2 and morning vs afternoon vs evening.
-- Mention current river conditions from usgs_summary when available.
-- Mention stocking if stocking data is available.
-- Keep the report useful, concise, and SEO-friendly.
+STRICT OUTPUT RULES:
 - Use plain HTML only.
 - Do not include markdown.
+- Do not add, remove, or rename sections.
 - Do not include the disclaimer. It will be appended separately.
+- Do not make wading safety claims.
+- Do not invent data.
 
-Required sections:
+DETERMINISTIC FISHING RULES:
+- Use angler_analysis.quality_score exactly.
+- Use angler_analysis.quality_label exactly.
+- Use angler_analysis.best_window exactly.
+- Use angler_analysis.recommended_fly_keys as the fly list.
+- Use angler_analysis.fly_reasoning to explain each fly.
+- Use angler_analysis.caution_notes if present.
+- Treat angler_analysis as the expert fishing interpretation.
+- Use weather_summary, forecast_breakdown, usgs_summary, and stocking only as supporting evidence.
+
+OUTPUT EXACTLY THIS STRUCTURE:
+
 <h2>[River Name] 48-Hour Fishing Outlook</h2>
-<h3>Quick Read</h3>
-<h3>Best Windows</h3>
-<h3>Conditions Breakdown</h3>
-<h3>Recommended Flies</h3>
-<h3>What This Means</h3>
+
+<section>
+  <h3>Quick Read</h3>
+  <p><strong>Rating:</strong> [quality_label] ([quality_score]/10).</p>
+  <p>[2 concise sentences summarizing why.]</p>
+</section>
+
+<section>
+  <h3>Best Window</h3>
+  <p><strong>Best window:</strong> [angler_analysis.best_window].</p>
+  <p>[1-2 sentences explaining why from forecast_breakdown.]</p>
+</section>
+
+<section>
+  <h3>Current River Conditions</h3>
+  <p>[Mention water temp, flow, gage height, turbidity if available.]</p>
+</section>
+
+<section>
+  <h3>Weather Setup</h3>
+  <p>[Mention sky cover, pressure, pressure trend, wind/rain if available.]</p>
+</section>
+
+<section>
+  <h3>Recommended Flies</h3>
+  <ul>
+    <li><strong>[Fly Name]</strong> — [fly_reasoning]</li>
+  </ul>
+</section>
+
+<section>
+  <h3>What This Means</h3>
+  <p>[Use expected_trout_behavior, presentation_style, positioning, tactics, and caution_notes.]</p>
+</section>
 
 Context JSON:
 {json.dumps(context, indent=2)}
@@ -68,7 +96,6 @@ def generate_report_html(client: OpenAI, context: dict) -> str:
         model="gpt-4.1-mini",
         input=build_prompt(context),
     )
-
     return response.output_text
 
 
@@ -90,9 +117,7 @@ def save_report(river_key: str, html: str) -> None:
 
 
 def main() -> None:
-    client = OpenAI(
-        api_key=os.environ["OPENAI_API_KEY"]
-    )
+    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
     for river_key in RIVERS:
         context_path = f"data/llm_context/{river_key}.json"
@@ -102,16 +127,8 @@ def main() -> None:
             continue
 
         context = load_json(context_path)
-
-        html = generate_report_html(
-            client=client,
-            context=context,
-        )
-
-        save_report(
-            river_key=river_key,
-            html=html,
-        )
+        html = generate_report_html(client=client, context=context)
+        save_report(river_key=river_key, html=html)
 
         print(f"Wrote 48-hour outlook for {river_key}")
 
