@@ -4,6 +4,8 @@ from typing import Any, Dict, List, Optional
 from troutintel.config import load_river_config
 from troutintel.io import load_json, save_json
 
+from troutintel.transforms.fishing_analysis import build_angler_analysis
+
 
 RIVERS = [
     "chattahoochee",
