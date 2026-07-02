@@ -270,6 +270,7 @@ def build_context_for_river(
     return {
         "river_key": river_key,
         "river": river_config,
+        "usgs_summary": usgs_summary,
         "weather_summary": weather_summary,
         "forecast_breakdown": forecast_breakdown,
         "stocking": stocking.get(river_key),
