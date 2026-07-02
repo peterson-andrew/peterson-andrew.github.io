@@ -332,26 +332,33 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
+    "quality_label": "Fair",
+    "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
       "positioning": [],
-      "tactics": []
+      "tactics": [],
+      "score_adjustment": 0
     },
     "light_pressure_read": {
       "status": "unknown",
       "read": "Light and pressure read is unavailable.",
       "positioning": [],
-      "tactics": []
+      "tactics": [],
+      "score_adjustment": 0
     },
     "stocking_read": {
       "status": "not_recently_stocked",
       "read": "No recent stocking signal is available.",
-      "fly_bias": []
+      "fly_bias": [],
+      "score_adjustment": 0
     },
     "likely_trout_positioning": [],
     "recommended_tactics": [],
     "recommended_fly_keys": [],
+    "fly_reasoning": {},
+    "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
       "Light and pressure read is unavailable.",

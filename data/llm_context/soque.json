@@ -344,15 +344,18 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
+    "quality_label": "Fair",
+    "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
       "positioning": [],
-      "tactics": []
+      "tactics": [],
+      "score_adjustment": 0
     },
     "light_pressure_read": {
       "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover may make trout more cautious and cover-oriented.",
+      "read": "High pressure and low cloud cover should make this fishable but technical.",
       "positioning": [
         "shade",
         "deeper runs",
@@ -363,16 +366,18 @@
         "smaller natural flies",
         "careful drifts",
         "less aggressive presentations"
-      ]
+      ],
+      "score_adjustment": -1
     },
     "stocking_read": {
       "status": "recently_stocked",
-      "read": "Recent stocking supports using simple attractors, eggs, and worm patterns.",
+      "read": "Recent stocking supports eggs, worms, and attractor nymphs.",
       "fly_bias": [
         "egg_pattern",
         "squirmy_worm",
         "duracell"
-      ]
+      ],
+      "score_adjustment": 1
     },
     "likely_trout_positioning": [
       "shade",
@@ -392,10 +397,20 @@
       "zebra_midge",
       "pheasant_tail"
     ],
+    "fly_reasoning": {
+      "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
+      "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
+      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
+    },
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
     "reasoning": [
       "Water temperature is unavailable.",
-      "High pressure and low cloud cover may make trout more cautious and cover-oriented.",
-      "Recent stocking supports using simple attractors, eggs, and worm patterns."
+      "High pressure and low cloud cover should make this fishable but technical.",
+      "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
   }
 }
