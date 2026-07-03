@@ -170,11 +170,11 @@
       }
     ],
     "generated_text": {
-      "quick_read": "Fishing on the Toccoa River is fair with technical conditions due to high pressure and light cloud cover. Recent stocking improves chances using attractor flies and eggs.",
-      "best_window": "The morning of day 2 is best due to moderate sky cover, high humidity, low rain chances, and calm winds offering trout comfort and improved feeding activity.",
-      "current_conditions": "Current USGS data shows a flow of 236 cfs and gage height of 1.23 ft. Water temperature and turbidity data are unavailable.",
-      "weather_setup": "Pressure is high at 30.19 inHg with stable trend. Sky cover averages 27.64%, wind is light at 1.5 mph average, and rain probability is low with up to 0.17 inches expected later.",
-      "what_this_means": "Trout will hold in shade, deeper runs, undercut banks, and near structure to stay comfortable under bright, high-pressure skies. Use smaller natural flies and careful drifts with stocked-trout attractors like egg pattern, squirmy worm, and duracell for best results. Exercise caution as fish may be less aggressive and cover-oriented."
+      "quick_read": "Trout fishing conditions on the Toccoa River are fair with recent stocking boosting confidence in eggs and attractor patterns. High pressure and low cloud cover create technical fishing requiring careful presentation.",
+      "best_window": "Day 2 morning is best due to moderate sky cover and low wind gusts, supporting trout activity in preferred shaded and structured areas under high pressure.",
+      "current_conditions": "Current flow is 236 cfs with a gage height of 1.23 ft. Water temperature and turbidity data are unavailable.",
+      "weather_setup": "Skies average 27.64% cover with high pressure at 30.19 inHg and steady trend. Light winds average 1.5 mph and rain chance is low at 29% with minimal expected accumulation.",
+      "what_this_means": "Trout will hold near shade, deeper runs, undercut banks, and structure due to bright and high-pressure conditions. Use smaller natural flies and stocked-trout attractors like egg patterns, squirmy worms, and Duracell for careful, less aggressive presentations. Caution that bright conditions make trout more cover-oriented and less forgiving."
     }
   },
   "llm_context": {
@@ -635,7 +635,7 @@
   "weather": {
     "river_key": "toccoa",
     "river_name": "Toccoa River",
-    "generated_at_utc": "2026-07-02T23:49:27.519493+00:00",
+    "generated_at_utc": "2026-07-03T00:24:12.327688+00:00",
     "current": {
       "latitude": 34.882,
       "longitude": -84.28,
@@ -646,11 +646,11 @@
       "wind_direction": "",
       "short_forecast": "Chance Showers And Thunderstorms",
       "pressure_station": "KDZJ",
-      "pressure_mb": 1022.4,
-      "pressure_inhg": 30.19
+      "pressure_mb": 1022.7,
+      "pressure_inhg": 30.2
     },
     "pressure_trend": {
-      "current_inhg": 30.19,
+      "current_inhg": 30.2,
       "previous_inhg": null,
       "change_since_last_run": null,
       "trend": "unknown"
@@ -660,10 +660,6 @@
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-03T00:00:00+00:00",
-            "value": 55
-          },
           {
             "time": "2026-07-03T01:00:00+00:00",
             "value": 39
@@ -839,22 +835,22 @@
           {
             "time": "2026-07-04T23:00:00+00:00",
             "value": 29
+          },
+          {
+            "time": "2026-07-05T00:00:00+00:00",
+            "value": 30
           }
         ],
         "summary": {
           "min": 7,
-          "max": 55,
-          "avg": 27.64
+          "max": 49,
+          "avg": 27.09
         }
       },
       "relativeHumidity": {
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-03T00:00:00+00:00",
-            "value": 67
-          },
           {
             "time": "2026-07-03T01:00:00+00:00",
             "value": 74
@@ -1018,22 +1014,22 @@
           {
             "time": "2026-07-04T23:00:00+00:00",
             "value": 56
+          },
+          {
+            "time": "2026-07-05T00:00:00+00:00",
+            "value": 62
           }
         ],
         "summary": {
           "min": 44,
           "max": 89,
-          "avg": 67.4
+          "avg": 67.29
         }
       },
       "probabilityOfPrecipitation": {
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-03T00:00:00+00:00",
-            "value": 9
-          },
           {
             "time": "2026-07-03T01:00:00+00:00",
             "value": 5
@@ -1113,6 +1109,10 @@
           {
             "time": "2026-07-04T18:00:00+00:00",
             "value": 23
+          },
+          {
+            "time": "2026-07-05T00:00:00+00:00",
+            "value": 9
           }
         ],
         "summary": {
@@ -1125,10 +1125,6 @@
         "available": true,
         "unit": "wmoUnit:mm",
         "values": [
-          {
-            "time": "2026-07-03T00:00:00+00:00",
-            "value": 0
-          },
           {
             "time": "2026-07-03T06:00:00+00:00",
             "value": 0
@@ -1156,6 +1152,10 @@
           {
             "time": "2026-07-04T18:00:00+00:00",
             "value": 0
+          },
+          {
+            "time": "2026-07-05T00:00:00+00:00",
+            "value": 0
           }
         ],
         "summary": {
@@ -1168,10 +1168,6 @@
         "available": true,
         "unit": "wmoUnit:degC",
         "values": [
-          {
-            "time": "2026-07-03T00:00:00+00:00",
-            "value": 29.444444444444443
-          },
           {
             "time": "2026-07-03T01:00:00+00:00",
             "value": 27.22222222222222
@@ -1315,6 +1311,10 @@
           {
             "time": "2026-07-04T23:00:00+00:00",
             "value": 30.555555555555557
+          },
+          {
+            "time": "2026-07-05T00:00:00+00:00",
+            "value": 29.444444444444443
           }
         ],
         "summary": {
@@ -1327,10 +1327,6 @@
         "available": true,
         "unit": "wmoUnit:degC",
         "values": [
-          {
-            "time": "2026-07-03T00:00:00+00:00",
-            "value": 22.77777777777778
-          },
           {
             "time": "2026-07-03T01:00:00+00:00",
             "value": 22.22222222222222
@@ -1459,7 +1455,7 @@
         "summary": {
           "min": 18.89,
           "max": 22.78,
-          "avg": 21.04
+          "avg": 20.99
         }
       },
       "windSpeed": {
@@ -1517,10 +1513,6 @@
         "available": true,
         "unit": "wmoUnit:km_h-1",
         "values": [
-          {
-            "time": "2026-07-03T00:00:00+00:00",
-            "value": 7.408
-          },
           {
             "time": "2026-07-03T01:00:00+00:00",
             "value": 5.556
@@ -1593,17 +1585,13 @@
         "summary": {
           "min": 1.85,
           "max": 12.96,
-          "avg": 6.58
+          "avg": 6.54
         }
       },
       "windDirection": {
         "available": true,
         "unit": "wmoUnit:degree_(angle)",
         "values": [
-          {
-            "time": "2026-07-03T00:00:00+00:00",
-            "value": 0
-          },
           {
             "time": "2026-07-03T16:00:00+00:00",
             "value": 90
@@ -1651,6 +1639,10 @@
           {
             "time": "2026-07-04T21:00:00+00:00",
             "value": 230
+          },
+          {
+            "time": "2026-07-05T00:00:00+00:00",
+            "value": 0
           }
         ],
         "summary": {
