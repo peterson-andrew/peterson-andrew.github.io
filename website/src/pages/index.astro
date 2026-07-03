@@ -1,1 +1,29 @@
+---
+import homepage from "../../../site_data/homepage.json";
+---
 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Georgia Trout Fishing</title>
+  </head>
+
+  <body>
+    <h1>{homepage.title}</h1>
+
+    <h2>Current River Conditions</h2>
+
+    <ul>
+      {homepage.rivers.map((river) => (
+        <li>
+          <strong>{river.display_name}</strong>
+          {" — "}
+          {river.rating?.label || "Rating unavailable"}
+          {" "}
+          {river.rating?.score ? `(${river.rating.score}/10)` : ""}
+        </li>
+      ))}
+    </ul>
+  </body>
+</html>
