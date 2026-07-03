@@ -3,8 +3,8 @@
   "river_name": "Soque River",
   "title": "Soque River 48-Hour Fishing Outlook",
   "rating": {
-    "score": 5.0,
-    "label": "Fair"
+    "score": 6.0,
+    "label": "Fair to good"
   },
   "best_window": "day1 morning",
   "current_conditions": {
@@ -16,7 +16,7 @@
     "observed_at": "2026-07-02T20:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.11,
+    "pressure_inhg": null,
     "air_temp": {
       "current_f": 93,
       "low_f": 72.0,
@@ -24,16 +24,16 @@
     },
     "sky_cover": {
       "min": 3,
-      "max": 49,
-      "avg": 20.91
+      "max": 43,
+      "avg": 20.36
     },
     "humidity": {
       "min": 36,
       "max": 86,
-      "avg": 62.86
+      "avg": 62.73
     },
     "rain": {
-      "max_probability_percent": 14,
+      "max_probability_percent": 10,
       "expected_inches": 0.0
     },
     "wind": {
@@ -43,8 +43,8 @@
     }
   },
   "angler_analysis": {
-    "quality_score": 5.0,
-    "quality_label": "Fair",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
     "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
@@ -54,20 +54,11 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover make this fishable but technical.",
-      "positioning": [
-        "shade",
-        "deeper runs",
-        "undercut banks",
-        "structure"
-      ],
-      "tactics": [
-        "smaller natural flies",
-        "careful drifts",
-        "less aggressive presentations"
-      ],
-      "score_adjustment": -1.0
+      "status": "unknown",
+      "read": "Light and pressure read is unavailable.",
+      "positioning": [],
+      "tactics": [],
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -86,37 +77,22 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [
-      "shade",
-      "deeper runs",
-      "undercut banks",
-      "structure"
-    ],
-    "recommended_tactics": [
-      "smaller natural flies",
-      "careful drifts",
-      "less aggressive presentations"
-    ],
+    "likely_trout_positioning": [],
+    "recommended_tactics": [],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell",
-      "zebra_midge",
-      "pheasant_tail"
+      "duracell"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
-      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
-      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
     },
-    "caution_notes": [
-      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
-    ],
+    "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "High pressure and low cloud cover make this fishable but technical.",
+      "Light and pressure read is unavailable.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
@@ -136,23 +112,13 @@
       "key": "duracell",
       "name": "Duracell",
       "reason": "A strong attractor nymph when fish will move a little but are not fully aggressive."
-    },
-    {
-      "key": "zebra_midge",
-      "name": "Zebra Midge",
-      "reason": "Small and natural for clear, pressured, technical conditions."
-    },
-    {
-      "key": "pheasant_tail",
-      "name": "Pheasant Tail",
-      "reason": "A reliable natural nymph when trout are feeding but cautious."
     }
   ],
   "generated_text": {
-    "quick_read": "The Soque River currently offers fair trout fishing with stable flow and moderate gage height. Recent stocking enhances trout activity despite unavailable water temperature data.",
-    "best_window": "The best fishing window is day 1 morning due to low winds, high humidity, minimal sky cover, and nearly no rain, creating stable conditions for trout to feed near shade and structure.",
-    "current_conditions": "Flow is 64 cfs, gage height is 3.55 ft, water temperature is unavailable, and turbidity data is not available.",
-    "weather_setup": "Currently, the sky cover averages 21% with high pressure at 30.11 inHg and an east wind averaging 2.2 mph. Rain probability is low with no expected rainfall.",
-    "what_this_means": "Trout are likely to hold in deeper runs, shade, undercut banks, and near structure due to bright, high-pressure conditions. Use smaller, natural flies and attractors like egg pattern, squirmy worm, and duracell for careful, less aggressive presentations. Exercise caution as trout may be cover-oriented and less forgiving in these conditions."
+    "quick_read": "Fishing conditions on the Soque River are fair to good with recent stocking enhancing opportunities. Expect trout to focus on comfortable feeding lanes near cover as light increases.",
+    "best_window": "The best fishing window is day 1 morning due to low wind speeds, moderate sky cover, and cooler morning temperatures providing favorable trout activity.",
+    "current_conditions": "Current river flow is 64.0 cfs and gage height is 3.55 ft. Water temperature and turbidity data are unavailable.",
+    "weather_setup": "Sky cover averages about 20% with east winds around 2.2 mph and max gusts near 11.5 mph. Rain chances are low at 10%, and pressure data is unavailable.",
+    "what_this_means": "Trout are likely near feeding lanes close to cover under fair conditions. Use clean drifts with smaller natural flies and attractors matching stocked trout preferences. Recommended flies include Egg Pattern, Squirmy Worm, and Duracell. Caution: water temperature and pressure data are missing, so adapt presentations as needed."
   }
 }
