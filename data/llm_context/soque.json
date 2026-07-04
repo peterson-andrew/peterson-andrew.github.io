@@ -28,78 +28,52 @@
     "observed_at": "2026-07-04T08:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.1,
+    "pressure_inhg": 30.03,
     "air_temp": {
-      "current_f": 90,
+      "current_f": 96,
       "low_f": 71.0,
       "high_f": 95.0
     },
     "sky_cover": {
-      "min": 7,
-      "max": 75,
-      "avg": 30.02
+      "min": 11,
+      "max": 63,
+      "avg": 34.69
     },
     "humidity": {
-      "min": 41,
+      "min": 44,
       "max": 94,
-      "avg": 68.13
+      "avg": 69.36
     },
     "rain": {
-      "max_probability_percent": 56,
-      "expected_inches": 0.03
+      "max_probability_percent": 43,
+      "expected_inches": 0.04
     },
     "wind": {
-      "avg_mph": 2.5,
-      "max_gust_mph": 9.2,
-      "predominant_direction": "WSW"
+      "avg_mph": 2.8,
+      "max_gust_mph": 12.7,
+      "predominant_direction": "S"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-07-04",
       "morning": {},
-      "afternoon": {
-        "sky_cover": {
-          "min": 29,
-          "max": 29,
-          "avg": 29.0
-        },
-        "humidity": {
-          "min": 48,
-          "max": 48,
-          "avg": 48.0
-        },
-        "air_temp_f": {
-          "min": 93.0,
-          "max": 93.0,
-          "avg": 93.0
-        },
-        "wind_gust_mph": {
-          "min": 5.8,
-          "max": 5.8,
-          "avg": 5.8
-        }
-      },
+      "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 16,
-          "max": 21,
-          "avg": 18.5
+          "min": 34,
+          "max": 34,
+          "avg": 34.0
         },
         "humidity": {
-          "min": 41,
-          "max": 46,
-          "avg": 42.8
+          "min": 44,
+          "max": 49,
+          "avg": 46.0
         },
         "rain_probability": {
-          "min": 5,
-          "max": 13,
-          "avg": 9.67
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "min": 17,
+          "max": 17,
+          "avg": 17.0
         },
         "air_temp_f": {
           "min": 93.0,
@@ -108,13 +82,8 @@
         },
         "wind_mph": {
           "min": 2.3,
-          "max": 3.5,
-          "avg": 2.9
-        },
-        "wind_gust_mph": {
-          "min": 6.9,
-          "max": 6.9,
-          "avg": 6.9
+          "max": 2.3,
+          "avg": 2.3
         }
       }
     },
@@ -122,19 +91,19 @@
       "date": "2026-07-04",
       "morning": {
         "sky_cover": {
-          "min": 8,
-          "max": 17,
-          "avg": 11.57
+          "min": 22,
+          "max": 41,
+          "avg": 29.43
         },
         "humidity": {
           "min": 81,
           "max": 85,
-          "avg": 82.75
+          "avg": 83.2
         },
         "rain_probability": {
-          "min": 1,
-          "max": 2,
-          "avg": 1.67
+          "min": 4,
+          "max": 4,
+          "avg": 4.0
         },
         "rain_inches": {
           "min": 0.0,
@@ -142,36 +111,36 @@
           "avg": 0.0
         },
         "air_temp_f": {
-          "min": 72.0,
+          "min": 73.0,
           "max": 76.0,
-          "avg": 74.0
+          "avg": 74.5
         },
         "wind_mph": {
           "min": 1.2,
-          "max": 2.3,
-          "avg": 1.75
+          "max": 1.2,
+          "avg": 1.2
         },
         "wind_gust_mph": {
           "min": 4.6,
-          "max": 5.8,
-          "avg": 5.2
+          "max": 4.6,
+          "avg": 4.6
         }
       },
       "afternoon": {
         "sky_cover": {
-          "min": 7,
-          "max": 45,
-          "avg": 19.67
+          "min": 16,
+          "max": 32,
+          "avg": 22.33
         },
         "humidity": {
           "min": 49,
-          "max": 84,
-          "avg": 63.33
+          "max": 83,
+          "avg": 62.0
         },
         "rain_probability": {
-          "min": 1,
-          "max": 9,
-          "avg": 3.75
+          "min": 2,
+          "max": 8,
+          "avg": 4.6
         },
         "rain_inches": {
           "min": 0.0,
@@ -180,8 +149,8 @@
         },
         "air_temp_f": {
           "min": 75.0,
-          "max": 92.0,
-          "avg": 85.33
+          "max": 91.0,
+          "avg": 84.83
         },
         "wind_mph": {
           "min": 2.3,
@@ -189,26 +158,26 @@
           "avg": 3.47
         },
         "wind_gust_mph": {
-          "min": 3.5,
+          "min": 6.9,
           "max": 8.1,
-          "avg": 5.78
+          "avg": 7.5
         }
       },
       "evening": {
         "sky_cover": {
-          "min": 52,
-          "max": 71,
-          "avg": 61.83
+          "min": 54,
+          "max": 63,
+          "avg": 57.83
         },
         "humidity": {
-          "min": 52,
-          "max": 64,
-          "avg": 57.0
+          "min": 47,
+          "max": 62,
+          "avg": 54.4
         },
         "rain_probability": {
-          "min": 28,
-          "max": 56,
-          "avg": 42.0
+          "min": 26,
+          "max": 40,
+          "avg": 32.83
         },
         "rain_inches": {
           "min": 0.03,
@@ -217,8 +186,8 @@
         },
         "air_temp_f": {
           "min": 86.0,
-          "max": 91.0,
-          "avg": 88.75
+          "max": 92.0,
+          "avg": 89.2
         },
         "wind_mph": {
           "min": 3.5,
@@ -302,7 +271,7 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 4.0,
+    "quality_score": 5.0,
     "quality_label": "Fair",
     "best_window": "day2 morning",
     "water_temp_read": {
@@ -313,20 +282,17 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
       "positioning": [
-        "shade",
-        "deeper runs",
-        "undercut banks",
+        "runs",
+        "seams",
         "structure"
       ],
       "tactics": [
-        "smaller natural flies",
-        "careful drifts",
-        "less aggressive presentations"
+        "balanced nymph approach"
       ],
-      "score_adjustment": -1.0
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -342,32 +308,19 @@
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "shade",
-      "deeper runs",
-      "undercut banks",
+      "runs",
+      "seams",
       "structure"
     ],
     "recommended_tactics": [
-      "smaller natural flies",
-      "careful drifts",
-      "less aggressive presentations"
+      "balanced nymph approach"
     ],
-    "recommended_fly_keys": [
-      "zebra_midge",
-      "pheasant_tail",
-      "haresear"
-    ],
-    "fly_reasoning": {
-      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
-      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious.",
-      "haresear": "General-purpose natural nymph for seams and runs."
-    },
-    "caution_notes": [
-      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
-    ],
+    "recommended_fly_keys": [],
+    "fly_reasoning": {},
+    "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "High pressure and low cloud cover make this fishable but technical.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
