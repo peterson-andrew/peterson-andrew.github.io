@@ -28,72 +28,35 @@
     "observed_at": "2026-07-03T09:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.1,
+    "pressure_inhg": 30.12,
     "air_temp": {
-      "current_f": 95,
+      "current_f": 83,
       "low_f": 72.0,
       "high_f": 94.0
     },
     "sky_cover": {
       "min": 0,
-      "max": 62,
-      "avg": 22.24
+      "max": 65,
+      "avg": 23.53
     },
     "humidity": {
       "min": 41,
       "max": 85,
-      "avg": 64.83
+      "avg": 65.32
     },
     "rain": {
-      "max_probability_percent": 43,
+      "max_probability_percent": 48,
       "expected_inches": 0.05
     },
     "wind": {
-      "avg_mph": 2.0,
+      "avg_mph": 2.2,
       "max_gust_mph": 9.2,
       "predominant_direction": "SE"
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-07-03",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 33,
-          "max": 54,
-          "avg": 42.0
-        },
-        "humidity": {
-          "min": 48,
-          "max": 57,
-          "avg": 52.0
-        },
-        "rain_probability": {
-          "min": 10,
-          "max": 20,
-          "avg": 16.0
-        },
-        "air_temp_f": {
-          "min": 91.0,
-          "max": 94.0,
-          "avg": 92.67
-        },
-        "wind_mph": {
-          "min": 2.3,
-          "max": 2.3,
-          "avg": 2.3
-        },
-        "wind_gust_mph": {
-          "min": 6.9,
-          "max": 9.2,
-          "avg": 8.05
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "morning": {
         "sky_cover": {
           "min": 17,
@@ -195,6 +158,105 @@
           "avg": 7.3
         }
       }
+    },
+    "day2": {
+      "date": "2026-07-04",
+      "morning": {
+        "sky_cover": {
+          "min": 3,
+          "max": 12,
+          "avg": 7.5
+        },
+        "humidity": {
+          "min": 79,
+          "max": 83,
+          "avg": 81.33
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 72.0,
+          "max": 76.0,
+          "avg": 74.0
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 0,
+          "max": 28,
+          "avg": 13.67
+        },
+        "humidity": {
+          "min": 50,
+          "max": 82,
+          "avg": 63.17
+        },
+        "rain_probability": {
+          "min": 1,
+          "max": 9,
+          "avg": 4.75
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 74.0,
+          "max": 90.0,
+          "avg": 83.83
+        },
+        "wind_mph": {
+          "min": 0.0,
+          "max": 4.6,
+          "avg": 2.6
+        },
+        "wind_gust_mph": {
+          "min": 3.5,
+          "max": 8.1,
+          "avg": 5.78
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 53,
+          "max": 65,
+          "avg": 59.67
+        },
+        "humidity": {
+          "min": 48,
+          "max": 63,
+          "avg": 53.5
+        },
+        "rain_probability": {
+          "min": 29,
+          "max": 48,
+          "avg": 39.5
+        },
+        "rain_inches": {
+          "min": 0.05,
+          "max": 0.05,
+          "avg": 0.05
+        },
+        "air_temp_f": {
+          "min": 86.0,
+          "max": 91.0,
+          "avg": 88.8
+        },
+        "wind_mph": {
+          "min": 2.3,
+          "max": 3.5,
+          "avg": 2.9
+        },
+        "wind_gust_mph": {
+          "min": 6.9,
+          "max": 9.2,
+          "avg": 8.07
+        }
+      }
     }
   },
   "stocking": {
@@ -274,7 +336,7 @@
   "angler_analysis": {
     "quality_score": 5.0,
     "quality_label": "Fair",
-    "best_window": "day1 evening",
+    "best_window": "day2 evening",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
