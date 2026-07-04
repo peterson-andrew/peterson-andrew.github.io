@@ -28,21 +28,21 @@
     "observed_at": "2026-07-03T09:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.1,
+    "pressure_inhg": 30.08,
     "air_temp": {
-      "current_f": 74,
-      "low_f": 72.0,
+      "current_f": 73,
+      "low_f": 71.0,
       "high_f": 94.0
     },
     "sky_cover": {
       "min": 7,
       "max": 75,
-      "avg": 30.52
+      "avg": 29.89
     },
     "humidity": {
       "min": 42,
-      "max": 93,
-      "avg": 68.67
+      "max": 94,
+      "avg": 67.78
     },
     "rain": {
       "max_probability_percent": 56,
@@ -59,24 +59,19 @@
       "date": "2026-07-04",
       "morning": {
         "sky_cover": {
-          "min": 29,
-          "max": 50,
-          "avg": 41.0
+          "min": 39,
+          "max": 42,
+          "avg": 40.5
         },
         "humidity": {
           "min": 86,
-          "max": 92,
-          "avg": 88.2
+          "max": 87,
+          "avg": 86.5
         },
         "rain_probability": {
-          "min": 0,
+          "min": 1,
           "max": 1,
-          "avg": 0.5
-        },
-        "air_temp_f": {
-          "min": 73.0,
-          "max": 73.0,
-          "avg": 73.0
+          "avg": 1.0
         }
       },
       "afternoon": {
@@ -344,8 +339,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 5.0,
-    "quality_label": "Fair",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
     "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
@@ -355,20 +350,17 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
       "positioning": [
-        "shade",
-        "deeper runs",
-        "undercut banks",
+        "runs",
+        "seams",
         "structure"
       ],
       "tactics": [
-        "smaller natural flies",
-        "careful drifts",
-        "less aggressive presentations"
+        "balanced nymph approach"
       ],
-      "score_adjustment": -1.0
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -388,36 +380,27 @@
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "shade",
-      "deeper runs",
-      "undercut banks",
+      "runs",
+      "seams",
       "structure"
     ],
     "recommended_tactics": [
-      "smaller natural flies",
-      "careful drifts",
-      "less aggressive presentations"
+      "balanced nymph approach"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell",
-      "zebra_midge",
-      "pheasant_tail"
+      "duracell"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
-      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
-      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
     },
-    "caution_notes": [
-      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
-    ],
+    "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "High pressure and low cloud cover make this fishable but technical.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
