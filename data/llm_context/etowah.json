@@ -21,28 +21,28 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 78.1,
-    "flow_cfs": 103.0,
-    "gage_height_ft": 3.73,
+    "water_temp_f": 77.2,
+    "flow_cfs": 97.7,
+    "gage_height_ft": 3.69,
     "turbidity": 8.1,
-    "observed_at": "2026-07-03T09:00:00.000-04:00"
+    "observed_at": "2026-07-04T08:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.09,
+    "pressure_inhg": 30.12,
     "air_temp": {
-      "current_f": 73,
+      "current_f": 74,
       "low_f": 71.0,
       "high_f": 92.0
     },
     "sky_cover": {
       "min": 16,
       "max": 59,
-      "avg": 31.09
+      "avg": 31.27
     },
     "humidity": {
       "min": 48,
-      "max": 93,
-      "avg": 69.7
+      "max": 94,
+      "avg": 70.79
     },
     "rain": {
       "max_probability_percent": 51,
@@ -57,23 +57,12 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-07-04",
-      "morning": {
-        "sky_cover": {
-          "min": 25,
-          "max": 31,
-          "avg": 28.0
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 1.2,
-          "avg": 1.2
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 24,
+          "min": 25,
           "max": 29,
-          "avg": 26.0
+          "avg": 26.67
         },
         "humidity": {
           "min": 54,
@@ -85,15 +74,10 @@
           "max": 6,
           "avg": 4.33
         },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
         "air_temp_f": {
-          "min": 74.0,
+          "min": 78.0,
           "max": 91.0,
-          "avg": 83.33
+          "avg": 85.2
         },
         "wind_mph": {
           "min": 0.0,
@@ -324,7 +308,7 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 2.0,
+    "quality_score": 1.0,
     "quality_label": "Tough",
     "best_window": "day2 morning",
     "water_temp_read": {
@@ -340,17 +324,20 @@
       "score_adjustment": -4.0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
       "positioning": [
-        "runs",
-        "seams",
+        "shade",
+        "deeper runs",
+        "undercut banks",
         "structure"
       ],
       "tactics": [
-        "balanced nymph approach"
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -372,30 +359,38 @@
     "likely_trout_positioning": [
       "cold-water refuge",
       "oxygenated water",
-      "runs",
-      "seams",
+      "shade",
+      "deeper runs",
+      "undercut banks",
       "structure"
     ],
     "recommended_tactics": [
       "consider not targeting trout",
-      "balanced nymph approach"
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell"
+      "duracell",
+      "zebra_midge",
+      "pheasant_tail"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
+      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
     },
     "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving.",
       "Warm water may increase trout stress."
     ],
     "reasoning": [
       "Water is very warm for trout.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
