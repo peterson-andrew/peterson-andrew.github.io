@@ -23,19 +23,19 @@
   "weather_summary": {
     "pressure_inhg": null,
     "air_temp": {
-      "current_f": 66,
+      "current_f": 72,
       "low_f": 64.0,
       "high_f": 80.0
     },
     "sky_cover": {
       "min": 12,
       "max": 100,
-      "avg": 46.52
+      "avg": 43.69
     },
     "humidity": {
       "min": 70,
       "max": 99,
-      "avg": 85.37
+      "avg": 85.72
     },
     "rain": {
       "max_probability_percent": 90,
@@ -50,53 +50,27 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-07-06",
-      "morning": {
-        "sky_cover": {
-          "min": 42,
-          "max": 58,
-          "avg": 50.0
-        },
-        "humidity": {
-          "min": 90,
-          "max": 93,
-          "avg": 91.5
-        },
-        "rain_probability": {
-          "min": 5,
-          "max": 6,
-          "avg": 5.5
-        },
-        "air_temp_f": {
-          "min": 65.0,
-          "max": 66.0,
-          "avg": 65.5
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 44,
-          "max": 66,
-          "avg": 55.33
+          "min": 57,
+          "max": 61,
+          "avg": 58.67
         },
         "humidity": {
           "min": 75,
-          "max": 84,
-          "avg": 78.0
+          "max": 77,
+          "avg": 76.0
         },
         "rain_probability": {
-          "min": 8,
+          "min": 24,
           "max": 37,
-          "avg": 23.8
-        },
-        "rain_inches": {
-          "min": 0.02,
-          "max": 0.02,
-          "avg": 0.02
+          "avg": 32.0
         },
         "air_temp_f": {
-          "min": 67.0,
+          "min": 76.0,
           "max": 78.0,
-          "avg": 73.17
+          "avg": 77.0
         },
         "wind_mph": {
           "min": 2.3,
@@ -104,9 +78,9 @@
           "avg": 2.3
         },
         "wind_gust_mph": {
-          "min": 4.6,
+          "min": 5.8,
           "max": 8.1,
-          "avg": 6.35
+          "avg": 6.93
         }
       },
       "evening": {
