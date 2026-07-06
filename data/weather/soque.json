@@ -1,22 +1,22 @@
 {
   "river_key": "soque",
   "river_name": "Soque River",
-  "generated_at_utc": "2026-07-06T21:16:52.169621+00:00",
+  "generated_at_utc": "2026-07-06T22:30:49.176648+00:00",
   "current": {
     "latitude": 34.6186,
     "longitude": -83.5289,
-    "forecast_time": "2026-07-06T17:00:00-04:00",
-    "air_temp_f": 86,
+    "forecast_time": "2026-07-06T18:00:00-04:00",
+    "air_temp_f": 84,
     "temperature_unit": "F",
     "wind_speed": "5 mph",
-    "wind_direction": "SW",
+    "wind_direction": "WSW",
     "short_forecast": "Chance Showers And Thunderstorms",
     "pressure_station": "KAJR",
-    "pressure_mb": 1015.6,
-    "pressure_inhg": 29.99
+    "pressure_mb": 1015.2,
+    "pressure_inhg": 29.98
   },
   "pressure_trend": {
-    "current_inhg": 29.99,
+    "current_inhg": 29.98,
     "previous_inhg": null,
     "change_since_last_run": null,
     "trend": "unknown"
@@ -26,10 +26,6 @@
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-07-06T22:00:00+00:00",
-          "value": 65
-        },
         {
           "time": "2026-07-06T23:00:00+00:00",
           "value": 61
@@ -213,22 +209,22 @@
         {
           "time": "2026-07-08T21:00:00+00:00",
           "value": 17
+        },
+        {
+          "time": "2026-07-08T22:00:00+00:00",
+          "value": 16
         }
       ],
       "summary": {
         "min": 3,
-        "max": 65,
-        "avg": 18.77
+        "max": 61,
+        "avg": 17.72
       }
     },
     "relativeHumidity": {
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-07-06T22:00:00+00:00",
-          "value": 71
-        },
         {
           "time": "2026-07-06T23:00:00+00:00",
           "value": 74
@@ -384,22 +380,22 @@
         {
           "time": "2026-07-08T21:00:00+00:00",
           "value": 54
+        },
+        {
+          "time": "2026-07-08T22:00:00+00:00",
+          "value": 57
         }
       ],
       "summary": {
         "min": 52,
         "max": 98,
-        "avg": 77.55
+        "avg": 77.2
       }
     },
     "probabilityOfPrecipitation": {
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-07-06T22:00:00+00:00",
-          "value": 38
-        },
         {
           "time": "2026-07-06T23:00:00+00:00",
           "value": 34
@@ -499,12 +495,16 @@
         {
           "time": "2026-07-08T21:00:00+00:00",
           "value": 11
+        },
+        {
+          "time": "2026-07-08T22:00:00+00:00",
+          "value": 10
         }
       ],
       "summary": {
         "min": 0,
-        "max": 38,
-        "avg": 9.0
+        "max": 34,
+        "avg": 7.92
       }
     },
     "quantitativePrecipitation": {
@@ -554,10 +554,6 @@
       "available": true,
       "unit": "wmoUnit:degC",
       "values": [
-        {
-          "time": "2026-07-06T22:00:00+00:00",
-          "value": 28.88888888888889
-        },
         {
           "time": "2026-07-06T23:00:00+00:00",
           "value": 27.77777777777778
@@ -689,12 +685,16 @@
         {
           "time": "2026-07-08T21:00:00+00:00",
           "value": 31.666666666666668
+        },
+        {
+          "time": "2026-07-08T22:00:00+00:00",
+          "value": 31.11111111111111
         }
       ],
       "summary": {
         "min": 21.11,
         "max": 32.22,
-        "avg": 26.09
+        "avg": 26.16
       }
     },
     "dewpoint": {
@@ -867,12 +867,16 @@
         {
           "time": "2026-07-08T19:00:00+00:00",
           "value": 12.964
+        },
+        {
+          "time": "2026-07-08T22:00:00+00:00",
+          "value": 11.112
         }
       ],
       "summary": {
         "min": 0,
         "max": 12.96,
-        "avg": 6.6
+        "avg": 6.79
       }
     },
     "windGust": {
@@ -1003,10 +1007,6 @@
       "unit": "wmoUnit:degree_(angle)",
       "values": [
         {
-          "time": "2026-07-06T22:00:00+00:00",
-          "value": 240
-        },
-        {
           "time": "2026-07-07T00:00:00+00:00",
           "value": 250
         },
@@ -1084,9 +1084,9 @@
         }
       ],
       "summary": {
-        "min": 240,
+        "min": 250,
         "max": 300,
-        "avg": 268.0
+        "avg": 269.47
       }
     }
   }
