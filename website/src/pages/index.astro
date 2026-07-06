@@ -1,5 +1,7 @@
 ---
 import homepage from "../../../site_data/homepage.json";
+
+const rivers = homepage.rivers || [];
 ---
 
 <html lang="en">
@@ -7,23 +9,349 @@ import homepage from "../../../site_data/homepage.json";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Georgia Trout Fishing</title>
+    <meta
+      name="description"
+      content="Live trout fishing reports, river conditions, stocking updates, weather analysis, and recommended flies for Georgia trout rivers."
+    />
+
+    <style>
+      :root {
+        --blue: #0756b8;
+        --green: #3f7d20;
+        --orange: #ff5a00;
+        --yellow: #ffd23f;
+        --ink: #071b3a;
+        --muted: #526070;
+        --bg: #fffaf0;
+        --card: #ffffff;
+        --line: #d9e2ec;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+      }
+
+      header {
+        padding: 1rem 1.25rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        border-bottom: 3px solid var(--blue);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+
+      .brand {
+        font-weight: 900;
+        line-height: 0.95;
+        color: var(--blue);
+        text-transform: uppercase;
+      }
+
+      .brand span {
+        display: block;
+        color: var(--orange);
+        font-size: .8rem;
+      }
+
+      nav {
+        display: none;
+        gap: 1rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: .85rem;
+      }
+
+      nav a {
+        color: var(--ink);
+        text-decoration: none;
+      }
+
+      .hero {
+        padding: 3rem 1.25rem;
+        background:
+          linear-gradient(135deg, rgba(7,86,184,.95), rgba(63,125,32,.85)),
+          radial-gradient(circle at top right, var(--yellow), transparent 35%);
+        color: white;
+      }
+
+      .hero-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: grid;
+        gap: 2rem;
+      }
+
+      .eyebrow {
+        color: var(--yellow);
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: .08em;
+      }
+
+      h1 {
+        font-size: clamp(3rem, 10vw, 6.5rem);
+        line-height: .9;
+        margin: .5rem 0 1rem;
+        text-transform: uppercase;
+        letter-spacing: -0.05em;
+      }
+
+      .hero p {
+        max-width: 640px;
+        font-size: 1.15rem;
+        line-height: 1.55;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .75rem;
+        margin-top: 1.5rem;
+      }
+
+      .button {
+        display: inline-block;
+        background: var(--orange);
+        color: white;
+        padding: .9rem 1.1rem;
+        border-radius: 999px;
+        font-weight: 900;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      .button.secondary {
+        background: white;
+        color: var(--blue);
+      }
+
+      main {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 2rem 1.25rem 4rem;
+      }
+
+      .section-head {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 1rem;
+        margin: 2rem 0 1rem;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: 1.75rem;
+        text-transform: uppercase;
+        letter-spacing: -0.03em;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1rem;
+      }
+
+      .card {
+        background: var(--card);
+        border: 2px solid var(--line);
+        border-radius: 18px;
+        padding: 1rem;
+        box-shadow: 0 8px 0 rgba(7, 86, 184, .12);
+      }
+
+      .card h3 {
+        margin: 0 0 .75rem;
+        color: var(--blue);
+        text-transform: uppercase;
+      }
+
+      .score {
+        font-size: 2.3rem;
+        font-weight: 950;
+        color: var(--green);
+        line-height: 1;
+      }
+
+      .label {
+        font-weight: 900;
+        margin-top: .25rem;
+      }
+
+      .meta {
+        color: var(--muted);
+        font-size: .9rem;
+        margin-top: .75rem;
+      }
+
+      .stocked {
+        display: inline-block;
+        margin-top: .75rem;
+        background: var(--yellow);
+        color: var(--ink);
+        padding: .35rem .6rem;
+        border-radius: 999px;
+        font-weight: 900;
+        font-size: .78rem;
+        text-transform: uppercase;
+      }
+
+      .info-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+
+      .info {
+        background: white;
+        border-radius: 18px;
+        border: 2px solid var(--line);
+        padding: 1.25rem;
+      }
+
+      .info h3 {
+        margin-top: 0;
+        color: var(--orange);
+        text-transform: uppercase;
+      }
+
+      footer {
+        background: var(--ink);
+        color: white;
+        padding: 2rem 1.25rem;
+        text-align: center;
+      }
+
+      @media (min-width: 760px) {
+        nav { display: flex; }
+
+        .hero-inner {
+          grid-template-columns: 1.2fr .8fr;
+          align-items: center;
+        }
+
+        .hero-card {
+          background: white;
+          color: var(--ink);
+          border-radius: 24px;
+          padding: 1.25rem;
+          border: 4px solid var(--yellow);
+          transform: rotate(1deg);
+        }
+      }
+
+      @media (max-width: 759px) {
+        .hero-card {
+          background: white;
+          color: var(--ink);
+          border-radius: 18px;
+          padding: 1rem;
+        }
+      }
+    </style>
   </head>
 
   <body>
-    <h1>{homepage.title}</h1>
+    <header>
+      <div class="brand">
+        Georgia Trout
+        <span>Fishing Intelligence</span>
+      </div>
 
-    <h2>Current River Conditions</h2>
+      <nav>
+        <a href="/">Rivers</a>
+        <a href="/">Reports</a>
+        <a href="/">Flies</a>
+        <a href="/">Stocking</a>
+      </nav>
+    </header>
 
-    <ul>
-      {homepage.rivers.map((river) => (
-        <li>
-          <strong>{river.display_name}</strong>
-          {" — "}
-          {river.rating?.label || "Rating unavailable"}
-          {" "}
-          {river.rating?.score ? `(${river.rating.score}/10)` : ""}
-        </li>
-      ))}
-    </ul>
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <div class="eyebrow">Real-time trout intel</div>
+          <h1>Better Days on the Water</h1>
+          <p>
+            Live river conditions, USGS gauges, stocking updates, weather analysis,
+            and 48-hour fishing outlooks for Georgia and nearby trout water.
+          </p>
+
+          <div class="actions">
+            <a class="button" href="#conditions">View Reports</a>
+            <a class="button secondary" href="#conditions">Explore Rivers</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h2>Today’s Reminder</h2>
+          <p>
+            The report helps. Common sense still matters. Check dam releases,
+            weather, and local conditions before you go.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <div class="section-head" id="conditions">
+        <h2>Current River Conditions</h2>
+      </div>
+
+      <section class="cards">
+        {rivers.map((river) => (
+          <article class="card">
+            <h3>{river.display_name}</h3>
+
+            {river.rating ? (
+              <>
+                <div class="score">{river.rating.score}/10</div>
+                <div class="label">{river.rating.label}</div>
+              </>
+            ) : (
+              <div class="label">Rating unavailable</div>
+            )}
+
+            <div class="meta">
+              <strong>Best Window:</strong><br />
+              {river.best_window || "Unavailable"}
+            </div>
+
+            {river.stocking?.stocked && (
+              <span class="stocked">Recently Stocked</span>
+            )}
+          </article>
+        ))}
+      </section>
+
+      <section class="info-grid">
+        <div class="info">
+          <h3>Real-Time Data</h3>
+          <p>Powered by USGS gauges, NOAA weather, stocking data, and our fishing analysis engine.</p>
+        </div>
+
+        <div class="info">
+          <h3>Smart Recommendations</h3>
+          <p>Reports turn raw conditions into practical fly, timing, and presentation suggestions.</p>
+        </div>
+
+        <div class="info">
+          <h3>Built for Anglers</h3>
+          <p>Fast, mobile-friendly river intelligence for making better decisions before you leave home.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Georgia Trout Fishing Intelligence
+    </footer>
   </body>
 </html>
