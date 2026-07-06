@@ -3,49 +3,49 @@
   "river_name": "Soque River",
   "title": "Soque River 48-Hour Fishing Outlook",
   "rating": {
-    "score": 6.0,
-    "label": "Fair to good"
+    "score": 5.0,
+    "label": "Fair"
   },
-  "best_window": "day1 morning",
+  "best_window": "day1 evening",
   "current_conditions": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 64.0,
-    "gage_height_ft": 3.55,
+    "flow_cfs": 89.2,
+    "gage_height_ft": 3.77,
     "turbidity": null,
-    "observed_at": "2026-07-02T20:00:00.000-04:00"
+    "observed_at": "2026-07-06T11:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 29.99,
     "air_temp": {
-      "current_f": 90,
-      "low_f": 72.0,
-      "high_f": 95.0
+      "current_f": 86,
+      "low_f": 70.0,
+      "high_f": 90.0
     },
     "sky_cover": {
       "min": 3,
-      "max": 43,
-      "avg": 20.36
+      "max": 65,
+      "avg": 18.77
     },
     "humidity": {
-      "min": 36,
-      "max": 86,
-      "avg": 62.73
+      "min": 52,
+      "max": 98,
+      "avg": 77.55
     },
     "rain": {
-      "max_probability_percent": 10,
-      "expected_inches": 0.0
+      "max_probability_percent": 38,
+      "expected_inches": 0.01
     },
     "wind": {
-      "avg_mph": 2.2,
-      "max_gust_mph": 11.5,
-      "predominant_direction": "ESE"
+      "avg_mph": 4.1,
+      "max_gust_mph": 15.0,
+      "predominant_direction": "SW"
     }
   },
   "angler_analysis": {
-    "quality_score": 6.0,
-    "quality_label": "Fair to good",
-    "best_window": "day1 morning",
+    "quality_score": 5.0,
+    "quality_label": "Fair",
+    "best_window": "day1 evening",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
@@ -54,10 +54,16 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
+      "positioning": [
+        "runs",
+        "seams",
+        "structure"
+      ],
+      "tactics": [
+        "balanced nymph approach"
+      ],
       "score_adjustment": 0.0
     },
     "pressure_trend_read": {
@@ -66,59 +72,37 @@
       "score_adjustment": 0.0
     },
     "stocking_read": {
-      "status": "recently_stocked",
-      "read": "Recent stocking supports eggs, worms, and attractor nymphs.",
-      "fly_bias": [
-        "egg_pattern",
-        "squirmy_worm",
-        "duracell"
-      ],
-      "score_adjustment": 1.0
+      "status": "not_recently_stocked",
+      "read": "No recent stocking signal is available.",
+      "fly_bias": [],
+      "score_adjustment": 0.0
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [],
-    "recommended_tactics": [],
-    "recommended_fly_keys": [
-      "egg_pattern",
-      "squirmy_worm",
-      "duracell"
+    "likely_trout_positioning": [
+      "runs",
+      "seams",
+      "structure"
     ],
-    "fly_reasoning": {
-      "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
-      "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
-    },
+    "recommended_tactics": [
+      "balanced nymph approach"
+    ],
+    "recommended_fly_keys": [],
+    "fly_reasoning": {},
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure read is unavailable.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
-      "Recent stocking supports eggs, worms, and attractor nymphs."
+      "No recent stocking signal is available."
     ]
   },
-  "recommended_flies": [
-    {
-      "key": "egg_pattern",
-      "name": "Egg Pattern",
-      "reason": "Recent stocking makes eggs a logical confidence fly."
-    },
-    {
-      "key": "squirmy_worm",
-      "name": "Squirmy Worm",
-      "reason": "A simple stocked-trout attractor and good dirty-water option."
-    },
-    {
-      "key": "duracell",
-      "name": "Duracell",
-      "reason": "A strong attractor nymph when fish will move a little but are not fully aggressive."
-    }
-  ],
+  "recommended_flies": [],
   "generated_text": {
-    "quick_read": "Fishing conditions on the Soque River are fair to good with recent stocking enhancing trout activity. Expect trout to feed in comfortable lanes near cover with light sky cover and minimal wind.",
-    "best_window": "The best window is day 1 morning due to low wind speeds and moderate sky cover, creating optimal conditions for trout feeding and clean fly presentation.",
-    "current_conditions": "Current river flow is 64 cfs with a gage height of 3.55 ft. Water temperature and turbidity data are unavailable.",
-    "weather_setup": "Sky cover is light at 20% average with no significant rain expected. Wind is mild averaging 2.2 mph from the ESE. Pressure and pressure trend data are unavailable.",
-    "what_this_means": "Trout will position in calm feeding lanes near cover, favoring clean drifts and smaller natural and stocked-trout attractor patterns. Recommended flies include egg pattern, squirmy worm, and duracell to match stocked conditions. Present flies with subtlety, avoiding aggressive tactics, and be mindful of limited environmental data."
+    "quick_read": "The Soque River offers fair trout fishing conditions with moderate flow and stable weather. Evenings on day 1 present the best opportunity for anglers seeking active trout.",
+    "best_window": "The day 1 evening has the best window due to moderate sky cover, mild wind conditions, and reduced rain chances, providing a comfortable environment for trout to feed actively in runs, seams, and structure.",
+    "current_conditions": "Current river conditions show a flow of 89.2 cfs and a gage height of 3.77 ft; water temperature and turbidity data are unavailable.",
+    "weather_setup": "The weather features light sky cover averaging 18.77%, stable pressure at 29.99 inHg with no clear trend, southwest winds averaging 4.1 mph with gusts up to 15 mph, and a low chance of rain around 1%.",
+    "what_this_means": "Trout are expected to hold in comfortable feeding lanes near runs, seams, and structure while avoiding high light areas. Use a balanced nymph approach with smaller natural patterns and calm presentations for the best results. There is no recent stocking, so focus on natural trout behavior with clean drifts."
   }
 }
