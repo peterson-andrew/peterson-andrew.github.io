@@ -107,13 +107,17 @@ img {
 
 .hero {
   min-height: 560px;
-  background:
-    linear-gradient(90deg, rgba(0,0,0,.72), rgba(0,0,0,.22)),
-    radial-gradient(circle at 75% 30%, rgba(255,255,255,.18), transparent 30%),
-    linear-gradient(135deg, #1d2a22, #3d554a);
   color: white;
   display: flex;
   align-items: center;
+}
+
+.photo-hero {
+  background:
+    linear-gradient(90deg, rgba(0,0,0,.55), rgba(0,0,0,.12)),
+    url("/images/home-hero.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-inner {
