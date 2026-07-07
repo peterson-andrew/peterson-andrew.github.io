@@ -14,25 +14,41 @@ const rivers = homepage.rivers || [];
 ---
 
 <BaseLayout title="Georgia Trout">
-
   <Header />
 
   <Hero />
 
-  <section class="river-grid" id="rivers">
-    {
-      rivers.map((river) => (
-        <RiverCard river={river} />
-      ))
-    }
-  </section>
+  <main>
 
-  <LatestReport />
+    <section class="home-section" id="rivers">
 
-  <LatestVideo />
+      <div class="section-header">
+        <h2 class="section-title">Current Rivers</h2>
 
-  <FlyOfWeek />
+        <a class="text-link" href="/rivers">
+          View All Rivers →
+        </a>
+      </div>
+
+      <div class="river-grid">
+        {rivers.map((river) => (
+          <RiverCard river={river} />
+        ))}
+      </div>
+
+    </section>
+
+    <section class="feature-grid">
+
+      <LatestReport />
+
+      <LatestVideo />
+
+      <FlyOfWeek />
+
+    </section>
+
+  </main>
 
   <Footer />
-
 </BaseLayout>
