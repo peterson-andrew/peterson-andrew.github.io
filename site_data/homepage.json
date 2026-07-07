@@ -1,5 +1,5 @@
 {
-  "title": "Georgia Trout Fishing",
+  "title": "Georgia Trout",
   "rivers": [
     {
       "river_key": "chattahoochee",
@@ -19,7 +19,8 @@
             "waterbody": "Lanier Tailwater"
           }
         ]
-      }
+      },
+      "url": "/rivers/chattahoochee"
     },
     {
       "river_key": "toccoa",
@@ -49,7 +50,8 @@
             "waterbody": "Blueridge TW"
           }
         ]
-      }
+      },
+      "url": "/rivers/toccoa"
     },
     {
       "river_key": "soque",
@@ -63,7 +65,8 @@
         "stocked": false,
         "last_stocked": null,
         "matched_waterbodies": []
-      }
+      },
+      "url": "/rivers/soque"
     },
     {
       "river_key": "etowah",
@@ -83,7 +86,8 @@
             "waterbody": "Etowah River"
           }
         ]
-      }
+      },
+      "url": "/rivers/etowah"
     },
     {
       "river_key": "nantahala",
@@ -98,7 +102,32 @@
         "last_stocked": null,
         "matched_waterbodies": [],
         "note": "NC stocking data not integrated yet"
-      }
+      },
+      "url": "/rivers/nantahala"
     }
-  ]
+  ],
+  "latest_report": {
+    "river_key": "chattahoochee",
+    "river_name": "Chattahoochee River",
+    "title": "Chattahoochee River 48-Hour Fishing Outlook",
+    "rating": {
+      "score": 8.0,
+      "label": "Very good"
+    },
+    "best_window": "day1 morning",
+    "summary": "Trout fishing conditions on the Chattahoochee River are very good with ideal water temperatures and recent stocking boosting confidence. Expect steady water with low turbidity and mild weather to support active trout.",
+    "url": "/rivers/chattahoochee"
+  },
+  "fly_of_week": {
+    "key": "zebra_midge",
+    "name": "Zebra Midge",
+    "tags": [
+      "tailwater",
+      "winter",
+      "midge"
+    ],
+    "summary": "A small tailwater pattern for clear water, cautious trout, and technical conditions.",
+    "url": "/flies/zebra-midge"
+  },
+  "latest_video": null
 }
