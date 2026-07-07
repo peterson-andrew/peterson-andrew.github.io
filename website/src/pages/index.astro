@@ -10,27 +10,29 @@ import Footer from "../components/Footer.astro";
 
 import homepage from "../../../site_data/homepage.json";
 
-const rivers = homepage.rivers;
+const rivers = homepage.rivers || [];
 ---
 
-<BaseLayout>
+<BaseLayout title="Georgia Trout">
 
-<Header />
+  <Header />
 
-<Hero />
+  <Hero />
 
-<section class="river-grid">
-  {rivers.map((river) => (
-    <RiverCard river={river} />
-  ))}
-</section>
+  <section class="river-grid" id="rivers">
+    {
+      rivers.map((river) => (
+        <RiverCard river={river} />
+      ))
+    }
+  </section>
 
-<LatestReport />
+  <LatestReport />
 
-<LatestVideo />
+  <LatestVideo />
 
-<FlyOfWeek />
+  <FlyOfWeek />
 
-<Footer />
+  <Footer />
 
 </BaseLayout>
