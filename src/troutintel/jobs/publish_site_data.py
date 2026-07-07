@@ -55,6 +55,7 @@ def build_homepage_data(
     rivers: Dict[str, Any],
 ) -> Dict[str, Any]:
     river_cards = []
+    latest_report = None
 
     for river_key in RIVERS:
         report = safe_load_json(
@@ -69,27 +70,45 @@ def build_homepage_data(
             {
                 "river_key": river_key,
                 "display_name": rivers[river_key]["display_name"],
-                "rating": (
-                    report.get("rating")
-                    if report
-                    else None
-                ),
-                "best_window": (
-                    report.get("best_window")
-                    if report
-                    else None
-                ),
-                "stocking": (
-                    context.get("stocking")
-                    if context
-                    else None
-                ),
+                "rating": report.get("rating") if report else None,
+                "best_window": report.get("best_window") if report else None,
+                "stocking": context.get("stocking") if context else None,
+                "url": f"/rivers/{river_key}",
             }
         )
 
+        if latest_report is None and report:
+            latest_report = {
+                "river_key": river_key,
+                "river_name": report.get("river_name"),
+                "title": report.get("title"),
+                "rating": report.get("rating"),
+                "best_window": report.get("best_window"),
+                "summary": (
+                    report.get("generated_text", {})
+                    .get("quick_read")
+                ),
+                "url": f"/rivers/{river_key}",
+            }
+
+    flies = safe_load_json(
+        "src/troutintel/assets/flies.json"
+    ) or {}
+
+    fly = flies.get("zebra_midge", {})
+
     return {
-        "title": "Georgia Trout Fishing",
+        "title": "Georgia Trout",
         "rivers": river_cards,
+        "latest_report": latest_report,
+        "fly_of_week": {
+            "key": "zebra_midge",
+            "name": fly.get("name", "Zebra Midge"),
+            "tags": fly.get("tags", []),
+            "summary": "A small tailwater pattern for clear water, cautious trout, and technical conditions.",
+            "url": "/flies/zebra-midge",
+        },
+        "latest_video": None,
     }
 
 
