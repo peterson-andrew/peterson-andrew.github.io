@@ -24,34 +24,34 @@
     "river_name": "Chattahoochee River",
     "title": "Chattahoochee River 48-Hour Fishing Outlook",
     "rating": {
-      "score": 8.0,
-      "label": "Very good"
+      "score": 6.0,
+      "label": "Fair to good"
     },
     "best_window": "day2 morning",
     "current_conditions": {
       "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-      "water_temp_f": 55.6,
-      "flow_cfs": 991.0,
-      "gage_height_ft": 2.18,
-      "turbidity": 6.4,
-      "observed_at": "2026-07-07T09:15:00.000-04:00"
+      "water_temp_f": 62.6,
+      "flow_cfs": 899.0,
+      "gage_height_ft": 2.03,
+      "turbidity": 5.8,
+      "observed_at": "2026-07-07T18:15:00.000-04:00"
     },
     "weather_summary": {
-      "pressure_inhg": 30.05,
+      "pressure_inhg": 30.04,
       "air_temp": {
-        "current_f": 89,
+        "current_f": 88,
         "low_f": 75.0,
         "high_f": 89.0
       },
       "sky_cover": {
         "min": 2,
         "max": 43,
-        "avg": 19.16
+        "avg": 19.62
       },
       "humidity": {
         "min": 55,
         "max": 89,
-        "avg": 73.42
+        "avg": 73.53
       },
       "rain": {
         "max_probability_percent": 27,
@@ -64,25 +64,22 @@
       }
     },
     "angler_analysis": {
-      "quality_score": 8.0,
-      "quality_label": "Very good",
+      "quality_score": 6.0,
+      "quality_label": "Fair to good",
       "best_window": "day2 morning",
       "water_temp_read": {
-        "status": "ideal",
-        "read": "Water temperature is in a favorable trout range.",
+        "status": "warm",
+        "read": "Water is warming; trout may favor more oxygenated water.",
         "positioning": [
           "riffles",
-          "runs",
-          "seams",
-          "structure"
+          "pocket water",
+          "oxygenated runs"
         ],
         "tactics": [
-          "nymphs",
-          "midges",
-          "soft hackles",
-          "opportunistic streamers"
+          "early and late windows",
+          "active nymphs"
         ],
-        "score_adjustment": 2.0
+        "score_adjustment": 0.0
       },
       "light_pressure_read": {
         "status": "neutral",
@@ -116,34 +113,30 @@
       "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
       "likely_trout_positioning": [
         "riffles",
+        "pocket water",
+        "oxygenated runs",
         "runs",
         "seams",
         "structure"
       ],
       "recommended_tactics": [
-        "nymphs",
-        "midges",
-        "soft hackles",
-        "opportunistic streamers",
+        "early and late windows",
+        "active nymphs",
         "balanced nymph approach"
       ],
       "recommended_fly_keys": [
         "egg_pattern",
         "squirmy_worm",
-        "duracell",
-        "zebra_midge",
-        "pheasant_tail"
+        "duracell"
       ],
       "fly_reasoning": {
         "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
         "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-        "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
-        "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
-        "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
+        "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
       },
       "caution_notes": [],
       "reasoning": [
-        "Water temperature is in a favorable trout range.",
+        "Water is warming; trout may favor more oxygenated water.",
         "Light and pressure do not strongly push the outlook either way.",
         "Pressure trend is unavailable.",
         "Recent stocking supports eggs, worms, and attractor nymphs."
@@ -164,24 +157,14 @@
         "key": "duracell",
         "name": "Duracell",
         "reason": "A strong attractor nymph when fish will move a little but are not fully aggressive."
-      },
-      {
-        "key": "zebra_midge",
-        "name": "Zebra Midge",
-        "reason": "Small and natural for clear, pressured, technical conditions."
-      },
-      {
-        "key": "pheasant_tail",
-        "name": "Pheasant Tail",
-        "reason": "A reliable natural nymph when trout are feeding but cautious."
       }
     ],
     "generated_text": {
-      "quick_read": "Trout fishing conditions on the Chattahoochee River are very good with ideal water temperatures and recent stocking supporting productive patterns. Expect trout to be actively feeding near riffles, runs, seams, and structure.",
-      "best_window": "The best window is day 2 morning due to cooler temperatures around 76\u00b0F, light wind at 2.3 mph, minimal sky cover, and very low rain probability, creating ideal conditions for trout activity and effective fishing.",
-      "current_conditions": "Current USGS conditions report water temperature at 55.6\u00b0F, flow at 991 cfs, gage height of 2.18 ft, and turbidity at 6.4 NTU.",
-      "weather_setup": "Current weather features 19% sky cover, pressure at 30.05 inHg with a neutral trend, west wind averaging 5.6 mph with gusts up to 17.3 mph, and a 27% chance of light rain totaling 0.02 inches.",
-      "what_this_means": "Trout will favor comfortable feeding lanes near riffles, runs, seams, and structure, especially where cover is available. Presentations should focus on clean drifts with smaller natural nymphs, midges, soft hackles, opportunistic streamers, and stocked-trout attractors like egg patterns and squirmy worms to capitalize on recent stocking."
+      "quick_read": "Trout fishing quality on the Chattahoochee River is fair to good with water warming to 62.6\u00b0F. Recent stocking supports targeted use of egg patterns, squirmy worms, and attractor nymphs.",
+      "best_window": "The best fishing window is day 2 morning due to cooler temperatures around 76\u00b0F, light winds, low rain chance, and moderate sky cover, creating ideal conditions for active nymph fishing in oxygenated runs and riffles.",
+      "current_conditions": "Water temperature at 62.6\u00b0F with flow at 899 cfs and gage height 2.03 ft; turbidity is low at 5.8 NTU, providing clear conditions for trout.",
+      "weather_setup": "Sky cover is light averaging 19.62%, barometric pressure steady at 30.04 inHg with neutral trend, west winds averaging 5.6 mph with gusts to 17.3 mph, and minimal rain expected at 0.02 in.",
+      "what_this_means": "Trout will favor riffles, pocket water, oxygenated runs, runs, seams, and structure, feeding in comfortable lanes near cover. Use clean drifts with smaller natural patterns and stocked trout attractors like egg patterns, squirmy worms, and duracell nymphs, focusing on early and late periods with active, balanced nymph approaches."
     }
   },
   "llm_context": {
@@ -579,7 +562,7 @@
   "weather": {
     "river_key": "chattahoochee",
     "river_name": "Chattahoochee River",
-    "generated_at_utc": "2026-07-07T22:43:33.258891+00:00",
+    "generated_at_utc": "2026-07-07T22:45:08.722015+00:00",
     "current": {
       "latitude": 34.1567,
       "longitude": -84.0784,

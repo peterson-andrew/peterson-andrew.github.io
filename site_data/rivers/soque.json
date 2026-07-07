@@ -34,7 +34,7 @@
       "flow_cfs": 64.0,
       "gage_height_ft": 3.55,
       "turbidity": null,
-      "observed_at": "2026-07-07T10:00:00.000-04:00"
+      "observed_at": "2026-07-07T18:00:00.000-04:00"
     },
     "weather_summary": {
       "pressure_inhg": 30.03,
@@ -46,19 +46,19 @@
       "sky_cover": {
         "min": 1,
         "max": 44,
-        "avg": 16.36
+        "avg": 16.14
       },
       "humidity": {
         "min": 51,
         "max": 95,
-        "avg": 73.56
+        "avg": 73.23
       },
       "rain": {
         "max_probability_percent": 18,
         "expected_inches": 0.0
       },
       "wind": {
-        "avg_mph": 5.3,
+        "avg_mph": 5.5,
         "max_gust_mph": 19.6,
         "predominant_direction": "W"
       }
@@ -120,11 +120,11 @@
     },
     "recommended_flies": [],
     "generated_text": {
-      "quick_read": "Trout fishing on the Soque River is fair with a quality score of 5.0. Current conditions show moderate flow and stable weather, though water temperature is unavailable.",
-      "best_window": "The best fishing window is day 1 evening due to stable light and pressure conditions that favor trout positioning in runs, seams, and structure, allowing for a balanced nymph approach.",
-      "current_conditions": "USGS reports a flow of 64 cfs and a gage height of 3.55 ft; water temperature and turbidity are unavailable.",
-      "weather_setup": "Skies are partly cloudy with 16% average cover, pressure steady at 30.03 inHg, light west winds at 5.3 mph, and only an 18% chance of light rain.",
-      "what_this_means": "Trout will likely hold near runs, seams, and structure, feeding comfortably in moderate flow. Use clean drifts with smaller patterns and attractors suitable for stocked trout; no water temperature data means extra attention to presentation is needed."
+      "quick_read": "Current river conditions on the Soque River show fair trout fishing with stable flow and moderate gage height. Evening offers the best fishing opportunity due to favorable light and pressure conditions for trout activity.",
+      "best_window": "The day1 evening window is best because light and pressure conditions are balanced, encouraging trout to feed comfortably near runs, seams, and structure with a balanced nymph approach.",
+      "current_conditions": "USGS data reports flow at 64 cfs and gage height at 3.55 ft. Water temperature and turbidity data are unavailable at this time.",
+      "weather_setup": "Sky cover is low to moderate, averaging 16% overall but increasing to 44% in the evening. Atmospheric pressure is steady at 30.03 inHg with a gentle west wind averaging 5.5 mph. Rain probability is minimal with little to no expected rainfall.",
+      "what_this_means": "Trout are likely to hold near runs, seams, and structural features, favoring comfortable feeding lanes and proximity to cover during higher light. Use a balanced nymph approach with clean drifts and smaller natural fly patterns. Without recent stocking, rely on natural presentations and stocked-trout attractors selectively. Remain adaptable due to unavailable temperature data."
     }
   },
   "llm_context": {
@@ -478,7 +478,7 @@
   "weather": {
     "river_key": "soque",
     "river_name": "Soque River",
-    "generated_at_utc": "2026-07-07T22:43:33.262967+00:00",
+    "generated_at_utc": "2026-07-07T22:45:08.725698+00:00",
     "current": {
       "latitude": 34.6186,
       "longitude": -83.5289,

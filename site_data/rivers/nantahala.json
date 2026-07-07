@@ -32,26 +32,26 @@
     "weather_summary": {
       "pressure_inhg": null,
       "air_temp": {
-        "current_f": 77,
+        "current_f": 76,
         "low_f": 64.0,
         "high_f": 80.0
       },
       "sky_cover": {
         "min": 12,
         "max": 83,
-        "avg": 36.56
+        "avg": 37.11
       },
       "humidity": {
         "min": 68,
         "max": 97,
-        "avg": 84.64
+        "avg": 84.54
       },
       "rain": {
         "max_probability_percent": 74,
         "expected_inches": 0.06
       },
       "wind": {
-        "avg_mph": 2.0,
+        "avg_mph": 2.2,
         "max_gust_mph": 13.8,
         "predominant_direction": "WNW"
       }
@@ -101,11 +101,11 @@
     },
     "recommended_flies": [],
     "generated_text": {
-      "quick_read": "The trout fishing outlook on the Nantahala River is fair with a quality score of 5.0. Expect trout to feed along comfortable lanes and near cover during higher light conditions.",
-      "best_window": "The best fishing window is day 1 evening due to moderate sky cover, stable humidity, low rain probability, and gentle winds, creating favorable trout feeding conditions.",
-      "current_conditions": "USGS water temperature, flow, gage height, and turbidity data are unavailable for the Nantahala River.",
-      "weather_setup": "Sky cover averages around 39% in the evening with moderate humidity at 85%, a rain probability of 22%, and light WNW winds averaging 1.2 mph with gusts up to 6.9 mph. Pressure and pressure trend data are unavailable.",
-      "what_this_means": "Trout will favor the most comfortable feeding lanes near cover when light is higher. Use clean drifts with smaller natural patterns and stocked-trout attractors where suitable. No recent stocking data is available, so limit reliance on stocking-dependent presentations."
+      "quick_read": "Fishing conditions on the Nantahala River are fair with limited data on water temperature and pressure. Evening of day 1 offers the best window for trout fishing.",
+      "best_window": "Day 1 evening is best due to moderate sky cover and low rain probability, creating stable conditions favorable for trout feeding.",
+      "current_conditions": "USGS water temperature, flow, and gage height data are unavailable; turbidity data is also unavailable.",
+      "weather_setup": "Sky cover averages 25% in the evening of day 1, with light wind gusts around 6.9 mph from WNW, and a low 15% rain chance; pressure and pressure trend data are unavailable.",
+      "what_this_means": "Trout will likely hold in comfortable feeding lanes near cover as light conditions improve. Use smaller natural patterns and clean drifts; stocked-trout attractors can be effective despite no recent stocking. Caution due to missing water temperature and pressure info."
     }
   },
   "llm_context": {
@@ -407,7 +407,7 @@
   "weather": {
     "river_key": "nantahala",
     "river_name": "Nantahala River",
-    "generated_at_utc": "2026-07-07T22:43:33.263356+00:00",
+    "generated_at_utc": "2026-07-07T22:45:08.726080+00:00",
     "current": {
       "latitude": 35.199,
       "longitude": -83.652,
