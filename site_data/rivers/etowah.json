@@ -30,37 +30,37 @@
     "best_window": "day1 morning",
     "current_conditions": {
       "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-      "water_temp_f": 79.7,
-      "flow_cfs": 97.7,
-      "gage_height_ft": 3.69,
-      "turbidity": 8.6,
-      "observed_at": "2026-07-06T19:00:00.000-04:00"
+      "water_temp_f": 76.6,
+      "flow_cfs": 109.0,
+      "gage_height_ft": 3.78,
+      "turbidity": 8.8,
+      "observed_at": "2026-07-07T10:00:00.000-04:00"
     },
     "weather_summary": {
       "pressure_inhg": 30.05,
       "air_temp": {
-        "current_f": 70,
+        "current_f": 87,
         "low_f": 70.0,
         "high_f": 88.0
       },
       "sky_cover": {
-        "min": 8,
-        "max": 52,
-        "avg": 22.15
+        "min": 6,
+        "max": 45,
+        "avg": 19.36
       },
       "humidity": {
-        "min": 57,
-        "max": 96,
-        "avg": 76.88
+        "min": 54,
+        "max": 92,
+        "avg": 74.2
       },
       "rain": {
-        "max_probability_percent": 15,
+        "max_probability_percent": 36,
         "expected_inches": 0.0
       },
       "wind": {
         "avg_mph": 4.5,
-        "max_gust_mph": 13.8,
-        "predominant_direction": ""
+        "max_gust_mph": 16.1,
+        "predominant_direction": "W"
       }
     },
     "angler_analysis": {
@@ -158,11 +158,11 @@
       }
     ],
     "generated_text": {
-      "quick_read": "Trout fishing conditions on the Etowah River are tough due to very warm water temperatures. Recent stocking supports using eggs, worms, and attractor nymphs for better success.",
-      "best_window": "The morning of day 1 is best because moderate sky cover and lower wind gusts create more stable conditions, matching the recent stocking boost for using egg patterns and attractors effectively.",
-      "current_conditions": "Water temperature is 79.7\u00b0F with a flow of 97.7 cfs, gage height at 3.69 ft, and turbidity of 8.6 NTU at the ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE site.",
-      "weather_setup": "Current weather has light cloud cover averaging 22%, pressure at 30.05 inHg with a stable trend, winds averaging 4.5 mph with gusts up to 13.8 mph, and a low 15% chance of rain with no expected accumulation.",
-      "what_this_means": "Expect trout to hold near cold-water refuges, oxygenated pockets, runs, seams, and structure to find comfortable feeding lanes. Present clean drifts using smaller natural patterns and stocked-trout attractors like egg patterns, squirmy worms, and duracell nymphs. Exercise caution as very warm water can increase trout stress, so consider limiting targeting pressure."
+      "quick_read": "Etowah River trout fishing is currently tough due to very warm water temperatures. Recent stocking offers some opportunities with attractor and stocked-trout patterns.",
+      "best_window": "The best fishing window is day1 morning, as conditions allow trout to be more active and responsive before daytime heat intensifies.",
+      "current_conditions": "Water temperature is 76.6\u00b0F with a flow of 109 cfs and gage height of 3.78 ft. Turbidity is moderate at 8.8 NTU.",
+      "weather_setup": "Sky cover averages 19%, pressure is steady at 30.05 inHg with no significant trend. Wind is moderate at 4.5 mph from the west with no rain expected.",
+      "what_this_means": "Trout will seek cooler, oxygenated water and run/structure seams, favoring comfortable feeding lanes near cover. Use clean drifts and smaller natural patterns combined with stocked-trout attractors like egg patterns and squirmy worms. Exercise caution as warm water may stress trout, and consider not targeting fish aggressively during the hottest periods."
     }
   },
   "llm_context": {
@@ -188,47 +188,99 @@
     },
     "usgs_summary": {
       "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-      "water_temp_f": 79.7,
-      "flow_cfs": 97.7,
-      "gage_height_ft": 3.69,
-      "turbidity": 8.6,
-      "observed_at": "2026-07-06T19:00:00.000-04:00"
+      "water_temp_f": 76.6,
+      "flow_cfs": 109.0,
+      "gage_height_ft": 3.78,
+      "turbidity": 8.8,
+      "observed_at": "2026-07-07T10:00:00.000-04:00"
     },
     "weather_summary": {
       "pressure_inhg": 30.05,
       "air_temp": {
-        "current_f": 70,
+        "current_f": 87,
         "low_f": 70.0,
         "high_f": 88.0
       },
       "sky_cover": {
-        "min": 8,
-        "max": 52,
-        "avg": 22.15
+        "min": 6,
+        "max": 45,
+        "avg": 19.36
       },
       "humidity": {
-        "min": 57,
-        "max": 96,
-        "avg": 76.88
+        "min": 54,
+        "max": 92,
+        "avg": 74.2
       },
       "rain": {
-        "max_probability_percent": 15,
+        "max_probability_percent": 36,
         "expected_inches": 0.0
       },
       "wind": {
         "avg_mph": 4.5,
-        "max_gust_mph": 13.8,
-        "predominant_direction": ""
+        "max_gust_mph": 16.1,
+        "predominant_direction": "W"
       }
     },
     "forecast_breakdown": {
       "day1": {
         "date": "2026-07-07",
+        "morning": {},
+        "afternoon": {},
+        "evening": {
+          "sky_cover": {
+            "min": 21,
+            "max": 24,
+            "avg": 22.5
+          },
+          "humidity": {
+            "min": 63,
+            "max": 63,
+            "avg": 63.0
+          },
+          "rain_probability": {
+            "min": 17,
+            "max": 17,
+            "avg": 17.0
+          },
+          "air_temp_f": {
+            "min": 85.0,
+            "max": 86.0,
+            "avg": 85.5
+          },
+          "wind_mph": {
+            "min": 4.6,
+            "max": 4.6,
+            "avg": 4.6
+          },
+          "wind_gust_mph": {
+            "min": 11.5,
+            "max": 11.5,
+            "avg": 11.5
+          }
+        }
+      },
+      "day2": {
+        "date": "2026-07-07",
         "morning": {
           "sky_cover": {
-            "min": 52,
-            "max": 52,
-            "avg": 52.0
+            "min": 8,
+            "max": 16,
+            "avg": 12.67
+          },
+          "humidity": {
+            "min": 87,
+            "max": 92,
+            "avg": 89.6
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 70.0,
+            "max": 73.0,
+            "avg": 71.5
           },
           "wind_gust_mph": {
             "min": 4.6,
@@ -238,133 +290,19 @@
         },
         "afternoon": {
           "sky_cover": {
-            "min": 27,
-            "max": 41,
-            "avg": 33.8
-          },
-          "humidity": {
-            "min": 67,
-            "max": 96,
-            "avg": 80.83
-          },
-          "rain_probability": {
-            "min": 0,
-            "max": 5,
-            "avg": 2.2
-          },
-          "rain_inches": {
-            "min": 0.0,
-            "max": 0.0,
-            "avg": 0.0
-          },
-          "air_temp_f": {
-            "min": 71.0,
-            "max": 85.0,
-            "avg": 78.5
-          },
-          "wind_mph": {
-            "min": 2.3,
-            "max": 5.8,
-            "avg": 4.05
-          },
-          "wind_gust_mph": {
-            "min": 5.8,
-            "max": 12.7,
-            "avg": 9.22
-          }
-        },
-        "evening": {
-          "sky_cover": {
-            "min": 11,
-            "max": 32,
-            "avg": 20.83
+            "min": 7,
+            "max": 26,
+            "avg": 14.0
           },
           "humidity": {
             "min": 59,
-            "max": 64,
-            "avg": 61.5
-          },
-          "rain_probability": {
-            "min": 7,
-            "max": 9,
-            "avg": 8.0
-          },
-          "rain_inches": {
-            "min": 0.0,
-            "max": 0.0,
-            "avg": 0.0
-          },
-          "air_temp_f": {
-            "min": 85.0,
-            "max": 87.0,
-            "avg": 86.0
-          },
-          "wind_mph": {
-            "min": 4.6,
-            "max": 6.9,
-            "avg": 5.77
-          },
-          "wind_gust_mph": {
-            "min": 12.7,
-            "max": 13.8,
-            "avg": 13.25
-          }
-        }
-      },
-      "day2": {
-        "date": "2026-07-07",
-        "morning": {
-          "sky_cover": {
-            "min": 11,
-            "max": 25,
-            "avg": 16.29
-          },
-          "humidity": {
-            "min": 90,
-            "max": 93,
-            "avg": 91.6
+            "max": 90,
+            "avg": 72.5
           },
           "rain_probability": {
             "min": 2,
-            "max": 3,
-            "avg": 2.5
-          },
-          "rain_inches": {
-            "min": 0.0,
-            "max": 0.0,
-            "avg": 0.0
-          },
-          "air_temp_f": {
-            "min": 70.0,
-            "max": 72.0,
-            "avg": 71.0
-          },
-          "wind_mph": {
-            "min": 2.3,
-            "max": 2.3,
-            "avg": 2.3
-          },
-          "wind_gust_mph": {
-            "min": 4.6,
-            "max": 5.8,
-            "avg": 5.4
-          }
-        },
-        "afternoon": {
-          "sky_cover": {
-            "min": 8,
-            "max": 28,
-            "avg": 18.4
-          },
-          "humidity": {
-            "min": 62,
-            "max": 87,
-            "avg": 71.8
-          },
-          "rain_probability": {
-            "min": 0,
-            "max": 5,
-            "avg": 2.5
+            "max": 4,
+            "avg": 3.0
           },
           "rain_inches": {
             "min": 0.0,
@@ -373,8 +311,8 @@
           },
           "air_temp_f": {
             "min": 72.0,
-            "max": 86.0,
-            "avg": 79.83
+            "max": 87.0,
+            "avg": 80.33
           },
           "wind_mph": {
             "min": 3.5,
@@ -382,26 +320,26 @@
             "avg": 4.63
           },
           "wind_gust_mph": {
-            "min": 6.9,
+            "min": 5.8,
             "max": 12.7,
-            "avg": 10.07
+            "avg": 9.7
           }
         },
         "evening": {
           "sky_cover": {
-            "min": 17,
-            "max": 46,
-            "avg": 32.8
+            "min": 13,
+            "max": 30,
+            "avg": 22.6
           },
           "humidity": {
-            "min": 57,
-            "max": 63,
-            "avg": 59.6
+            "min": 54,
+            "max": 60,
+            "avg": 56.5
           },
           "rain_probability": {
-            "min": 0,
-            "max": 15,
-            "avg": 7.5
+            "min": 3,
+            "max": 14,
+            "avg": 8.6
           },
           "rain_inches": {
             "min": 0.0,
@@ -411,12 +349,12 @@
           "air_temp_f": {
             "min": 85.0,
             "max": 88.0,
-            "avg": 86.5
+            "avg": 86.67
           },
           "wind_mph": {
-            "min": 4.6,
+            "min": 5.8,
             "max": 6.9,
-            "avg": 5.77
+            "avg": 6.35
           },
           "wind_gust_mph": {
             "min": 12.7,
@@ -587,50 +525,50 @@
       "water_temp": {
         "parameter_code": "00010",
         "name": "Temperature, water, &#176;C",
-        "value": 26.5,
-        "timestamp": "2026-07-06T19:00:00.000-04:00",
-        "value_c": 26.5,
-        "value_f": 79.7
+        "value": 27.2,
+        "timestamp": "2026-07-07T18:00:00.000-04:00",
+        "value_c": 27.2,
+        "value_f": 81.0
       },
       "flow_cfs": {
         "parameter_code": "00060",
         "name": "Streamflow, ft&#179;/s",
-        "value": 97.7,
-        "timestamp": "2026-07-06T19:00:00.000-04:00"
+        "value": 98.9,
+        "timestamp": "2026-07-07T18:00:00.000-04:00"
       },
       "gage_height_ft": {
         "parameter_code": "00065",
         "name": "Gage height, ft",
-        "value": 3.69,
-        "timestamp": "2026-07-06T19:00:00.000-04:00"
+        "value": 3.7,
+        "timestamp": "2026-07-07T18:00:00.000-04:00"
       },
       "turbidity": {
         "parameter_code": "63680",
         "name": "Turbidity, water, unfiltered, monochrome near infra-red LED light, 780-900 nm, detection angle 90 &#177;2.5&#176;, formazin nephelometric units (FNU)",
-        "value": 8.6,
-        "timestamp": "2026-07-06T19:00:00.000-04:00"
+        "value": 6.6,
+        "timestamp": "2026-07-07T18:00:00.000-04:00"
       }
     }
   },
   "weather": {
     "river_key": "etowah",
     "river_name": "Etowah River",
-    "generated_at_utc": "2026-07-07T10:41:43.310911+00:00",
+    "generated_at_utc": "2026-07-07T22:38:27.614432+00:00",
     "current": {
       "latitude": 34.4212,
       "longitude": -84.1191,
-      "forecast_time": "2026-07-07T06:00:00-04:00",
-      "air_temp_f": 70,
+      "forecast_time": "2026-07-07T18:00:00-04:00",
+      "air_temp_f": 86,
       "temperature_unit": "F",
-      "wind_speed": "0 mph",
-      "wind_direction": "",
-      "short_forecast": "Mostly Sunny",
+      "wind_speed": "5 mph",
+      "wind_direction": "W",
+      "short_forecast": "Isolated Showers And Thunderstorms",
       "pressure_station": "KCNI",
-      "pressure_mb": 1018.0,
-      "pressure_inhg": 30.06
+      "pressure_mb": 1017.3,
+      "pressure_inhg": 30.04
     },
     "pressure_trend": {
-      "current_inhg": 30.06,
+      "current_inhg": 30.04,
       "previous_inhg": null,
       "change_since_last_run": null,
       "trend": "unknown"
@@ -641,132 +579,84 @@
         "unit": "wmoUnit:percent",
         "values": [
           {
-            "time": "2026-07-07T11:00:00+00:00",
-            "value": 52
-          },
-          {
-            "time": "2026-07-07T12:00:00+00:00",
-            "value": 41
-          },
-          {
-            "time": "2026-07-07T13:00:00+00:00",
-            "value": 37
-          },
-          {
-            "time": "2026-07-07T14:00:00+00:00",
-            "value": 36
-          },
-          {
-            "time": "2026-07-07T15:00:00+00:00",
-            "value": 28
-          },
-          {
-            "time": "2026-07-07T17:00:00+00:00",
-            "value": 27
-          },
-          {
-            "time": "2026-07-07T18:00:00+00:00",
-            "value": 32
-          },
-          {
-            "time": "2026-07-07T19:00:00+00:00",
-            "value": 26
-          },
-          {
-            "time": "2026-07-07T20:00:00+00:00",
-            "value": 23
-          },
-          {
-            "time": "2026-07-07T21:00:00+00:00",
-            "value": 20
-          },
-          {
-            "time": "2026-07-07T22:00:00+00:00",
-            "value": 13
-          },
-          {
             "time": "2026-07-07T23:00:00+00:00",
-            "value": 11
-          },
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 10
-          },
-          {
-            "time": "2026-07-08T01:00:00+00:00",
-            "value": 16
-          },
-          {
-            "time": "2026-07-08T02:00:00+00:00",
-            "value": 11
-          },
-          {
-            "time": "2026-07-08T03:00:00+00:00",
-            "value": 15
-          },
-          {
-            "time": "2026-07-08T04:00:00+00:00",
-            "value": 18
-          },
-          {
-            "time": "2026-07-08T05:00:00+00:00",
-            "value": 25
-          },
-          {
-            "time": "2026-07-08T06:00:00+00:00",
-            "value": 22
-          },
-          {
-            "time": "2026-07-08T07:00:00+00:00",
-            "value": 14
-          },
-          {
-            "time": "2026-07-08T08:00:00+00:00",
-            "value": 17
-          },
-          {
-            "time": "2026-07-08T09:00:00+00:00",
-            "value": 12
-          },
-          {
-            "time": "2026-07-08T10:00:00+00:00",
-            "value": 11
-          },
-          {
-            "time": "2026-07-08T11:00:00+00:00",
-            "value": 13
-          },
-          {
-            "time": "2026-07-08T12:00:00+00:00",
-            "value": 8
-          },
-          {
-            "time": "2026-07-08T14:00:00+00:00",
-            "value": 12
-          },
-          {
-            "time": "2026-07-08T15:00:00+00:00",
-            "value": 20
-          },
-          {
-            "time": "2026-07-08T16:00:00+00:00",
             "value": 24
           },
           {
+            "time": "2026-07-08T00:00:00+00:00",
+            "value": 15
+          },
+          {
+            "time": "2026-07-08T01:00:00+00:00",
+            "value": 13
+          },
+          {
+            "time": "2026-07-08T02:00:00+00:00",
+            "value": 8
+          },
+          {
+            "time": "2026-07-08T03:00:00+00:00",
+            "value": 14
+          },
+          {
+            "time": "2026-07-08T04:00:00+00:00",
+            "value": 9
+          },
+          {
+            "time": "2026-07-08T06:00:00+00:00",
+            "value": 8
+          },
+          {
+            "time": "2026-07-08T07:00:00+00:00",
+            "value": 10
+          },
+          {
+            "time": "2026-07-08T08:00:00+00:00",
+            "value": 16
+          },
+          {
+            "time": "2026-07-08T09:00:00+00:00",
+            "value": 15
+          },
+          {
+            "time": "2026-07-08T10:00:00+00:00",
+            "value": 12
+          },
+          {
+            "time": "2026-07-08T11:00:00+00:00",
+            "value": 15
+          },
+          {
+            "time": "2026-07-08T12:00:00+00:00",
+            "value": 13
+          },
+          {
+            "time": "2026-07-08T13:00:00+00:00",
+            "value": 9
+          },
+          {
+            "time": "2026-07-08T14:00:00+00:00",
+            "value": 7
+          },
+          {
+            "time": "2026-07-08T15:00:00+00:00",
+            "value": 12
+          },
+          {
+            "time": "2026-07-08T16:00:00+00:00",
+            "value": 17
+          },
+          {
             "time": "2026-07-08T17:00:00+00:00",
-            "value": 28
+            "value": 26
           },
           {
             "time": "2026-07-08T18:00:00+00:00",
-            "value": 33
+            "value": 29
           },
           {
             "time": "2026-07-08T19:00:00+00:00",
-            "value": 46
-          },
-          {
-            "time": "2026-07-08T20:00:00+00:00",
-            "value": 41
+            "value": 30
           },
           {
             "time": "2026-07-08T21:00:00+00:00",
@@ -774,11 +664,15 @@
           },
           {
             "time": "2026-07-08T22:00:00+00:00",
-            "value": 17
+            "value": 14
+          },
+          {
+            "time": "2026-07-08T23:00:00+00:00",
+            "value": 13
           },
           {
             "time": "2026-07-09T00:00:00+00:00",
-            "value": 11
+            "value": 12
           },
           {
             "time": "2026-07-09T01:00:00+00:00",
@@ -786,25 +680,85 @@
           },
           {
             "time": "2026-07-09T02:00:00+00:00",
-            "value": 16
-          },
-          {
-            "time": "2026-07-09T03:00:00+00:00",
-            "value": 18
-          },
-          {
-            "time": "2026-07-09T08:00:00+00:00",
             "value": 19
           },
           {
+            "time": "2026-07-09T03:00:00+00:00",
+            "value": 22
+          },
+          {
+            "time": "2026-07-09T04:00:00+00:00",
+            "value": 16
+          },
+          {
+            "time": "2026-07-09T05:00:00+00:00",
+            "value": 14
+          },
+          {
+            "time": "2026-07-09T06:00:00+00:00",
+            "value": 11
+          },
+          {
+            "time": "2026-07-09T08:00:00+00:00",
+            "value": 24
+          },
+          {
+            "time": "2026-07-09T09:00:00+00:00",
+            "value": 27
+          },
+          {
             "time": "2026-07-09T10:00:00+00:00",
-            "value": 21
+            "value": 23
+          },
+          {
+            "time": "2026-07-09T11:00:00+00:00",
+            "value": 16
+          },
+          {
+            "time": "2026-07-09T12:00:00+00:00",
+            "value": 6
+          },
+          {
+            "time": "2026-07-09T14:00:00+00:00",
+            "value": 17
+          },
+          {
+            "time": "2026-07-09T15:00:00+00:00",
+            "value": 29
+          },
+          {
+            "time": "2026-07-09T16:00:00+00:00",
+            "value": 31
+          },
+          {
+            "time": "2026-07-09T17:00:00+00:00",
+            "value": 33
+          },
+          {
+            "time": "2026-07-09T18:00:00+00:00",
+            "value": 35
+          },
+          {
+            "time": "2026-07-09T19:00:00+00:00",
+            "value": 38
+          },
+          {
+            "time": "2026-07-09T20:00:00+00:00",
+            "value": 42
+          },
+          {
+            "time": "2026-07-09T21:00:00+00:00",
+            "value": 45
+          },
+          {
+            "time": "2026-07-09T22:00:00+00:00",
+            "value": 40
           }
         ],
         "summary": {
-          "min": 8,
-          "max": 52,
-          "avg": 22.15
+          "min": 6,
+          "max": 45,
+          "avg": 19.8
         }
       },
       "relativeHumidity": {
@@ -812,178 +766,174 @@
         "unit": "wmoUnit:percent",
         "values": [
           {
-            "time": "2026-07-07T12:00:00+00:00",
-            "value": 96
-          },
-          {
-            "time": "2026-07-07T13:00:00+00:00",
-            "value": 92
-          },
-          {
-            "time": "2026-07-07T14:00:00+00:00",
-            "value": 82
-          },
-          {
-            "time": "2026-07-07T15:00:00+00:00",
-            "value": 76
-          },
-          {
-            "time": "2026-07-07T16:00:00+00:00",
-            "value": 72
-          },
-          {
-            "time": "2026-07-07T17:00:00+00:00",
-            "value": 67
-          },
-          {
-            "time": "2026-07-07T18:00:00+00:00",
-            "value": 64
-          },
-          {
-            "time": "2026-07-07T19:00:00+00:00",
-            "value": 62
-          },
-          {
-            "time": "2026-07-07T20:00:00+00:00",
-            "value": 59
-          },
-          {
-            "time": "2026-07-07T21:00:00+00:00",
-            "value": 61
-          },
-          {
-            "time": "2026-07-07T22:00:00+00:00",
-            "value": 60
-          },
-          {
             "time": "2026-07-07T23:00:00+00:00",
             "value": 63
           },
           {
             "time": "2026-07-08T00:00:00+00:00",
-            "value": 70
-          },
-          {
-            "time": "2026-07-08T01:00:00+00:00",
-            "value": 76
-          },
-          {
-            "time": "2026-07-08T02:00:00+00:00",
-            "value": 81
-          },
-          {
-            "time": "2026-07-08T03:00:00+00:00",
-            "value": 85
-          },
-          {
-            "time": "2026-07-08T04:00:00+00:00",
-            "value": 88
-          },
-          {
-            "time": "2026-07-08T05:00:00+00:00",
-            "value": 90
-          },
-          {
-            "time": "2026-07-08T06:00:00+00:00",
-            "value": 91
-          },
-          {
-            "time": "2026-07-08T07:00:00+00:00",
-            "value": 92
-          },
-          {
-            "time": "2026-07-08T08:00:00+00:00",
-            "value": 93
-          },
-          {
-            "time": "2026-07-08T10:00:00+00:00",
-            "value": 92
-          },
-          {
-            "time": "2026-07-08T13:00:00+00:00",
-            "value": 87
-          },
-          {
-            "time": "2026-07-08T14:00:00+00:00",
-            "value": 75
-          },
-          {
-            "time": "2026-07-08T15:00:00+00:00",
             "value": 69
           },
           {
-            "time": "2026-07-08T16:00:00+00:00",
-            "value": 66
+            "time": "2026-07-08T01:00:00+00:00",
+            "value": 74
           },
           {
-            "time": "2026-07-08T17:00:00+00:00",
-            "value": 62
+            "time": "2026-07-08T02:00:00+00:00",
+            "value": 79
           },
           {
-            "time": "2026-07-08T18:00:00+00:00",
-            "value": 60
+            "time": "2026-07-08T03:00:00+00:00",
+            "value": 82
           },
           {
-            "time": "2026-07-08T19:00:00+00:00",
-            "value": 59
+            "time": "2026-07-08T04:00:00+00:00",
+            "value": 85
           },
           {
-            "time": "2026-07-08T20:00:00+00:00",
-            "value": 57
+            "time": "2026-07-08T05:00:00+00:00",
+            "value": 87
           },
           {
-            "time": "2026-07-08T21:00:00+00:00",
-            "value": 59
-          },
-          {
-            "time": "2026-07-08T23:00:00+00:00",
-            "value": 63
-          },
-          {
-            "time": "2026-07-09T00:00:00+00:00",
-            "value": 70
-          },
-          {
-            "time": "2026-07-09T01:00:00+00:00",
-            "value": 75
-          },
-          {
-            "time": "2026-07-09T02:00:00+00:00",
-            "value": 80
-          },
-          {
-            "time": "2026-07-09T03:00:00+00:00",
-            "value": 84
-          },
-          {
-            "time": "2026-07-09T04:00:00+00:00",
+            "time": "2026-07-08T06:00:00+00:00",
             "value": 88
           },
           {
-            "time": "2026-07-09T05:00:00+00:00",
+            "time": "2026-07-08T07:00:00+00:00",
             "value": 90
           },
           {
-            "time": "2026-07-09T06:00:00+00:00",
+            "time": "2026-07-08T08:00:00+00:00",
+            "value": 92
+          },
+          {
+            "time": "2026-07-08T09:00:00+00:00",
             "value": 91
           },
           {
+            "time": "2026-07-08T12:00:00+00:00",
+            "value": 90
+          },
+          {
+            "time": "2026-07-08T13:00:00+00:00",
+            "value": 85
+          },
+          {
+            "time": "2026-07-08T14:00:00+00:00",
+            "value": 72
+          },
+          {
+            "time": "2026-07-08T15:00:00+00:00",
+            "value": 66
+          },
+          {
+            "time": "2026-07-08T16:00:00+00:00",
+            "value": 63
+          },
+          {
+            "time": "2026-07-08T17:00:00+00:00",
+            "value": 59
+          },
+          {
+            "time": "2026-07-08T18:00:00+00:00",
+            "value": 57
+          },
+          {
+            "time": "2026-07-08T19:00:00+00:00",
+            "value": 55
+          },
+          {
+            "time": "2026-07-08T20:00:00+00:00",
+            "value": 54
+          },
+          {
+            "time": "2026-07-08T21:00:00+00:00",
+            "value": 56
+          },
+          {
+            "time": "2026-07-08T22:00:00+00:00",
+            "value": 57
+          },
+          {
+            "time": "2026-07-08T23:00:00+00:00",
+            "value": 60
+          },
+          {
+            "time": "2026-07-09T00:00:00+00:00",
+            "value": 68
+          },
+          {
+            "time": "2026-07-09T01:00:00+00:00",
+            "value": 73
+          },
+          {
+            "time": "2026-07-09T02:00:00+00:00",
+            "value": 79
+          },
+          {
+            "time": "2026-07-09T03:00:00+00:00",
+            "value": 82
+          },
+          {
+            "time": "2026-07-09T04:00:00+00:00",
+            "value": 85
+          },
+          {
+            "time": "2026-07-09T05:00:00+00:00",
+            "value": 87
+          },
+          {
+            "time": "2026-07-09T06:00:00+00:00",
+            "value": 89
+          },
+          {
             "time": "2026-07-09T07:00:00+00:00",
-            "value": 93
+            "value": 90
           },
           {
-            "time": "2026-07-09T09:00:00+00:00",
-            "value": 94
+            "time": "2026-07-09T08:00:00+00:00",
+            "value": 92
           },
           {
-            "time": "2026-07-09T10:00:00+00:00",
-            "value": 95
+            "time": "2026-07-09T13:00:00+00:00",
+            "value": 87
+          },
+          {
+            "time": "2026-07-09T14:00:00+00:00",
+            "value": 79
+          },
+          {
+            "time": "2026-07-09T15:00:00+00:00",
+            "value": 71
+          },
+          {
+            "time": "2026-07-09T16:00:00+00:00",
+            "value": 66
+          },
+          {
+            "time": "2026-07-09T17:00:00+00:00",
+            "value": 63
+          },
+          {
+            "time": "2026-07-09T18:00:00+00:00",
+            "value": 62
+          },
+          {
+            "time": "2026-07-09T19:00:00+00:00",
+            "value": 60
+          },
+          {
+            "time": "2026-07-09T21:00:00+00:00",
+            "value": 61
+          },
+          {
+            "time": "2026-07-09T22:00:00+00:00",
+            "value": 63
           }
         ],
         "summary": {
-          "min": 57,
-          "max": 96,
-          "avg": 76.88
+          "min": 54,
+          "max": 92,
+          "avg": 73.93
         }
       },
       "probabilityOfPrecipitation": {
@@ -991,128 +941,104 @@
         "unit": "wmoUnit:percent",
         "values": [
           {
-            "time": "2026-07-07T13:00:00+00:00",
-            "value": 0
-          },
-          {
-            "time": "2026-07-07T14:00:00+00:00",
-            "value": 1
-          },
-          {
-            "time": "2026-07-07T15:00:00+00:00",
-            "value": 2
-          },
-          {
-            "time": "2026-07-07T16:00:00+00:00",
-            "value": 3
-          },
-          {
-            "time": "2026-07-07T17:00:00+00:00",
-            "value": 5
-          },
-          {
-            "time": "2026-07-07T18:00:00+00:00",
-            "value": 7
-          },
-          {
-            "time": "2026-07-07T20:00:00+00:00",
-            "value": 8
-          },
-          {
-            "time": "2026-07-07T21:00:00+00:00",
-            "value": 9
-          },
-          {
-            "time": "2026-07-07T22:00:00+00:00",
-            "value": 8
+            "time": "2026-07-07T23:00:00+00:00",
+            "value": 17
           },
           {
             "time": "2026-07-08T00:00:00+00:00",
-            "value": 4
+            "value": 12
+          },
+          {
+            "time": "2026-07-08T01:00:00+00:00",
+            "value": 2
           },
           {
             "time": "2026-07-08T02:00:00+00:00",
-            "value": 3
+            "value": 1
           },
           {
-            "time": "2026-07-08T04:00:00+00:00",
-            "value": 2
-          },
-          {
-            "time": "2026-07-08T08:00:00+00:00",
-            "value": 3
-          },
-          {
-            "time": "2026-07-08T11:00:00+00:00",
-            "value": 2
-          },
-          {
-            "time": "2026-07-08T12:00:00+00:00",
-            "value": 3
-          },
-          {
-            "time": "2026-07-08T14:00:00+00:00",
-            "value": 0
-          },
-          {
-            "time": "2026-07-08T16:00:00+00:00",
+            "time": "2026-07-08T13:00:00+00:00",
             "value": 2
           },
           {
             "time": "2026-07-08T17:00:00+00:00",
-            "value": 5
-          },
-          {
-            "time": "2026-07-08T18:00:00+00:00",
-            "value": 8
-          },
-          {
-            "time": "2026-07-08T19:00:00+00:00",
-            "value": 15
-          },
-          {
-            "time": "2026-07-08T20:00:00+00:00",
-            "value": 12
-          },
-          {
-            "time": "2026-07-08T21:00:00+00:00",
-            "value": 6
-          },
-          {
-            "time": "2026-07-08T22:00:00+00:00",
             "value": 4
           },
           {
+            "time": "2026-07-08T18:00:00+00:00",
+            "value": 7
+          },
+          {
+            "time": "2026-07-08T20:00:00+00:00",
+            "value": 8
+          },
+          {
+            "time": "2026-07-08T21:00:00+00:00",
+            "value": 11
+          },
+          {
+            "time": "2026-07-08T22:00:00+00:00",
+            "value": 3
+          },
+          {
             "time": "2026-07-08T23:00:00+00:00",
-            "value": 0
+            "value": 14
           },
           {
             "time": "2026-07-09T00:00:00+00:00",
+            "value": 16
+          },
+          {
+            "time": "2026-07-09T01:00:00+00:00",
+            "value": 11
+          },
+          {
+            "time": "2026-07-09T02:00:00+00:00",
+            "value": 5
+          },
+          {
+            "time": "2026-07-09T04:00:00+00:00",
+            "value": 4
+          },
+          {
+            "time": "2026-07-09T05:00:00+00:00",
+            "value": 1
+          },
+          {
+            "time": "2026-07-09T07:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-09T08:00:00+00:00",
+            "value": 3
+          },
+          {
+            "time": "2026-07-09T10:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-09T11:00:00+00:00",
+            "value": 7
+          },
+          {
+            "time": "2026-07-09T12:00:00+00:00",
             "value": 13
           },
           {
-            "time": "2026-07-09T06:00:00+00:00",
-            "value": 6
+            "time": "2026-07-09T18:00:00+00:00",
+            "value": 36
           }
         ],
         "summary": {
           "min": 0,
-          "max": 15,
-          "avg": 5.04
+          "max": 36,
+          "avg": 8.05
         }
       },
       "quantitativePrecipitation": {
         "available": true,
         "unit": "wmoUnit:mm",
         "values": [
-          {
-            "time": "2026-07-07T12:00:00+00:00",
-            "value": 0
-          },
-          {
-            "time": "2026-07-07T18:00:00+00:00",
-            "value": 0
-          },
           {
             "time": "2026-07-08T00:00:00+00:00",
             "value": 0
@@ -1135,6 +1061,14 @@
           },
           {
             "time": "2026-07-09T06:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-09T12:00:00+00:00",
+            "value": 0
+          },
+          {
+            "time": "2026-07-09T18:00:00+00:00",
             "value": 0
           }
         ],
@@ -1149,52 +1083,16 @@
         "unit": "wmoUnit:degC",
         "values": [
           {
-            "time": "2026-07-07T12:00:00+00:00",
-            "value": 21.666666666666668
-          },
-          {
-            "time": "2026-07-07T13:00:00+00:00",
-            "value": 23.333333333333332
-          },
-          {
-            "time": "2026-07-07T14:00:00+00:00",
-            "value": 25.555555555555557
-          },
-          {
-            "time": "2026-07-07T15:00:00+00:00",
-            "value": 27.22222222222222
-          },
-          {
-            "time": "2026-07-07T16:00:00+00:00",
-            "value": 27.77777777777778
-          },
-          {
-            "time": "2026-07-07T17:00:00+00:00",
-            "value": 29.444444444444443
-          },
-          {
-            "time": "2026-07-07T18:00:00+00:00",
-            "value": 30
-          },
-          {
-            "time": "2026-07-07T20:00:00+00:00",
-            "value": 30.555555555555557
-          },
-          {
-            "time": "2026-07-07T21:00:00+00:00",
-            "value": 30
-          },
-          {
             "time": "2026-07-07T23:00:00+00:00",
             "value": 29.444444444444443
           },
           {
             "time": "2026-07-08T00:00:00+00:00",
-            "value": 27.77777777777778
+            "value": 28.333333333333332
           },
           {
             "time": "2026-07-08T01:00:00+00:00",
-            "value": 26.11111111111111
+            "value": 26.666666666666668
           },
           {
             "time": "2026-07-08T02:00:00+00:00",
@@ -1210,6 +1108,10 @@
           },
           {
             "time": "2026-07-08T05:00:00+00:00",
+            "value": 22.77777777777778
+          },
+          {
+            "time": "2026-07-08T06:00:00+00:00",
             "value": 22.22222222222222
           },
           {
@@ -1234,27 +1136,23 @@
           },
           {
             "time": "2026-07-08T15:00:00+00:00",
-            "value": 27.77777777777778
+            "value": 28.333333333333332
           },
           {
             "time": "2026-07-08T16:00:00+00:00",
-            "value": 28.88888888888889
+            "value": 29.444444444444443
           },
           {
             "time": "2026-07-08T17:00:00+00:00",
-            "value": 30
-          },
-          {
-            "time": "2026-07-08T18:00:00+00:00",
             "value": 30.555555555555557
           },
           {
-            "time": "2026-07-08T20:00:00+00:00",
+            "time": "2026-07-08T19:00:00+00:00",
             "value": 31.11111111111111
           },
           {
             "time": "2026-07-08T21:00:00+00:00",
-            "value": 30
+            "value": 30.555555555555557
           },
           {
             "time": "2026-07-08T23:00:00+00:00",
@@ -1282,6 +1180,10 @@
           },
           {
             "time": "2026-07-09T05:00:00+00:00",
+            "value": 22.77777777777778
+          },
+          {
+            "time": "2026-07-09T06:00:00+00:00",
             "value": 22.22222222222222
           },
           {
@@ -1289,14 +1191,50 @@
             "value": 21.666666666666668
           },
           {
-            "time": "2026-07-09T08:00:00+00:00",
+            "time": "2026-07-09T09:00:00+00:00",
             "value": 21.11111111111111
+          },
+          {
+            "time": "2026-07-09T12:00:00+00:00",
+            "value": 21.666666666666668
+          },
+          {
+            "time": "2026-07-09T13:00:00+00:00",
+            "value": 23.333333333333332
+          },
+          {
+            "time": "2026-07-09T14:00:00+00:00",
+            "value": 25.555555555555557
+          },
+          {
+            "time": "2026-07-09T15:00:00+00:00",
+            "value": 27.22222222222222
+          },
+          {
+            "time": "2026-07-09T16:00:00+00:00",
+            "value": 28.88888888888889
+          },
+          {
+            "time": "2026-07-09T17:00:00+00:00",
+            "value": 29.444444444444443
+          },
+          {
+            "time": "2026-07-09T18:00:00+00:00",
+            "value": 30
+          },
+          {
+            "time": "2026-07-09T21:00:00+00:00",
+            "value": 29.444444444444443
+          },
+          {
+            "time": "2026-07-09T22:00:00+00:00",
+            "value": 28.88888888888889
           }
         ],
         "summary": {
           "min": 21.11,
           "max": 31.11,
-          "avg": 26.05
+          "avg": 25.81
         }
       },
       "dewpoint": {
@@ -1304,31 +1242,7 @@
         "unit": "wmoUnit:degC",
         "values": [
           {
-            "time": "2026-07-07T11:00:00+00:00",
-            "value": 20.555555555555557
-          },
-          {
-            "time": "2026-07-07T12:00:00+00:00",
-            "value": 21.11111111111111
-          },
-          {
-            "time": "2026-07-07T13:00:00+00:00",
-            "value": 21.666666666666668
-          },
-          {
-            "time": "2026-07-07T14:00:00+00:00",
-            "value": 22.22222222222222
-          },
-          {
-            "time": "2026-07-07T16:00:00+00:00",
-            "value": 22.77777777777778
-          },
-          {
-            "time": "2026-07-07T17:00:00+00:00",
-            "value": 22.22222222222222
-          },
-          {
-            "time": "2026-07-07T20:00:00+00:00",
+            "time": "2026-07-07T23:00:00+00:00",
             "value": 21.666666666666668
           },
           {
@@ -1340,16 +1254,20 @@
             "value": 21.666666666666668
           },
           {
-            "time": "2026-07-08T03:00:00+00:00",
+            "time": "2026-07-08T02:00:00+00:00",
             "value": 21.11111111111111
           },
           {
-            "time": "2026-07-08T05:00:00+00:00",
+            "time": "2026-07-08T04:00:00+00:00",
             "value": 20.555555555555557
           },
           {
-            "time": "2026-07-08T08:00:00+00:00",
+            "time": "2026-07-08T06:00:00+00:00",
             "value": 20
+          },
+          {
+            "time": "2026-07-08T09:00:00+00:00",
+            "value": 19.444444444444443
           },
           {
             "time": "2026-07-08T12:00:00+00:00",
@@ -1357,45 +1275,61 @@
           },
           {
             "time": "2026-07-08T13:00:00+00:00",
+            "value": 21.11111111111111
+          },
+          {
+            "time": "2026-07-08T14:00:00+00:00",
             "value": 21.666666666666668
+          },
+          {
+            "time": "2026-07-08T15:00:00+00:00",
+            "value": 21.11111111111111
           },
           {
             "time": "2026-07-08T16:00:00+00:00",
-            "value": 22.22222222222222
+            "value": 21.666666666666668
           },
           {
             "time": "2026-07-08T17:00:00+00:00",
-            "value": 21.666666666666668
+            "value": 21.11111111111111
           },
           {
-            "time": "2026-07-08T22:00:00+00:00",
-            "value": 21.11111111111111
+            "time": "2026-07-08T21:00:00+00:00",
+            "value": 20.555555555555557
           },
           {
             "time": "2026-07-08T23:00:00+00:00",
-            "value": 21.666666666666668
-          },
-          {
-            "time": "2026-07-09T03:00:00+00:00",
             "value": 21.11111111111111
           },
           {
-            "time": "2026-07-09T05:00:00+00:00",
+            "time": "2026-07-09T03:00:00+00:00",
             "value": 20.555555555555557
           },
           {
-            "time": "2026-07-09T08:00:00+00:00",
+            "time": "2026-07-09T06:00:00+00:00",
             "value": 20
           },
           {
-            "time": "2026-07-09T10:00:00+00:00",
+            "time": "2026-07-09T12:00:00+00:00",
             "value": 20.555555555555557
+          },
+          {
+            "time": "2026-07-09T13:00:00+00:00",
+            "value": 21.11111111111111
+          },
+          {
+            "time": "2026-07-09T14:00:00+00:00",
+            "value": 21.666666666666668
+          },
+          {
+            "time": "2026-07-09T21:00:00+00:00",
+            "value": 21.11111111111111
           }
         ],
         "summary": {
-          "min": 20,
-          "max": 22.78,
-          "avg": 21.31
+          "min": 19.44,
+          "max": 22.22,
+          "avg": 20.98
         }
       },
       "windSpeed": {
@@ -1403,30 +1337,6 @@
         "unit": "wmoUnit:km_h-1",
         "values": [
           {
-            "time": "2026-07-07T12:00:00+00:00",
-            "value": 3.704
-          },
-          {
-            "time": "2026-07-07T13:00:00+00:00",
-            "value": 5.556
-          },
-          {
-            "time": "2026-07-07T15:00:00+00:00",
-            "value": 7.408
-          },
-          {
-            "time": "2026-07-07T16:00:00+00:00",
-            "value": 9.26
-          },
-          {
-            "time": "2026-07-07T18:00:00+00:00",
-            "value": 11.112
-          },
-          {
-            "time": "2026-07-07T22:00:00+00:00",
-            "value": 9.26
-          },
-          {
             "time": "2026-07-07T23:00:00+00:00",
             "value": 7.408
           },
@@ -1435,7 +1345,15 @@
             "value": 5.556
           },
           {
-            "time": "2026-07-08T05:00:00+00:00",
+            "time": "2026-07-08T02:00:00+00:00",
+            "value": 3.704
+          },
+          {
+            "time": "2026-07-08T03:00:00+00:00",
+            "value": 5.556
+          },
+          {
+            "time": "2026-07-08T04:00:00+00:00",
             "value": 3.704
           },
           {
@@ -1447,11 +1365,11 @@
             "value": 7.408
           },
           {
-            "time": "2026-07-08T16:00:00+00:00",
+            "time": "2026-07-08T17:00:00+00:00",
             "value": 9.26
           },
           {
-            "time": "2026-07-08T19:00:00+00:00",
+            "time": "2026-07-08T20:00:00+00:00",
             "value": 11.112
           },
           {
@@ -1459,7 +1377,7 @@
             "value": 9.26
           },
           {
-            "time": "2026-07-08T23:00:00+00:00",
+            "time": "2026-07-09T00:00:00+00:00",
             "value": 7.408
           },
           {
@@ -1467,14 +1385,38 @@
             "value": 5.556
           },
           {
-            "time": "2026-07-09T04:00:00+00:00",
+            "time": "2026-07-09T03:00:00+00:00",
             "value": 3.704
+          },
+          {
+            "time": "2026-07-09T12:00:00+00:00",
+            "value": 5.556
+          },
+          {
+            "time": "2026-07-09T14:00:00+00:00",
+            "value": 7.408
+          },
+          {
+            "time": "2026-07-09T15:00:00+00:00",
+            "value": 9.26
+          },
+          {
+            "time": "2026-07-09T16:00:00+00:00",
+            "value": 11.112
+          },
+          {
+            "time": "2026-07-09T19:00:00+00:00",
+            "value": 12.964
+          },
+          {
+            "time": "2026-07-09T22:00:00+00:00",
+            "value": 11.112
           }
         ],
         "summary": {
           "min": 3.7,
-          "max": 11.11,
-          "avg": 7.19
+          "max": 12.96,
+          "avg": 7.51
         }
       },
       "windGust": {
@@ -1482,79 +1424,47 @@
         "unit": "wmoUnit:km_h-1",
         "values": [
           {
-            "time": "2026-07-07T11:00:00+00:00",
-            "value": 7.408
-          },
-          {
-            "time": "2026-07-07T12:00:00+00:00",
-            "value": 9.26
-          },
-          {
-            "time": "2026-07-07T13:00:00+00:00",
-            "value": 11.112
-          },
-          {
-            "time": "2026-07-07T14:00:00+00:00",
-            "value": 14.816
-          },
-          {
-            "time": "2026-07-07T15:00:00+00:00",
-            "value": 18.52
-          },
-          {
-            "time": "2026-07-07T16:00:00+00:00",
-            "value": 20.372
-          },
-          {
-            "time": "2026-07-07T18:00:00+00:00",
-            "value": 22.224
-          },
-          {
             "time": "2026-07-07T23:00:00+00:00",
-            "value": 20.372
+            "value": 18.52
           },
           {
             "time": "2026-07-08T00:00:00+00:00",
-            "value": 16.668
-          },
-          {
-            "time": "2026-07-08T01:00:00+00:00",
-            "value": 12.964
-          },
-          {
-            "time": "2026-07-08T02:00:00+00:00",
-            "value": 11.112
-          },
-          {
-            "time": "2026-07-08T05:00:00+00:00",
-            "value": 9.26
-          },
-          {
-            "time": "2026-07-08T07:00:00+00:00",
-            "value": 7.408
-          },
-          {
-            "time": "2026-07-08T09:00:00+00:00",
-            "value": 9.26
-          },
-          {
-            "time": "2026-07-08T12:00:00+00:00",
-            "value": 11.112
-          },
-          {
-            "time": "2026-07-08T14:00:00+00:00",
             "value": 14.816
           },
           {
+            "time": "2026-07-08T01:00:00+00:00",
+            "value": 11.112
+          },
+          {
+            "time": "2026-07-08T03:00:00+00:00",
+            "value": 9.26
+          },
+          {
+            "time": "2026-07-08T06:00:00+00:00",
+            "value": 7.408
+          },
+          {
+            "time": "2026-07-08T12:00:00+00:00",
+            "value": 9.26
+          },
+          {
+            "time": "2026-07-08T14:00:00+00:00",
+            "value": 12.964
+          },
+          {
             "time": "2026-07-08T15:00:00+00:00",
-            "value": 18.52
+            "value": 16.668
           },
           {
             "time": "2026-07-08T16:00:00+00:00",
+            "value": 18.52
+          },
+          {
+            "time": "2026-07-08T17:00:00+00:00",
             "value": 20.372
           },
           {
-            "time": "2026-07-08T18:00:00+00:00",
+            "time": "2026-07-08T19:00:00+00:00",
             "value": 22.224
           },
           {
@@ -1575,47 +1485,59 @@
           },
           {
             "time": "2026-07-09T03:00:00+00:00",
+            "value": 9.26
+          },
+          {
+            "time": "2026-07-09T07:00:00+00:00",
+            "value": 7.408
+          },
+          {
+            "time": "2026-07-09T08:00:00+00:00",
+            "value": 9.26
+          },
+          {
+            "time": "2026-07-09T09:00:00+00:00",
             "value": 11.112
           },
           {
-            "time": "2026-07-09T04:00:00+00:00",
-            "value": 9.26
+            "time": "2026-07-09T12:00:00+00:00",
+            "value": 12.964
+          },
+          {
+            "time": "2026-07-09T13:00:00+00:00",
+            "value": 14.816
+          },
+          {
+            "time": "2026-07-09T14:00:00+00:00",
+            "value": 18.52
+          },
+          {
+            "time": "2026-07-09T15:00:00+00:00",
+            "value": 22.224
+          },
+          {
+            "time": "2026-07-09T16:00:00+00:00",
+            "value": 24.076
+          },
+          {
+            "time": "2026-07-09T19:00:00+00:00",
+            "value": 25.928
+          },
+          {
+            "time": "2026-07-09T22:00:00+00:00",
+            "value": 24.076
           }
         ],
         "summary": {
           "min": 7.41,
-          "max": 22.22,
-          "avg": 14.59
+          "max": 25.93,
+          "avg": 15.67
         }
       },
       "windDirection": {
         "available": true,
         "unit": "wmoUnit:degree_(angle)",
         "values": [
-          {
-            "time": "2026-07-07T12:00:00+00:00",
-            "value": 260
-          },
-          {
-            "time": "2026-07-07T13:00:00+00:00",
-            "value": 270
-          },
-          {
-            "time": "2026-07-07T20:00:00+00:00",
-            "value": 260
-          },
-          {
-            "time": "2026-07-07T21:00:00+00:00",
-            "value": 270
-          },
-          {
-            "time": "2026-07-07T22:00:00+00:00",
-            "value": 260
-          },
-          {
-            "time": "2026-07-07T23:00:00+00:00",
-            "value": 270
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 280
@@ -1625,62 +1547,66 @@
             "value": 290
           },
           {
-            "time": "2026-07-08T03:00:00+00:00",
-            "value": 280
-          },
-          {
             "time": "2026-07-08T04:00:00+00:00",
-            "value": 290
+            "value": 300
           },
           {
             "time": "2026-07-08T05:00:00+00:00",
-            "value": 280
-          },
-          {
-            "time": "2026-07-08T09:00:00+00:00",
-            "value": 270
+            "value": 290
           },
           {
             "time": "2026-07-08T10:00:00+00:00",
             "value": 280
           },
           {
-            "time": "2026-07-08T11:00:00+00:00",
-            "value": 290
-          },
-          {
             "time": "2026-07-08T12:00:00+00:00",
-            "value": 280
+            "value": 270
           },
           {
             "time": "2026-07-08T13:00:00+00:00",
-            "value": 270
-          },
-          {
-            "time": "2026-07-08T14:00:00+00:00",
-            "value": 280
-          },
-          {
-            "time": "2026-07-08T15:00:00+00:00",
-            "value": 270
-          },
-          {
-            "time": "2026-07-08T17:00:00+00:00",
             "value": 260
           },
           {
-            "time": "2026-07-09T01:00:00+00:00",
+            "time": "2026-07-08T20:00:00+00:00",
+            "value": 250
+          },
+          {
+            "time": "2026-07-08T22:00:00+00:00",
+            "value": 260
+          },
+          {
+            "time": "2026-07-09T00:00:00+00:00",
             "value": 270
           },
           {
-            "time": "2026-07-09T05:00:00+00:00",
+            "time": "2026-07-09T01:00:00+00:00",
             "value": 280
+          },
+          {
+            "time": "2026-07-09T06:00:00+00:00",
+            "value": 270
+          },
+          {
+            "time": "2026-07-09T07:00:00+00:00",
+            "value": 280
+          },
+          {
+            "time": "2026-07-09T11:00:00+00:00",
+            "value": 270
+          },
+          {
+            "time": "2026-07-09T13:00:00+00:00",
+            "value": 260
+          },
+          {
+            "time": "2026-07-09T20:00:00+00:00",
+            "value": 250
           }
         ],
         "summary": {
-          "min": 260,
-          "max": 290,
-          "avg": 274.29
+          "min": 250,
+          "max": 300,
+          "avg": 272.5
         }
       }
     }
