@@ -27,7 +27,7 @@
       "score": 8.0,
       "label": "Very good"
     },
-    "best_window": "day2 morning",
+    "best_window": "day1 morning",
     "current_conditions": {
       "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
       "water_temp_f": 57.0,
@@ -37,28 +37,28 @@
       "observed_at": "2026-07-06T10:15:00.000-04:00"
     },
     "weather_summary": {
-      "pressure_inhg": 30.0,
+      "pressure_inhg": 29.99,
       "air_temp": {
-        "current_f": 85,
+        "current_f": 84,
         "low_f": 74.0,
         "high_f": 89.0
       },
       "sky_cover": {
         "min": 9,
         "max": 39,
-        "avg": 22.17
+        "avg": 21.93
       },
       "humidity": {
         "min": 57,
         "max": 92,
-        "avg": 76.51
+        "avg": 76.2
       },
       "rain": {
-        "max_probability_percent": 48,
+        "max_probability_percent": 32,
         "expected_inches": 0.02
       },
       "wind": {
-        "avg_mph": 4.4,
+        "avg_mph": 4.5,
         "max_gust_mph": 13.8,
         "predominant_direction": "SW"
       }
@@ -66,7 +66,7 @@
     "angler_analysis": {
       "quality_score": 8.0,
       "quality_label": "Very good",
-      "best_window": "day2 morning",
+      "best_window": "day1 morning",
       "water_temp_read": {
         "status": "ideal",
         "read": "Water temperature is in a favorable trout range.",
@@ -177,11 +177,11 @@
       }
     ],
     "generated_text": {
-      "quick_read": "Trout fishing on the Chattahoochee River is very good with ideal water temperature and recent stocking enhancing biting activity. Expect trout to favor comfortable feeding lanes with a mix of natural and attractor patterns.",
-      "best_window": "Day 2 morning offers the best window due to ideal water temperature and low rain probabilities, making it favorable for trout to actively feed in riffles, runs, seams, and near structure.",
-      "current_conditions": "Water temperature is 57\u00b0F, flow is 1510 cfs, gage height is 2.93 ft, and turbidity is 21 NTU at the Chattahoochee River near Norcross, GA.",
-      "weather_setup": "Sky cover averages 22%, pressure is steady at 30.00 inHg with no clear trend, winds average 4.4 mph from the SW, and slight rain chances with 0.02 inches expected.",
-      "what_this_means": "Trout are likely positioned in riffles, runs, seams, and near structure, favoring clean drifts with nymphs, midges, soft hackles, and opportunistic streamers. Use smaller natural patterns and stocked-trout attractors like egg patterns and squirmy worms, avoiding aggressive presentations where caution is advised."
+      "quick_read": "Trout fishing conditions on the Chattahoochee River are very good with water temperatures ideal for trout. Recent stocking supports active feeding on eggs, worms, and attractor patterns.",
+      "best_window": "The best fishing window is day1 morning because cooler temperatures and high humidity favor trout activity. Calm wind and moderate sky cover create ideal conditions for using nymphs, midges, and soft hackles in riffles and runs.",
+      "current_conditions": "Current USGS water temperature is 57\u00b0F with flow at 1510 cfs and a gage height of 2.93 ft. Turbidity is moderate at 21 NTU.",
+      "weather_setup": "Current sky cover averages 22%, pressure is 29.99 inHg with an unknown trend, wind is from the southwest at 4.5 mph with gusts up to 13.8 mph, and light rain chance is low with 0.02 inches expected.",
+      "what_this_means": "Expect trout to position in riffles, runs, seams, and near structure, favoring comfortable feeding lanes while staying close to cover in bright conditions. Presentations should focus on clean drifts using smaller natural patterns and stocked-trout attractors like egg patterns, squirmy worms, and duracell attractors. Use nymphs, midges, soft hackles, and opportunistic streamers for best results."
     }
   },
   "llm_context": {
@@ -207,79 +207,42 @@
     },
     "usgs_summary": {
       "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-      "water_temp_f": 57.0,
-      "flow_cfs": 1510.0,
-      "gage_height_ft": 2.93,
-      "turbidity": 21.0,
-      "observed_at": "2026-07-06T10:15:00.000-04:00"
+      "water_temp_f": 57.6,
+      "flow_cfs": 933.0,
+      "gage_height_ft": 2.09,
+      "turbidity": 6.5,
+      "observed_at": "2026-07-06T18:15:00.000-04:00"
     },
     "weather_summary": {
-      "pressure_inhg": 30.0,
+      "pressure_inhg": 29.99,
       "air_temp": {
-        "current_f": 85,
+        "current_f": 84,
         "low_f": 74.0,
         "high_f": 89.0
       },
       "sky_cover": {
         "min": 9,
         "max": 39,
-        "avg": 22.17
+        "avg": 21.93
       },
       "humidity": {
         "min": 57,
         "max": 92,
-        "avg": 76.51
+        "avg": 76.2
       },
       "rain": {
-        "max_probability_percent": 48,
+        "max_probability_percent": 32,
         "expected_inches": 0.02
       },
       "wind": {
-        "avg_mph": 4.4,
+        "avg_mph": 4.5,
         "max_gust_mph": 13.8,
         "predominant_direction": "SW"
       }
     },
     "forecast_breakdown": {
       "day1": {
-        "date": "2026-07-06",
-        "morning": {},
-        "afternoon": {},
-        "evening": {
-          "sky_cover": {
-            "min": 27,
-            "max": 34,
-            "avg": 30.5
-          },
-          "humidity": {
-            "min": 71,
-            "max": 73,
-            "avg": 72.0
-          },
-          "rain_probability": {
-            "min": 32,
-            "max": 48,
-            "avg": 40.0
-          },
-          "air_temp_f": {
-            "min": 84.0,
-            "max": 84.0,
-            "avg": 84.0
-          },
-          "wind_mph": {
-            "min": 4.6,
-            "max": 4.6,
-            "avg": 4.6
-          },
-          "wind_gust_mph": {
-            "min": 9.2,
-            "max": 10.4,
-            "avg": 9.8
-          }
-        }
-      },
-      "day2": {
-        "date": "2026-07-06",
+        "date": "2026-07-07",
         "morning": {
           "sky_cover": {
             "min": 19,
@@ -391,6 +354,115 @@
             "avg": 13.25
           }
         }
+      },
+      "day2": {
+        "date": "2026-07-07",
+        "morning": {
+          "sky_cover": {
+            "min": 9,
+            "max": 28,
+            "avg": 14.86
+          },
+          "humidity": {
+            "min": 84,
+            "max": 90,
+            "avg": 87.4
+          },
+          "rain_probability": {
+            "min": 0,
+            "max": 4,
+            "avg": 2.0
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 74.0,
+            "max": 77.0,
+            "avg": 75.5
+          },
+          "wind_mph": {
+            "min": 3.5,
+            "max": 3.5,
+            "avg": 3.5
+          },
+          "wind_gust_mph": {
+            "min": 6.9,
+            "max": 6.9,
+            "avg": 6.9
+          }
+        },
+        "afternoon": {
+          "sky_cover": {
+            "min": 14,
+            "max": 26,
+            "avg": 17.5
+          },
+          "humidity": {
+            "min": 64,
+            "max": 90,
+            "avg": 77.17
+          },
+          "rain_probability": {
+            "min": 4,
+            "max": 4,
+            "avg": 4.0
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 75.0,
+            "max": 86.0,
+            "avg": 81.0
+          },
+          "wind_mph": {
+            "min": 4.6,
+            "max": 6.9,
+            "avg": 5.77
+          },
+          "wind_gust_mph": {
+            "min": 8.1,
+            "max": 13.8,
+            "avg": 11.06
+          }
+        },
+        "evening": {
+          "sky_cover": {
+            "min": 17,
+            "max": 25,
+            "avg": 21.4
+          },
+          "humidity": {
+            "min": 57,
+            "max": 61,
+            "avg": 58.6
+          },
+          "rain_probability": {
+            "min": 17,
+            "max": 17,
+            "avg": 17.0
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 87.0,
+            "max": 89.0,
+            "avg": 88.0
+          },
+          "wind_mph": {
+            "min": 6.9,
+            "max": 8.1,
+            "avg": 7.5
+          }
+        }
       }
     },
     "stocking": {
@@ -470,7 +542,7 @@
     "angler_analysis": {
       "quality_score": 8.0,
       "quality_label": "Very good",
-      "best_window": "day2 morning",
+      "best_window": "day1 morning",
       "water_temp_read": {
         "status": "ideal",
         "read": "Water temperature is in a favorable trout range.",
@@ -563,28 +635,28 @@
       "water_temp": {
         "parameter_code": "00010",
         "name": "Temperature, water, &#176;C",
-        "value": 13.9,
-        "timestamp": "2026-07-06T10:15:00.000-04:00",
-        "value_c": 13.9,
-        "value_f": 57.0
+        "value": 14.4,
+        "timestamp": "2026-07-06T19:15:00.000-04:00",
+        "value_c": 14.4,
+        "value_f": 57.9
       },
       "flow_cfs": {
         "parameter_code": "00060",
         "name": "Streamflow, ft&#179;/s",
-        "value": 1510.0,
-        "timestamp": "2026-07-06T10:15:00.000-04:00"
+        "value": 933.0,
+        "timestamp": "2026-07-06T18:15:00.000-04:00"
       },
       "gage_height_ft": {
         "parameter_code": "00065",
         "name": "Gage height, ft",
-        "value": 2.93,
-        "timestamp": "2026-07-06T10:15:00.000-04:00"
+        "value": 2.01,
+        "timestamp": "2026-07-06T19:15:00.000-04:00"
       },
       "turbidity": {
         "parameter_code": "63680",
         "name": "Turbidity, water, unfiltered, monochrome near infra-red LED light, 780-900 nm, detection angle 90 &#177;2.5&#176;, formazin nephelometric units (FNU)",
-        "value": 21.0,
-        "timestamp": "2026-07-06T10:15:00.000-04:00"
+        "value": 6.0,
+        "timestamp": "2026-07-06T19:15:00.000-04:00"
       }
     }
   },

@@ -32,28 +32,28 @@
     "weather_summary": {
       "pressure_inhg": null,
       "air_temp": {
-        "current_f": 76,
+        "current_f": 74,
         "low_f": 64.0,
         "high_f": 80.0
       },
       "sky_cover": {
         "min": 17,
-        "max": 82,
-        "avg": 44.93
+        "max": 76,
+        "avg": 44.54
       },
       "humidity": {
         "min": 69,
         "max": 97,
-        "avg": 86.46
+        "avg": 86.05
       },
       "rain": {
-        "max_probability_percent": 59,
+        "max_probability_percent": 51,
         "expected_inches": 0.02
       },
       "wind": {
-        "avg_mph": 1.8,
+        "avg_mph": 2.0,
         "max_gust_mph": 10.4,
-        "predominant_direction": "WSW"
+        "predominant_direction": ""
       }
     },
     "angler_analysis": {
@@ -101,11 +101,11 @@
     },
     "recommended_flies": [],
     "generated_text": {
-      "quick_read": "The Nantahala River offers fair trout fishing conditions with moderate sky cover and mild wind. Water temperature and flow data are unavailable, but anglers can expect steady conditions with light rain chances in the evening.",
-      "best_window": "The best fishing window is day 2 morning due to lower sky cover and humidity, minimal rain probability, and calm wind, providing more comfortable conditions for trout activity and better fishing opportunities.",
-      "current_conditions": "USGS water temperature, flow, gage height, and turbidity data are unavailable for the Nantahala River at this time.",
-      "weather_setup": "Sky cover averages 45%, with pressure and pressure trend unavailable. Winds are light at around 1.8 mph from the WSW, and rain chances are low with a maximum probability of 59% in the evening, amounting to about 0.02 inches.",
-      "what_this_means": "Trout are expected to favor comfortable feeding lanes near cover during moderate light conditions. Anglers should prioritize clean drifts using smaller natural fly patterns and stocked-trout attractors. Absence of recent stocking data suggests reliance on natural trout behavior without specific stocking boosts."
+      "quick_read": "The trout fishing outlook for Nantahala River is fair with a quality score of 5.0. Water temperature, pressure, and stocking data are unavailable, limiting full assessment.",
+      "best_window": "Day 2 morning is the best window due to moderate sky cover averaging 43%, low rain probability, and cool air temperatures around 65\u00b0F, making conditions comfortable for trout to feed.",
+      "current_conditions": "Current river conditions such as USGS water temperature, flow, gage height, and turbidity are unavailable for the Nantahala River.",
+      "weather_setup": "Sky cover averages 44.5% with increasing cloudiness into the evening. Pressure and pressure trend data are unavailable. Winds are light averaging 2 mph with gusts up to 10.4 mph. Rain probability in the evening reaches 51% with expected light rain of 0.02 inches.",
+      "what_this_means": "Trout are expected to favor comfortable feeding lanes close to cover due to bright light conditions. Use clean drifts and smaller natural fly patterns along with stocked-trout attractors if relevant. Exercise caution as limited environmental data adds uncertainty to trout behavior and positioning."
     }
   },
   "llm_context": {
@@ -133,28 +133,28 @@
     "weather_summary": {
       "pressure_inhg": null,
       "air_temp": {
-        "current_f": 76,
+        "current_f": 74,
         "low_f": 64.0,
         "high_f": 80.0
       },
       "sky_cover": {
         "min": 17,
-        "max": 82,
-        "avg": 44.93
+        "max": 76,
+        "avg": 44.54
       },
       "humidity": {
         "min": 69,
         "max": 97,
-        "avg": 86.46
+        "avg": 86.05
       },
       "rain": {
-        "max_probability_percent": 59,
+        "max_probability_percent": 51,
         "expected_inches": 0.02
       },
       "wind": {
-        "avg_mph": 1.8,
+        "avg_mph": 2.0,
         "max_gust_mph": 10.4,
-        "predominant_direction": "WSW"
+        "predominant_direction": ""
       }
     },
     "forecast_breakdown": {
@@ -165,28 +165,18 @@
         "evening": {
           "sky_cover": {
             "min": 76,
-            "max": 82,
-            "avg": 79.0
-          },
-          "humidity": {
-            "min": 91,
-            "max": 91,
-            "avg": 91.0
+            "max": 76,
+            "avg": 76.0
           },
           "rain_probability": {
             "min": 51,
-            "max": 59,
-            "avg": 55.0
+            "max": 51,
+            "avg": 51.0
           },
           "air_temp_f": {
             "min": 73.0,
-            "max": 74.0,
-            "avg": 73.5
-          },
-          "wind_mph": {
-            "min": 0.0,
-            "max": 0.0,
-            "avg": 0.0
+            "max": 73.0,
+            "avg": 73.0
           },
           "wind_gust_mph": {
             "min": 4.6,

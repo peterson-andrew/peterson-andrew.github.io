@@ -37,30 +37,30 @@
       "observed_at": "2026-07-06T11:00:00.000-04:00"
     },
     "weather_summary": {
-      "pressure_inhg": 29.99,
+      "pressure_inhg": 29.98,
       "air_temp": {
-        "current_f": 86,
+        "current_f": 84,
         "low_f": 70.0,
         "high_f": 90.0
       },
       "sky_cover": {
         "min": 3,
-        "max": 65,
-        "avg": 18.77
+        "max": 61,
+        "avg": 17.72
       },
       "humidity": {
         "min": 52,
         "max": 98,
-        "avg": 77.55
+        "avg": 77.2
       },
       "rain": {
-        "max_probability_percent": 38,
+        "max_probability_percent": 34,
         "expected_inches": 0.01
       },
       "wind": {
-        "avg_mph": 4.1,
+        "avg_mph": 4.2,
         "max_gust_mph": 15.0,
-        "predominant_direction": "SW"
+        "predominant_direction": "WSW"
       }
     },
     "angler_analysis": {
@@ -120,11 +120,11 @@
     },
     "recommended_flies": [],
     "generated_text": {
-      "quick_read": "The Soque River offers fair trout fishing conditions with moderate flow and stable weather. Evenings on day 1 present the best opportunity for anglers seeking active trout.",
-      "best_window": "The day 1 evening has the best window due to moderate sky cover, mild wind conditions, and reduced rain chances, providing a comfortable environment for trout to feed actively in runs, seams, and structure.",
-      "current_conditions": "Current river conditions show a flow of 89.2 cfs and a gage height of 3.77 ft; water temperature and turbidity data are unavailable.",
-      "weather_setup": "The weather features light sky cover averaging 18.77%, stable pressure at 29.99 inHg with no clear trend, southwest winds averaging 4.1 mph with gusts up to 15 mph, and a low chance of rain around 1%.",
-      "what_this_means": "Trout are expected to hold in comfortable feeding lanes near runs, seams, and structure while avoiding high light areas. Use a balanced nymph approach with smaller natural patterns and calm presentations for the best results. There is no recent stocking, so focus on natural trout behavior with clean drifts."
+      "quick_read": "Current river flow is moderate at 89.2 cfs with a gage height of 3.77 ft. Evening conditions on day 1 offer the best fishing opportunities with stable weather and moderate skies.",
+      "best_window": "Day 1 evening is best due to moderate sky cover at 61%, stable pressure at 29.98 inHg, light wind from WSW, and a fair quality score indicating favorable trout activity.",
+      "current_conditions": "Water temperature is unavailable. Flow is 89.2 cfs with a gage height of 3.77 ft. Turbidity data is unavailable.",
+      "weather_setup": "Sky cover averages 17.72%, pressure steady at 29.98 inHg with no trend data. Wind averages 4.2 mph from WSW. Rain probability is low, around 34% with minimal expected precipitation.",
+      "what_this_means": "Trout will concentrate around runs, seams, and structure, feeding in comfortable lanes near cover. Use a balanced nymph approach with clean drifts and smaller natural patterns. Exercise typical caution without wading safety claims."
     }
   },
   "llm_context": {
@@ -151,36 +151,36 @@
     "usgs_summary": {
       "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
       "water_temp_f": null,
-      "flow_cfs": 89.2,
-      "gage_height_ft": 3.77,
+      "flow_cfs": 71.6,
+      "gage_height_ft": 3.62,
       "turbidity": null,
-      "observed_at": "2026-07-06T11:00:00.000-04:00"
+      "observed_at": "2026-07-06T19:00:00.000-04:00"
     },
     "weather_summary": {
-      "pressure_inhg": 29.99,
+      "pressure_inhg": 29.98,
       "air_temp": {
-        "current_f": 86,
+        "current_f": 84,
         "low_f": 70.0,
         "high_f": 90.0
       },
       "sky_cover": {
         "min": 3,
-        "max": 65,
-        "avg": 18.77
+        "max": 61,
+        "avg": 17.72
       },
       "humidity": {
         "min": 52,
         "max": 98,
-        "avg": 77.55
+        "avg": 77.2
       },
       "rain": {
-        "max_probability_percent": 38,
+        "max_probability_percent": 34,
         "expected_inches": 0.01
       },
       "wind": {
-        "avg_mph": 4.1,
+        "avg_mph": 4.2,
         "max_gust_mph": 15.0,
-        "predominant_direction": "SW"
+        "predominant_direction": "WSW"
       }
     },
     "forecast_breakdown": {
@@ -191,23 +191,23 @@
         "evening": {
           "sky_cover": {
             "min": 61,
-            "max": 65,
-            "avg": 63.0
+            "max": 61,
+            "avg": 61.0
           },
           "humidity": {
-            "min": 71,
+            "min": 74,
             "max": 74,
-            "avg": 72.5
+            "avg": 74.0
           },
           "rain_probability": {
             "min": 34,
-            "max": 38,
-            "avg": 36.0
+            "max": 34,
+            "avg": 34.0
           },
           "air_temp_f": {
             "min": 82.0,
-            "max": 84.0,
-            "avg": 83.0
+            "max": 82.0,
+            "avg": 82.0
           },
           "wind_mph": {
             "min": 3.5,
@@ -469,14 +469,14 @@
       "flow_cfs": {
         "parameter_code": "00060",
         "name": "Streamflow, ft&#179;/s",
-        "value": 89.2,
-        "timestamp": "2026-07-06T11:00:00.000-04:00"
+        "value": 71.6,
+        "timestamp": "2026-07-06T19:00:00.000-04:00"
       },
       "gage_height_ft": {
         "parameter_code": "00065",
         "name": "Gage height, ft",
-        "value": 3.77,
-        "timestamp": "2026-07-06T11:00:00.000-04:00"
+        "value": 3.62,
+        "timestamp": "2026-07-06T19:00:00.000-04:00"
       }
     }
   },
