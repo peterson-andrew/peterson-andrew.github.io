@@ -1,0 +1,116 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+
+import chattahoochee from "../../../../site_data/rivers/chattahoochee.json";
+import toccoa from "../../../../site_data/rivers/toccoa.json";
+import soque from "../../../../site_data/rivers/soque.json";
+import etowah from "../../../../site_data/rivers/etowah.json";
+import nantahala from "../../../../site_data/rivers/nantahala.json";
+
+export function getStaticPaths() {
+  return [
+    { params: { river: "chattahoochee" }, props: { riverData: chattahoochee } },
+    { params: { river: "toccoa" }, props: { riverData: toccoa } },
+    { params: { river: "soque" }, props: { riverData: soque } },
+    { params: { river: "etowah" }, props: { riverData: etowah } },
+    { params: { river: "nantahala" }, props: { riverData: nantahala } },
+  ];
+}
+
+const { riverData } = Astro.props;
+
+const river = riverData.river;
+const report = riverData.latest_report;
+const conditions = riverData.current_conditions;
+const readings = conditions?.readings || {};
+const text = report?.generated_text || {};
+const flies = report?.recommended_flies || [];
+---
+
+<BaseLayout title={`${river.display_name} | Georgia Trout`}>
+  <Header />
+
+  <section class="river-hero">
+    <div class="site-shell">
+      <div class="section-kicker">River</div>
+      <h1>{river.display_name}</h1>
+      <p>{river.river_type}</p>
+    </div>
+  </section>
+
+  <main class="river-page site-shell">
+
+    <section class="river-overview">
+      <div>
+        <div class="section-kicker">Current Conditions</div>
+        <h2>{report?.rating?.label || "Current report unavailable"}</h2>
+        <p class="river-score-line">
+          {report?.rating?.score || "—"}/10
+        </p>
+      </div>
+
+      <div class="conditions-grid">
+        <div>
+          <span>Water Temp</span>
+          <strong>{readings.water_temp?.value_f || "—"}°F</strong>
+        </div>
+
+        <div>
+          <span>Flow</span>
+          <strong>{readings.flow_cfs?.value || "—"} CFS</strong>
+        </div>
+
+        <div>
+          <span>Gauge</span>
+          <strong>{readings.gage_height_ft?.value || "—"} ft</strong>
+        </div>
+
+        <div>
+          <span>Turbidity</span>
+          <strong>{readings.turbidity?.value || "—"}</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="report-section">
+      <div class="section-kicker">48-Hour Report</div>
+
+      <h2>{report?.title}</h2>
+
+      <article class="report-copy">
+        <h3>Quick Read</h3>
+        <p>{text.quick_read}</p>
+
+        <h3>Best Window</h3>
+        <p>{text.best_window}</p>
+
+        <h3>Current River Conditions</h3>
+        <p>{text.current_conditions}</p>
+
+        <h3>Weather Setup</h3>
+        <p>{text.weather_setup}</p>
+
+        <h3>What This Means</h3>
+        <p>{text.what_this_means}</p>
+      </article>
+    </section>
+
+    <section class="flies-section">
+      <div class="section-kicker">Recommended Flies</div>
+
+      <div class="fly-list">
+        {flies.map((fly) => (
+          <article class="fly-card">
+            <h3>{fly.name}</h3>
+            <p>{fly.reason}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+  </main>
+
+  <Footer />
+</BaseLayout>
