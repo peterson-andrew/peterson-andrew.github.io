@@ -1,0 +1,351 @@
+:root {
+  --paper: #f4f0e7;
+  --paper-soft: #fbf8f0;
+  --ink: #1c1c1a;
+  --muted: #6f6a60;
+  --line: #d8d0c0;
+  --forest: #34422f;
+  --forest-dark: #182119;
+  --rust: #b65a24;
+  --water: #516875;
+  --white: #ffffff;
+
+  --max: 1180px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper-soft);
+  color: var(--ink);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.site-shell {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.serif {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.section-kicker {
+  font-size: .8rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.section-line {
+  width: 56px;
+  height: 1px;
+  background: var(--rust);
+  margin: .75rem 0 1.5rem;
+}
+
+.header {
+  height: 96px;
+  background: var(--paper-soft);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+}
+
+.header-inner {
+  width: 100%;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.65rem;
+}
+
+.logo span {
+  display: block;
+  margin-top: .45rem;
+  font-family: ui-sans-serif, system-ui;
+  font-size: .7rem;
+  letter-spacing: .28em;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 700;
+}
+
+.hero {
+  min-height: 560px;
+  background:
+    linear-gradient(90deg, rgba(0,0,0,.72), rgba(0,0,0,.22)),
+    radial-gradient(circle at 75% 30%, rgba(255,255,255,.18), transparent 30%),
+    linear-gradient(135deg, #1d2a22, #3d554a);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.hero-inner {
+  max-width: var(--max);
+  width: 100%;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.hero-date {
+  font-size: .82rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.hero-title {
+  margin: 2rem 0 1.5rem;
+  max-width: 560px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3rem, 8vw, 5.8rem);
+  line-height: 1.03;
+  font-weight: 400;
+}
+
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .75rem;
+  border-bottom: 1px solid var(--rust);
+  padding-bottom: .35rem;
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  font-weight: 800;
+}
+
+.home-section {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.river-grid {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 4rem 1.5rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.river-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 22px rgba(0,0,0,.08);
+  display: flex;
+  flex-direction: column;
+  min-height: 420px;
+}
+
+.river-card-image {
+  height: 150px;
+  background:
+    linear-gradient(135deg, rgba(24,33,25,.4), rgba(81,104,117,.35)),
+    linear-gradient(135deg, #334538, #8a9a88);
+}
+
+.river-card-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.river-card h3 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.river-location {
+  margin-top: .25rem;
+  color: var(--muted);
+  font-size: .85rem;
+}
+
+.river-score {
+  margin-top: 1.5rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.river-label {
+  margin-top: .3rem;
+  font-size: .9rem;
+}
+
+.river-meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .5rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: .9rem 0;
+  margin-top: 1.4rem;
+  font-size: .75rem;
+  color: var(--muted);
+}
+
+.river-card-footer {
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.feature-grid {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.feature-card {
+  border-right: 1px solid var(--line);
+  padding-right: 2rem;
+}
+
+.feature-card:last-child {
+  border-right: 0;
+}
+
+.feature-image {
+  height: 190px;
+  background:
+    linear-gradient(135deg, rgba(24,33,25,.2), rgba(81,104,117,.25)),
+    #d9d2c3;
+  margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin: .35rem 0 .75rem;
+}
+
+.feature-card p {
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.footer {
+  border-top: 1px solid var(--line);
+  padding: 2rem 1.5rem;
+}
+
+.footer-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  color: var(--muted);
+  font-size: .85rem;
+}
+
+@media (max-width: 980px) {
+  .river-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 2rem;
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
+@media (max-width: 620px) {
+  .header {
+    height: 82px;
+  }
+
+  .logo {
+    font-size: 1.25rem;
+  }
+
+  .hero {
+    min-height: 480px;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .river-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .river-card {
+    min-height: auto;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+  }
+}
