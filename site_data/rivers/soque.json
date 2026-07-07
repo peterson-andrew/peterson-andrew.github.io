@@ -120,11 +120,11 @@
     },
     "recommended_flies": [],
     "generated_text": {
-      "quick_read": "The Soque River fishing outlook is fair with steady flow and moderate conditions. Evening on day 1 offers the best opportunity for trout activity.",
-      "best_window": "Day 1 evening is best because light and pressure conditions favor trout feeding along runs, seams, and structure with a balanced nymph approach.",
-      "current_conditions": "Flow is 64 cfs with a gage height of 3.55 ft. Water temperature and turbidity data are unavailable.",
-      "weather_setup": "Sky cover is low to moderate with 16% average. Pressure is steady at 30.03 inHg with light westerly winds around 5.5 mph. Rain chances are minimal.",
-      "what_this_means": "Trout will favor comfortable feeding lanes near cover in runs, seams, and structure. Use clean drifts and smaller natural patterns with a balanced nymph approach for best results. No recent stocking effects are expected."
+      "quick_read": "The Soque River offers fair trout fishing with a flow of 64 cfs and stable conditions. Water temperature and turbidity data are unavailable, but low pressures support steady fishing.",
+      "best_window": "The best window is day1 evening due to moderate sky cover and stable pressures providing balanced conditions ideal for trout feeding along runs, seams, and structure.",
+      "current_conditions": "Flow is steady at 64 cfs with a gage height of 3.55 ft; water temperature and turbidity data are unavailable.",
+      "weather_setup": "Sky cover is mostly clear to partly cloudy with an average of 16%, pressure steady at 30.03 inHg, winds from the west averaging 5.5 mph, and minimal rain probability.",
+      "what_this_means": "Trout will position near runs, seams, and structure favoring comfortable feeding lanes amid moderate light. Use a balanced nymph approach with clean drifts and smaller natural patterns; no recent stocking means focus on natural offerings without reliance on attractors."
     }
   },
   "llm_context": {
@@ -478,7 +478,7 @@
   "weather": {
     "river_key": "soque",
     "river_name": "Soque River",
-    "generated_at_utc": "2026-07-07T22:47:12.213659+00:00",
+    "generated_at_utc": "2026-07-07T23:22:38.702149+00:00",
     "current": {
       "latitude": 34.6186,
       "longitude": -83.5289,
@@ -489,11 +489,11 @@
       "wind_direction": "W",
       "short_forecast": "Partly Cloudy",
       "pressure_station": "KAJR",
-      "pressure_mb": 1016.9,
-      "pressure_inhg": 30.03
+      "pressure_mb": null,
+      "pressure_inhg": null
     },
     "pressure_trend": {
-      "current_inhg": 30.03,
+      "current_inhg": null,
       "previous_inhg": null,
       "change_since_last_run": null,
       "trend": "unknown"
@@ -503,10 +503,6 @@
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-07T23:00:00+00:00",
-            "value": 44
-          },
           {
             "time": "2026-07-08T00:00:00+00:00",
             "value": 28
@@ -674,22 +670,22 @@
           {
             "time": "2026-07-09T21:00:00+00:00",
             "value": 33
+          },
+          {
+            "time": "2026-07-09T23:00:00+00:00",
+            "value": 35
           }
         ],
         "summary": {
           "min": 1,
-          "max": 44,
-          "avg": 16.14
+          "max": 37,
+          "avg": 15.93
         }
       },
       "relativeHumidity": {
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-07T23:00:00+00:00",
-            "value": 61
-          },
           {
             "time": "2026-07-08T00:00:00+00:00",
             "value": 67
@@ -861,22 +857,22 @@
           {
             "time": "2026-07-09T22:00:00+00:00",
             "value": 59
+          },
+          {
+            "time": "2026-07-09T23:00:00+00:00",
+            "value": 62
           }
         ],
         "summary": {
           "min": 51,
           "max": 95,
-          "avg": 73.23
+          "avg": 73.25
         }
       },
       "probabilityOfPrecipitation": {
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-07T23:00:00+00:00",
-            "value": 8
-          },
           {
             "time": "2026-07-08T00:00:00+00:00",
             "value": 2
@@ -968,12 +964,16 @@
           {
             "time": "2026-07-09T22:00:00+00:00",
             "value": 16
+          },
+          {
+            "time": "2026-07-09T23:00:00+00:00",
+            "value": 13
           }
         ],
         "summary": {
           "min": 0,
           "max": 18,
-          "avg": 7.5
+          "avg": 7.71
         }
       },
       "quantitativePrecipitation": {
@@ -1023,10 +1023,6 @@
         "available": true,
         "unit": "wmoUnit:degC",
         "values": [
-          {
-            "time": "2026-07-07T23:00:00+00:00",
-            "value": 30.555555555555557
-          },
           {
             "time": "2026-07-08T00:00:00+00:00",
             "value": 28.88888888888889
@@ -1170,12 +1166,16 @@
           {
             "time": "2026-07-09T22:00:00+00:00",
             "value": 30
+          },
+          {
+            "time": "2026-07-09T23:00:00+00:00",
+            "value": 29.444444444444443
           }
         ],
         "summary": {
           "min": 21.11,
           "max": 32.22,
-          "avg": 26.5
+          "avg": 26.47
         }
       },
       "dewpoint": {
@@ -1270,10 +1270,6 @@
         "unit": "wmoUnit:km_h-1",
         "values": [
           {
-            "time": "2026-07-07T23:00:00+00:00",
-            "value": 9.26
-          },
-          {
             "time": "2026-07-08T00:00:00+00:00",
             "value": 7.408
           },
@@ -1348,22 +1344,22 @@
           {
             "time": "2026-07-09T22:00:00+00:00",
             "value": 14.816
+          },
+          {
+            "time": "2026-07-09T23:00:00+00:00",
+            "value": 12.964
           }
         ],
         "summary": {
           "min": 1.85,
           "max": 16.67,
-          "avg": 8.8
+          "avg": 8.98
         }
       },
       "windGust": {
         "available": true,
         "unit": "wmoUnit:km_h-1",
         "values": [
-          {
-            "time": "2026-07-07T23:00:00+00:00",
-            "value": 20.372
-          },
           {
             "time": "2026-07-08T00:00:00+00:00",
             "value": 16.668
@@ -1463,22 +1459,22 @@
           {
             "time": "2026-07-09T21:00:00+00:00",
             "value": 29.632
+          },
+          {
+            "time": "2026-07-09T23:00:00+00:00",
+            "value": 25.928
           }
         ],
         "summary": {
           "min": 7.41,
           "max": 31.48,
-          "avg": 17.45
+          "avg": 17.67
         }
       },
       "windDirection": {
         "available": true,
         "unit": "wmoUnit:degree_(angle)",
         "values": [
-          {
-            "time": "2026-07-07T23:00:00+00:00",
-            "value": 280
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 290
@@ -1546,12 +1542,16 @@
           {
             "time": "2026-07-09T17:00:00+00:00",
             "value": 250
+          },
+          {
+            "time": "2026-07-09T23:00:00+00:00",
+            "value": 260
           }
         ],
         "summary": {
           "min": 250,
           "max": 310,
-          "avg": 278.89
+          "avg": 277.78
         }
       }
     }
