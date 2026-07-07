@@ -27,7 +27,7 @@
       "score": 5.0,
       "label": "Fair"
     },
-    "best_window": "day1 evening",
+    "best_window": "day1 morning",
     "current_conditions": {
       "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
       "water_temp_f": null,
@@ -37,36 +37,36 @@
       "observed_at": "2026-07-06T19:00:00.000-04:00"
     },
     "weather_summary": {
-      "pressure_inhg": 29.98,
+      "pressure_inhg": 30.03,
       "air_temp": {
-        "current_f": 84,
+        "current_f": 70,
         "low_f": 70.0,
         "high_f": 90.0
       },
       "sky_cover": {
-        "min": 3,
-        "max": 61,
-        "avg": 17.72
+        "min": 0,
+        "max": 51,
+        "avg": 23.08
       },
       "humidity": {
-        "min": 52,
+        "min": 51,
         "max": 98,
-        "avg": 77.2
+        "avg": 74.23
       },
       "rain": {
-        "max_probability_percent": 34,
-        "expected_inches": 0.01
+        "max_probability_percent": 13,
+        "expected_inches": 0.0
       },
       "wind": {
-        "avg_mph": 4.2,
-        "max_gust_mph": 15.0,
-        "predominant_direction": "WSW"
+        "avg_mph": 5.4,
+        "max_gust_mph": 16.1,
+        "predominant_direction": "W"
       }
     },
     "angler_analysis": {
       "quality_score": 5.0,
       "quality_label": "Fair",
-      "best_window": "day1 evening",
+      "best_window": "day1 morning",
       "water_temp_read": {
         "status": "unknown",
         "read": "Water temperature is unavailable.",
@@ -120,11 +120,11 @@
     },
     "recommended_flies": [],
     "generated_text": {
-      "quick_read": "Current trout fishing conditions on the Soque River are fair with steady flow at 71.6 cfs and stable river height. Water temperature data is unavailable, but light pressure suggests balanced nymph fishing in the evening is best.",
-      "best_window": "The day 1 evening offers the best fishing window due to moderate sky cover, mild wind, and stable pressure, supporting trout to hold in runs, seams, and structure with balanced nymph tactics.",
-      "current_conditions": "USGS flow is 71.6 cfs with a gage height of 3.62 ft. Water temperature and turbidity data are unavailable.",
-      "weather_setup": "The sky is partly cloudy with average cover around 17.7%, pressure is stable at 29.98 inHg, wind averages 4.2 mph from WSW with gusts up to 15 mph, and there is a low chance of rain (0.01 inches expected).",
-      "what_this_means": "Trout will favor comfortable feeding lanes near runs, seams, and structure, especially in moderate light. Use a balanced nymph approach with smaller natural patterns and attractors where appropriate, focusing on clean drifts. No recent stocking signals limit stocked-trout specific tactics. Proceed with typical caution due to unavailable water temperature data."
+      "quick_read": "Trout fishing on the Soque River is fair with moderate flow and stable conditions. Expect trout to hold near runs, seams, and structure using a balanced nymph approach.",
+      "best_window": "Day 1 morning is the best window due to moderate sky cover and stable weather, which aligns with trout positioning in runs and seams for balanced nymph fishing.",
+      "current_conditions": "Water temperature is unavailable. Flow is 71.6 cfs, gage height is 3.62 ft, and turbidity data is unavailable at SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA.",
+      "weather_setup": "Current conditions show partly cloudy skies with 23% average cover, pressure at 30.03 inHg and steady, a west wind averaging 5.4 mph, and minimal rain probability.",
+      "what_this_means": "Trout will favor comfortable feeding lanes near runs, seams, and structure, especially with moderate light levels. Use clean drifts with smaller natural nymphs and appropriate attractors, focusing on balanced nymph tactics. Caution due to unavailable water temperature and lack of recent stocking data."
     }
   },
   "llm_context": {
@@ -525,7 +525,7 @@
   "weather": {
     "river_key": "soque",
     "river_name": "Soque River",
-    "generated_at_utc": "2026-07-07T10:05:07.416929+00:00",
+    "generated_at_utc": "2026-07-07T10:08:52.650756+00:00",
     "current": {
       "latitude": 34.6186,
       "longitude": -83.5289,
