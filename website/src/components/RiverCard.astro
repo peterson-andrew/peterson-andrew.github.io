@@ -1,0 +1,43 @@
+---
+const { river } = Astro.props;
+
+const score = river.rating?.score ?? "—";
+const label = river.rating?.label ?? "Unavailable";
+const bestWindow = river.best_window ?? "Unavailable";
+---
+
+<article class="river-card">
+  <div class="river-card-image"></div>
+
+  <div class="river-card-body">
+    <h3>{river.display_name}</h3>
+
+    <div class="river-location">Georgia trout water</div>
+
+    <div class="river-score">{score}</div>
+    <div class="river-label">{label}</div>
+
+    <div class="river-meta">
+      <div>
+        <strong>Window</strong><br />
+        {bestWindow}
+      </div>
+
+      <div>
+        <strong>Score</strong><br />
+        {score}/10
+      </div>
+
+      <div>
+        <strong>Status</strong><br />
+        {river.stocking?.stocked ? "Stocked" : "Current"}
+      </div>
+    </div>
+
+    <div class="river-card-footer">
+      <a class="text-link" href={`/rivers/${river.river_key}`}>
+        Read Report →
+      </a>
+    </div>
+  </div>
+</article>
