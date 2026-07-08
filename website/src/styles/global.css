@@ -496,3 +496,19 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+.stocking-section {
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.stocking-section p {
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.stocking-section strong {
+  color: var(--ink);
+  font-weight: 600;
+}
