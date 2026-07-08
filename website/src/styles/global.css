@@ -353,3 +353,146 @@ img {
     flex-direction: column;
   }
 }
+
+.river-hero {
+  min-height: 420px;
+  display: flex;
+  align-items: end;
+  padding: 4rem 0;
+  color: white;
+  background:
+    linear-gradient(90deg, rgba(0,0,0,.62), rgba(0,0,0,.18)),
+    url("/images/home-hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.river-hero h1 {
+  margin: 1rem 0 .5rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 400;
+}
+
+.river-hero p {
+  margin: 0;
+  text-transform: capitalize;
+  color: rgba(255,255,255,.8);
+}
+
+.river-page {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.river-overview {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.river-score-line {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 4rem;
+  margin: 1rem 0 0;
+}
+
+.conditions-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.conditions-grid div {
+  background: var(--white);
+  border: 1px solid var(--line);
+  padding: 1.25rem;
+}
+
+.conditions-grid span {
+  display: block;
+  color: var(--muted);
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  margin-bottom: .5rem;
+}
+
+.conditions-grid strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.report-section {
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.report-section h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.report-copy {
+  max-width: 760px;
+  margin-top: 2rem;
+}
+
+.report-copy h3 {
+  margin-top: 2rem;
+  font-size: .85rem;
+  text-transform: uppercase;
+  letter-spacing: .16em;
+}
+
+.report-copy p {
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.flies-section {
+  padding: 4rem 0;
+}
+
+.fly-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.fly-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  padding: 1.25rem;
+}
+
+.fly-card h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.fly-card p {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .river-overview {
+    grid-template-columns: 1fr;
+  }
+
+  .conditions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fly-list {
+    grid-template-columns: 1fr;
+  }
+}
