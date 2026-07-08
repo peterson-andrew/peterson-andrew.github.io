@@ -28,30 +28,30 @@
     "observed_at": "2026-07-07T20:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.05,
+    "pressure_inhg": null,
     "air_temp": {
-      "current_f": 84,
+      "current_f": 80,
       "low_f": 70.0,
       "high_f": 90.0
     },
     "sky_cover": {
       "min": 1,
       "max": 37,
-      "avg": 16.12
+      "avg": 16.65
     },
     "humidity": {
       "min": 51,
       "max": 95,
-      "avg": 73.25
+      "avg": 73.16
     },
     "rain": {
       "max_probability_percent": 18,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 5.6,
+      "avg_mph": 5.7,
       "max_gust_mph": 19.6,
-      "predominant_direction": "W"
+      "predominant_direction": "WNW"
     }
   },
   "forecast_breakdown": {
@@ -349,16 +349,10 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
-      "positioning": [
-        "runs",
-        "seams",
-        "structure"
-      ],
-      "tactics": [
-        "balanced nymph approach"
-      ],
+      "status": "unknown",
+      "read": "Light and pressure read is unavailable.",
+      "positioning": [],
+      "tactics": [],
       "score_adjustment": 0.0
     },
     "pressure_trend_read": {
@@ -374,20 +368,14 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [
-      "runs",
-      "seams",
-      "structure"
-    ],
-    "recommended_tactics": [
-      "balanced nymph approach"
-    ],
+    "likely_trout_positioning": [],
+    "recommended_tactics": [],
     "recommended_fly_keys": [],
     "fly_reasoning": {},
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "Light and pressure read is unavailable.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
