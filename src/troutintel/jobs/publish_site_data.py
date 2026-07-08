@@ -111,6 +111,16 @@ def build_homepage_data(
         "latest_video": None,
     }
 
+def build_all_rivers_site_data(
+    rivers: Dict[str, Any],
+) -> Dict[str, Any]:
+    return {
+        river_key: build_river_site_data(
+            river_key=river_key,
+            river_config=rivers[river_key],
+        )
+        for river_key in RIVERS
+    }
 
 def main() -> None:
     rivers = load_river_config()
@@ -133,6 +143,15 @@ def main() -> None:
 
         print(f"Wrote site data for {river_key}")
 
+    all_rivers = build_all_rivers_site_data(rivers)
+
+    save_json(
+        all_rivers,
+        "site_data/rivers.json",
+    )
+
+    print("Wrote site_data/rivers.json")
+
     homepage = build_homepage_data(rivers)
 
     save_json(
@@ -141,7 +160,6 @@ def main() -> None:
     )
 
     print("Wrote site_data/homepage.json")
-
 
 if __name__ == "__main__":
     main()
