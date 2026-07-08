@@ -27,7 +27,7 @@
       "score": 6.0,
       "label": "Fair to good"
     },
-    "best_window": "day2 morning",
+    "best_window": "day1 morning",
     "current_conditions": {
       "site_name": "TOCCOA RIVER NEAR DIAL, GA",
       "water_temp_f": null,
@@ -46,12 +46,12 @@
       "sky_cover": {
         "min": 13,
         "max": 51,
-        "avg": 29.6
+        "avg": 29.83
       },
       "humidity": {
         "min": 57,
         "max": 97,
-        "avg": 77.95
+        "avg": 78.08
       },
       "rain": {
         "max_probability_percent": 63,
@@ -66,7 +66,7 @@
     "angler_analysis": {
       "quality_score": 6.0,
       "quality_label": "Fair to good",
-      "best_window": "day2 morning",
+      "best_window": "day1 morning",
       "water_temp_read": {
         "status": "unknown",
         "read": "Water temperature is unavailable.",
@@ -148,11 +148,11 @@
       }
     ],
     "generated_text": {
-      "quick_read": "Trout fishing on the Toccoa River is fair to good with recent stocking enhancing opportunities. Current flow is steady at 230 cfs with moderate conditions expected over the next 48 hours.",
-      "best_window": "Day 2 morning offers the best fishing conditions due to moderate sky cover, low rain probability, and cooler temperatures supporting active trout near runs, seams, and structure with a balanced nymph approach.",
-      "current_conditions": "USGS flow is 230 cfs, gage height is 1.21 ft, water temperature is unavailable, and turbidity data is not available.",
-      "weather_setup": "Current weather includes 30.06 inHg pressure with a stable trend, light west wind averaging 3.5 mph with gusts to 13.8 mph, sky cover averaging 29.6%, and a 63% chance of light rain totaling 0.1 inches.",
-      "what_this_means": "Trout will favor comfortable feeding lanes close to cover in runs, seams, and structure. Use a balanced nymph approach with clean drifts and natural patterns like egg patterns, squirmy worms, and duracell attractors suited for recently stocked fish. Expect moderate activity with caution due to unavailable temperature and pressure trend data."
+      "quick_read": "Trout fishing on the Toccoa River is fair to good with favorable tailwater conditions. Recent stocking enhances chances using eggs, worms, and attractor nymphs.",
+      "best_window": "The best fishing window is day 1 morning due to light pressure conditions and recent stocking, which support a balanced nymph approach in runs, seams, and structure.",
+      "current_conditions": "Current river flow is 230 cfs with a gage height of 1.21 ft. Water temperature and turbidity data are unavailable.",
+      "weather_setup": "Sky cover averages around 29.8%, pressure is steady at 30.06 inHg with a neutral trend. Winds come from the west at 3.5 mph with gusts to 13.8 mph. There is a moderate 63% chance of light rain with expected 0.1 inches.",
+      "what_this_means": "Trout will favor comfortable feeding lanes near cover under moderate light. Use clean drifts with smaller natural patterns and stocked-trout attractors like egg patterns, squirmy worms, and duracell nymphs. Focus on runs, seams, and structure with a balanced nymph approach."
     }
   },
   "llm_context": {
@@ -179,10 +179,10 @@
     "usgs_summary": {
       "site_name": "TOCCOA RIVER NEAR DIAL, GA",
       "water_temp_f": null,
-      "flow_cfs": 230.0,
-      "gage_height_ft": 1.21,
+      "flow_cfs": 227.0,
+      "gage_height_ft": 1.2,
       "turbidity": null,
-      "observed_at": "2026-07-07T18:30:00.000-04:00"
+      "observed_at": "2026-07-07T19:30:00.000-04:00"
     },
     "weather_summary": {
       "pressure_inhg": 30.06,
@@ -601,22 +601,22 @@
   "weather": {
     "river_key": "toccoa",
     "river_name": "Toccoa River",
-    "generated_at_utc": "2026-07-07T23:22:38.701931+00:00",
+    "generated_at_utc": "2026-07-08T00:01:11.005956+00:00",
     "current": {
       "latitude": 34.882,
       "longitude": -84.28,
-      "forecast_time": "2026-07-07T18:00:00-04:00",
-      "air_temp_f": 84,
+      "forecast_time": "2026-07-07T20:00:00-04:00",
+      "air_temp_f": 80,
       "temperature_unit": "F",
-      "wind_speed": "5 mph",
-      "wind_direction": "W",
-      "short_forecast": "Scattered Showers And Thunderstorms",
+      "wind_speed": "0 mph",
+      "wind_direction": "",
+      "short_forecast": "Isolated Showers And Thunderstorms",
       "pressure_station": "KDZJ",
-      "pressure_mb": 1018.0,
-      "pressure_inhg": 30.06
+      "pressure_mb": 1018.6,
+      "pressure_inhg": 30.08
     },
     "pressure_trend": {
-      "current_inhg": 30.06,
+      "current_inhg": 30.08,
       "previous_inhg": null,
       "change_since_last_run": null,
       "trend": "unknown"
@@ -626,10 +626,6 @@
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 20
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 19
@@ -813,22 +809,22 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 36
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 28
           }
         ],
         "summary": {
           "min": 13,
           "max": 51,
-          "avg": 29.83
+          "avg": 30.0
         }
       },
       "relativeHumidity": {
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 72
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 80
@@ -980,22 +976,22 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 71
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 75
           }
         ],
         "summary": {
           "min": 57,
           "max": 97,
-          "avg": 78.08
+          "avg": 78.15
         }
       },
       "probabilityOfPrecipitation": {
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 17
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 7
@@ -1107,22 +1103,22 @@
           {
             "time": "2026-07-09T18:00:00+00:00",
             "value": 63
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 21
           }
         ],
         "summary": {
           "min": 1,
           "max": 63,
-          "avg": 13.24
+          "avg": 13.38
         }
       },
       "quantitativePrecipitation": {
         "available": true,
         "unit": "wmoUnit:mm",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 0
-          },
           {
             "time": "2026-07-08T06:00:00+00:00",
             "value": 0
@@ -1150,22 +1146,22 @@
           {
             "time": "2026-07-09T18:00:00+00:00",
             "value": 2.032
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 0.254
           }
         ],
         "summary": {
           "min": 0,
           "max": 2.54,
-          "avg": 0.64
+          "avg": 0.67
         }
       },
       "temperature": {
         "available": true,
         "unit": "wmoUnit:degC",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 26.666666666666668
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 25
@@ -1309,12 +1305,16 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 26.666666666666668
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 26.11111111111111
           }
         ],
         "summary": {
           "min": 20,
           "max": 30,
-          "avg": 24.77
+          "avg": 24.76
         }
       },
       "dewpoint": {
@@ -1405,10 +1405,6 @@
         "unit": "wmoUnit:km_h-1",
         "values": [
           {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 3.704
-          },
-          {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 0
           },
@@ -1475,6 +1471,10 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 5.556
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 3.704
           }
         ],
         "summary": {
@@ -1487,10 +1487,6 @@
         "available": true,
         "unit": "wmoUnit:km_h-1",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 11.112
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 7.408
@@ -1582,22 +1578,22 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 16.668
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 12.964
           }
         ],
         "summary": {
           "min": 1.85,
           "max": 22.22,
-          "avg": 11.11
+          "avg": 11.19
         }
       },
       "windDirection": {
         "available": true,
         "unit": "wmoUnit:degree_(angle)",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 320
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 0
@@ -1653,12 +1649,16 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 230
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 220
           }
         ],
         "summary": {
           "min": 0,
-          "max": 320,
-          "avg": 220.0
+          "max": 280,
+          "avg": 213.33
         }
       }
     }

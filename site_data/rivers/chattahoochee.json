@@ -27,7 +27,7 @@
       "score": 6.0,
       "label": "Fair to good"
     },
-    "best_window": "day2 morning",
+    "best_window": "day1 morning",
     "current_conditions": {
       "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
       "water_temp_f": 62.6,
@@ -37,7 +37,7 @@
       "observed_at": "2026-07-07T18:15:00.000-04:00"
     },
     "weather_summary": {
-      "pressure_inhg": 30.04,
+      "pressure_inhg": 30.05,
       "air_temp": {
         "current_f": 88,
         "low_f": 75.0,
@@ -46,19 +46,19 @@
       "sky_cover": {
         "min": 2,
         "max": 43,
-        "avg": 19.62
+        "avg": 19.96
       },
       "humidity": {
         "min": 55,
         "max": 89,
-        "avg": 73.53
+        "avg": 73.65
       },
       "rain": {
         "max_probability_percent": 27,
         "expected_inches": 0.02
       },
       "wind": {
-        "avg_mph": 5.6,
+        "avg_mph": 5.7,
         "max_gust_mph": 17.3,
         "predominant_direction": "W"
       }
@@ -66,7 +66,7 @@
     "angler_analysis": {
       "quality_score": 6.0,
       "quality_label": "Fair to good",
-      "best_window": "day2 morning",
+      "best_window": "day1 morning",
       "water_temp_read": {
         "status": "warm",
         "read": "Water is warming; trout may favor more oxygenated water.",
@@ -160,11 +160,11 @@
       }
     ],
     "generated_text": {
-      "quick_read": "The Chattahoochee River offers fair to good trout fishing with warming water favoring oxygenated spots. Recent stocking increases success using egg patterns and stocked trout attractors.",
-      "best_window": "Day 2 morning is best due to moderate sky cover, low wind, and low rain probability enhancing trout activity in riffles and oxygenated runs.",
-      "current_conditions": "Water temperature is 62.6\u00b0F, flow is 899 cfs, gage height is 2.03 ft, and turbidity is 5.8 NTU.",
-      "weather_setup": "Mostly clear skies with 19.62% average cover, pressure steady at 30.04 inHg with neutral trend, west wind averaging 5.6 mph, and low rain chance of 27% with minimal expected accumulation.",
-      "what_this_means": "Trout will favor riffles, pocket water, and oxygenated runs while staying near structure and seams. Use early and late fishing windows with active and balanced nymph presentations. Prioritize clean drifts and smaller naturals like egg patterns, squirmy worms, and duracell attractors to match recent stocking. No specific caution notes apply."
+      "quick_read": "Fishing on the Chattahoochee River is fair to good with stable conditions and recent stocking supporting stocked trout patterns. Trout favor oxygenated runs and pockets, especially in early morning.",
+      "best_window": "The best window is day 1 morning due to low wind and moderate sky cover providing optimal conditions for active nymph fishing in riffles and oxygenated runs.",
+      "current_conditions": "Water temperature is 62.6\u00b0F with a flow of 899 cfs, gage height at 2.03 ft, and turbidity at 5.8 NTU.",
+      "weather_setup": "Current pressure is 30.05 inHg with a neutral trend, sky cover averaging 20%, west wind at 5.7 mph with gusts to 17.3 mph, and a low rain chance of 27% with minimal expected rainfall.",
+      "what_this_means": "Trout will position near riffles, pocket water, seams, and structure favoring oxygenated spots due to warm water. Present clean drifts with smaller natural patterns and stocked-trout attractors like egg patterns, squirmy worms, and duracells. Focus on early and late periods using active and balanced nymph tactics."
     }
   },
   "llm_context": {
@@ -190,11 +190,11 @@
     },
     "usgs_summary": {
       "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-      "water_temp_f": 62.6,
+      "water_temp_f": 62.8,
       "flow_cfs": 899.0,
       "gage_height_ft": 2.03,
-      "turbidity": 5.8,
-      "observed_at": "2026-07-07T18:15:00.000-04:00"
+      "turbidity": 5.9,
+      "observed_at": "2026-07-07T19:15:00.000-04:00"
     },
     "weather_summary": {
       "pressure_inhg": 30.05,
@@ -644,16 +644,16 @@
   "weather": {
     "river_key": "chattahoochee",
     "river_name": "Chattahoochee River",
-    "generated_at_utc": "2026-07-07T23:22:38.698437+00:00",
+    "generated_at_utc": "2026-07-08T00:01:11.001889+00:00",
     "current": {
       "latitude": 34.1567,
       "longitude": -84.0784,
-      "forecast_time": "2026-07-07T18:00:00-04:00",
-      "air_temp_f": 88,
+      "forecast_time": "2026-07-07T20:00:00-04:00",
+      "air_temp_f": 86,
       "temperature_unit": "F",
       "wind_speed": "5 mph",
       "wind_direction": "W",
-      "short_forecast": "Isolated Showers And Thunderstorms",
+      "short_forecast": "Mostly Clear",
       "pressure_station": "KCNI",
       "pressure_mb": 1017.6,
       "pressure_inhg": 30.05
@@ -669,10 +669,6 @@
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 17
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 11
@@ -848,22 +844,22 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 37
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 35
           }
         ],
         "summary": {
           "min": 2,
           "max": 43,
-          "avg": 19.96
+          "avg": 20.36
         }
       },
       "relativeHumidity": {
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 61
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 69
@@ -1031,22 +1027,22 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 64
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 67
           }
         ],
         "summary": {
           "min": 55,
           "max": 89,
-          "avg": 73.65
+          "avg": 73.79
         }
       },
       "probabilityOfPrecipitation": {
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 12
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 2
@@ -1146,22 +1142,22 @@
           {
             "time": "2026-07-09T18:00:00+00:00",
             "value": 27
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 8
           }
         ],
         "summary": {
           "min": 1,
           "max": 27,
-          "avg": 5.27
+          "avg": 5.12
         }
       },
       "quantitativePrecipitation": {
         "available": true,
         "unit": "wmoUnit:mm",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 0
-          },
           {
             "time": "2026-07-08T06:00:00+00:00",
             "value": 0
@@ -1189,6 +1185,10 @@
           {
             "time": "2026-07-09T18:00:00+00:00",
             "value": 0.508
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 0
           }
         ],
         "summary": {
@@ -1201,10 +1201,6 @@
         "available": true,
         "unit": "wmoUnit:degC",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 30
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 28.333333333333332
@@ -1336,12 +1332,16 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 29.444444444444443
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 28.88888888888889
           }
         ],
         "summary": {
           "min": 23.89,
           "max": 31.67,
-          "avg": 27.71
+          "avg": 27.68
         }
       },
       "dewpoint": {
@@ -1416,10 +1416,6 @@
         "unit": "wmoUnit:km_h-1",
         "values": [
           {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 9.26
-          },
-          {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 7.408
           },
@@ -1490,22 +1486,22 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 12.964
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 11.112
           }
         ],
         "summary": {
           "min": 3.7,
           "max": 14.82,
-          "avg": 9.16
+          "avg": 9.26
         }
       },
       "windGust": {
         "available": true,
         "unit": "wmoUnit:km_h-1",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 16.668
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 14.816
@@ -1605,12 +1601,16 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 24.076
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 22.224
           }
         ],
         "summary": {
           "min": 9.26,
           "max": 27.78,
-          "avg": 17.95
+          "avg": 18.16
         }
       },
       "windDirection": {

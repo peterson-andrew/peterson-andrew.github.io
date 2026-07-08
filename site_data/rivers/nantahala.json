@@ -27,7 +27,7 @@
       "score": 5.0,
       "label": "Fair"
     },
-    "best_window": "day1 evening",
+    "best_window": "day2 morning",
     "current_conditions": {},
     "weather_summary": {
       "pressure_inhg": null,
@@ -39,12 +39,12 @@
       "sky_cover": {
         "min": 12,
         "max": 83,
-        "avg": 37.11
+        "avg": 38.13
       },
       "humidity": {
         "min": 68,
         "max": 97,
-        "avg": 84.54
+        "avg": 84.5
       },
       "rain": {
         "max_probability_percent": 74,
@@ -59,7 +59,7 @@
     "angler_analysis": {
       "quality_score": 5.0,
       "quality_label": "Fair",
-      "best_window": "day1 evening",
+      "best_window": "day2 morning",
       "water_temp_read": {
         "status": "unknown",
         "read": "Water temperature is unavailable.",
@@ -101,11 +101,11 @@
     },
     "recommended_flies": [],
     "generated_text": {
-      "quick_read": "Trout fishing conditions on the Nantahala River are fair with some cloudy skies and light winds. No recent stocking or water temperature data is available to refine the outlook.",
-      "best_window": "The best fishing window is day 1 evening due to stable sky cover at 25% and low rain probability, providing good visibility and calm winds for trout activity.",
+      "quick_read": "The Nantahala River offers fair trout fishing conditions over the next 48 hours with comfortable feeding conditions expected. Water temperature and pressure data are unavailable, so use observation to adjust tactics.",
+      "best_window": "The day 2 morning window is best due to moderate sky cover around 37%, very high humidity near 94.5%, and low rain chances, creating stable conditions for trout feeding.",
       "current_conditions": "Current USGS water temperature, flow, gage height, and turbidity data are unavailable for the Nantahala River.",
-      "weather_setup": "Sky cover averages 37% with 2.2 mph winds from WNW with gusts up to 13.8 mph. Rain probability is low (around 15% in the evening) and pressure data is unavailable.",
-      "what_this_means": "Trout will likely focus on comfortable feeding lanes near cover given moderate light conditions. Use clean drifts with smaller natural flies or attractor patterns for stocked trout. No specific caution notes given missing water and pressure data."
+      "weather_setup": "Sky cover averages about 38% with a moderate pressure setup (pressure data unavailable). Winds are light from WNW averaging 2.2 mph with gusts up to 13.8 mph. Rain chance is low with only 0.06 inches expected over the period.",
+      "what_this_means": "Trout are likely to concentrate in comfortable feeding lanes close to cover during higher light. Use clean drifts with smaller natural fly patterns and stocked-trout attractors where suitable. Without recent stocking and full environmental data, stay flexible and observant when presenting flies."
     }
   },
   "llm_context": {
@@ -489,16 +489,16 @@
   "weather": {
     "river_key": "nantahala",
     "river_name": "Nantahala River",
-    "generated_at_utc": "2026-07-07T23:22:38.702563+00:00",
+    "generated_at_utc": "2026-07-08T00:01:11.006648+00:00",
     "current": {
       "latitude": 35.199,
       "longitude": -83.652,
-      "forecast_time": "2026-07-07T18:00:00-04:00",
-      "air_temp_f": 76,
+      "forecast_time": "2026-07-07T20:00:00-04:00",
+      "air_temp_f": 73,
       "temperature_unit": "F",
-      "wind_speed": "1 mph",
-      "wind_direction": "WNW",
-      "short_forecast": "Chance Showers And Thunderstorms",
+      "wind_speed": "0 mph",
+      "wind_direction": "",
+      "short_forecast": "Mostly Clear",
       "pressure_station": "K1A5",
       "pressure_mb": null,
       "pressure_inhg": null
@@ -514,10 +514,6 @@
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 16
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 12
@@ -540,31 +536,31 @@
           },
           {
             "time": "2026-07-08T06:00:00+00:00",
-            "value": 20
+            "value": 28
           },
           {
             "time": "2026-07-08T07:00:00+00:00",
-            "value": 31
-          },
-          {
-            "time": "2026-07-08T08:00:00+00:00",
-            "value": 29
-          },
-          {
-            "time": "2026-07-08T09:00:00+00:00",
-            "value": 39
-          },
-          {
-            "time": "2026-07-08T10:00:00+00:00",
             "value": 34
           },
           {
+            "time": "2026-07-08T08:00:00+00:00",
+            "value": 38
+          },
+          {
+            "time": "2026-07-08T09:00:00+00:00",
+            "value": 42
+          },
+          {
+            "time": "2026-07-08T10:00:00+00:00",
+            "value": 47
+          },
+          {
             "time": "2026-07-08T11:00:00+00:00",
-            "value": 30
+            "value": 43
           },
           {
             "time": "2026-07-08T12:00:00+00:00",
-            "value": 19
+            "value": 36
           },
           {
             "time": "2026-07-08T13:00:00+00:00",
@@ -693,22 +689,22 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 71
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 40
           }
         ],
         "summary": {
           "min": 12,
           "max": 83,
-          "avg": 38.13
+          "avg": 40.13
         }
       },
       "relativeHumidity": {
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 88
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 91
@@ -864,22 +860,22 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 83
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 85
           }
         ],
         "summary": {
           "min": 68,
           "max": 97,
-          "avg": 84.5
+          "avg": 84.42
         }
       },
       "probabilityOfPrecipitation": {
         "available": true,
         "unit": "wmoUnit:percent",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 8
-          },
           {
             "time": "2026-07-08T02:00:00+00:00",
             "value": 5
@@ -1023,22 +1019,22 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 57
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 21
           }
         ],
         "summary": {
           "min": 0,
           "max": 74,
-          "avg": 21.32
+          "avg": 21.68
         }
       },
       "quantitativePrecipitation": {
         "available": true,
         "unit": "wmoUnit:mm",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 0
-          },
           {
             "time": "2026-07-08T06:00:00+00:00",
             "value": 0
@@ -1066,22 +1062,22 @@
           {
             "time": "2026-07-09T18:00:00+00:00",
             "value": 1.524
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 0.254
           }
         ],
         "summary": {
           "min": 0,
           "max": 1.52,
-          "avg": 0.22
+          "avg": 0.25
         }
       },
       "temperature": {
         "available": true,
         "unit": "wmoUnit:degC",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 22.77777777777778
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 21.666666666666668
@@ -1225,6 +1221,10 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 23.333333333333332
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 22.77777777777778
           }
         ],
         "summary": {
@@ -1237,10 +1237,6 @@
         "available": true,
         "unit": "wmoUnit:degC",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 20.555555555555557
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 20
@@ -1349,17 +1345,13 @@
         "summary": {
           "min": 16.67,
           "max": 20.56,
-          "avg": 18.85
+          "avg": 18.78
         }
       },
       "windSpeed": {
         "available": true,
         "unit": "wmoUnit:km_h-1",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 0
-          },
           {
             "time": "2026-07-08T15:00:00+00:00",
             "value": 1.852
@@ -1403,12 +1395,16 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 3.704
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 1.852
           }
         ],
         "summary": {
           "min": 0,
           "max": 7.41,
-          "avg": 3.55
+          "avg": 3.7
         }
       },
       "windGust": {
@@ -1490,22 +1486,22 @@
           {
             "time": "2026-07-09T23:00:00+00:00",
             "value": 18.52
+          },
+          {
+            "time": "2026-07-10T00:00:00+00:00",
+            "value": 14.816
           }
         ],
         "summary": {
           "min": 5.56,
           "max": 22.22,
-          "avg": 13.35
+          "avg": 13.43
         }
       },
       "windDirection": {
         "available": true,
         "unit": "wmoUnit:degree_(angle)",
         "values": [
-          {
-            "time": "2026-07-08T00:00:00+00:00",
-            "value": 300
-          },
           {
             "time": "2026-07-08T01:00:00+00:00",
             "value": 0
@@ -1573,8 +1569,8 @@
         ],
         "summary": {
           "min": 0,
-          "max": 300,
-          "avg": 205.88
+          "max": 270,
+          "avg": 200.0
         }
       }
     }
