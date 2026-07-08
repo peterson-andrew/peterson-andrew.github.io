@@ -16,8 +16,10 @@ const { riverData } = Astro.props;
 
 const river = riverData.river;
 const report = riverData.latest_report;
-const conditions = riverData.current_conditions;
-const readings = conditions?.readings || {};
+const context = riverData.llm_context || {};
+
+const conditions = report?.current_conditions || {};
+const stocking = context.stocking;
 const text = report?.generated_text || {};
 const flies = report?.recommended_flies || [];
 ---
@@ -46,24 +48,36 @@ const flies = report?.recommended_flies || [];
       <div class="conditions-grid">
         <div>
           <span>Water Temp</span>
-          <strong>{readings.water_temp?.value_f || "—"}°F</strong>
+          <strong>{conditions.water_temp_f || "—"}°F</strong>
         </div>
 
         <div>
           <span>Flow</span>
-          <strong>{readings.flow_cfs?.value || "—"} CFS</strong>
+          <strong>{conditions.flow_cfs || "—"} CFS</strong>
         </div>
 
         <div>
           <span>Gauge</span>
-          <strong>{readings.gage_height_ft?.value || "—"} ft</strong>
+          <strong>{conditions.gage_height_ft || "—"} ft</strong>
         </div>
 
         <div>
           <span>Turbidity</span>
-          <strong>{readings.turbidity?.value || "—"}</strong>
+          <strong>{conditions.turbidity || "—"}</strong>
         </div>
       </div>
+    </section>
+
+    <section class="stocking-section">
+      <div class="section-kicker">Stocking</div>
+
+      {stocking?.stocked ? (
+        <p>
+          Last stocked: <strong>{stocking.last_stocked}</strong>
+        </p>
+      ) : (
+        <p>No recent stocking listed.</p>
+      )}
     </section>
 
     <section class="report-section">
@@ -104,4 +118,4 @@ const flies = report?.recommended_flies || [];
   </main>
 
   <Footer />
-</BaseLayout>m
+</BaseLayout>
