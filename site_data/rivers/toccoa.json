@@ -148,11 +148,11 @@
       }
     ],
     "generated_text": {
-      "quick_read": "Trout fishing on the Toccoa River is fair to good with steady flow and moderate conditions. Recent stocking enhances opportunities using eggs, worms, and attractor nymphs.",
-      "best_window": "The best fishing window is day 2 morning due to low rain probability, mild sky cover, and moderate humidity, providing stable conditions that favor trout feeding near runs, seams, and structure.",
-      "current_conditions": "USGS reports a flow of 230 cfs, gage height of 1.21 ft, water temperature unavailable, and turbidity data not available.",
-      "weather_setup": "Current weather includes partly cloudy skies averaging 30% cover, pressure at 30.06 inHg stable, light west winds averaging 3.5 mph with gusts up to 13.8 mph, and a moderate rain chance with 0.1 inches expected.",
-      "what_this_means": "Trout are likely to position themselves in runs, seams, and near structure, feeding comfortably while staying close to cover under moderate light. Use a balanced nymph approach prioritizing clean drifts with stocked-trout attractors like egg patterns, squirmy worms, and duracell flies; caution notes are not applicable."
+      "quick_read": "Trout fishing on the Toccoa River is fair to good with recent stocking enhancing opportunities. Current flow is steady at 230 cfs with moderate conditions expected over the next 48 hours.",
+      "best_window": "Day 2 morning offers the best fishing conditions due to moderate sky cover, low rain probability, and cooler temperatures supporting active trout near runs, seams, and structure with a balanced nymph approach.",
+      "current_conditions": "USGS flow is 230 cfs, gage height is 1.21 ft, water temperature is unavailable, and turbidity data is not available.",
+      "weather_setup": "Current weather includes 30.06 inHg pressure with a stable trend, light west wind averaging 3.5 mph with gusts to 13.8 mph, sky cover averaging 29.6%, and a 63% chance of light rain totaling 0.1 inches.",
+      "what_this_means": "Trout will favor comfortable feeding lanes close to cover in runs, seams, and structure. Use a balanced nymph approach with clean drifts and natural patterns like egg patterns, squirmy worms, and duracell attractors suited for recently stocked fish. Expect moderate activity with caution due to unavailable temperature and pressure trend data."
     }
   },
   "llm_context": {
@@ -194,12 +194,12 @@
       "sky_cover": {
         "min": 13,
         "max": 51,
-        "avg": 29.6
+        "avg": 29.83
       },
       "humidity": {
         "min": 57,
         "max": 97,
-        "avg": 77.95
+        "avg": 78.08
       },
       "rain": {
         "max_probability_percent": 63,
@@ -213,39 +213,7 @@
     },
     "forecast_breakdown": {
       "day1": {
-        "date": "2026-07-07",
-        "morning": {},
-        "afternoon": {},
-        "evening": {
-          "sky_cover": {
-            "min": 25,
-            "max": 25,
-            "avg": 25.0
-          },
-          "humidity": {
-            "min": 66,
-            "max": 66,
-            "avg": 66.0
-          },
-          "rain_probability": {
-            "min": 28,
-            "max": 28,
-            "avg": 28.0
-          },
-          "air_temp_f": {
-            "min": 83.0,
-            "max": 83.0,
-            "avg": 83.0
-          },
-          "wind_gust_mph": {
-            "min": 9.2,
-            "max": 9.2,
-            "avg": 9.2
-          }
-        }
-      },
-      "day2": {
-        "date": "2026-07-07",
+        "date": "2026-07-08",
         "morning": {
           "sky_cover": {
             "min": 19,
@@ -347,6 +315,115 @@
             "avg": 11.5
           }
         }
+      },
+      "day2": {
+        "date": "2026-07-08",
+        "morning": {
+          "sky_cover": {
+            "min": 17,
+            "max": 28,
+            "avg": 23.57
+          },
+          "humidity": {
+            "min": 93,
+            "max": 97,
+            "avg": 95.0
+          },
+          "rain_probability": {
+            "min": 3,
+            "max": 16,
+            "avg": 5.43
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 68.0,
+            "max": 70.0,
+            "avg": 69.0
+          },
+          "wind_gust_mph": {
+            "min": 3.5,
+            "max": 3.5,
+            "avg": 3.5
+          }
+        },
+        "afternoon": {
+          "sky_cover": {
+            "min": 22,
+            "max": 46,
+            "avg": 35.0
+          },
+          "humidity": {
+            "min": 67,
+            "max": 95,
+            "avg": 81.33
+          },
+          "rain_probability": {
+            "min": 27,
+            "max": 27,
+            "avg": 27.0
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 70.0,
+            "max": 82.0,
+            "avg": 76.17
+          },
+          "wind_mph": {
+            "min": 1.2,
+            "max": 5.8,
+            "avg": 3.78
+          },
+          "wind_gust_mph": {
+            "min": 4.6,
+            "max": 12.7,
+            "avg": 9.22
+          }
+        },
+        "evening": {
+          "sky_cover": {
+            "min": 36,
+            "max": 51,
+            "avg": 46.0
+          },
+          "humidity": {
+            "min": 62,
+            "max": 71,
+            "avg": 65.17
+          },
+          "rain_probability": {
+            "min": 63,
+            "max": 63,
+            "avg": 63.0
+          },
+          "rain_inches": {
+            "min": 0.08,
+            "max": 0.08,
+            "avg": 0.08
+          },
+          "air_temp_f": {
+            "min": 80.0,
+            "max": 84.0,
+            "avg": 82.4
+          },
+          "wind_mph": {
+            "min": 3.5,
+            "max": 6.9,
+            "avg": 5.2
+          },
+          "wind_gust_mph": {
+            "min": 10.4,
+            "max": 13.8,
+            "avg": 12.3
+          }
+        }
       }
     },
     "stocking": {
@@ -436,7 +513,7 @@
     "angler_analysis": {
       "quality_score": 6.0,
       "quality_label": "Fair to good",
-      "best_window": "day2 morning",
+      "best_window": "day1 morning",
       "water_temp_read": {
         "status": "unknown",
         "read": "Water temperature is unavailable.",
@@ -510,14 +587,14 @@
       "flow_cfs": {
         "parameter_code": "00060",
         "name": "Streamflow, ft&#179;/s",
-        "value": 230.0,
-        "timestamp": "2026-07-07T18:30:00.000-04:00"
+        "value": 227.0,
+        "timestamp": "2026-07-07T19:30:00.000-04:00"
       },
       "gage_height_ft": {
         "parameter_code": "00065",
         "name": "Gage height, ft",
-        "value": 1.21,
-        "timestamp": "2026-07-07T18:30:00.000-04:00"
+        "value": 1.2,
+        "timestamp": "2026-07-07T19:30:00.000-04:00"
       }
     }
   },

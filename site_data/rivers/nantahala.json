@@ -101,11 +101,11 @@
     },
     "recommended_flies": [],
     "generated_text": {
-      "quick_read": "Trout fishing on the Nantahala River is fair with a quality score of 5.0. Water temperature and pressure data are unavailable, but conditions favor cautious and natural presentations.",
-      "best_window": "The best window is day 1 evening due to lighter sky cover and moderate temperatures, providing optimal conditions for trout feeding activity.",
-      "current_conditions": "USGS water temperature, flow, gage height, and turbidity data are unavailable for the Nantahala River.",
-      "weather_setup": "Sky cover averages 37% with a pressure reading unavailable. Winds are light at 2.2 mph from the WNW, with low rain chances and minimal expected rainfall.",
-      "what_this_means": "Trout are expected to favor comfortable feeding lanes near cover under moderate light conditions. Use clean drifts with smaller natural flies and stocked-trout attractors where suitable, and fish cautiously due to limited data."
+      "quick_read": "Trout fishing conditions on the Nantahala River are fair with some cloudy skies and light winds. No recent stocking or water temperature data is available to refine the outlook.",
+      "best_window": "The best fishing window is day 1 evening due to stable sky cover at 25% and low rain probability, providing good visibility and calm winds for trout activity.",
+      "current_conditions": "Current USGS water temperature, flow, gage height, and turbidity data are unavailable for the Nantahala River.",
+      "weather_setup": "Sky cover averages 37% with 2.2 mph winds from WNW with gusts up to 13.8 mph. Rain probability is low (around 15% in the evening) and pressure data is unavailable.",
+      "what_this_means": "Trout will likely focus on comfortable feeding lanes near cover given moderate light conditions. Use clean drifts with smaller natural flies or attractor patterns for stocked trout. No specific caution notes given missing water and pressure data."
     }
   },
   "llm_context": {
@@ -140,12 +140,12 @@
       "sky_cover": {
         "min": 12,
         "max": 83,
-        "avg": 37.11
+        "avg": 38.13
       },
       "humidity": {
         "min": 68,
         "max": 97,
-        "avg": 84.54
+        "avg": 84.5
       },
       "rain": {
         "max_probability_percent": 74,
@@ -159,34 +159,7 @@
     },
     "forecast_breakdown": {
       "day1": {
-        "date": "2026-07-07",
-        "morning": {},
-        "afternoon": {},
-        "evening": {
-          "sky_cover": {
-            "min": 25,
-            "max": 25,
-            "avg": 25.0
-          },
-          "rain_probability": {
-            "min": 15,
-            "max": 15,
-            "avg": 15.0
-          },
-          "air_temp_f": {
-            "min": 75.0,
-            "max": 75.0,
-            "avg": 75.0
-          },
-          "wind_gust_mph": {
-            "min": 6.9,
-            "max": 6.9,
-            "avg": 6.9
-          }
-        }
-      },
-      "day2": {
-        "date": "2026-07-07",
+        "date": "2026-07-08",
         "morning": {
           "sky_cover": {
             "min": 20,
@@ -288,6 +261,115 @@
             "avg": 9.6
           }
         }
+      },
+      "day2": {
+        "date": "2026-07-08",
+        "morning": {
+          "sky_cover": {
+            "min": 18,
+            "max": 68,
+            "avg": 37.43
+          },
+          "humidity": {
+            "min": 93,
+            "max": 96,
+            "avg": 94.5
+          },
+          "rain_probability": {
+            "min": 0,
+            "max": 17,
+            "avg": 6.6
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 64.0,
+            "max": 66.0,
+            "avg": 65.0
+          },
+          "wind_gust_mph": {
+            "min": 4.6,
+            "max": 5.8,
+            "avg": 5.2
+          }
+        },
+        "afternoon": {
+          "sky_cover": {
+            "min": 43,
+            "max": 52,
+            "avg": 47.6
+          },
+          "humidity": {
+            "min": 74,
+            "max": 94,
+            "avg": 83.0
+          },
+          "rain_probability": {
+            "min": 22,
+            "max": 25,
+            "avg": 23.5
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 65.0,
+            "max": 78.0,
+            "avg": 71.5
+          },
+          "wind_mph": {
+            "min": 2.3,
+            "max": 4.6,
+            "avg": 3.47
+          },
+          "wind_gust_mph": {
+            "min": 9.2,
+            "max": 12.7,
+            "avg": 11.13
+          }
+        },
+        "evening": {
+          "sky_cover": {
+            "min": 67,
+            "max": 83,
+            "avg": 75.0
+          },
+          "humidity": {
+            "min": 72,
+            "max": 83,
+            "avg": 77.33
+          },
+          "rain_probability": {
+            "min": 50,
+            "max": 74,
+            "avg": 62.17
+          },
+          "rain_inches": {
+            "min": 0.06,
+            "max": 0.06,
+            "avg": 0.06
+          },
+          "air_temp_f": {
+            "min": 74.0,
+            "max": 77.0,
+            "avg": 75.5
+          },
+          "wind_mph": {
+            "min": 2.3,
+            "max": 3.5,
+            "avg": 2.9
+          },
+          "wind_gust_mph": {
+            "min": 11.5,
+            "max": 13.8,
+            "avg": 12.67
+          }
+        }
       }
     },
     "stocking": {
@@ -362,7 +444,7 @@
     "angler_analysis": {
       "quality_score": 5.0,
       "quality_label": "Fair",
-      "best_window": "day1 evening",
+      "best_window": "day2 morning",
       "water_temp_read": {
         "status": "unknown",
         "read": "Water temperature is unavailable.",

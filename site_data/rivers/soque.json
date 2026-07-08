@@ -120,11 +120,11 @@
     },
     "recommended_flies": [],
     "generated_text": {
-      "quick_read": "The Soque River offers fair trout fishing with a flow of 64 cfs and stable conditions. Water temperature and turbidity data are unavailable, but low pressures support steady fishing.",
-      "best_window": "The best window is day1 evening due to moderate sky cover and stable pressures providing balanced conditions ideal for trout feeding along runs, seams, and structure.",
-      "current_conditions": "Flow is steady at 64 cfs with a gage height of 3.55 ft; water temperature and turbidity data are unavailable.",
-      "weather_setup": "Sky cover is mostly clear to partly cloudy with an average of 16%, pressure steady at 30.03 inHg, winds from the west averaging 5.5 mph, and minimal rain probability.",
-      "what_this_means": "Trout will position near runs, seams, and structure favoring comfortable feeding lanes amid moderate light. Use a balanced nymph approach with clean drifts and smaller natural patterns; no recent stocking means focus on natural offerings without reliance on attractors."
+      "quick_read": "Current flow is moderate on the Soque River with fair fishing quality expected. Evening on day 1 is the best time to fish due to balanced light and pressure conditions.",
+      "best_window": "The best window is day 1 evening because light and pressure conditions are balanced, making trout more active along runs, seams, and structure with a balanced nymph approach recommended.",
+      "current_conditions": "USGS flow is 64.0 cfs with a gage height of 3.55 ft. Water temperature and turbidity data are unavailable.",
+      "weather_setup": "Sky cover averages 16% with pressure at 30.03 inHg and light winds from the west averaging 5.5 mph. Rain probability is low at 8% with no expected rainfall.",
+      "what_this_means": "Trout will favor comfortable feeding lanes near cover in runs, seams, and structural areas. Use smaller natural patterns with clean drifts and balanced nymph approaches. No recent stocking signals mean focus on natural behavior without expecting stocked trout tendencies."
     }
   },
   "llm_context": {
@@ -151,13 +151,13 @@
     "usgs_summary": {
       "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
       "water_temp_f": null,
-      "flow_cfs": 64.0,
-      "gage_height_ft": 3.55,
+      "flow_cfs": 62.9,
+      "gage_height_ft": 3.54,
       "turbidity": null,
-      "observed_at": "2026-07-07T18:00:00.000-04:00"
+      "observed_at": "2026-07-07T19:00:00.000-04:00"
     },
     "weather_summary": {
-      "pressure_inhg": 30.03,
+      "pressure_inhg": null,
       "air_temp": {
         "current_f": 88,
         "low_f": 70.0,
@@ -165,64 +165,27 @@
       },
       "sky_cover": {
         "min": 1,
-        "max": 44,
-        "avg": 16.14
+        "max": 37,
+        "avg": 15.93
       },
       "humidity": {
         "min": 51,
         "max": 95,
-        "avg": 73.23
+        "avg": 73.25
       },
       "rain": {
         "max_probability_percent": 18,
         "expected_inches": 0.0
       },
       "wind": {
-        "avg_mph": 5.5,
+        "avg_mph": 5.6,
         "max_gust_mph": 19.6,
         "predominant_direction": "W"
       }
     },
     "forecast_breakdown": {
       "day1": {
-        "date": "2026-07-07",
-        "morning": {},
-        "afternoon": {},
-        "evening": {
-          "sky_cover": {
-            "min": 44,
-            "max": 44,
-            "avg": 44.0
-          },
-          "humidity": {
-            "min": 61,
-            "max": 61,
-            "avg": 61.0
-          },
-          "rain_probability": {
-            "min": 8,
-            "max": 8,
-            "avg": 8.0
-          },
-          "air_temp_f": {
-            "min": 87.0,
-            "max": 87.0,
-            "avg": 87.0
-          },
-          "wind_mph": {
-            "min": 5.8,
-            "max": 5.8,
-            "avg": 5.8
-          },
-          "wind_gust_mph": {
-            "min": 12.7,
-            "max": 12.7,
-            "avg": 12.7
-          }
-        }
-      },
-      "day2": {
-        "date": "2026-07-07",
+        "date": "2026-07-08",
         "morning": {
           "sky_cover": {
             "min": 1,
@@ -329,6 +292,110 @@
             "avg": 14.4
           }
         }
+      },
+      "day2": {
+        "date": "2026-07-08",
+        "morning": {
+          "sky_cover": {
+            "min": 5,
+            "max": 25,
+            "avg": 13.0
+          },
+          "humidity": {
+            "min": 89,
+            "max": 92,
+            "avg": 90.6
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 70.0,
+            "max": 73.0,
+            "avg": 71.5
+          },
+          "wind_gust_mph": {
+            "min": 5.8,
+            "max": 6.9,
+            "avg": 6.35
+          }
+        },
+        "afternoon": {
+          "sky_cover": {
+            "min": 4,
+            "max": 26,
+            "avg": 16.83
+          },
+          "humidity": {
+            "min": 54,
+            "max": 90,
+            "avg": 69.67
+          },
+          "rain_probability": {
+            "min": 1,
+            "max": 6,
+            "avg": 3.6
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 72.0,
+            "max": 88.0,
+            "avg": 81.33
+          },
+          "wind_mph": {
+            "min": 4.6,
+            "max": 9.2,
+            "avg": 6.92
+          },
+          "wind_gust_mph": {
+            "min": 9.2,
+            "max": 17.3,
+            "avg": 13.55
+          }
+        },
+        "evening": {
+          "sky_cover": {
+            "min": 30,
+            "max": 35,
+            "avg": 32.25
+          },
+          "humidity": {
+            "min": 53,
+            "max": 62,
+            "avg": 56.8
+          },
+          "rain_probability": {
+            "min": 12,
+            "max": 18,
+            "avg": 14.83
+          },
+          "rain_inches": {
+            "min": 0.0,
+            "max": 0.0,
+            "avg": 0.0
+          },
+          "air_temp_f": {
+            "min": 85.0,
+            "max": 89.0,
+            "avg": 87.0
+          },
+          "wind_mph": {
+            "min": 8.1,
+            "max": 10.4,
+            "avg": 9.23
+          },
+          "wind_gust_mph": {
+            "min": 16.1,
+            "max": 19.6,
+            "avg": 18.12
+          }
+        }
       }
     },
     "stocking": {
@@ -402,7 +469,7 @@
     "angler_analysis": {
       "quality_score": 5.0,
       "quality_label": "Fair",
-      "best_window": "day1 evening",
+      "best_window": "day1 morning",
       "water_temp_read": {
         "status": "unknown",
         "read": "Water temperature is unavailable.",
@@ -411,16 +478,10 @@
         "score_adjustment": 0
       },
       "light_pressure_read": {
-        "status": "neutral",
-        "read": "Light and pressure do not strongly push the outlook either way.",
-        "positioning": [
-          "runs",
-          "seams",
-          "structure"
-        ],
-        "tactics": [
-          "balanced nymph approach"
-        ],
+        "status": "unknown",
+        "read": "Light and pressure read is unavailable.",
+        "positioning": [],
+        "tactics": [],
         "score_adjustment": 0.0
       },
       "pressure_trend_read": {
@@ -436,20 +497,14 @@
       },
       "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
       "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-      "likely_trout_positioning": [
-        "runs",
-        "seams",
-        "structure"
-      ],
-      "recommended_tactics": [
-        "balanced nymph approach"
-      ],
+      "likely_trout_positioning": [],
+      "recommended_tactics": [],
       "recommended_fly_keys": [],
       "fly_reasoning": {},
       "caution_notes": [],
       "reasoning": [
         "Water temperature is unavailable.",
-        "Light and pressure do not strongly push the outlook either way.",
+        "Light and pressure read is unavailable.",
         "Pressure trend is unavailable.",
         "No recent stocking signal is available."
       ]
