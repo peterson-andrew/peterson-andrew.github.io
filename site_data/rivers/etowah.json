@@ -158,11 +158,11 @@
       }
     ],
     "generated_text": {
-      "quick_read": "Trout fishing on the Etowah River is tough due to very warm water conditions. Recent stocking improves prospects with eggs, worms, and attractor nymphs recommended.",
-      "best_window": "The best fishing window is the morning of day 2 because cooler morning temperatures and moderate sky cover create better conditions despite the warm water, supporting a balanced nymph approach.",
-      "current_conditions": "USGS water temperature is 80.6\u00b0F with a flow of 97.7 cfs, gage height at 3.69 ft, and turbidity at 7.1.",
-      "weather_setup": "Sky cover averages around 20%, pressure is steady at 30.05 inHg with no strong trend, winds blow from the west at approximately 4.8 mph with gusts up to 16.1 mph, and there is a low chance of rain.",
-      "what_this_means": "Trout will seek cold-water refuges and oxygenated areas while holding near runs, seams, and structure. Present clean drifts with smaller natural patterns and stocked-trout attractors such as egg patterns, squirmy worms, and duracells. Exercise caution as warm water stresses trout and may reduce activity."
+      "quick_read": "Trout fishing on the Etowah River is tough due to very warm water and moderate turbidity. Recent stocking favors using stocked-trout attractors like egg patterns and squirmy worms.",
+      "best_window": "Day 2 morning is best because cooler morning temperatures and moderate sky cover create the most comfortable conditions for trout to feed near oxygenated water and structure.",
+      "current_conditions": "Water temperature is very warm at 80.6\u00b0F, flow is 97.7 cfs, gage height is 3.69 ft, and turbidity is 7.1 NTU.",
+      "weather_setup": "Sky cover averages 20%, pressure is steady at 30.05 inHg with unknown trend, wind is light at 4.8 mph from the west, and there is no rain expected.",
+      "what_this_means": "Trout will favor cold-water refuge, oxygenated areas, and structural seams, positioning close to cover to avoid heat stress. Presentations should focus on clean drifts with smaller, natural flies and stocked-trout attractors; anglers should consider not targeting trout aggressively due to warm conditions."
     }
   },
   "llm_context": {
@@ -188,11 +188,11 @@
     },
     "usgs_summary": {
       "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-      "water_temp_f": 80.6,
-      "flow_cfs": 97.7,
-      "gage_height_ft": 3.69,
-      "turbidity": 7.1,
-      "observed_at": "2026-07-07T19:00:00.000-04:00"
+      "water_temp_f": 80.2,
+      "flow_cfs": 96.5,
+      "gage_height_ft": 3.68,
+      "turbidity": 6.4,
+      "observed_at": "2026-07-07T20:00:00.000-04:00"
     },
     "weather_summary": {
       "pressure_inhg": 30.05,
@@ -597,35 +597,35 @@
       "water_temp": {
         "parameter_code": "00010",
         "name": "Temperature, water, &#176;C",
-        "value": 27.0,
-        "timestamp": "2026-07-07T19:00:00.000-04:00",
-        "value_c": 27.0,
-        "value_f": 80.6
+        "value": 26.8,
+        "timestamp": "2026-07-07T20:00:00.000-04:00",
+        "value_c": 26.8,
+        "value_f": 80.2
       },
       "flow_cfs": {
         "parameter_code": "00060",
         "name": "Streamflow, ft&#179;/s",
-        "value": 97.7,
-        "timestamp": "2026-07-07T19:00:00.000-04:00"
+        "value": 96.5,
+        "timestamp": "2026-07-07T20:00:00.000-04:00"
       },
       "gage_height_ft": {
         "parameter_code": "00065",
         "name": "Gage height, ft",
-        "value": 3.69,
-        "timestamp": "2026-07-07T19:00:00.000-04:00"
+        "value": 3.68,
+        "timestamp": "2026-07-07T20:00:00.000-04:00"
       },
       "turbidity": {
         "parameter_code": "63680",
         "name": "Turbidity, water, unfiltered, monochrome near infra-red LED light, 780-900 nm, detection angle 90 &#177;2.5&#176;, formazin nephelometric units (FNU)",
-        "value": 7.1,
-        "timestamp": "2026-07-07T19:00:00.000-04:00"
+        "value": 6.4,
+        "timestamp": "2026-07-07T20:00:00.000-04:00"
       }
     }
   },
   "weather": {
     "river_key": "etowah",
     "river_name": "Etowah River",
-    "generated_at_utc": "2026-07-08T00:01:11.006413+00:00",
+    "generated_at_utc": "2026-07-08T00:25:20.766313+00:00",
     "current": {
       "latitude": 34.4212,
       "longitude": -84.1191,

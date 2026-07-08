@@ -120,11 +120,11 @@
     },
     "recommended_flies": [],
     "generated_text": {
-      "quick_read": "The Soque River currently offers fair trout fishing with moderate flow and stable conditions. Expect consistent action using balanced nymph approaches in runs and seams.",
-      "best_window": "The best fishing window is day 1 morning due to the low wind speeds, light sky cover, and high humidity creating favorable conditions for trout to feed actively in runs, seams, and structure.",
-      "current_conditions": "Current USGS flow is 62.9 cfs with a gage height of 3.54 ft; water temperature and turbidity data are unavailable.",
-      "weather_setup": "The sky cover is light at 16%, pressure stands at 30.04 inHg with a neutral trend, wind averages 5.6 mph from the west, and rain probability is low with nearly no expected precipitation.",
-      "what_this_means": "Trout will concentrate in runs, seams, and near structure, favoring comfortable feeding lanes while avoiding bright light areas. Use clean drifts with smaller natural nymph patterns and attractors suitable for stocked trout, employing a balanced nymph approach with no recent stocking influence affecting fly choice."
+      "quick_read": "The Soque River offers fair trout fishing conditions with moderate flow and stable weather. Light sky cover and gentle winds support a balanced nymph approach.",
+      "best_window": "The morning of day 1 is best due to low wind speeds and minimal sky cover, creating ideal conditions for trout to feed actively in runs, seams, and around structure.",
+      "current_conditions": "Current water temperature is unavailable; flow is 62.9 cfs; gage height is 3.54 ft; turbidity data is unavailable.",
+      "weather_setup": "Sky cover is low at 16%, pressure is steady at 30.04 inHg with no strong trend, winds average 5.6 mph from the west, and there is little to no rain expected.",
+      "what_this_means": "Trout will favor comfortable feeding lanes near cover such as runs, seams, and structure. Use a balanced nymph approach with smaller, natural flies and prioritize clean drifts. No recent stocking affects fly selection, and caution is advised due to unavailable water temperature and pressure trend data."
     }
   },
   "llm_context": {
@@ -151,10 +151,10 @@
     "usgs_summary": {
       "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
       "water_temp_f": null,
-      "flow_cfs": 62.9,
-      "gage_height_ft": 3.54,
+      "flow_cfs": 61.9,
+      "gage_height_ft": 3.53,
       "turbidity": null,
-      "observed_at": "2026-07-07T19:00:00.000-04:00"
+      "observed_at": "2026-07-07T20:00:00.000-04:00"
     },
     "weather_summary": {
       "pressure_inhg": 30.04,
@@ -531,21 +531,21 @@
       "flow_cfs": {
         "parameter_code": "00060",
         "name": "Streamflow, ft&#179;/s",
-        "value": 62.9,
-        "timestamp": "2026-07-07T19:00:00.000-04:00"
+        "value": 61.9,
+        "timestamp": "2026-07-07T20:00:00.000-04:00"
       },
       "gage_height_ft": {
         "parameter_code": "00065",
         "name": "Gage height, ft",
-        "value": 3.54,
-        "timestamp": "2026-07-07T19:00:00.000-04:00"
+        "value": 3.53,
+        "timestamp": "2026-07-07T20:00:00.000-04:00"
       }
     }
   },
   "weather": {
     "river_key": "soque",
     "river_name": "Soque River",
-    "generated_at_utc": "2026-07-08T00:01:11.006216+00:00",
+    "generated_at_utc": "2026-07-08T00:25:20.766116+00:00",
     "current": {
       "latitude": 34.6186,
       "longitude": -83.5289,
@@ -556,11 +556,11 @@
       "wind_direction": "W",
       "short_forecast": "Partly Cloudy",
       "pressure_station": "KAJR",
-      "pressure_mb": 1017.3,
-      "pressure_inhg": 30.04
+      "pressure_mb": 1017.6,
+      "pressure_inhg": 30.05
     },
     "pressure_trend": {
-      "current_inhg": 30.04,
+      "current_inhg": 30.05,
       "previous_inhg": null,
       "change_since_last_run": null,
       "trend": "unknown"
