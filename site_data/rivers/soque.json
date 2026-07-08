@@ -108,11 +108,11 @@
     },
     "recommended_flies": [],
     "generated_text": {
-      "quick_read": "The Soque River fishing conditions are fair with stable flow and moderate turbidity data unavailable. Expect trout to feed comfortably near cover in clean water and low light conditions.",
-      "best_window": "Day 1 morning offers the best fishing window due to low wind speeds averaging 1.75 mph and minimal sky cover averaging 8.67%, maximizing trout activity in comfortable feeding lanes.",
-      "current_conditions": "Current flow at Soque River is 62.9 cfs with a gage height of 3.54 ft. Water temperature and turbidity data are unavailable.",
-      "weather_setup": "Sky cover today ranges from 1% to 37% with an average of 15.93%. Wind is from the west at 5.6 mph with gusts up to 19.6 mph. Rain probability is low at 18%, with no significant rain expected. Pressure data is unavailable.",
-      "what_this_means": "Trout are likely to position near cover in comfortable feeding lanes during low light and moderate wind conditions. Use smaller natural patterns for clean drifts and consider attractor patterns for unstocked waters. Caution is advised due to unavailable water temperature and pressure data; adjust tactics accordingly."
+      "quick_read": "Current trout fishing quality on the Soque River is fair. Flow is steady, but water temperature data is unavailable.",
+      "best_window": "The best window for fishing is day 1 morning due to the lowest wind speeds and cooler air temperatures, promoting better trout feeding activity.",
+      "current_conditions": "Flow is 62.9 cfs with a gage height of 3.54 ft; water temperature and turbidity data are unavailable.",
+      "weather_setup": "Sky cover is light averaging around 16%, pressure data is unavailable, winds are from the west averaging 5.6 mph with gusts up to 19.6 mph, and rain probability is low at 18%.",
+      "what_this_means": "Trout will likely favor comfortable feeding lanes near cover during higher light conditions. Use smaller, natural fly patterns with clean drifts and include stocked-trout attractors where relevant. No stocking signals detected and water temperature unknown, so adjust tactics cautiously."
     }
   },
   "llm_context": {
@@ -145,16 +145,16 @@
       "observed_at": "2026-07-07T19:00:00.000-04:00"
     },
     "weather_summary": {
-      "pressure_inhg": null,
+      "pressure_inhg": 30.04,
       "air_temp": {
-        "current_f": 88,
+        "current_f": 84,
         "low_f": 70.0,
         "high_f": 90.0
       },
       "sky_cover": {
         "min": 1,
         "max": 37,
-        "avg": 15.93
+        "avg": 16.12
       },
       "humidity": {
         "min": 51,
@@ -466,10 +466,16 @@
         "score_adjustment": 0
       },
       "light_pressure_read": {
-        "status": "unknown",
-        "read": "Light and pressure read is unavailable.",
-        "positioning": [],
-        "tactics": [],
+        "status": "neutral",
+        "read": "Light and pressure do not strongly push the outlook either way.",
+        "positioning": [
+          "runs",
+          "seams",
+          "structure"
+        ],
+        "tactics": [
+          "balanced nymph approach"
+        ],
         "score_adjustment": 0.0
       },
       "pressure_trend_read": {
@@ -485,14 +491,20 @@
       },
       "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
       "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-      "likely_trout_positioning": [],
-      "recommended_tactics": [],
+      "likely_trout_positioning": [
+        "runs",
+        "seams",
+        "structure"
+      ],
+      "recommended_tactics": [
+        "balanced nymph approach"
+      ],
       "recommended_fly_keys": [],
       "fly_reasoning": {},
       "caution_notes": [],
       "reasoning": [
         "Water temperature is unavailable.",
-        "Light and pressure read is unavailable.",
+        "Light and pressure do not strongly push the outlook either way.",
         "Pressure trend is unavailable.",
         "No recent stocking signal is available."
       ]
