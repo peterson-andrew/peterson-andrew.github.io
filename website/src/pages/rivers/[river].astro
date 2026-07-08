@@ -3,20 +3,13 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 
-import chattahoochee from "../../../../site_data/rivers/chattahoochee.json";
-import toccoa from "../../../../site_data/rivers/toccoa.json";
-import soque from "../../../../site_data/rivers/soque.json";
-import etowah from "../../../../site_data/rivers/etowah.json";
-import nantahala from "../../../../site_data/rivers/nantahala.json";
+import rivers from "../../../../site_data/rivers.json";
 
 export function getStaticPaths() {
-  return [
-    { params: { river: "chattahoochee" }, props: { riverData: chattahoochee } },
-    { params: { river: "toccoa" }, props: { riverData: toccoa } },
-    { params: { river: "soque" }, props: { riverData: soque } },
-    { params: { river: "etowah" }, props: { riverData: etowah } },
-    { params: { river: "nantahala" }, props: { riverData: nantahala } },
-  ];
+  return Object.entries(rivers).map(([riverKey, riverData]) => ({
+    params: { river: riverKey },
+    props: { riverData },
+  }));
 }
 
 const { riverData } = Astro.props;
@@ -41,7 +34,6 @@ const flies = report?.recommended_flies || [];
   </section>
 
   <main class="river-page site-shell">
-
     <section class="river-overview">
       <div>
         <div class="section-kicker">Current Conditions</div>
@@ -109,8 +101,7 @@ const flies = report?.recommended_flies || [];
         ))}
       </div>
     </section>
-
   </main>
 
   <Footer />
-</BaseLayout>
+</BaseLayout>m
