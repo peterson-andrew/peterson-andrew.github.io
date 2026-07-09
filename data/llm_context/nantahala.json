@@ -23,27 +23,27 @@
   "weather_summary": {
     "pressure_inhg": null,
     "air_temp": {
-      "current_f": 70,
+      "current_f": 77,
       "low_f": 64.0,
       "high_f": 78.0
     },
     "sky_cover": {
       "min": 21,
-      "max": 97,
-      "avg": 62.39
+      "max": 100,
+      "avg": 67.0
     },
     "humidity": {
       "min": 70,
       "max": 100,
-      "avg": 86.7
+      "avg": 87.35
     },
     "rain": {
-      "max_probability_percent": 87,
+      "max_probability_percent": 90,
       "expected_inches": 0.25
     },
     "wind": {
-      "avg_mph": 2.6,
-      "max_gust_mph": 13.8,
+      "avg_mph": 2.5,
+      "max_gust_mph": 12.7,
       "predominant_direction": "W"
     }
   },
@@ -51,38 +51,7 @@
     "day1": {
       "date": "2026-07-09",
       "morning": {},
-      "afternoon": {
-        "sky_cover": {
-          "min": 25,
-          "max": 40,
-          "avg": 31.33
-        },
-        "humidity": {
-          "min": 74,
-          "max": 82,
-          "avg": 77.67
-        },
-        "rain_probability": {
-          "min": 10,
-          "max": 30,
-          "avg": 19.67
-        },
-        "air_temp_f": {
-          "min": 72.0,
-          "max": 77.0,
-          "avg": 74.67
-        },
-        "wind_mph": {
-          "min": 4.6,
-          "max": 4.6,
-          "avg": 4.6
-        },
-        "wind_gust_mph": {
-          "min": 13.8,
-          "max": 13.8,
-          "avg": 13.8
-        }
-      },
+      "afternoon": {},
       "evening": {
         "sky_cover": {
           "min": 54,
