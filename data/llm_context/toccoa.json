@@ -22,74 +22,43 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 227.0,
-    "gage_height_ft": 1.2,
+    "flow_cfs": 225.0,
+    "gage_height_ft": 1.19,
     "turbidity": null,
-    "observed_at": "2026-07-10T08:30:00.000-04:00"
+    "observed_at": "2026-07-10T11:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.14,
+    "pressure_inhg": 30.15,
     "air_temp": {
-      "current_f": 72,
+      "current_f": 82,
       "low_f": 68.0,
       "high_f": 84.0
     },
     "sky_cover": {
       "min": 42,
       "max": 88,
-      "avg": 66.14
+      "avg": 67.93
     },
     "humidity": {
       "min": 67,
       "max": 100,
-      "avg": 85.9
+      "avg": 85.97
     },
     "rain": {
       "max_probability_percent": 75,
       "expected_inches": 0.32
     },
     "wind": {
-      "avg_mph": 3.5,
-      "max_gust_mph": 16.1,
-      "predominant_direction": ""
+      "avg_mph": 2.9,
+      "max_gust_mph": 13.8,
+      "predominant_direction": "W"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-07-10",
       "morning": {},
-      "afternoon": {
-        "sky_cover": {
-          "min": 49,
-          "max": 61,
-          "avg": 55.0
-        },
-        "humidity": {
-          "min": 71,
-          "max": 88,
-          "avg": 78.0
-        },
-        "rain_probability": {
-          "min": 14,
-          "max": 34,
-          "avg": 20.75
-        },
-        "air_temp_f": {
-          "min": 75.0,
-          "max": 82.0,
-          "avg": 79.25
-        },
-        "wind_mph": {
-          "min": 3.5,
-          "max": 6.9,
-          "avg": 5.2
-        },
-        "wind_gust_mph": {
-          "min": 11.5,
-          "max": 16.1,
-          "avg": 13.8
-        }
-      },
+      "afternoon": {},
       "evening": {
         "sky_cover": {
           "min": 53,
@@ -325,7 +294,7 @@
   "angler_analysis": {
     "quality_score": 7.0,
     "quality_label": "Good",
-    "best_window": "day1 afternoon",
+    "best_window": "day2 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
