@@ -22,34 +22,34 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 53.7,
-    "gage_height_ft": 3.45,
+    "flow_cfs": 57.7,
+    "gage_height_ft": 3.49,
     "turbidity": null,
-    "observed_at": "2026-07-10T19:00:00.000-04:00"
+    "observed_at": "2026-07-11T01:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 30.11,
     "air_temp": {
-      "current_f": 79,
-      "low_f": 70.0,
+      "current_f": 73,
+      "low_f": 69.0,
       "high_f": 86.0
     },
     "sky_cover": {
       "min": 8,
       "max": 88,
-      "avg": 58.78
+      "avg": 60.05
     },
     "humidity": {
       "min": 63,
-      "max": 97,
-      "avg": 80.0
+      "max": 100,
+      "avg": 80.62
     },
     "rain": {
       "max_probability_percent": 82,
       "expected_inches": 0.28
     },
     "wind": {
-      "avg_mph": 5.2,
+      "avg_mph": 5.1,
       "max_gust_mph": 18.4,
       "predominant_direction": "W"
     }
@@ -61,37 +61,32 @@
         "sky_cover": {
           "min": 58,
           "max": 72,
-          "avg": 66.86
+          "avg": 67.8
         },
         "humidity": {
-          "min": 90,
+          "min": 92,
           "max": 92,
-          "avg": 91.0
+          "avg": 92.0
         },
         "rain_probability": {
           "min": 27,
           "max": 49,
-          "avg": 40.14
-        },
-        "rain_inches": {
-          "min": 0.09,
-          "max": 0.09,
-          "avg": 0.09
+          "avg": 41.2
         },
         "air_temp_f": {
           "min": 71.0,
-          "max": 73.0,
-          "avg": 72.0
+          "max": 72.0,
+          "avg": 71.5
         },
         "wind_mph": {
-          "min": 3.5,
+          "min": 4.6,
           "max": 4.6,
-          "avg": 4.05
+          "avg": 4.6
         },
         "wind_gust_mph": {
-          "min": 10.4,
+          "min": 11.5,
           "max": 12.7,
-          "avg": 11.53
+          "avg": 12.1
         }
       },
       "afternoon": {
@@ -348,8 +343,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 5.0,
-    "quality_label": "Fair",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
     "best_window": "day2 morning",
     "water_temp_read": {
       "status": "unknown",
@@ -359,11 +354,20 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
-      "score_adjustment": 0.0
+      "status": "cloudy",
+      "read": "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
+      "positioning": [
+        "runs",
+        "riffle edges",
+        "banks",
+        "feeding lanes"
+      ],
+      "tactics": [
+        "soft hackles",
+        "streamers",
+        "nymphs"
+      ],
+      "score_adjustment": 1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -378,14 +382,29 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [],
-    "recommended_tactics": [],
-    "recommended_fly_keys": [],
-    "fly_reasoning": {},
+    "likely_trout_positioning": [
+      "runs",
+      "riffle edges",
+      "banks",
+      "feeding lanes"
+    ],
+    "recommended_tactics": [
+      "soft hackles",
+      "streamers",
+      "nymphs"
+    ],
+    "recommended_fly_keys": [
+      "woolly_bugger",
+      "duracell"
+    ],
+    "fly_reasoning": {
+      "woolly_bugger": "Useful if clouds, stain, or low light make fish more willing to chase.",
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+    },
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure read is unavailable.",
+      "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
