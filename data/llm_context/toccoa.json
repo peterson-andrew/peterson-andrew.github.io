@@ -22,78 +22,41 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 256.0,
-    "gage_height_ft": 1.3,
+    "flow_cfs": 253.0,
+    "gage_height_ft": 1.29,
     "turbidity": null,
-    "observed_at": "2026-07-11T15:30:00.000-04:00"
+    "observed_at": "2026-07-11T21:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.16,
+    "pressure_inhg": 30.12,
     "air_temp": {
-      "current_f": 84,
+      "current_f": 76,
       "low_f": 67.0,
-      "high_f": 83.0
+      "high_f": 82.0
     },
     "sky_cover": {
-      "min": 26,
+      "min": 32,
       "max": 86,
-      "avg": 66.87
+      "avg": 70.39
     },
     "humidity": {
-      "min": 69,
+      "min": 72,
       "max": 100,
-      "avg": 88.0
+      "avg": 88.44
     },
     "rain": {
       "max_probability_percent": 94,
       "expected_inches": 0.29
     },
     "wind": {
-      "avg_mph": 2.6,
-      "max_gust_mph": 12.7,
-      "predominant_direction": "W"
+      "avg_mph": 2.4,
+      "max_gust_mph": 11.5,
+      "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-07-11",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 27,
-          "max": 40,
-          "avg": 31.67
-        },
-        "humidity": {
-          "min": 69,
-          "max": 74,
-          "avg": 71.33
-        },
-        "rain_probability": {
-          "min": 29,
-          "max": 49,
-          "avg": 39.0
-        },
-        "air_temp_f": {
-          "min": 81.0,
-          "max": 83.0,
-          "avg": 82.0
-        },
-        "wind_mph": {
-          "min": 3.5,
-          "max": 4.6,
-          "avg": 4.05
-        },
-        "wind_gust_mph": {
-          "min": 10.4,
-          "max": 12.7,
-          "avg": 11.53
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-07-11",
+      "date": "2026-07-12",
       "morning": {
         "sky_cover": {
           "min": 69,
@@ -205,6 +168,120 @@
           "avg": 9.8
         }
       }
+    },
+    "day2": {
+      "date": "2026-07-12",
+      "morning": {
+        "sky_cover": {
+          "min": 60,
+          "max": 78,
+          "avg": 73.0
+        },
+        "humidity": {
+          "min": 97,
+          "max": 100,
+          "avg": 98.4
+        },
+        "rain_probability": {
+          "min": 27,
+          "max": 58,
+          "avg": 41.71
+        },
+        "rain_inches": {
+          "min": 0.02,
+          "max": 0.02,
+          "avg": 0.02
+        },
+        "air_temp_f": {
+          "min": 67.0,
+          "max": 69.0,
+          "avg": 68.0
+        },
+        "wind_mph": {
+          "min": 1.2,
+          "max": 1.2,
+          "avg": 1.2
+        },
+        "wind_gust_mph": {
+          "min": 3.5,
+          "max": 4.6,
+          "avg": 4.05
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 75,
+          "max": 80,
+          "avg": 78.0
+        },
+        "humidity": {
+          "min": 84,
+          "max": 99,
+          "avg": 91.6
+        },
+        "rain_probability": {
+          "min": 70,
+          "max": 70,
+          "avg": 70.0
+        },
+        "rain_inches": {
+          "min": 0.12,
+          "max": 0.12,
+          "avg": 0.12
+        },
+        "air_temp_f": {
+          "min": 68.0,
+          "max": 76.0,
+          "avg": 72.0
+        },
+        "wind_mph": {
+          "min": 2.3,
+          "max": 3.5,
+          "avg": 2.9
+        },
+        "wind_gust_mph": {
+          "min": 5.8,
+          "max": 8.1,
+          "avg": 6.93
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 69,
+          "max": 76,
+          "avg": 72.83
+        },
+        "humidity": {
+          "min": 75,
+          "max": 81,
+          "avg": 77.33
+        },
+        "rain_probability": {
+          "min": 94,
+          "max": 94,
+          "avg": 94.0
+        },
+        "rain_inches": {
+          "min": 0.29,
+          "max": 0.29,
+          "avg": 0.29
+        },
+        "air_temp_f": {
+          "min": 77.0,
+          "max": 79.0,
+          "avg": 77.8
+        },
+        "wind_mph": {
+          "min": 2.3,
+          "max": 2.3,
+          "avg": 2.3
+        },
+        "wind_gust_mph": {
+          "min": 8.1,
+          "max": 9.2,
+          "avg": 8.65
+        }
+      }
     }
   },
   "stocking": {
@@ -289,7 +366,7 @@
   "angler_analysis": {
     "quality_score": 7.0,
     "quality_label": "Good",
-    "best_window": "day1 morning",
+    "best_window": "day2 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
