@@ -22,27 +22,27 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 213.0,
-    "gage_height_ft": 4.63,
+    "flow_cfs": 152.0,
+    "gage_height_ft": 4.26,
     "turbidity": null,
-    "observed_at": "2026-07-11T21:00:00.000-04:00"
+    "observed_at": "2026-07-12T01:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 30.11,
     "air_temp": {
-      "current_f": 78,
+      "current_f": 72,
       "low_f": 67.0,
       "high_f": 86.0
     },
     "sky_cover": {
-      "min": 19,
+      "min": 53,
       "max": 94,
-      "avg": 72.38
+      "avg": 77.2
     },
     "humidity": {
       "min": 65,
       "max": 100,
-      "avg": 85.11
+      "avg": 85.29
     },
     "rain": {
       "max_probability_percent": 91,
@@ -59,34 +59,24 @@
       "date": "2026-07-12",
       "morning": {
         "sky_cover": {
-          "min": 53,
+          "min": 62,
           "max": 73,
-          "avg": 63.33
+          "avg": 68.0
         },
         "humidity": {
-          "min": 93,
+          "min": 95,
           "max": 96,
-          "avg": 95.0
+          "avg": 95.5
         },
         "rain_probability": {
           "min": 12,
-          "max": 28,
-          "avg": 20.57
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "max": 26,
+          "avg": 20.8
         },
         "air_temp_f": {
           "min": 70.0,
-          "max": 73.0,
-          "avg": 71.5
-        },
-        "wind_gust_mph": {
-          "min": 6.9,
-          "max": 6.9,
-          "avg": 6.9
+          "max": 71.0,
+          "avg": 70.5
         }
       },
       "afternoon": {
@@ -338,8 +328,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 5.0,
-    "quality_label": "Fair",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
     "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
@@ -349,11 +339,20 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
-      "score_adjustment": 0.0
+      "status": "cloudy",
+      "read": "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
+      "positioning": [
+        "runs",
+        "riffle edges",
+        "banks",
+        "feeding lanes"
+      ],
+      "tactics": [
+        "soft hackles",
+        "streamers",
+        "nymphs"
+      ],
+      "score_adjustment": 1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -368,14 +367,29 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [],
-    "recommended_tactics": [],
-    "recommended_fly_keys": [],
-    "fly_reasoning": {},
+    "likely_trout_positioning": [
+      "runs",
+      "riffle edges",
+      "banks",
+      "feeding lanes"
+    ],
+    "recommended_tactics": [
+      "soft hackles",
+      "streamers",
+      "nymphs"
+    ],
+    "recommended_fly_keys": [
+      "woolly_bugger",
+      "duracell"
+    ],
+    "fly_reasoning": {
+      "woolly_bugger": "Useful if clouds, stain, or low light make fish more willing to chase.",
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+    },
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure read is unavailable.",
+      "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
