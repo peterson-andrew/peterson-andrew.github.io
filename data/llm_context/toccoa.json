@@ -22,34 +22,34 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 276.0,
-    "gage_height_ft": 1.37,
+    "flow_cfs": 268.0,
+    "gage_height_ft": 1.34,
     "turbidity": null,
-    "observed_at": "2026-07-15T08:30:00.000-04:00"
+    "observed_at": "2026-07-15T12:30:00.000-04:00"
   },
   "weather_summary": {
     "pressure_inhg": 30.19,
     "air_temp": {
-      "current_f": 70,
+      "current_f": 81,
       "low_f": 68.0,
       "high_f": 86.0
     },
     "sky_cover": {
       "min": 14,
       "max": 60,
-      "avg": 37.95
+      "avg": 35.64
     },
     "humidity": {
       "min": 65,
       "max": 100,
-      "avg": 84.81
+      "avg": 84.54
     },
     "rain": {
       "max_probability_percent": 50,
       "expected_inches": 0.05
     },
     "wind": {
-      "avg_mph": 1.4,
+      "avg_mph": 1.7,
       "max_gust_mph": 9.2,
       "predominant_direction": ""
     }
@@ -58,38 +58,7 @@
     "day1": {
       "date": "2026-07-15",
       "morning": {},
-      "afternoon": {
-        "sky_cover": {
-          "min": 57,
-          "max": 59,
-          "avg": 57.67
-        },
-        "humidity": {
-          "min": 73,
-          "max": 87,
-          "avg": 79.5
-        },
-        "rain_probability": {
-          "min": 8,
-          "max": 25,
-          "avg": 16.0
-        },
-        "air_temp_f": {
-          "min": 74.0,
-          "max": 81.0,
-          "avg": 77.75
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 1.2,
-          "avg": 1.2
-        },
-        "wind_gust_mph": {
-          "min": 3.5,
-          "max": 4.6,
-          "avg": 4.05
-        }
-      },
+      "afternoon": {},
       "evening": {
         "sky_cover": {
           "min": 51,
@@ -310,7 +279,7 @@
   "angler_analysis": {
     "quality_score": 6.0,
     "quality_label": "Fair to good",
-    "best_window": "day1 afternoon",
+    "best_window": "day1 evening",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",

@@ -22,27 +22,27 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 182.0,
-    "gage_height_ft": 4.45,
+    "flow_cfs": 164.0,
+    "gage_height_ft": 4.34,
     "turbidity": null,
-    "observed_at": "2026-07-15T09:00:00.000-04:00"
+    "observed_at": "2026-07-15T12:00:00.000-04:00"
   },
   "weather_summary": {
     "pressure_inhg": 30.16,
     "air_temp": {
-      "current_f": 74,
+      "current_f": 84,
       "low_f": 69.0,
       "high_f": 90.0
     },
     "sky_cover": {
       "min": 1,
-      "max": 61,
-      "avg": 22.85
+      "max": 53,
+      "avg": 20.51
     },
     "humidity": {
       "min": 58,
       "max": 100,
-      "avg": 80.92
+      "avg": 80.13
     },
     "rain": {
       "max_probability_percent": 28,
@@ -51,45 +51,14 @@
     "wind": {
       "avg_mph": 3.2,
       "max_gust_mph": 10.4,
-      "predominant_direction": "ENE"
+      "predominant_direction": "SSE"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-07-15",
       "morning": {},
-      "afternoon": {
-        "sky_cover": {
-          "min": 49,
-          "max": 61,
-          "avg": 54.67
-        },
-        "humidity": {
-          "min": 69,
-          "max": 80,
-          "avg": 74.0
-        },
-        "rain_probability": {
-          "min": 3,
-          "max": 12,
-          "avg": 7.75
-        },
-        "air_temp_f": {
-          "min": 78.0,
-          "max": 84.0,
-          "avg": 81.0
-        },
-        "wind_mph": {
-          "min": 2.3,
-          "max": 2.3,
-          "avg": 2.3
-        },
-        "wind_gust_mph": {
-          "min": 5.8,
-          "max": 5.8,
-          "avg": 5.8
-        }
-      },
+      "afternoon": {},
       "evening": {
         "sky_cover": {
           "min": 30,
@@ -314,7 +283,7 @@
   "angler_analysis": {
     "quality_score": 4.0,
     "quality_label": "Fair",
-    "best_window": "day1 afternoon",
+    "best_window": "day1 evening",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
