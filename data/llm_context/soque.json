@@ -25,33 +25,33 @@
     "flow_cfs": 117.0,
     "gage_height_ft": 4.0,
     "turbidity": null,
-    "observed_at": "2026-07-16T21:00:00.000-04:00"
+    "observed_at": "2026-07-17T01:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.08,
+    "pressure_inhg": 30.1,
     "air_temp": {
-      "current_f": 79,
+      "current_f": 74,
       "low_f": 72.0,
       "high_f": 90.0
     },
     "sky_cover": {
       "min": 4,
       "max": 71,
-      "avg": 31.31
+      "avg": 31.78
     },
     "humidity": {
       "min": 57,
       "max": 96,
-      "avg": 78.83
+      "avg": 78.85
     },
     "rain": {
       "max_probability_percent": 57,
       "expected_inches": 0.22
     },
     "wind": {
-      "avg_mph": 3.1,
+      "avg_mph": 3.0,
       "max_gust_mph": 10.4,
-      "predominant_direction": "W"
+      "predominant_direction": "WNW"
     }
   },
   "forecast_breakdown": {
@@ -60,33 +60,23 @@
       "morning": {
         "sky_cover": {
           "min": 6,
-          "max": 17,
-          "avg": 9.8
+          "max": 9,
+          "avg": 7.33
         },
         "humidity": {
           "min": 90,
           "max": 92,
-          "avg": 91.2
-        },
-        "rain_probability": {
-          "min": 2,
-          "max": 3,
-          "avg": 2.5
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "avg": 91.0
         },
         "air_temp_f": {
           "min": 72.0,
-          "max": 74.0,
-          "avg": 73.0
+          "max": 73.0,
+          "avg": 72.5
         },
         "wind_gust_mph": {
-          "min": 8.1,
+          "min": 9.2,
           "max": 9.2,
-          "avg": 8.65
+          "avg": 9.2
         }
       },
       "afternoon": {
@@ -348,7 +338,7 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 5.0,
+    "quality_score": 4.0,
     "quality_label": "Fair",
     "best_window": "day1 evening",
     "water_temp_read": {
@@ -359,17 +349,20 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
       "positioning": [
-        "runs",
-        "seams",
+        "shade",
+        "deeper runs",
+        "undercut banks",
         "structure"
       ],
       "tactics": [
-        "balanced nymph approach"
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -385,19 +378,32 @@
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "runs",
-      "seams",
+      "shade",
+      "deeper runs",
+      "undercut banks",
       "structure"
     ],
     "recommended_tactics": [
-      "balanced nymph approach"
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
     ],
-    "recommended_fly_keys": [],
-    "fly_reasoning": {},
-    "caution_notes": [],
+    "recommended_fly_keys": [
+      "zebra_midge",
+      "pheasant_tail",
+      "haresear"
+    ],
+    "fly_reasoning": {
+      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious.",
+      "haresear": "General-purpose natural nymph for seams and runs."
+    },
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
