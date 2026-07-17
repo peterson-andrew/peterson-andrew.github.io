@@ -21,37 +21,37 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 75.4,
-    "flow_cfs": 125.0,
-    "gage_height_ft": 3.92,
+    "water_temp_f": 76.3,
+    "flow_cfs": 124.0,
+    "gage_height_ft": 3.91,
     "turbidity": 20.4,
-    "observed_at": "2026-07-17T07:00:00.000-04:00"
+    "observed_at": "2026-07-17T11:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.13,
+    "pressure_inhg": 30.14,
     "air_temp": {
-      "current_f": 73,
+      "current_f": 86,
       "low_f": 72.0,
       "high_f": 88.0
     },
     "sky_cover": {
       "min": 2,
       "max": 64,
-      "avg": 26.05
+      "avg": 27.5
     },
     "humidity": {
       "min": 62,
       "max": 95,
-      "avg": 80.49
+      "avg": 80.46
     },
     "rain": {
       "max_probability_percent": 67,
       "expected_inches": 0.11
     },
     "wind": {
-      "avg_mph": 3.5,
+      "avg_mph": 3.6,
       "max_gust_mph": 12.7,
-      "predominant_direction": "NW"
+      "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
@@ -60,34 +60,24 @@
       "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 13,
+          "min": 41,
           "max": 41,
-          "avg": 24.5
+          "avg": 41.0
         },
         "humidity": {
           "min": 64,
-          "max": 88,
-          "avg": 73.4
+          "max": 64,
+          "avg": 64.0
         },
         "rain_probability": {
-          "min": 7,
+          "min": 30,
           "max": 30,
-          "avg": 16.75
+          "avg": 30.0
         },
         "air_temp_f": {
-          "min": 76.0,
+          "min": 88.0,
           "max": 88.0,
-          "avg": 83.4
-        },
-        "wind_mph": {
-          "min": 2.3,
-          "max": 2.3,
-          "avg": 2.3
-        },
-        "wind_gust_mph": {
-          "min": 5.8,
-          "max": 8.1,
-          "avg": 6.93
+          "avg": 88.0
         }
       },
       "evening": {
@@ -314,7 +304,7 @@
   "angler_analysis": {
     "quality_score": 0,
     "quality_label": "Tough",
-    "best_window": "day2 morning",
+    "best_window": "day1 afternoon",
     "water_temp_read": {
       "status": "very_hot",
       "read": "Water is very warm for trout.",
