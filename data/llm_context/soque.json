@@ -22,22 +22,22 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 96.5,
-    "gage_height_ft": 3.83,
+    "flow_cfs": 95.3,
+    "gage_height_ft": 3.82,
     "turbidity": null,
-    "observed_at": "2026-07-18T08:00:00.000-04:00"
+    "observed_at": "2026-07-18T12:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.11,
+    "pressure_inhg": 30.08,
     "air_temp": {
-      "current_f": 72,
+      "current_f": 87,
       "low_f": 70.0,
       "high_f": 90.0
     },
     "sky_cover": {
       "min": 7,
       "max": 60,
-      "avg": 31.0
+      "avg": 30.94
     },
     "humidity": {
       "min": 55,
@@ -49,9 +49,9 @@
       "expected_inches": 0.07
     },
     "wind": {
-      "avg_mph": 3.2,
+      "avg_mph": 3.0,
       "max_gust_mph": 11.5,
-      "predominant_direction": "NNW"
+      "predominant_direction": "WSW"
     }
   },
   "forecast_breakdown": {
@@ -60,34 +60,34 @@
       "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 21,
-          "max": 30,
-          "avg": 24.6
+          "min": 25,
+          "max": 25,
+          "avg": 25.0
         },
         "humidity": {
           "min": 62,
-          "max": 91,
-          "avg": 74.0
+          "max": 62,
+          "avg": 62.0
         },
         "rain_probability": {
-          "min": 2,
+          "min": 11,
           "max": 11,
-          "avg": 6.0
+          "avg": 11.0
         },
         "air_temp_f": {
-          "min": 76.0,
+          "min": 88.0,
           "max": 88.0,
-          "avg": 83.6
+          "avg": 88.0
         },
         "wind_mph": {
-          "min": 2.3,
+          "min": 3.5,
           "max": 3.5,
-          "avg": 2.9
+          "avg": 3.5
         },
         "wind_gust_mph": {
-          "min": 3.5,
+          "min": 8.1,
           "max": 8.1,
-          "avg": 5.78
+          "avg": 8.1
         }
       },
       "evening": {
@@ -234,9 +234,15 @@
     }
   },
   "stocking": {
-    "stocked": false,
-    "last_stocked": null,
-    "matched_waterbodies": []
+    "stocked": true,
+    "last_stocked": "7/15/2026",
+    "matched_waterbodies": [
+      {
+        "date": "7/15/2026",
+        "county": "Habersham",
+        "waterbody": "Soque River"
+      }
+    ]
   },
   "available_flies": {
     "zebra_midge": {
@@ -302,9 +308,9 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 4.0,
-    "quality_label": "Fair",
-    "best_window": "day1 evening",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
+    "best_window": "day1 afternoon",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
@@ -313,20 +319,17 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
       "positioning": [
-        "shade",
-        "deeper runs",
-        "undercut banks",
+        "runs",
+        "seams",
         "structure"
       ],
       "tactics": [
-        "smaller natural flies",
-        "careful drifts",
-        "less aggressive presentations"
+        "balanced nymph approach"
       ],
-      "score_adjustment": -1.0
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -334,42 +337,41 @@
       "score_adjustment": 0.0
     },
     "stocking_read": {
-      "status": "not_recently_stocked",
-      "read": "No recent stocking signal is available.",
-      "fly_bias": [],
-      "score_adjustment": 0.0
+      "status": "recently_stocked",
+      "read": "Recent stocking supports eggs, worms, and attractor nymphs.",
+      "fly_bias": [
+        "egg_pattern",
+        "squirmy_worm",
+        "duracell"
+      ],
+      "score_adjustment": 1.0
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "shade",
-      "deeper runs",
-      "undercut banks",
+      "runs",
+      "seams",
       "structure"
     ],
     "recommended_tactics": [
-      "smaller natural flies",
-      "careful drifts",
-      "less aggressive presentations"
+      "balanced nymph approach"
     ],
     "recommended_fly_keys": [
-      "zebra_midge",
-      "pheasant_tail",
-      "haresear"
+      "egg_pattern",
+      "squirmy_worm",
+      "duracell"
     ],
     "fly_reasoning": {
-      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
-      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious.",
-      "haresear": "General-purpose natural nymph for seams and runs."
+      "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
+      "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
     },
-    "caution_notes": [
-      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
-    ],
+    "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "High pressure and low cloud cover make this fishable but technical.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
-      "No recent stocking signal is available."
+      "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
   }
 }
