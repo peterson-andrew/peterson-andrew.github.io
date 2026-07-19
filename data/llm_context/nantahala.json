@@ -23,19 +23,19 @@
   "weather_summary": {
     "pressure_inhg": null,
     "air_temp": {
-      "current_f": 67,
+      "current_f": 77,
       "low_f": 65.0,
       "high_f": 80.0
     },
     "sky_cover": {
       "min": 16,
       "max": 88,
-      "avg": 46.51
+      "avg": 46.55
     },
     "humidity": {
       "min": 71,
       "max": 97,
-      "avg": 86.97
+      "avg": 87.05
     },
     "rain": {
       "max_probability_percent": 82,
@@ -43,8 +43,8 @@
     },
     "wind": {
       "avg_mph": 1.1,
-      "max_gust_mph": 6.9,
-      "predominant_direction": ""
+      "max_gust_mph": 10.4,
+      "predominant_direction": "WNW"
     }
   },
   "forecast_breakdown": {
@@ -53,34 +53,24 @@
       "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 41,
-          "max": 63,
-          "avg": 53.2
+          "min": 54,
+          "max": 54,
+          "avg": 54.0
         },
         "humidity": {
           "min": 75,
-          "max": 95,
-          "avg": 84.6
+          "max": 75,
+          "avg": 75.0
         },
         "rain_probability": {
-          "min": 6,
+          "min": 31,
           "max": 31,
-          "avg": 19.33
+          "avg": 31.0
         },
         "air_temp_f": {
-          "min": 68.0,
+          "min": 78.0,
           "max": 78.0,
-          "avg": 74.0
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 2.3,
-          "avg": 1.75
-        },
-        "wind_gust_mph": {
-          "min": 5.8,
-          "max": 6.9,
-          "avg": 6.35
+          "avg": 78.0
         }
       },
       "evening": {
@@ -303,7 +293,7 @@
   "angler_analysis": {
     "quality_score": 5.0,
     "quality_label": "Fair",
-    "best_window": "day1 afternoon",
+    "best_window": "day1 evening",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
