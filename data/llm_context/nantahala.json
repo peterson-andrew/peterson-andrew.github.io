@@ -23,19 +23,19 @@
   "weather_summary": {
     "pressure_inhg": null,
     "air_temp": {
-      "current_f": 66,
+      "current_f": 67,
       "low_f": 65.0,
       "high_f": 80.0
     },
     "sky_cover": {
       "min": 16,
       "max": 88,
-      "avg": 46.91
+      "avg": 46.51
     },
     "humidity": {
       "min": 71,
-      "max": 98,
-      "avg": 86.78
+      "max": 97,
+      "avg": 86.97
     },
     "rain": {
       "max_probability_percent": 82,
@@ -50,58 +50,27 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-07-19",
-      "morning": {
-        "sky_cover": {
-          "min": 62,
-          "max": 62,
-          "avg": 62.0
-        },
-        "humidity": {
-          "min": 98,
-          "max": 98,
-          "avg": 98.0
-        },
-        "rain_probability": {
-          "min": 4,
-          "max": 5,
-          "avg": 4.5
-        },
-        "air_temp_f": {
-          "min": 65.0,
-          "max": 65.0,
-          "avg": 65.0
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 4.6,
-          "avg": 4.6
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
           "min": 41,
           "max": 63,
-          "avg": 53.0
+          "avg": 53.2
         },
         "humidity": {
           "min": 75,
-          "max": 96,
-          "avg": 86.5
+          "max": 95,
+          "avg": 84.6
         },
         "rain_probability": {
           "min": 6,
           "max": 31,
           "avg": 19.33
         },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
         "air_temp_f": {
-          "min": 67.0,
+          "min": 68.0,
           "max": 78.0,
-          "avg": 72.83
+          "avg": 74.0
         },
         "wind_mph": {
           "min": 1.2,
@@ -334,7 +303,7 @@
   "angler_analysis": {
     "quality_score": 5.0,
     "quality_label": "Fair",
-    "best_window": "day1 morning",
+    "best_window": "day1 afternoon",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
