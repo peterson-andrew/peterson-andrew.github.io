@@ -22,36 +22,36 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 88.0,
-    "gage_height_ft": 3.76,
+    "flow_cfs": 84.3,
+    "gage_height_ft": 3.73,
     "turbidity": null,
-    "observed_at": "2026-07-20T01:00:00.000-04:00"
+    "observed_at": "2026-07-20T05:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 29.99,
+    "pressure_inhg": 29.98,
     "air_temp": {
-      "current_f": 74,
-      "low_f": 70.0,
+      "current_f": 70,
+      "low_f": 72.0,
       "high_f": 89.0
     },
     "sky_cover": {
       "min": 10,
-      "max": 71,
-      "avg": 38.72
+      "max": 73,
+      "avg": 40.67
     },
     "humidity": {
       "min": 57,
-      "max": 97,
-      "avg": 75.33
+      "max": 99,
+      "avg": 76.48
     },
     "rain": {
       "max_probability_percent": 25,
       "expected_inches": 0.01
     },
     "wind": {
-      "avg_mph": 3.3,
+      "avg_mph": 3.6,
       "max_gust_mph": 13.8,
-      "predominant_direction": "W"
+      "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
@@ -60,33 +60,8 @@
       "morning": {
         "sky_cover": {
           "min": 24,
-          "max": 59,
-          "avg": 37.4
-        },
-        "humidity": {
-          "min": 94,
-          "max": 97,
-          "avg": 95.5
-        },
-        "rain_probability": {
-          "min": 1,
-          "max": 1,
-          "avg": 1.0
-        },
-        "air_temp_f": {
-          "min": 70.0,
-          "max": 73.0,
-          "avg": 71.5
-        },
-        "wind_mph": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "wind_gust_mph": {
-          "min": 2.3,
-          "max": 3.5,
-          "avg": 2.9
+          "max": 24,
+          "avg": 24.0
         }
       },
       "afternoon": {
@@ -346,7 +321,7 @@
   "angler_analysis": {
     "quality_score": 6.0,
     "quality_label": "Fair to good",
-    "best_window": "day1 morning",
+    "best_window": "day1 evening",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",

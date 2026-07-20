@@ -22,27 +22,27 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 241.0,
-    "gage_height_ft": 1.25,
+    "flow_cfs": 236.0,
+    "gage_height_ft": 1.23,
     "turbidity": null,
-    "observed_at": "2026-07-20T01:30:00.000-04:00"
+    "observed_at": "2026-07-20T05:30:00.000-04:00"
   },
   "weather_summary": {
     "pressure_inhg": 30.04,
     "air_temp": {
-      "current_f": 72,
-      "low_f": 70.0,
+      "current_f": 70,
+      "low_f": 71.0,
       "high_f": 87.0
     },
     "sky_cover": {
       "min": 19,
-      "max": 67,
-      "avg": 37.98
+      "max": 76,
+      "avg": 41.12
     },
     "humidity": {
       "min": 60,
       "max": 97,
-      "avg": 79.72
+      "avg": 79.98
     },
     "rain": {
       "max_probability_percent": 41,
@@ -59,29 +59,14 @@
       "date": "2026-07-20",
       "morning": {
         "sky_cover": {
-          "min": 28,
-          "max": 50,
-          "avg": 34.6
+          "min": 33,
+          "max": 33,
+          "avg": 33.0
         },
         "humidity": {
-          "min": 94,
+          "min": 97,
           "max": 97,
-          "avg": 95.33
-        },
-        "rain_probability": {
-          "min": 1,
-          "max": 2,
-          "avg": 1.5
-        },
-        "air_temp_f": {
-          "min": 70.0,
-          "max": 71.0,
-          "avg": 70.5
-        },
-        "wind_gust_mph": {
-          "min": 1.2,
-          "max": 2.3,
-          "avg": 1.75
+          "avg": 97.0
         }
       },
       "afternoon": {
@@ -351,7 +336,7 @@
   "angler_analysis": {
     "quality_score": 6.0,
     "quality_label": "Fair to good",
-    "best_window": "day1 morning",
+    "best_window": "day1 evening",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
