@@ -23,85 +23,64 @@
   "weather_summary": {
     "pressure_inhg": null,
     "air_temp": {
-      "current_f": 67,
-      "low_f": 65.0,
+      "current_f": 70,
+      "low_f": 64.0,
       "high_f": 81.0
     },
     "sky_cover": {
       "min": 28,
       "max": 93,
-      "avg": 66.17
+      "avg": 68.09
     },
     "humidity": {
       "min": 65,
-      "max": 99,
-      "avg": 85.59
+      "max": 100,
+      "avg": 85.97
     },
     "rain": {
       "max_probability_percent": 81,
       "expected_inches": 0.54
     },
     "wind": {
-      "avg_mph": 2.4,
+      "avg_mph": 2.6,
       "max_gust_mph": 16.1,
-      "predominant_direction": ""
+      "predominant_direction": "SSW"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-07-21",
-      "morning": {
-        "sky_cover": {
-          "min": 34,
-          "max": 34,
-          "avg": 34.0
-        },
-        "humidity": {
-          "min": 93,
-          "max": 93,
-          "avg": 93.0
-        },
-        "rain_probability": {
-          "min": 2,
-          "max": 2,
-          "avg": 2.0
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
           "min": 40,
           "max": 49,
-          "avg": 44.33
+          "avg": 44.75
         },
         "humidity": {
           "min": 70,
-          "max": 92,
-          "avg": 81.8
+          "max": 88,
+          "avg": 79.25
         },
         "rain_probability": {
-          "min": 1,
+          "min": 2,
           "max": 3,
-          "avg": 2.0
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "avg": 2.5
         },
         "air_temp_f": {
-          "min": 68.0,
+          "min": 72.0,
           "max": 79.0,
-          "avg": 73.17
+          "avg": 75.5
         },
         "wind_mph": {
-          "min": 1.2,
+          "min": 3.5,
           "max": 4.6,
-          "avg": 2.9
+          "avg": 4.05
         },
         "wind_gust_mph": {
-          "min": 8.1,
+          "min": 10.4,
           "max": 11.5,
-          "avg": 10.0
+          "avg": 10.95
         }
       },
       "evening": {
