@@ -21,69 +21,42 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 79.7,
-    "flow_cfs": 107.0,
-    "gage_height_ft": 3.79,
-    "turbidity": 10.9,
-    "observed_at": "2026-07-21T16:00:00.000-04:00"
+    "water_temp_f": 79.9,
+    "flow_cfs": 105.0,
+    "gage_height_ft": 3.78,
+    "turbidity": 11.6,
+    "observed_at": "2026-07-21T19:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 29.97,
+    "pressure_inhg": 29.95,
     "air_temp": {
-      "current_f": 89,
+      "current_f": 81,
       "low_f": 71.0,
-      "high_f": 88.0
+      "high_f": 86.0
     },
     "sky_cover": {
-      "min": 39,
+      "min": 47,
       "max": 80,
-      "avg": 65.29
+      "avg": 67.03
     },
     "humidity": {
-      "min": 61,
+      "min": 69,
       "max": 98,
-      "avg": 82.34
+      "avg": 84.82
     },
     "rain": {
       "max_probability_percent": 87,
       "expected_inches": 0.43
     },
     "wind": {
-      "avg_mph": 4.0,
+      "avg_mph": 3.8,
       "max_gust_mph": 13.8,
       "predominant_direction": "S"
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-07-21",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 39,
-          "max": 53,
-          "avg": 44.33
-        },
-        "humidity": {
-          "min": 61,
-          "max": 66,
-          "avg": 63.0
-        },
-        "rain_probability": {
-          "min": 7,
-          "max": 7,
-          "avg": 7.0
-        },
-        "air_temp_f": {
-          "min": 86.0,
-          "max": 88.0,
-          "avg": 87.0
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "morning": {
         "sky_cover": {
           "min": 68,
@@ -195,6 +168,120 @@
           "avg": 11.53
         }
       }
+    },
+    "day2": {
+      "date": "2026-07-22",
+      "morning": {
+        "sky_cover": {
+          "min": 63,
+          "max": 71,
+          "avg": 67.8
+        },
+        "humidity": {
+          "min": 97,
+          "max": 98,
+          "avg": 97.5
+        },
+        "rain_probability": {
+          "min": 13,
+          "max": 51,
+          "avg": 33.29
+        },
+        "rain_inches": {
+          "min": 0.07,
+          "max": 0.07,
+          "avg": 0.07
+        },
+        "air_temp_f": {
+          "min": 71.0,
+          "max": 73.0,
+          "avg": 72.0
+        },
+        "wind_mph": {
+          "min": 3.5,
+          "max": 3.5,
+          "avg": 3.5
+        },
+        "wind_gust_mph": {
+          "min": 5.8,
+          "max": 8.1,
+          "avg": 6.93
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 73,
+          "max": 74,
+          "avg": 73.5
+        },
+        "humidity": {
+          "min": 81,
+          "max": 94,
+          "avg": 87.25
+        },
+        "rain_probability": {
+          "min": 54,
+          "max": 54,
+          "avg": 54.0
+        },
+        "rain_inches": {
+          "min": 0.16,
+          "max": 0.16,
+          "avg": 0.16
+        },
+        "air_temp_f": {
+          "min": 72.0,
+          "max": 81.0,
+          "avg": 76.5
+        },
+        "wind_mph": {
+          "min": 4.6,
+          "max": 4.6,
+          "avg": 4.6
+        },
+        "wind_gust_mph": {
+          "min": 9.2,
+          "max": 11.5,
+          "avg": 10.37
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 62,
+          "max": 74,
+          "avg": 68.5
+        },
+        "humidity": {
+          "min": 79,
+          "max": 86,
+          "avg": 82.8
+        },
+        "rain_probability": {
+          "min": 87,
+          "max": 87,
+          "avg": 87.0
+        },
+        "rain_inches": {
+          "min": 0.43,
+          "max": 0.43,
+          "avg": 0.43
+        },
+        "air_temp_f": {
+          "min": 78.0,
+          "max": 82.0,
+          "avg": 80.0
+        },
+        "wind_mph": {
+          "min": 2.3,
+          "max": 3.5,
+          "avg": 2.9
+        },
+        "wind_gust_mph": {
+          "min": 8.1,
+          "max": 10.4,
+          "avg": 9.23
+        }
+      }
     }
   },
   "stocking": {
@@ -274,7 +361,7 @@
   "angler_analysis": {
     "quality_score": 3.0,
     "quality_label": "Tough",
-    "best_window": "day1 evening",
+    "best_window": "day2 morning",
     "water_temp_read": {
       "status": "very_hot",
       "read": "Water is very warm for trout.",
