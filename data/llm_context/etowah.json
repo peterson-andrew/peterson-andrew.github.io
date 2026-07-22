@@ -24,33 +24,33 @@
     "water_temp_f": 77.0,
     "flow_cfs": 105.0,
     "gage_height_ft": 3.78,
-    "turbidity": 11.0,
-    "observed_at": "2026-07-22T09:00:00.000-04:00"
+    "turbidity": 11.2,
+    "observed_at": "2026-07-22T10:00:00.000-04:00"
   },
   "weather_summary": {
     "pressure_inhg": 30.04,
     "air_temp": {
-      "current_f": 74,
+      "current_f": 84,
       "low_f": 69.0,
       "high_f": 87.0
     },
     "sky_cover": {
       "min": 38,
-      "max": 80,
-      "avg": 61.16
+      "max": 85,
+      "avg": 62.37
     },
     "humidity": {
       "min": 65,
       "max": 99,
-      "avg": 86.54
+      "avg": 88.0
     },
     "rain": {
       "max_probability_percent": 78,
       "expected_inches": 0.38
     },
     "wind": {
-      "avg_mph": 4.3,
-      "max_gust_mph": 15.0,
+      "avg_mph": 4.0,
+      "max_gust_mph": 13.8,
       "predominant_direction": "SW"
     }
   },
@@ -58,38 +58,7 @@
     "day1": {
       "date": "2026-07-22",
       "morning": {},
-      "afternoon": {
-        "sky_cover": {
-          "min": 48,
-          "max": 71,
-          "avg": 60.25
-        },
-        "humidity": {
-          "min": 71,
-          "max": 82,
-          "avg": 76.75
-        },
-        "rain_probability": {
-          "min": 2,
-          "max": 8,
-          "avg": 4.25
-        },
-        "air_temp_f": {
-          "min": 77.0,
-          "max": 84.0,
-          "avg": 80.25
-        },
-        "wind_mph": {
-          "min": 5.8,
-          "max": 6.9,
-          "avg": 6.35
-        },
-        "wind_gust_mph": {
-          "min": 11.5,
-          "max": 15.0,
-          "avg": 13.43
-        }
-      },
+      "afternoon": {},
       "evening": {
         "sky_cover": {
           "min": 38,
@@ -320,7 +289,7 @@
   "angler_analysis": {
     "quality_score": 3.0,
     "quality_label": "Tough",
-    "best_window": "day1 afternoon",
+    "best_window": "day2 morning",
     "water_temp_read": {
       "status": "very_hot",
       "read": "Water is very warm for trout.",
