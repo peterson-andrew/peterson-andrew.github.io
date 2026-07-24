@@ -22,27 +22,27 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 66.1,
-    "gage_height_ft": 3.57,
+    "flow_cfs": 86.8,
+    "gage_height_ft": 3.75,
     "turbidity": null,
-    "observed_at": "2026-07-23T19:00:00.000-04:00"
+    "observed_at": "2026-07-24T01:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 30.14,
     "air_temp": {
-      "current_f": 78,
+      "current_f": 72,
       "low_f": 69.0,
       "high_f": 84.0
     },
     "sky_cover": {
-      "min": 40,
+      "min": 38,
       "max": 95,
-      "avg": 75.65
+      "avg": 73.04
     },
     "humidity": {
       "min": 69,
       "max": 100,
-      "avg": 86.97
+      "avg": 87.22
     },
     "rain": {
       "max_probability_percent": 83,
@@ -51,7 +51,7 @@
     "wind": {
       "avg_mph": 2.7,
       "max_gust_mph": 11.5,
-      "predominant_direction": "N"
+      "predominant_direction": "E"
     }
   },
   "forecast_breakdown": {
@@ -59,9 +59,9 @@
       "date": "2026-07-24",
       "morning": {
         "sky_cover": {
-          "min": 79,
+          "min": 85,
           "max": 91,
-          "avg": 86.71
+          "avg": 88.8
         },
         "humidity": {
           "min": 96,
@@ -69,19 +69,14 @@
           "avg": 97.0
         },
         "rain_probability": {
-          "min": 46,
+          "min": 48,
           "max": 65,
-          "avg": 53.67
-        },
-        "rain_inches": {
-          "min": 0.06,
-          "max": 0.06,
-          "avg": 0.06
+          "avg": 56.5
         },
         "air_temp_f": {
           "min": 69.0,
-          "max": 72.0,
-          "avg": 70.5
+          "max": 71.0,
+          "avg": 70.0
         },
         "wind_mph": {
           "min": 1.2,
@@ -349,8 +344,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 6.0,
-    "quality_label": "Fair to good",
+    "quality_score": 7.0,
+    "quality_label": "Good",
     "best_window": "day2 morning",
     "water_temp_read": {
       "status": "unknown",
@@ -360,11 +355,20 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
-      "score_adjustment": 0.0
+      "status": "cloudy",
+      "read": "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
+      "positioning": [
+        "runs",
+        "riffle edges",
+        "banks",
+        "feeding lanes"
+      ],
+      "tactics": [
+        "soft hackles",
+        "streamers",
+        "nymphs"
+      ],
+      "score_adjustment": 1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -383,22 +387,33 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [],
-    "recommended_tactics": [],
+    "likely_trout_positioning": [
+      "runs",
+      "riffle edges",
+      "banks",
+      "feeding lanes"
+    ],
+    "recommended_tactics": [
+      "soft hackles",
+      "streamers",
+      "nymphs"
+    ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell"
+      "duracell",
+      "woolly_bugger"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
+      "woolly_bugger": "Useful if clouds, stain, or low light make fish more willing to chase."
     },
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure read is unavailable.",
+      "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
