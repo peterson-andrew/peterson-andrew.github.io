@@ -22,36 +22,36 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 288.0,
-    "gage_height_ft": 1.41,
+    "flow_cfs": 276.0,
+    "gage_height_ft": 1.37,
     "turbidity": null,
-    "observed_at": "2026-07-25T08:30:00.000-04:00"
+    "observed_at": "2026-07-25T11:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.17,
+    "pressure_inhg": 30.2,
     "air_temp": {
-      "current_f": 69,
+      "current_f": 77,
       "low_f": 67.0,
       "high_f": 85.0
     },
     "sky_cover": {
       "min": 18,
-      "max": 73,
-      "avg": 40.05
+      "max": 68,
+      "avg": 36.86
     },
     "humidity": {
       "min": 63,
       "max": 100,
-      "avg": 83.95
+      "avg": 83.15
     },
     "rain": {
       "max_probability_percent": 41,
       "expected_inches": 0.02
     },
     "wind": {
-      "avg_mph": 2.8,
+      "avg_mph": 2.6,
       "max_gust_mph": 12.7,
-      "predominant_direction": ""
+      "predominant_direction": "NW"
     }
   },
   "forecast_breakdown": {
@@ -59,35 +59,20 @@
       "date": "2026-07-25",
       "morning": {},
       "afternoon": {
-        "sky_cover": {
-          "min": 68,
-          "max": 73,
-          "avg": 69.75
-        },
         "humidity": {
           "min": 73,
-          "max": 98,
-          "avg": 85.2
+          "max": 73,
+          "avg": 73.0
         },
         "rain_probability": {
-          "min": 11,
-          "max": 15,
-          "avg": 13.0
+          "min": 12,
+          "max": 12,
+          "avg": 12.0
         },
         "air_temp_f": {
-          "min": 70.0,
+          "min": 78.0,
           "max": 78.0,
-          "avg": 74.4
-        },
-        "wind_mph": {
-          "min": 2.3,
-          "max": 3.5,
-          "avg": 2.9
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 9.2,
-          "avg": 6.62
+          "avg": 78.0
         }
       },
       "evening": {
@@ -240,12 +225,17 @@
   },
   "stocking": {
     "stocked": true,
-    "last_stocked": "7/15/2026",
+    "last_stocked": "7/23/2026",
     "matched_waterbodies": [
       {
-        "date": "7/15/2026",
+        "date": "7/23/2026",
         "county": "Fannin",
         "waterbody": "Blueridge TW"
+      },
+      {
+        "date": "7/23/2026",
+        "county": "Fannin",
+        "waterbody": "Toccoa River (F)"
       }
     ]
   },
@@ -315,7 +305,7 @@
   "angler_analysis": {
     "quality_score": 6.0,
     "quality_label": "Fair to good",
-    "best_window": "day1 afternoon",
+    "best_window": "day2 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
