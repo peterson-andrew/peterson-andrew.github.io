@@ -21,35 +21,35 @@
   },
   "usgs_summary": {
     "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-    "water_temp_f": 63.0,
-    "flow_cfs": 854.0,
-    "gage_height_ft": 2.05,
-    "turbidity": 14.7,
-    "observed_at": "2026-07-27T01:15:00.000-04:00"
+    "water_temp_f": 61.9,
+    "flow_cfs": 2100.0,
+    "gage_height_ft": 3.6,
+    "turbidity": 33.1,
+    "observed_at": "2026-07-27T06:15:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 29.97,
+    "pressure_inhg": 29.94,
     "air_temp": {
-      "current_f": 77,
+      "current_f": 75,
       "low_f": 74.0,
       "high_f": 92.0
     },
     "sky_cover": {
       "min": 4,
       "max": 72,
-      "avg": 39.68
+      "avg": 38.11
     },
     "humidity": {
       "min": 58,
       "max": 93,
-      "avg": 77.95
+      "avg": 77.44
     },
     "rain": {
       "max_probability_percent": 45,
       "expected_inches": 0.18
     },
     "wind": {
-      "avg_mph": 7.0,
+      "avg_mph": 7.3,
       "max_gust_mph": 19.6,
       "predominant_direction": "NW"
     }
@@ -59,34 +59,34 @@
       "date": "2026-07-27",
       "morning": {
         "sky_cover": {
-          "min": 51,
+          "min": 69,
           "max": 69,
-          "avg": 59.0
+          "avg": 69.0
         },
         "humidity": {
-          "min": 89,
+          "min": 93,
           "max": 93,
-          "avg": 91.2
+          "avg": 93.0
         },
         "rain_probability": {
-          "min": 1,
+          "min": 4,
           "max": 4,
-          "avg": 2.33
+          "avg": 4.0
         },
         "air_temp_f": {
           "min": 74.0,
-          "max": 75.0,
-          "avg": 74.5
+          "max": 74.0,
+          "avg": 74.0
         },
         "wind_mph": {
-          "min": 3.5,
+          "min": 4.6,
           "max": 4.6,
-          "avg": 4.05
+          "avg": 4.6
         },
         "wind_gust_mph": {
-          "min": 6.9,
+          "min": 8.1,
           "max": 8.1,
-          "avg": 7.5
+          "avg": 8.1
         }
       },
       "afternoon": {
@@ -339,22 +339,25 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 6.0,
-    "quality_label": "Fair to good",
+    "quality_score": 8.0,
+    "quality_label": "Very good",
     "best_window": "day1 morning",
     "water_temp_read": {
-      "status": "warm",
-      "read": "Water is warming; trout may favor more oxygenated water.",
+      "status": "ideal",
+      "read": "Water temperature is in a favorable trout range.",
       "positioning": [
         "riffles",
-        "pocket water",
-        "oxygenated runs"
+        "runs",
+        "seams",
+        "structure"
       ],
       "tactics": [
-        "early and late windows",
-        "active nymphs"
+        "nymphs",
+        "midges",
+        "soft hackles",
+        "opportunistic streamers"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": 2.0
     },
     "light_pressure_read": {
       "status": "neutral",
@@ -388,30 +391,34 @@
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
       "riffles",
-      "pocket water",
-      "oxygenated runs",
       "runs",
       "seams",
       "structure"
     ],
     "recommended_tactics": [
-      "early and late windows",
-      "active nymphs",
+      "nymphs",
+      "midges",
+      "soft hackles",
+      "opportunistic streamers",
       "balanced nymph approach"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell"
+      "duracell",
+      "zebra_midge",
+      "pheasant_tail"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
+      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
     },
     "caution_notes": [],
     "reasoning": [
-      "Water is warming; trout may favor more oxygenated water.",
+      "Water temperature is in a favorable trout range.",
       "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
