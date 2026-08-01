@@ -22,27 +22,27 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 203.0,
-    "gage_height_ft": 1.11,
+    "flow_cfs": 200.0,
+    "gage_height_ft": 1.1,
     "turbidity": null,
-    "observed_at": "2026-08-01T03:30:00.000-04:00"
+    "observed_at": "2026-08-01T07:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 29.98,
+    "pressure_inhg": 29.97,
     "air_temp": {
       "current_f": 68,
-      "low_f": 67.0,
+      "low_f": 66.0,
       "high_f": 82.0
     },
     "sky_cover": {
       "min": 24,
       "max": 86,
-      "avg": 59.32
+      "avg": 58.86
     },
     "humidity": {
       "min": 68,
       "max": 100,
-      "avg": 86.09
+      "avg": 86.19
     },
     "rain": {
       "max_probability_percent": 83,
@@ -57,38 +57,12 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-08-01",
-      "morning": {
-        "sky_cover": {
-          "min": 65,
-          "max": 65,
-          "avg": 65.0
-        },
-        "humidity": {
-          "min": 82,
-          "max": 87,
-          "avg": 84.5
-        },
-        "rain_probability": {
-          "min": 3,
-          "max": 5,
-          "avg": 4.0
-        },
-        "air_temp_f": {
-          "min": 67.0,
-          "max": 67.0,
-          "avg": 67.0
-        },
-        "wind_gust_mph": {
-          "min": 8.1,
-          "max": 8.1,
-          "avg": 8.1
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 64,
+          "min": 70,
           "max": 81,
-          "avg": 73.4
+          "avg": 75.75
         },
         "humidity": {
           "min": 80,
@@ -96,19 +70,14 @@
           "avg": 84.25
         },
         "rain_probability": {
-          "min": 58,
+          "min": 68,
           "max": 83,
-          "avg": 71.4
-        },
-        "rain_inches": {
-          "min": 0.36,
-          "max": 0.36,
-          "avg": 0.36
+          "avg": 74.75
         },
         "air_temp_f": {
-          "min": 68.0,
+          "min": 69.0,
           "max": 77.0,
-          "avg": 72.4
+          "avg": 73.5
         },
         "wind_mph": {
           "min": 3.5,
@@ -356,7 +325,7 @@
   "angler_analysis": {
     "quality_score": 6.0,
     "quality_label": "Fair to good",
-    "best_window": "day1 morning",
+    "best_window": "day2 afternoon",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
