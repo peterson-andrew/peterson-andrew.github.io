@@ -25,33 +25,33 @@
     "flow_cfs": 200.0,
     "gage_height_ft": 1.1,
     "turbidity": null,
-    "observed_at": "2026-08-01T07:30:00.000-04:00"
+    "observed_at": "2026-08-01T11:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 29.97,
+    "pressure_inhg": 29.95,
     "air_temp": {
-      "current_f": 68,
+      "current_f": 75,
       "low_f": 66.0,
       "high_f": 82.0
     },
     "sky_cover": {
       "min": 24,
       "max": 86,
-      "avg": 58.86
+      "avg": 56.93
     },
     "humidity": {
       "min": 68,
       "max": 100,
-      "avg": 86.19
+      "avg": 86.12
     },
     "rain": {
       "max_probability_percent": 83,
       "expected_inches": 0.45
     },
     "wind": {
-      "avg_mph": 5.1,
+      "avg_mph": 4.7,
       "max_gust_mph": 18.4,
-      "predominant_direction": ""
+      "predominant_direction": "S"
     }
   },
   "forecast_breakdown": {
@@ -59,35 +59,20 @@
       "date": "2026-08-01",
       "morning": {},
       "afternoon": {
-        "sky_cover": {
-          "min": 70,
-          "max": 81,
-          "avg": 75.75
-        },
         "humidity": {
           "min": 80,
-          "max": 90,
-          "avg": 84.25
+          "max": 80,
+          "avg": 80.0
         },
         "rain_probability": {
-          "min": 68,
-          "max": 83,
-          "avg": 74.75
+          "min": 70,
+          "max": 70,
+          "avg": 70.0
         },
         "air_temp_f": {
-          "min": 69.0,
+          "min": 77.0,
           "max": 77.0,
-          "avg": 73.5
-        },
-        "wind_mph": {
-          "min": 3.5,
-          "max": 5.8,
-          "avg": 4.63
-        },
-        "wind_gust_mph": {
-          "min": 9.2,
-          "max": 13.8,
-          "avg": 11.52
+          "avg": 77.0
         }
       },
       "evening": {
@@ -245,17 +230,12 @@
   },
   "stocking": {
     "stocked": true,
-    "last_stocked": "7/23/2026",
+    "last_stocked": "7/30/2026",
     "matched_waterbodies": [
       {
-        "date": "7/23/2026",
+        "date": "7/30/2026",
         "county": "Fannin",
         "waterbody": "Blueridge TW"
-      },
-      {
-        "date": "7/23/2026",
-        "county": "Fannin",
-        "waterbody": "Toccoa River (F)"
       }
     ]
   },
