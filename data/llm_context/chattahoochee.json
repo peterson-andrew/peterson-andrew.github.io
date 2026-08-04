@@ -21,36 +21,36 @@
   },
   "usgs_summary": {
     "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-    "water_temp_f": 53.1,
-    "flow_cfs": 1220.0,
-    "gage_height_ft": 2.63,
-    "turbidity": 7.5,
-    "observed_at": "2026-08-04T08:15:00.000-04:00"
+    "water_temp_f": 53.2,
+    "flow_cfs": 1000.0,
+    "gage_height_ft": 2.3,
+    "turbidity": 5.2,
+    "observed_at": "2026-08-04T10:15:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.03,
+    "pressure_inhg": 30.04,
     "air_temp": {
-      "current_f": 74,
+      "current_f": 81,
       "low_f": 72.0,
-      "high_f": 83.0
+      "high_f": 84.0
     },
     "sky_cover": {
-      "min": 24,
-      "max": 61,
-      "avg": 44.91
+      "min": 23,
+      "max": 75,
+      "avg": 48.52
     },
     "humidity": {
-      "min": 76,
+      "min": 74,
       "max": 99,
-      "avg": 87.68
+      "avg": 87.29
     },
     "rain": {
-      "max_probability_percent": 70,
+      "max_probability_percent": 73,
       "expected_inches": 0.16
     },
     "wind": {
-      "avg_mph": 3.7,
-      "max_gust_mph": 10.4,
+      "avg_mph": 4.0,
+      "max_gust_mph": 9.2,
       "predominant_direction": "E"
     }
   },
@@ -58,38 +58,12 @@
     "day1": {
       "date": "2026-08-04",
       "morning": {},
-      "afternoon": {
-        "sky_cover": {
-          "min": 48,
-          "max": 51,
-          "avg": 49.67
-        },
-        "humidity": {
-          "min": 79,
-          "max": 94,
-          "avg": 86.25
-        },
-        "rain_probability": {
-          "min": 16,
-          "max": 42,
-          "avg": 33.25
-        },
-        "air_temp_f": {
-          "min": 75.0,
-          "max": 81.0,
-          "avg": 78.0
-        },
-        "wind_gust_mph": {
-          "min": 9.2,
-          "max": 10.4,
-          "avg": 9.8
-        }
-      },
+      "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 50,
-          "max": 61,
-          "avg": 53.83
+          "min": 29,
+          "max": 54,
+          "avg": 42.83
         },
         "humidity": {
           "min": 76,
@@ -97,9 +71,9 @@
           "avg": 79.33
         },
         "rain_probability": {
-          "min": 43,
-          "max": 58,
-          "avg": 51.6
+          "min": 45,
+          "max": 73,
+          "avg": 58.67
         },
         "rain_inches": {
           "min": 0.1,
@@ -111,10 +85,15 @@
           "max": 83.0,
           "avg": 81.25
         },
+        "wind_mph": {
+          "min": 4.6,
+          "max": 5.8,
+          "avg": 5.2
+        },
         "wind_gust_mph": {
-          "min": 9.2,
+          "min": 8.1,
           "max": 9.2,
-          "avg": 9.2
+          "avg": 8.65
         }
       }
     },
@@ -123,8 +102,8 @@
       "morning": {
         "sky_cover": {
           "min": 29,
-          "max": 51,
-          "avg": 37.71
+          "max": 61,
+          "avg": 46.0
         },
         "humidity": {
           "min": 92,
@@ -132,9 +111,9 @@
           "avg": 93.5
         },
         "rain_probability": {
-          "min": 12,
-          "max": 22,
-          "avg": 15.17
+          "min": 30,
+          "max": 34,
+          "avg": 32.2
         },
         "rain_inches": {
           "min": 0.02,
@@ -148,20 +127,20 @@
         },
         "wind_mph": {
           "min": 3.5,
-          "max": 3.5,
-          "avg": 3.5
+          "max": 4.6,
+          "avg": 4.05
         },
         "wind_gust_mph": {
           "min": 6.9,
-          "max": 6.9,
-          "avg": 6.9
+          "max": 8.1,
+          "avg": 7.7
         }
       },
       "afternoon": {
         "sky_cover": {
-          "min": 42,
+          "min": 46,
           "max": 54,
-          "avg": 47.5
+          "avg": 50.17
         },
         "humidity": {
           "min": 79,
@@ -169,9 +148,9 @@
           "avg": 91.17
         },
         "rain_probability": {
-          "min": 11,
-          "max": 38,
-          "avg": 20.4
+          "min": 16,
+          "max": 42,
+          "avg": 26.67
         },
         "rain_inches": {
           "min": 0.02,
@@ -185,20 +164,20 @@
         },
         "wind_mph": {
           "min": 3.5,
-          "max": 4.6,
-          "avg": 4.05
+          "max": 3.5,
+          "avg": 3.5
         },
         "wind_gust_mph": {
           "min": 6.9,
-          "max": 8.1,
-          "avg": 7.7
+          "max": 9.2,
+          "avg": 8.07
         }
       },
       "evening": {
         "sky_cover": {
-          "min": 48,
-          "max": 58,
-          "avg": 53.75
+          "min": 41,
+          "max": 56,
+          "avg": 51.33
         },
         "humidity": {
           "min": 76,
@@ -206,9 +185,9 @@
           "avg": 79.4
         },
         "rain_probability": {
-          "min": 54,
-          "max": 70,
-          "avg": 64.0
+          "min": 43,
+          "max": 69,
+          "avg": 59.33
         },
         "rain_inches": {
           "min": 0.16,
@@ -219,11 +198,6 @@
           "min": 80.0,
           "max": 83.0,
           "avg": 81.6
-        },
-        "wind_mph": {
-          "min": 3.5,
-          "max": 4.6,
-          "avg": 4.05
         },
         "wind_gust_mph": {
           "min": 6.9,
