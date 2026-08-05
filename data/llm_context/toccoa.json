@@ -22,27 +22,27 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 565.0,
-    "gage_height_ft": 2.14,
+    "flow_cfs": 523.0,
+    "gage_height_ft": 2.05,
     "turbidity": null,
-    "observed_at": "2026-08-05T04:30:00.000-04:00"
+    "observed_at": "2026-08-05T07:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.15,
+    "pressure_inhg": null,
     "air_temp": {
-      "current_f": 67,
-      "low_f": 66.0,
+      "current_f": 70,
+      "low_f": 67.0,
       "high_f": 83.0
     },
     "sky_cover": {
       "min": 28,
       "max": 64,
-      "avg": 46.21
+      "avg": 47.27
     },
     "humidity": {
       "min": 70,
       "max": 100,
-      "avg": 85.12
+      "avg": 85.06
     },
     "rain": {
       "max_probability_percent": 74,
@@ -57,53 +57,27 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-08-05",
-      "morning": {
-        "sky_cover": {
-          "min": 36,
-          "max": 36,
-          "avg": 36.0
-        },
-        "rain_probability": {
-          "min": 6,
-          "max": 6,
-          "avg": 6.0
-        },
-        "air_temp_f": {
-          "min": 66.0,
-          "max": 66.0,
-          "avg": 66.0
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 4.6,
-          "avg": 4.6
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 28,
+          "min": 35,
           "max": 53,
-          "avg": 40.5
+          "avg": 45.5
         },
         "humidity": {
           "min": 70,
-          "max": 97,
-          "avg": 81.2
+          "max": 85,
+          "avg": 77.25
         },
         "rain_probability": {
-          "min": 11,
+          "min": 13,
           "max": 39,
-          "avg": 21.6
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "avg": 24.25
         },
         "air_temp_f": {
-          "min": 67.0,
+          "min": 75.0,
           "max": 82.0,
-          "avg": 75.33
+          "avg": 78.75
         },
         "wind_mph": {
           "min": 1.2,
@@ -341,7 +315,7 @@
   "angler_analysis": {
     "quality_score": 6.0,
     "quality_label": "Fair to good",
-    "best_window": "day1 morning",
+    "best_window": "day2 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
@@ -350,16 +324,10 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
-      "positioning": [
-        "runs",
-        "seams",
-        "structure"
-      ],
-      "tactics": [
-        "balanced nymph approach"
-      ],
+      "status": "unknown",
+      "read": "Light and pressure read is unavailable.",
+      "positioning": [],
+      "tactics": [],
       "score_adjustment": 0.0
     },
     "pressure_trend_read": {
@@ -379,14 +347,8 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [
-      "runs",
-      "seams",
-      "structure"
-    ],
-    "recommended_tactics": [
-      "balanced nymph approach"
-    ],
+    "likely_trout_positioning": [],
+    "recommended_tactics": [],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
@@ -400,7 +362,7 @@
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "Light and pressure read is unavailable.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
