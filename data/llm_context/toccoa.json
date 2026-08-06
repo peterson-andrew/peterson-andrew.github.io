@@ -22,34 +22,34 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 377.0,
-    "gage_height_ft": 1.69,
+    "flow_cfs": 364.0,
+    "gage_height_ft": 1.65,
     "turbidity": null,
-    "observed_at": "2026-08-06T03:30:00.000-04:00"
+    "observed_at": "2026-08-06T09:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.23,
+    "pressure_inhg": 30.26,
     "air_temp": {
-      "current_f": 67,
+      "current_f": 70,
       "low_f": 67.0,
       "high_f": 84.0
     },
     "sky_cover": {
       "min": 32,
       "max": 68,
-      "avg": 50.82
+      "avg": 51.28
     },
     "humidity": {
       "min": 65,
       "max": 100,
-      "avg": 84.39
+      "avg": 84.59
     },
     "rain": {
       "max_probability_percent": 76,
       "expected_inches": 0.29
     },
     "wind": {
-      "avg_mph": 1.2,
+      "avg_mph": 1.3,
       "max_gust_mph": 8.1,
       "predominant_direction": ""
     }
@@ -57,48 +57,32 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-08-06",
-      "morning": {
-        "sky_cover": {
-          "min": 44,
-          "max": 44,
-          "avg": 44.0
-        },
-        "rain_probability": {
-          "min": 7,
-          "max": 7,
-          "avg": 7.0
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 40,
+          "min": 45,
           "max": 66,
-          "avg": 49.5
+          "avg": 53.75
         },
         "humidity": {
           "min": 73,
-          "max": 98,
-          "avg": 83.4
+          "max": 89,
+          "avg": 79.75
         },
         "rain_probability": {
-          "min": 11,
+          "min": 19,
           "max": 43,
-          "avg": 25.83
-        },
-        "rain_inches": {
-          "min": 0.02,
-          "max": 0.02,
-          "avg": 0.02
+          "avg": 32.0
         },
         "air_temp_f": {
-          "min": 68.0,
+          "min": 74.0,
           "max": 81.0,
-          "avg": 75.17
+          "avg": 78.25
         },
         "wind_mph": {
-          "min": 0.0,
+          "min": 1.2,
           "max": 2.3,
-          "avg": 1.17
+          "avg": 1.75
         },
         "wind_gust_mph": {
           "min": 5.8,
