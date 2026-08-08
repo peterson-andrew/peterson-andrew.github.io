@@ -22,36 +22,36 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 102.0,
-    "gage_height_ft": 3.88,
+    "flow_cfs": 97.6,
+    "gage_height_ft": 3.84,
     "turbidity": null,
-    "observed_at": "2026-08-08T08:00:00.000-04:00"
+    "observed_at": "2026-08-08T11:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.22,
+    "pressure_inhg": 30.24,
     "air_temp": {
-      "current_f": 70,
+      "current_f": 84,
       "low_f": 68.0,
       "high_f": 89.0
     },
     "sky_cover": {
       "min": 6,
       "max": 63,
-      "avg": 37.31
+      "avg": 39.18
     },
     "humidity": {
       "min": 60,
       "max": 100,
-      "avg": 81.95
+      "avg": 81.54
     },
     "rain": {
       "max_probability_percent": 44,
       "expected_inches": 0.04
     },
     "wind": {
-      "avg_mph": 1.7,
+      "avg_mph": 1.9,
       "max_gust_mph": 8.1,
-      "predominant_direction": ""
+      "predominant_direction": "SW"
     }
   },
   "forecast_breakdown": {
@@ -61,33 +61,28 @@
       "afternoon": {
         "sky_cover": {
           "min": 20,
-          "max": 32,
-          "avg": 26.4
+          "max": 20,
+          "avg": 20.0
         },
         "humidity": {
           "min": 65,
-          "max": 96,
-          "avg": 78.2
+          "max": 65,
+          "avg": 65.0
         },
         "rain_probability": {
-          "min": 1,
+          "min": 11,
           "max": 11,
-          "avg": 4.5
+          "avg": 11.0
         },
         "air_temp_f": {
-          "min": 73.0,
+          "min": 86.0,
           "max": 86.0,
-          "avg": 80.4
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 2.3,
-          "avg": 1.75
+          "avg": 86.0
         },
         "wind_gust_mph": {
-          "min": 3.5,
+          "min": 6.9,
           "max": 6.9,
-          "avg": 5.2
+          "avg": 6.9
         }
       },
       "evening": {
@@ -239,9 +234,15 @@
     }
   },
   "stocking": {
-    "stocked": false,
-    "last_stocked": null,
-    "matched_waterbodies": []
+    "stocked": true,
+    "last_stocked": "8/7/2026",
+    "matched_waterbodies": [
+      {
+        "date": "8/7/2026",
+        "county": "Habersham",
+        "waterbody": "Soque River"
+      }
+    ]
   },
   "available_flies": {
     "zebra_midge": {
@@ -307,8 +308,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 5.0,
-    "quality_label": "Fair",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
     "best_window": "day2 morning",
     "water_temp_read": {
       "status": "unknown",
@@ -336,10 +337,14 @@
       "score_adjustment": 0.0
     },
     "stocking_read": {
-      "status": "not_recently_stocked",
-      "read": "No recent stocking signal is available.",
-      "fly_bias": [],
-      "score_adjustment": 0.0
+      "status": "recently_stocked",
+      "read": "Recent stocking supports eggs, worms, and attractor nymphs.",
+      "fly_bias": [
+        "egg_pattern",
+        "squirmy_worm",
+        "duracell"
+      ],
+      "score_adjustment": 1.0
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
@@ -351,14 +356,22 @@
     "recommended_tactics": [
       "balanced nymph approach"
     ],
-    "recommended_fly_keys": [],
-    "fly_reasoning": {},
+    "recommended_fly_keys": [
+      "egg_pattern",
+      "squirmy_worm",
+      "duracell"
+    ],
+    "fly_reasoning": {
+      "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
+      "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+    },
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
       "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
-      "No recent stocking signal is available."
+      "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
   }
 }
