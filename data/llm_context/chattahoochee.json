@@ -21,69 +21,42 @@
   },
   "usgs_summary": {
     "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-    "water_temp_f": 60.4,
-    "flow_cfs": 1150.0,
-    "gage_height_ft": 2.49,
-    "turbidity": 31.1,
-    "observed_at": "2026-08-08T14:15:00.000-04:00"
+    "water_temp_f": 64.9,
+    "flow_cfs": 1010.0,
+    "gage_height_ft": 2.29,
+    "turbidity": 105.0,
+    "observed_at": "2026-08-08T20:15:00.000-04:00"
   },
   "weather_summary": {
     "pressure_inhg": 30.14,
     "air_temp": {
-      "current_f": 88,
+      "current_f": 81,
       "low_f": 74.0,
       "high_f": 88.0
     },
     "sky_cover": {
       "min": 20,
-      "max": 51,
-      "avg": 36.77
+      "max": 53,
+      "avg": 37.7
     },
     "humidity": {
       "min": 62,
       "max": 95,
-      "avg": 80.53
+      "avg": 81.0
     },
     "rain": {
       "max_probability_percent": 55,
-      "expected_inches": 0.06
+      "expected_inches": 0.07
     },
     "wind": {
-      "avg_mph": 1.5,
+      "avg_mph": 1.7,
       "max_gust_mph": 10.4,
       "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-08-08",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 39,
-          "max": 43,
-          "avg": 40.67
-        },
-        "humidity": {
-          "min": 64,
-          "max": 69,
-          "avg": 66.67
-        },
-        "rain_probability": {
-          "min": 21,
-          "max": 28,
-          "avg": 25.0
-        },
-        "air_temp_f": {
-          "min": 85.0,
-          "max": 87.0,
-          "avg": 86.0
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "morning": {
         "sky_cover": {
           "min": 21,
@@ -195,6 +168,110 @@
           "avg": 6.17
         }
       }
+    },
+    "day2": {
+      "date": "2026-08-09",
+      "morning": {
+        "sky_cover": {
+          "min": 30,
+          "max": 40,
+          "avg": 37.0
+        },
+        "humidity": {
+          "min": 88,
+          "max": 92,
+          "avg": 90.17
+        },
+        "rain_probability": {
+          "min": 1,
+          "max": 13,
+          "avg": 7.86
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 75.0,
+          "max": 76.0,
+          "avg": 75.5
+        },
+        "wind_gust_mph": {
+          "min": 2.3,
+          "max": 3.5,
+          "avg": 2.9
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 38,
+          "max": 48,
+          "avg": 44.6
+        },
+        "humidity": {
+          "min": 69,
+          "max": 95,
+          "avg": 83.5
+        },
+        "rain_probability": {
+          "min": 25,
+          "max": 25,
+          "avg": 25.0
+        },
+        "rain_inches": {
+          "min": 0.05,
+          "max": 0.05,
+          "avg": 0.05
+        },
+        "air_temp_f": {
+          "min": 76.0,
+          "max": 86.0,
+          "avg": 81.4
+        },
+        "wind_mph": {
+          "min": 1.2,
+          "max": 4.6,
+          "avg": 2.9
+        },
+        "wind_gust_mph": {
+          "min": 4.6,
+          "max": 10.4,
+          "avg": 7.62
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 50,
+          "max": 53,
+          "avg": 51.0
+        },
+        "humidity": {
+          "min": 66,
+          "max": 76,
+          "avg": 70.4
+        },
+        "rain_probability": {
+          "min": 55,
+          "max": 55,
+          "avg": 55.0
+        },
+        "rain_inches": {
+          "min": 0.01,
+          "max": 0.01,
+          "avg": 0.01
+        },
+        "air_temp_f": {
+          "min": 83.0,
+          "max": 88.0,
+          "avg": 85.8
+        },
+        "wind_gust_mph": {
+          "min": 9.2,
+          "max": 9.2,
+          "avg": 9.2
+        }
+      }
     }
   },
   "stocking": {
@@ -272,25 +349,22 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 8.0,
-    "quality_label": "Very good",
-    "best_window": "day2 evening",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
+    "best_window": "day2 morning",
     "water_temp_read": {
-      "status": "ideal",
-      "read": "Water temperature is in a favorable trout range.",
+      "status": "warm",
+      "read": "Water is warming; trout may favor more oxygenated water.",
       "positioning": [
         "riffles",
-        "runs",
-        "seams",
-        "structure"
+        "pocket water",
+        "oxygenated runs"
       ],
       "tactics": [
-        "nymphs",
-        "midges",
-        "soft hackles",
-        "opportunistic streamers"
+        "early and late windows",
+        "active nymphs"
       ],
-      "score_adjustment": 2.0
+      "score_adjustment": 0.0
     },
     "light_pressure_read": {
       "status": "neutral",
@@ -324,34 +398,30 @@
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
       "riffles",
+      "pocket water",
+      "oxygenated runs",
       "runs",
       "seams",
       "structure"
     ],
     "recommended_tactics": [
-      "nymphs",
-      "midges",
-      "soft hackles",
-      "opportunistic streamers",
+      "early and late windows",
+      "active nymphs",
       "balanced nymph approach"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell",
-      "zebra_midge",
-      "pheasant_tail"
+      "duracell"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
-      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
-      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
     },
     "caution_notes": [],
     "reasoning": [
-      "Water temperature is in a favorable trout range.",
+      "Water is warming; trout may favor more oxygenated water.",
       "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
