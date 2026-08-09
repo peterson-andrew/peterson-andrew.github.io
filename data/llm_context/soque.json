@@ -22,36 +22,36 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 94.1,
-    "gage_height_ft": 3.81,
+    "flow_cfs": 91.7,
+    "gage_height_ft": 3.79,
     "turbidity": null,
-    "observed_at": "2026-08-08T20:00:00.000-04:00"
+    "observed_at": "2026-08-09T00:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 30.19,
     "air_temp": {
-      "current_f": 78,
+      "current_f": 71,
       "low_f": 68.0,
       "high_f": 88.0
     },
     "sky_cover": {
       "min": 14,
       "max": 67,
-      "avg": 41.98
+      "avg": 41.67
     },
     "humidity": {
       "min": 60,
       "max": 100,
-      "avg": 82.0
+      "avg": 81.87
     },
     "rain": {
       "max_probability_percent": 50,
       "expected_inches": 0.01
     },
     "wind": {
-      "avg_mph": 2.7,
+      "avg_mph": 2.8,
       "max_gust_mph": 11.5,
-      "predominant_direction": "NE"
+      "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
@@ -365,10 +365,16 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
+      "positioning": [
+        "runs",
+        "seams",
+        "structure"
+      ],
+      "tactics": [
+        "balanced nymph approach"
+      ],
       "score_adjustment": 0.0
     },
     "pressure_trend_read": {
@@ -388,8 +394,14 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [],
-    "recommended_tactics": [],
+    "likely_trout_positioning": [
+      "runs",
+      "seams",
+      "structure"
+    ],
+    "recommended_tactics": [
+      "balanced nymph approach"
+    ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
@@ -403,7 +415,7 @@
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure read is unavailable.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
