@@ -23,19 +23,19 @@
   "weather_summary": {
     "pressure_inhg": null,
     "air_temp": {
-      "current_f": 65,
-      "low_f": 64.0,
+      "current_f": 66,
+      "low_f": 65.0,
       "high_f": 81.0
     },
     "sky_cover": {
       "min": 9,
       "max": 63,
-      "avg": 37.25
+      "avg": 36.34
     },
     "humidity": {
       "min": 68,
-      "max": 96,
-      "avg": 83.16
+      "max": 95,
+      "avg": 82.75
     },
     "rain": {
       "max_probability_percent": 44,
@@ -50,53 +50,27 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-08-10",
-      "morning": {
-        "sky_cover": {
-          "min": 49,
-          "max": 57,
-          "avg": 53.0
-        },
-        "humidity": {
-          "min": 96,
-          "max": 96,
-          "avg": 96.0
-        },
-        "rain_probability": {
-          "min": 1,
-          "max": 2,
-          "avg": 1.5
-        },
-        "air_temp_f": {
-          "min": 64.0,
-          "max": 64.0,
-          "avg": 64.0
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
           "min": 40,
           "max": 63,
-          "avg": 50.33
+          "avg": 50.2
         },
         "humidity": {
           "min": 73,
-          "max": 95,
-          "avg": 85.0
+          "max": 93,
+          "avg": 83.0
         },
         "rain_probability": {
-          "min": 4,
+          "min": 8,
           "max": 17,
-          "avg": 10.17
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "avg": 11.4
         },
         "air_temp_f": {
-          "min": 65.0,
+          "min": 67.0,
           "max": 78.0,
-          "avg": 71.5
+          "avg": 72.8
         },
         "wind_mph": {
           "min": 1.2,
@@ -324,7 +298,7 @@
   "angler_analysis": {
     "quality_score": 5.0,
     "quality_label": "Fair",
-    "best_window": "day1 morning",
+    "best_window": "day1 afternoon",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
