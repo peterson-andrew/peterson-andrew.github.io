@@ -21,74 +21,42 @@
   },
   "usgs_summary": {
     "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-    "water_temp_f": 59.2,
-    "flow_cfs": 1390.0,
-    "gage_height_ft": 2.85,
-    "turbidity": 25.0,
-    "observed_at": "2026-08-10T15:15:00.000-04:00"
+    "water_temp_f": 62.1,
+    "flow_cfs": 998.0,
+    "gage_height_ft": 2.28,
+    "turbidity": 20.3,
+    "observed_at": "2026-08-10T20:15:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.17,
+    "pressure_inhg": null,
     "air_temp": {
-      "current_f": 88,
+      "current_f": 85,
       "low_f": 75.0,
       "high_f": 90.0
     },
     "sky_cover": {
       "min": 6,
       "max": 44,
-      "avg": 24.57
+      "avg": 25.42
     },
     "humidity": {
       "min": 62,
       "max": 92,
-      "avg": 78.19
+      "avg": 78.38
     },
     "rain": {
-      "max_probability_percent": 24,
+      "max_probability_percent": 23,
       "expected_inches": 0.03
     },
     "wind": {
-      "avg_mph": 6.7,
+      "avg_mph": 7.0,
       "max_gust_mph": 17.3,
-      "predominant_direction": "W"
+      "predominant_direction": "SW"
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-08-10",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 28,
-          "max": 30,
-          "avg": 29.0
-        },
-        "humidity": {
-          "min": 63,
-          "max": 67,
-          "avg": 65.0
-        },
-        "rain_probability": {
-          "min": 14,
-          "max": 24,
-          "avg": 19.33
-        },
-        "air_temp_f": {
-          "min": 87.0,
-          "max": 89.0,
-          "avg": 88.0
-        },
-        "wind_gust_mph": {
-          "min": 8.1,
-          "max": 10.4,
-          "avg": 9.23
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "morning": {
         "sky_cover": {
           "min": 13,
@@ -195,6 +163,120 @@
           "avg": 7.3
         }
       }
+    },
+    "day2": {
+      "date": "2026-08-11",
+      "morning": {
+        "sky_cover": {
+          "min": 9,
+          "max": 18,
+          "avg": 12.86
+        },
+        "humidity": {
+          "min": 86,
+          "max": 90,
+          "avg": 88.17
+        },
+        "rain_probability": {
+          "min": 1,
+          "max": 4,
+          "avg": 2.33
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 76.0,
+          "max": 77.0,
+          "avg": 76.5
+        },
+        "wind_mph": {
+          "min": 5.8,
+          "max": 6.9,
+          "avg": 6.35
+        },
+        "wind_gust_mph": {
+          "min": 10.4,
+          "max": 11.5,
+          "avg": 10.95
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 19,
+          "max": 40,
+          "avg": 31.6
+        },
+        "humidity": {
+          "min": 68,
+          "max": 91,
+          "avg": 79.2
+        },
+        "rain_probability": {
+          "min": 17,
+          "max": 17,
+          "avg": 17.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 77.0,
+          "max": 86.0,
+          "avg": 82.0
+        },
+        "wind_mph": {
+          "min": 8.1,
+          "max": 9.2,
+          "avg": 8.65
+        },
+        "wind_gust_mph": {
+          "min": 12.7,
+          "max": 17.3,
+          "avg": 15.27
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 36,
+          "max": 44,
+          "avg": 38.83
+        },
+        "humidity": {
+          "min": 62,
+          "max": 66,
+          "avg": 63.8
+        },
+        "rain_probability": {
+          "min": 23,
+          "max": 23,
+          "avg": 23.0
+        },
+        "rain_inches": {
+          "min": 0.03,
+          "max": 0.03,
+          "avg": 0.03
+        },
+        "air_temp_f": {
+          "min": 87.0,
+          "max": 90.0,
+          "avg": 88.6
+        },
+        "wind_mph": {
+          "min": 6.9,
+          "max": 8.1,
+          "avg": 7.5
+        },
+        "wind_gust_mph": {
+          "min": 12.7,
+          "max": 16.1,
+          "avg": 14.6
+        }
+      }
     }
   },
   "stocking": {
@@ -272,41 +354,29 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 7.0,
-    "quality_label": "Good but technical",
-    "best_window": "day2 morning",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
+    "best_window": "day1 morning",
     "water_temp_read": {
-      "status": "ideal",
-      "read": "Water temperature is in a favorable trout range.",
+      "status": "warm",
+      "read": "Water is warming; trout may favor more oxygenated water.",
       "positioning": [
         "riffles",
-        "runs",
-        "seams",
-        "structure"
+        "pocket water",
+        "oxygenated runs"
       ],
       "tactics": [
-        "nymphs",
-        "midges",
-        "soft hackles",
-        "opportunistic streamers"
+        "early and late windows",
+        "active nymphs"
       ],
-      "score_adjustment": 2.0
+      "score_adjustment": 0.0
     },
     "light_pressure_read": {
-      "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover make this fishable but technical.",
-      "positioning": [
-        "shade",
-        "deeper runs",
-        "undercut banks",
-        "structure"
-      ],
-      "tactics": [
-        "smaller natural flies",
-        "careful drifts",
-        "less aggressive presentations"
-      ],
-      "score_adjustment": -1.0
+      "status": "unknown",
+      "read": "Light and pressure read is unavailable.",
+      "positioning": [],
+      "tactics": [],
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -327,42 +397,27 @@
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
       "riffles",
-      "runs",
-      "seams",
-      "structure",
-      "shade",
-      "deeper runs",
-      "undercut banks"
+      "pocket water",
+      "oxygenated runs"
     ],
     "recommended_tactics": [
-      "nymphs",
-      "midges",
-      "soft hackles",
-      "opportunistic streamers",
-      "smaller natural flies",
-      "careful drifts",
-      "less aggressive presentations"
+      "early and late windows",
+      "active nymphs"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell",
-      "zebra_midge",
-      "pheasant_tail"
+      "duracell"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
-      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
-      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
     },
-    "caution_notes": [
-      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
-    ],
+    "caution_notes": [],
     "reasoning": [
-      "Water temperature is in a favorable trout range.",
-      "High pressure and low cloud cover make this fishable but technical.",
+      "Water is warming; trout may favor more oxygenated water.",
+      "Light and pressure read is unavailable.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
