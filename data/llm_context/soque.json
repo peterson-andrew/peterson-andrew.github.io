@@ -22,36 +22,36 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 101.0,
-    "gage_height_ft": 3.87,
+    "flow_cfs": 97.6,
+    "gage_height_ft": 3.84,
     "turbidity": null,
-    "observed_at": "2026-08-13T08:00:00.000-04:00"
+    "observed_at": "2026-08-13T11:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.05,
+    "pressure_inhg": 30.1,
     "air_temp": {
-      "current_f": 74,
+      "current_f": 88,
       "low_f": 72.0,
       "high_f": 94.0
     },
     "sky_cover": {
       "min": 9,
       "max": 59,
-      "avg": 32.06
+      "avg": 30.81
     },
     "humidity": {
       "min": 50,
       "max": 92,
-      "avg": 72.14
+      "avg": 71.57
     },
     "rain": {
       "max_probability_percent": 31,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 4.8,
-      "max_gust_mph": 13.8,
-      "predominant_direction": "W"
+      "avg_mph": 4.3,
+      "max_gust_mph": 12.7,
+      "predominant_direction": "WNW"
     }
   },
   "forecast_breakdown": {
@@ -61,33 +61,28 @@
       "afternoon": {
         "sky_cover": {
           "min": 34,
-          "max": 45,
-          "avg": 38.4
+          "max": 34,
+          "avg": 34.0
         },
         "humidity": {
           "min": 56,
-          "max": 87,
-          "avg": 69.2
+          "max": 56,
+          "avg": 56.0
         },
         "rain_probability": {
-          "min": 3,
+          "min": 10,
           "max": 10,
-          "avg": 5.5
+          "avg": 10.0
         },
         "air_temp_f": {
-          "min": 75.0,
+          "min": 90.0,
           "max": 90.0,
-          "avg": 83.8
+          "avg": 90.0
         },
         "wind_mph": {
-          "min": 4.6,
-          "max": 8.1,
-          "avg": 6.46
-        },
-        "wind_gust_mph": {
-          "min": 10.4,
-          "max": 13.8,
-          "avg": 12.3
+          "min": 6.9,
+          "max": 6.9,
+          "avg": 6.9
         }
       },
       "evening": {
@@ -313,8 +308,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 6.0,
-    "quality_label": "Fair to good",
+    "quality_score": 5.0,
+    "quality_label": "Fair",
     "best_window": "day2 morning",
     "water_temp_read": {
       "status": "unknown",
@@ -324,17 +319,20 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
       "positioning": [
-        "runs",
-        "seams",
+        "shade",
+        "deeper runs",
+        "undercut banks",
         "structure"
       ],
       "tactics": [
-        "balanced nymph approach"
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -354,27 +352,36 @@
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "runs",
-      "seams",
+      "shade",
+      "deeper runs",
+      "undercut banks",
       "structure"
     ],
     "recommended_tactics": [
-      "balanced nymph approach"
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell"
+      "duracell",
+      "zebra_midge",
+      "pheasant_tail"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
+      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
     },
-    "caution_notes": [],
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
