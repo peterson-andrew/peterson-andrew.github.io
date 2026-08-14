@@ -22,27 +22,27 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 91.7,
-    "gage_height_ft": 3.79,
+    "flow_cfs": 90.5,
+    "gage_height_ft": 3.78,
     "turbidity": null,
-    "observed_at": "2026-08-13T21:00:00.000-04:00"
+    "observed_at": "2026-08-13T23:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.06,
+    "pressure_inhg": 30.12,
     "air_temp": {
-      "current_f": 85,
+      "current_f": 75,
       "low_f": 72.0,
       "high_f": 94.0
     },
     "sky_cover": {
       "min": 0,
       "max": 61,
-      "avg": 32.87
+      "avg": 32.38
     },
     "humidity": {
       "min": 51,
       "max": 92,
-      "avg": 72.54
+      "avg": 72.75
     },
     "rain": {
       "max_probability_percent": 41,
@@ -51,7 +51,7 @@
     "wind": {
       "avg_mph": 3.6,
       "max_gust_mph": 10.4,
-      "predominant_direction": "W"
+      "predominant_direction": "NW"
     }
   },
   "forecast_breakdown": {
@@ -60,8 +60,8 @@
       "morning": {
         "sky_cover": {
           "min": 20,
-          "max": 47,
-          "avg": 33.43
+          "max": 43,
+          "avg": 31.17
         },
         "humidity": {
           "min": 90,
@@ -334,8 +334,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 6.0,
-    "quality_label": "Fair to good",
+    "quality_score": 5.0,
+    "quality_label": "Fair",
     "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
@@ -345,17 +345,20 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
       "positioning": [
-        "runs",
-        "seams",
+        "shade",
+        "deeper runs",
+        "undercut banks",
         "structure"
       ],
       "tactics": [
-        "balanced nymph approach"
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -375,27 +378,36 @@
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "runs",
-      "seams",
+      "shade",
+      "deeper runs",
+      "undercut banks",
       "structure"
     ],
     "recommended_tactics": [
-      "balanced nymph approach"
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell"
+      "duracell",
+      "zebra_midge",
+      "pheasant_tail"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
+      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
     },
-    "caution_notes": [],
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
