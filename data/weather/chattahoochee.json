@@ -1,22 +1,22 @@
 {
   "river_key": "chattahoochee",
   "river_name": "Chattahoochee River",
-  "generated_at_utc": "2026-08-15T12:10:27.688339+00:00",
+  "generated_at_utc": "2026-08-15T16:08:08.171763+00:00",
   "current": {
     "latitude": 34.1567,
     "longitude": -84.0784,
-    "forecast_time": "2026-08-15T08:00:00-04:00",
-    "air_temp_f": 77,
+    "forecast_time": "2026-08-15T12:00:00-04:00",
+    "air_temp_f": 87,
     "temperature_unit": "F",
     "wind_speed": "5 mph",
-    "wind_direction": "W",
+    "wind_direction": "NW",
     "short_forecast": "Sunny",
     "pressure_station": "KCNI",
-    "pressure_mb": 1022.7,
-    "pressure_inhg": 30.2
+    "pressure_mb": 1023.7,
+    "pressure_inhg": 30.23
   },
   "pressure_trend": {
-    "current_inhg": 30.2,
+    "current_inhg": 30.23,
     "previous_inhg": null,
     "change_since_last_run": null,
     "trend": "unknown"
@@ -26,10 +26,6 @@
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-08-15T15:00:00+00:00",
-          "value": 21
-        },
         {
           "time": "2026-08-15T17:00:00+00:00",
           "value": 32
@@ -177,34 +173,22 @@
         {
           "time": "2026-08-17T10:00:00+00:00",
           "value": 2
+        },
+        {
+          "time": "2026-08-17T16:00:00+00:00",
+          "value": 3
         }
       ],
       "summary": {
         "min": 1,
         "max": 40,
-        "avg": 18.42
+        "avg": 17.95
       }
     },
     "relativeHumidity": {
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-08-15T13:00:00+00:00",
-          "value": 89
-        },
-        {
-          "time": "2026-08-15T14:00:00+00:00",
-          "value": 81
-        },
-        {
-          "time": "2026-08-15T15:00:00+00:00",
-          "value": 74
-        },
-        {
-          "time": "2026-08-15T16:00:00+00:00",
-          "value": 69
-        },
         {
           "time": "2026-08-15T17:00:00+00:00",
           "value": 66
@@ -360,30 +344,34 @@
         {
           "time": "2026-08-17T11:00:00+00:00",
           "value": 80
+        },
+        {
+          "time": "2026-08-17T13:00:00+00:00",
+          "value": 76
+        },
+        {
+          "time": "2026-08-17T14:00:00+00:00",
+          "value": 70
+        },
+        {
+          "time": "2026-08-17T15:00:00+00:00",
+          "value": 65
+        },
+        {
+          "time": "2026-08-17T16:00:00+00:00",
+          "value": 60
         }
       ],
       "summary": {
         "min": 50,
-        "max": 89,
-        "avg": 70.86
+        "max": 87,
+        "avg": 69.88
       }
     },
     "probabilityOfPrecipitation": {
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-08-15T13:00:00+00:00",
-          "value": 3
-        },
-        {
-          "time": "2026-08-15T14:00:00+00:00",
-          "value": 2
-        },
-        {
-          "time": "2026-08-15T16:00:00+00:00",
-          "value": 5
-        },
         {
           "time": "2026-08-15T17:00:00+00:00",
           "value": 10
@@ -456,7 +444,7 @@
       "summary": {
         "min": 0,
         "max": 18,
-        "avg": 5.7
+        "avg": 6.12
       }
     },
     "quantitativePrecipitation": {
@@ -506,22 +494,6 @@
       "available": true,
       "unit": "wmoUnit:degC",
       "values": [
-        {
-          "time": "2026-08-15T13:00:00+00:00",
-          "value": 26.11111111111111
-        },
-        {
-          "time": "2026-08-15T14:00:00+00:00",
-          "value": 27.77777777777778
-        },
-        {
-          "time": "2026-08-15T15:00:00+00:00",
-          "value": 29.444444444444443
-        },
-        {
-          "time": "2026-08-15T16:00:00+00:00",
-          "value": 30.555555555555557
-        },
         {
           "time": "2026-08-15T17:00:00+00:00",
           "value": 31.666666666666668
@@ -649,26 +621,34 @@
         {
           "time": "2026-08-17T10:00:00+00:00",
           "value": 25
+        },
+        {
+          "time": "2026-08-17T13:00:00+00:00",
+          "value": 26.666666666666668
+        },
+        {
+          "time": "2026-08-17T14:00:00+00:00",
+          "value": 28.333333333333332
+        },
+        {
+          "time": "2026-08-17T15:00:00+00:00",
+          "value": 30
+        },
+        {
+          "time": "2026-08-17T16:00:00+00:00",
+          "value": 31.666666666666668
         }
       ],
       "summary": {
         "min": 25,
         "max": 34.44,
-        "avg": 29.48
+        "avg": 29.55
       }
     },
     "dewpoint": {
       "available": true,
       "unit": "wmoUnit:degC",
       "values": [
-        {
-          "time": "2026-08-15T13:00:00+00:00",
-          "value": 23.88888888888889
-        },
-        {
-          "time": "2026-08-15T16:00:00+00:00",
-          "value": 24.444444444444443
-        },
         {
           "time": "2026-08-15T18:00:00+00:00",
           "value": 23.88888888888889
@@ -732,22 +712,26 @@
         {
           "time": "2026-08-17T12:00:00+00:00",
           "value": 21.666666666666668
+        },
+        {
+          "time": "2026-08-17T14:00:00+00:00",
+          "value": 22.22222222222222
+        },
+        {
+          "time": "2026-08-17T15:00:00+00:00",
+          "value": 22.77777777777778
         }
       ],
       "summary": {
         "min": 21.11,
         "max": 24.44,
-        "avg": 23.02
+        "avg": 22.84
       }
     },
     "windSpeed": {
       "available": true,
       "unit": "wmoUnit:km_h-1",
       "values": [
-        {
-          "time": "2026-08-15T15:00:00+00:00",
-          "value": 11.112
-        },
         {
           "time": "2026-08-15T18:00:00+00:00",
           "value": 9.26
@@ -795,26 +779,26 @@
         {
           "time": "2026-08-17T09:00:00+00:00",
           "value": 9.26
+        },
+        {
+          "time": "2026-08-17T13:00:00+00:00",
+          "value": 11.112
+        },
+        {
+          "time": "2026-08-17T16:00:00+00:00",
+          "value": 12.964
         }
       ],
       "summary": {
         "min": 3.7,
-        "max": 11.11,
-        "avg": 7.84
+        "max": 12.96,
+        "avg": 8.2
       }
     },
     "windGust": {
       "available": true,
       "unit": "wmoUnit:km_h-1",
       "values": [
-        {
-          "time": "2026-08-15T14:00:00+00:00",
-          "value": 16.668
-        },
-        {
-          "time": "2026-08-15T15:00:00+00:00",
-          "value": 18.52
-        },
         {
           "time": "2026-08-15T22:00:00+00:00",
           "value": 16.668
@@ -902,26 +886,30 @@
         {
           "time": "2026-08-17T12:00:00+00:00",
           "value": 18.52
+        },
+        {
+          "time": "2026-08-17T13:00:00+00:00",
+          "value": 20.372
+        },
+        {
+          "time": "2026-08-17T15:00:00+00:00",
+          "value": 22.224
+        },
+        {
+          "time": "2026-08-17T16:00:00+00:00",
+          "value": 24.076
         }
       ],
       "summary": {
         "min": 7.41,
-        "max": 20.37,
-        "avg": 14.12
+        "max": 24.08,
+        "avg": 14.82
       }
     },
     "windDirection": {
       "available": true,
       "unit": "wmoUnit:degree_(angle)",
       "values": [
-        {
-          "time": "2026-08-15T13:00:00+00:00",
-          "value": 300
-        },
-        {
-          "time": "2026-08-15T16:00:00+00:00",
-          "value": 310
-        },
         {
           "time": "2026-08-15T17:00:00+00:00",
           "value": 300
@@ -998,7 +986,7 @@
       "summary": {
         "min": 280,
         "max": 330,
-        "avg": 301.5
+        "avg": 301.11
       }
     }
   }
