@@ -21,35 +21,35 @@
   },
   "usgs_summary": {
     "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-    "water_temp_f": 56.3,
-    "flow_cfs": 2130.0,
-    "gage_height_ft": 3.87,
-    "turbidity": 13.6,
-    "observed_at": "2026-08-17T08:15:00.000-04:00"
+    "water_temp_f": 53.8,
+    "flow_cfs": 1710.0,
+    "gage_height_ft": 3.37,
+    "turbidity": 9.1,
+    "observed_at": "2026-08-17T10:15:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.09,
+    "pressure_inhg": 30.1,
     "air_temp": {
-      "current_f": 77,
+      "current_f": 89,
       "low_f": 73.0,
       "high_f": 94.0
     },
     "sky_cover": {
       "min": 2,
       "max": 60,
-      "avg": 20.78
+      "avg": 20.53
     },
     "humidity": {
       "min": 51,
       "max": 89,
-      "avg": 69.28
+      "avg": 69.05
     },
     "rain": {
       "max_probability_percent": 18,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 7.4,
+      "avg_mph": 7.5,
       "max_gust_mph": 17.3,
       "predominant_direction": "W"
     }
@@ -60,29 +60,24 @@
       "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 6,
+          "min": 18,
           "max": 18,
-          "avg": 11.75
+          "avg": 18.0
         },
         "humidity": {
           "min": 58,
-          "max": 83,
-          "avg": 68.4
+          "max": 58,
+          "avg": 58.0
         },
         "air_temp_f": {
-          "min": 80.0,
+          "min": 91.0,
           "max": 91.0,
-          "avg": 86.2
-        },
-        "wind_mph": {
-          "min": 5.8,
-          "max": 8.1,
-          "avg": 6.93
+          "avg": 91.0
         },
         "wind_gust_mph": {
-          "min": 11.5,
+          "min": 15.0,
           "max": 15.0,
-          "avg": 13.25
+          "avg": 15.0
         }
       },
       "evening": {
@@ -298,8 +293,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 8.0,
-    "quality_label": "Very good",
+    "quality_score": 7.0,
+    "quality_label": "Good but technical",
     "best_window": "day2 morning",
     "water_temp_read": {
       "status": "ideal",
@@ -319,17 +314,20 @@
       "score_adjustment": 2.0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
       "positioning": [
-        "runs",
-        "seams",
+        "shade",
+        "deeper runs",
+        "undercut banks",
         "structure"
       ],
       "tactics": [
-        "balanced nymph approach"
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -352,14 +350,19 @@
       "riffles",
       "runs",
       "seams",
-      "structure"
+      "structure",
+      "shade",
+      "deeper runs",
+      "undercut banks"
     ],
     "recommended_tactics": [
       "nymphs",
       "midges",
       "soft hackles",
       "opportunistic streamers",
-      "balanced nymph approach"
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
@@ -375,10 +378,12 @@
       "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
       "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
     },
-    "caution_notes": [],
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
     "reasoning": [
       "Water temperature is in a favorable trout range.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
