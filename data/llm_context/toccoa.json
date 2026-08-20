@@ -22,27 +22,27 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 265.0,
-    "gage_height_ft": 1.33,
+    "flow_cfs": 271.0,
+    "gage_height_ft": 1.35,
     "turbidity": null,
-    "observed_at": "2026-08-20T07:30:00.000-04:00"
+    "observed_at": "2026-08-20T11:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.12,
+    "pressure_inhg": 30.15,
     "air_temp": {
-      "current_f": 69,
+      "current_f": 85,
       "low_f": 65.0,
       "high_f": 91.0
     },
     "sky_cover": {
-      "min": 19,
+      "min": 14,
       "max": 71,
-      "avg": 43.09
+      "avg": 40.88
     },
     "humidity": {
       "min": 50,
       "max": 100,
-      "avg": 76.9
+      "avg": 77.65
     },
     "rain": {
       "max_probability_percent": 46,
@@ -59,35 +59,30 @@
       "date": "2026-08-20",
       "morning": {},
       "afternoon": {
-        "sky_cover": {
-          "min": 31,
-          "max": 55,
-          "avg": 43.25
-        },
         "humidity": {
           "min": 54,
-          "max": 82,
-          "avg": 66.4
+          "max": 54,
+          "avg": 54.0
         },
         "rain_probability": {
-          "min": 2,
+          "min": 3,
           "max": 3,
-          "avg": 2.5
+          "avg": 3.0
         },
         "air_temp_f": {
-          "min": 72.0,
+          "min": 88.0,
           "max": 88.0,
-          "avg": 80.8
+          "avg": 88.0
         },
         "wind_mph": {
-          "min": 2.3,
+          "min": 3.5,
           "max": 3.5,
-          "avg": 2.9
+          "avg": 3.5
         },
         "wind_gust_mph": {
-          "min": 3.5,
+          "min": 9.2,
           "max": 9.2,
-          "avg": 6.05
+          "avg": 9.2
         }
       },
       "evening": {
@@ -315,7 +310,7 @@
   "angler_analysis": {
     "quality_score": 6.0,
     "quality_label": "Fair to good",
-    "best_window": "day1 afternoon",
+    "best_window": "day2 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
