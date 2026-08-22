@@ -25,33 +25,33 @@
     "flow_cfs": 259.0,
     "gage_height_ft": 1.31,
     "turbidity": null,
-    "observed_at": "2026-08-22T07:30:00.000-04:00"
+    "observed_at": "2026-08-22T11:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.08,
+    "pressure_inhg": 30.09,
     "air_temp": {
-      "current_f": 66,
+      "current_f": 81,
       "low_f": 59.0,
       "high_f": 87.0
     },
     "sky_cover": {
       "min": 1,
       "max": 45,
-      "avg": 19.95
+      "avg": 21.51
     },
     "humidity": {
       "min": 40,
       "max": 99,
-      "avg": 71.17
+      "avg": 69.41
     },
     "rain": {
       "max_probability_percent": 10,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 3.2,
+      "avg_mph": 3.1,
       "max_gust_mph": 15.0,
-      "predominant_direction": ""
+      "predominant_direction": "NW"
     }
   },
   "forecast_breakdown": {
@@ -61,28 +61,28 @@
       "afternoon": {
         "sky_cover": {
           "min": 8,
-          "max": 28,
-          "avg": 17.0
+          "max": 8,
+          "avg": 8.0
         },
         "humidity": {
           "min": 57,
-          "max": 99,
-          "avg": 77.4
+          "max": 57,
+          "avg": 57.0
         },
         "air_temp_f": {
-          "min": 68.0,
+          "min": 83.0,
           "max": 83.0,
-          "avg": 76.4
+          "avg": 83.0
         },
         "wind_mph": {
-          "min": 1.2,
+          "min": 4.6,
           "max": 4.6,
-          "avg": 3.1
+          "avg": 4.6
         },
         "wind_gust_mph": {
-          "min": 2.3,
+          "min": 10.4,
           "max": 10.4,
-          "avg": 6.68
+          "avg": 10.4
         }
       },
       "evening": {
@@ -230,12 +230,17 @@
   },
   "stocking": {
     "stocked": true,
-    "last_stocked": "8/11/2026",
+    "last_stocked": "8/20/2026",
     "matched_waterbodies": [
       {
-        "date": "8/11/2026",
+        "date": "8/20/2026",
         "county": "Fannin",
         "waterbody": "Blueridge TW"
+      },
+      {
+        "date": "8/20/2026",
+        "county": "Fannin",
+        "waterbody": "Toccoa River (F)"
       }
     ]
   },
