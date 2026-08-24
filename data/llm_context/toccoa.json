@@ -22,30 +22,30 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 239.0,
-    "gage_height_ft": 1.24,
+    "flow_cfs": 236.0,
+    "gage_height_ft": 1.23,
     "turbidity": null,
-    "observed_at": "2026-08-24T03:30:00.000-04:00"
+    "observed_at": "2026-08-24T06:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.09,
+    "pressure_inhg": 30.11,
     "air_temp": {
-      "current_f": 62,
+      "current_f": 61,
       "low_f": 60.0,
       "high_f": 87.0
     },
     "sky_cover": {
       "min": 1,
-      "max": 33,
-      "avg": 16.28
+      "max": 32,
+      "avg": 16.11
     },
     "humidity": {
       "min": 37,
-      "max": 87,
-      "avg": 61.76
+      "max": 89,
+      "avg": 62.3
     },
     "rain": {
-      "max_probability_percent": null,
+      "max_probability_percent": 4,
       "expected_inches": 0.0
     },
     "wind": {
@@ -57,43 +57,22 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-08-24",
-      "morning": {
-        "sky_cover": {
-          "min": 30,
-          "max": 33,
-          "avg": 31.5
-        },
-        "humidity": {
-          "min": 85,
-          "max": 87,
-          "avg": 86.0
-        },
-        "air_temp_f": {
-          "min": 60.0,
-          "max": 61.0,
-          "avg": 60.5
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
           "min": 14,
-          "max": 23,
-          "avg": 18.0
+          "max": 20,
+          "avg": 16.33
         },
         "humidity": {
           "min": 42,
-          "max": 86,
-          "avg": 62.83
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "max": 80,
+          "avg": 58.2
         },
         "air_temp_f": {
-          "min": 61.0,
+          "min": 65.0,
           "max": 82.0,
-          "avg": 72.33
+          "avg": 74.6
         },
         "wind_mph": {
           "min": 1.2,
@@ -314,8 +293,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 6.0,
-    "quality_label": "Fair to good",
+    "quality_score": 5.0,
+    "quality_label": "Fair",
     "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
@@ -325,17 +304,20 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
       "positioning": [
-        "runs",
-        "seams",
+        "shade",
+        "deeper runs",
+        "undercut banks",
         "structure"
       ],
       "tactics": [
-        "balanced nymph approach"
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -355,27 +337,36 @@
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "runs",
-      "seams",
+      "shade",
+      "deeper runs",
+      "undercut banks",
       "structure"
     ],
     "recommended_tactics": [
-      "balanced nymph approach"
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell"
+      "duracell",
+      "zebra_midge",
+      "pheasant_tail"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
+      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
     },
-    "caution_notes": [],
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
