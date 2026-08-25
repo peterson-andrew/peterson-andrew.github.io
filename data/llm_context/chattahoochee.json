@@ -21,84 +21,53 @@
   },
   "usgs_summary": {
     "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-    "water_temp_f": 55.8,
-    "flow_cfs": 1910.0,
-    "gage_height_ft": 3.63,
-    "turbidity": 8.5,
-    "observed_at": "2026-08-25T03:15:00.000-04:00"
+    "water_temp_f": 53.4,
+    "flow_cfs": 1050.0,
+    "gage_height_ft": 2.45,
+    "turbidity": 4.0,
+    "observed_at": "2026-08-25T08:15:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.05,
+    "pressure_inhg": 30.11,
     "air_temp": {
-      "current_f": 71,
-      "low_f": 69.0,
+      "current_f": 69,
+      "low_f": 71.0,
       "high_f": 89.0
     },
     "sky_cover": {
       "min": 2,
-      "max": 60,
-      "avg": 29.23
+      "max": 64,
+      "avg": 32.26
     },
     "humidity": {
       "min": 42,
-      "max": 92,
-      "avg": 69.93
+      "max": 96,
+      "avg": 72.09
     },
     "rain": {
       "max_probability_percent": 49,
       "expected_inches": 0.07
     },
     "wind": {
-      "avg_mph": 4.3,
-      "max_gust_mph": 11.5,
+      "avg_mph": 3.3,
+      "max_gust_mph": 10.4,
       "predominant_direction": "NE"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-08-25",
-      "morning": {
-        "sky_cover": {
-          "min": 26,
-          "max": 37,
-          "avg": 31.33
-        },
-        "humidity": {
-          "min": 72,
-          "max": 72,
-          "avg": 72.0
-        },
-        "air_temp_f": {
-          "min": 69.0,
-          "max": 70.0,
-          "avg": 69.5
-        },
-        "wind_mph": {
-          "min": 5.8,
-          "max": 5.8,
-          "avg": 5.8
-        },
-        "wind_gust_mph": {
-          "min": 9.2,
-          "max": 10.4,
-          "avg": 9.8
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
           "min": 9,
-          "max": 26,
-          "avg": 15.6
+          "max": 19,
+          "avg": 13.0
         },
         "humidity": {
           "min": 52,
-          "max": 73,
-          "avg": 62.67
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "max": 71,
+          "avg": 60.6
         },
         "air_temp_f": {
           "min": 71.0,
@@ -107,13 +76,13 @@
         },
         "wind_mph": {
           "min": 4.6,
-          "max": 6.9,
-          "avg": 5.77
+          "max": 5.8,
+          "avg": 5.2
         },
         "wind_gust_mph": {
           "min": 9.2,
-          "max": 11.5,
-          "avg": 10.37
+          "max": 10.4,
+          "avg": 9.8
         }
       },
       "evening": {
@@ -339,8 +308,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 8.0,
-    "quality_label": "Very good",
+    "quality_score": 7.0,
+    "quality_label": "Good but technical",
     "best_window": "day2 evening",
     "water_temp_read": {
       "status": "ideal",
@@ -360,17 +329,20 @@
       "score_adjustment": 2.0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
       "positioning": [
-        "runs",
-        "seams",
+        "shade",
+        "deeper runs",
+        "undercut banks",
         "structure"
       ],
       "tactics": [
-        "balanced nymph approach"
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -393,14 +365,19 @@
       "riffles",
       "runs",
       "seams",
-      "structure"
+      "structure",
+      "shade",
+      "deeper runs",
+      "undercut banks"
     ],
     "recommended_tactics": [
       "nymphs",
       "midges",
       "soft hackles",
       "opportunistic streamers",
-      "balanced nymph approach"
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
@@ -416,10 +393,12 @@
       "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
       "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
     },
-    "caution_notes": [],
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
     "reasoning": [
       "Water temperature is in a favorable trout range.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
