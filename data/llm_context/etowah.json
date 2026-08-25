@@ -21,37 +21,37 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 71.8,
-    "flow_cfs": 85.1,
-    "gage_height_ft": 3.61,
-    "turbidity": 11.1,
-    "observed_at": "2026-08-25T08:00:00.000-04:00"
+    "water_temp_f": 72.0,
+    "flow_cfs": 86.2,
+    "gage_height_ft": 3.62,
+    "turbidity": 9.9,
+    "observed_at": "2026-08-25T11:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.11,
+    "pressure_inhg": 30.14,
     "air_temp": {
-      "current_f": 64,
+      "current_f": 81,
       "low_f": 67.0,
       "high_f": 88.0
     },
     "sky_cover": {
       "min": 4,
       "max": 62,
-      "avg": 33.07
+      "avg": 36.8
     },
     "humidity": {
       "min": 43,
       "max": 100,
-      "avg": 71.43
+      "avg": 73.88
     },
     "rain": {
       "max_probability_percent": 44,
       "expected_inches": 0.11
     },
     "wind": {
-      "avg_mph": 2.4,
-      "max_gust_mph": 10.4,
-      "predominant_direction": "NE"
+      "avg_mph": 2.1,
+      "max_gust_mph": 8.1,
+      "predominant_direction": "E"
     }
   },
   "forecast_breakdown": {
@@ -59,35 +59,30 @@
       "date": "2026-08-25",
       "morning": {},
       "afternoon": {
-        "sky_cover": {
-          "min": 9,
-          "max": 16,
-          "avg": 12.33
-        },
         "humidity": {
           "min": 48,
-          "max": 70,
-          "avg": 57.4
+          "max": 48,
+          "avg": 48.0
         },
         "rain_probability": {
           "min": 0,
-          "max": 1,
-          "avg": 0.5
+          "max": 0,
+          "avg": 0.0
         },
         "air_temp_f": {
-          "min": 68.0,
+          "min": 84.0,
           "max": 84.0,
-          "avg": 76.6
+          "avg": 84.0
         },
         "wind_mph": {
           "min": 2.3,
-          "max": 4.6,
-          "avg": 3.47
+          "max": 2.3,
+          "avg": 2.3
         },
         "wind_gust_mph": {
           "min": 6.9,
-          "max": 10.4,
-          "avg": 8.83
+          "max": 6.9,
+          "avg": 6.9
         }
       },
       "evening": {
@@ -312,7 +307,7 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 0,
+    "quality_score": 1.0,
     "quality_label": "Tough",
     "best_window": "day2 morning",
     "water_temp_read": {
@@ -328,20 +323,17 @@
       "score_adjustment": -4.0
     },
     "light_pressure_read": {
-      "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
       "positioning": [
-        "shade",
-        "deeper runs",
-        "undercut banks",
+        "runs",
+        "seams",
         "structure"
       ],
       "tactics": [
-        "smaller natural flies",
-        "careful drifts",
-        "less aggressive presentations"
+        "balanced nymph approach"
       ],
-      "score_adjustment": -1.0
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -359,34 +351,22 @@
     "likely_trout_positioning": [
       "cold-water refuge",
       "oxygenated water",
-      "shade",
-      "deeper runs",
-      "undercut banks",
+      "runs",
+      "seams",
       "structure"
     ],
     "recommended_tactics": [
       "consider not targeting trout",
-      "smaller natural flies",
-      "careful drifts",
-      "less aggressive presentations"
+      "balanced nymph approach"
     ],
-    "recommended_fly_keys": [
-      "zebra_midge",
-      "pheasant_tail",
-      "haresear"
-    ],
-    "fly_reasoning": {
-      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
-      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious.",
-      "haresear": "General-purpose natural nymph for seams and runs."
-    },
+    "recommended_fly_keys": [],
+    "fly_reasoning": {},
     "caution_notes": [
-      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving.",
       "Warm water may increase trout stress."
     ],
     "reasoning": [
       "Water is very warm for trout.",
-      "High pressure and low cloud cover make this fishable but technical.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
