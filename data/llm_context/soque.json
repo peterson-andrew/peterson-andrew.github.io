@@ -22,125 +22,68 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 55.7,
-    "gage_height_ft": 3.47,
+    "flow_cfs": 52.7,
+    "gage_height_ft": 3.44,
     "turbidity": null,
-    "observed_at": "2026-08-31T05:00:00.000-04:00"
+    "observed_at": "2026-08-31T13:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.17,
+    "pressure_inhg": 30.19,
     "air_temp": {
-      "current_f": 69,
-      "low_f": 68.0,
-      "high_f": 92.0
+      "current_f": 89,
+      "low_f": 69.0,
+      "high_f": 93.0
     },
     "sky_cover": {
       "min": 0,
       "max": 40,
-      "avg": 13.19
+      "avg": 14.64
     },
     "humidity": {
       "min": 46,
-      "max": 94,
-      "avg": 71.09
+      "max": 91,
+      "avg": 70.52
     },
     "rain": {
       "max_probability_percent": 4,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 1.1,
+      "avg_mph": 1.4,
       "max_gust_mph": 8.1,
-      "predominant_direction": "NE"
+      "predominant_direction": "E"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-08-31",
-      "morning": {
-        "sky_cover": {
-          "min": 17,
-          "max": 17,
-          "avg": 17.0
-        },
-        "air_temp_f": {
-          "min": 68.0,
-          "max": 68.0,
-          "avg": 68.0
-        },
-        "wind_mph": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 4,
-          "max": 11,
-          "avg": 7.33
-        },
-        "humidity": {
-          "min": 55,
-          "max": 94,
-          "avg": 72.83
-        },
-        "rain_probability": {
-          "min": 3,
-          "max": 3,
-          "avg": 3.0
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 69.0,
-          "max": 88.0,
-          "avg": 80.33
-        },
-        "wind_mph": {
-          "min": 0.0,
-          "max": 2.3,
-          "avg": 1.17
-        },
-        "wind_gust_mph": {
-          "min": 3.5,
-          "max": 5.8,
-          "avg": 4.62
-        }
-      },
+      "morning": {},
+      "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 12,
+          "min": 13,
           "max": 40,
-          "avg": 24.0
+          "avg": 27.0
         },
         "humidity": {
           "min": 48,
           "max": 55,
-          "avg": 50.8
+          "avg": 50.5
         },
         "rain_probability": {
           "min": 3,
           "max": 4,
-          "avg": 3.5
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "avg": 3.33
         },
         "air_temp_f": {
           "min": 87.0,
           "max": 90.0,
-          "avg": 88.75
+          "avg": 88.67
         },
         "wind_gust_mph": {
           "min": 5.8,
-          "max": 6.9,
-          "avg": 6.35
+          "max": 5.8,
+          "avg": 5.8
         }
       }
     },
