@@ -21,14 +21,14 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 76.1,
+    "water_temp_f": 79.3,
     "flow_cfs": 86.2,
     "gage_height_ft": 3.62,
-    "turbidity": 11.2,
-    "observed_at": "2026-09-01T12:00:00.000-04:00"
+    "turbidity": 9.4,
+    "observed_at": "2026-09-01T16:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 30.09,
     "air_temp": {
       "current_f": 90,
       "low_f": 72.0,
@@ -37,20 +37,20 @@
     "sky_cover": {
       "min": 2,
       "max": 29,
-      "avg": 14.92
+      "avg": 14.22
     },
     "humidity": {
       "min": 49,
       "max": 88,
-      "avg": 68.61
+      "avg": 69.08
     },
     "rain": {
       "max_probability_percent": 5,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 1.1,
-      "max_gust_mph": 9.2,
+      "avg_mph": 1.6,
+      "max_gust_mph": 10.4,
       "predominant_direction": ""
     }
   },
@@ -61,24 +61,19 @@
       "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 15,
+          "min": 17,
           "max": 17,
-          "avg": 16.33
+          "avg": 17.0
         },
         "humidity": {
-          "min": 49,
+          "min": 59,
           "max": 59,
-          "avg": 52.8
-        },
-        "rain_probability": {
-          "min": 4,
-          "max": 4,
-          "avg": 4.0
+          "avg": 59.0
         },
         "air_temp_f": {
           "min": 88.0,
-          "max": 92.0,
-          "avg": 90.4
+          "max": 88.0,
+          "avg": 88.0
         },
         "wind_mph": {
           "min": 0.0,
@@ -277,10 +272,16 @@
       "score_adjustment": -4.0
     },
     "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
+      "positioning": [
+        "runs",
+        "seams",
+        "structure"
+      ],
+      "tactics": [
+        "balanced nymph approach"
+      ],
       "score_adjustment": 0.0
     },
     "pressure_trend_read": {
@@ -298,10 +299,14 @@
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
       "cold-water refuge",
-      "oxygenated water"
+      "oxygenated water",
+      "runs",
+      "seams",
+      "structure"
     ],
     "recommended_tactics": [
-      "consider not targeting trout"
+      "consider not targeting trout",
+      "balanced nymph approach"
     ],
     "recommended_fly_keys": [],
     "fly_reasoning": {},
@@ -310,7 +315,7 @@
     ],
     "reasoning": [
       "Water is very warm for trout.",
-      "Light and pressure read is unavailable.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]

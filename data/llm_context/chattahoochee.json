@@ -21,28 +21,28 @@
   },
   "usgs_summary": {
     "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-    "water_temp_f": 54.7,
-    "flow_cfs": 722.0,
-    "gage_height_ft": 1.93,
-    "turbidity": 5.7,
-    "observed_at": "2026-09-01T12:15:00.000-04:00"
+    "water_temp_f": 56.8,
+    "flow_cfs": 636.0,
+    "gage_height_ft": 1.78,
+    "turbidity": 10.5,
+    "observed_at": "2026-09-01T15:15:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 30.09,
     "air_temp": {
-      "current_f": 89,
+      "current_f": 91,
       "low_f": 76.0,
       "high_f": 92.0
     },
     "sky_cover": {
       "min": 2,
       "max": 37,
-      "avg": 15.12
+      "avg": 14.93
     },
     "humidity": {
       "min": 51,
       "max": 86,
-      "avg": 69.2
+      "avg": 69.29
     },
     "rain": {
       "max_probability_percent": 2,
@@ -50,7 +50,7 @@
     },
     "wind": {
       "avg_mph": 1.7,
-      "max_gust_mph": 10.4,
+      "max_gust_mph": 11.5,
       "predominant_direction": ""
     }
   },
@@ -61,24 +61,19 @@
       "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 6,
-          "max": 13,
-          "avg": 8.5
+          "min": 8,
+          "max": 8,
+          "avg": 8.0
         },
         "humidity": {
-          "min": 51,
+          "min": 55,
           "max": 55,
-          "avg": 53.25
-        },
-        "rain_probability": {
-          "min": 1,
-          "max": 2,
-          "avg": 1.5
+          "avg": 55.0
         },
         "air_temp_f": {
           "min": 90.0,
-          "max": 91.0,
-          "avg": 90.33
+          "max": 90.0,
+          "avg": 90.0
         },
         "wind_mph": {
           "min": 1.2,
@@ -87,8 +82,8 @@
         },
         "wind_gust_mph": {
           "min": 4.6,
-          "max": 5.8,
-          "avg": 5.2
+          "max": 4.6,
+          "avg": 4.6
         }
       }
     },
@@ -298,10 +293,16 @@
       "score_adjustment": 2.0
     },
     "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
+      "positioning": [
+        "runs",
+        "seams",
+        "structure"
+      ],
+      "tactics": [
+        "balanced nymph approach"
+      ],
       "score_adjustment": 0.0
     },
     "pressure_trend_read": {
@@ -331,7 +332,8 @@
       "nymphs",
       "midges",
       "soft hackles",
-      "opportunistic streamers"
+      "opportunistic streamers",
+      "balanced nymph approach"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
@@ -350,7 +352,7 @@
     "caution_notes": [],
     "reasoning": [
       "Water temperature is in a favorable trout range.",
-      "Light and pressure read is unavailable.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
