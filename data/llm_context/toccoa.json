@@ -22,27 +22,27 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 219.0,
-    "gage_height_ft": 1.17,
+    "flow_cfs": 216.0,
+    "gage_height_ft": 1.16,
     "turbidity": null,
-    "observed_at": "2026-09-01T15:30:00.000-04:00"
+    "observed_at": "2026-09-01T20:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.15,
+    "pressure_inhg": 30.16,
     "air_temp": {
-      "current_f": 89,
+      "current_f": 79,
       "low_f": 71.0,
       "high_f": 93.0
     },
     "sky_cover": {
       "min": 3,
       "max": 35,
-      "avg": 16.56
+      "avg": 16.71
     },
     "humidity": {
       "min": 46,
       "max": 88,
-      "avg": 69.98
+      "avg": 70.16
     },
     "rain": {
       "max_probability_percent": 15,
@@ -56,39 +56,7 @@
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-09-01",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 11,
-          "max": 11,
-          "avg": 11.0
-        },
-        "humidity": {
-          "min": 54,
-          "max": 54,
-          "avg": 54.0
-        },
-        "air_temp_f": {
-          "min": 87.0,
-          "max": 87.0,
-          "avg": 87.0
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 1.2,
-          "avg": 1.2
-        },
-        "wind_gust_mph": {
-          "min": 5.8,
-          "max": 5.8,
-          "avg": 5.8
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "morning": {
         "sky_cover": {
           "min": 6,
@@ -185,6 +153,110 @@
           "avg": 4.05
         }
       }
+    },
+    "day2": {
+      "date": "2026-09-02",
+      "morning": {
+        "sky_cover": {
+          "min": 9,
+          "max": 15,
+          "avg": 11.86
+        },
+        "humidity": {
+          "min": 83,
+          "max": 87,
+          "avg": 85.0
+        },
+        "rain_probability": {
+          "min": 2,
+          "max": 2,
+          "avg": 2.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 71.0,
+          "max": 75.0,
+          "avg": 73.0
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 3,
+          "max": 17,
+          "avg": 9.4
+        },
+        "humidity": {
+          "min": 52,
+          "max": 88,
+          "avg": 69.83
+        },
+        "rain_probability": {
+          "min": 4,
+          "max": 4,
+          "avg": 4.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 74.0,
+          "max": 90.0,
+          "avg": 83.0
+        },
+        "wind_mph": {
+          "min": 1.2,
+          "max": 1.2,
+          "avg": 1.2
+        },
+        "wind_gust_mph": {
+          "min": 1.2,
+          "max": 4.6,
+          "avg": 2.9
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 19,
+          "max": 24,
+          "avg": 21.4
+        },
+        "humidity": {
+          "min": 47,
+          "max": 59,
+          "avg": 51.4
+        },
+        "rain_probability": {
+          "min": 15,
+          "max": 15,
+          "avg": 15.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 86.0,
+          "max": 92.0,
+          "avg": 89.8
+        },
+        "wind_mph": {
+          "min": 0.0,
+          "max": 2.3,
+          "avg": 1.17
+        },
+        "wind_gust_mph": {
+          "min": 4.6,
+          "max": 5.8,
+          "avg": 5.2
+        }
+      }
     }
   },
   "stocking": {
@@ -269,7 +341,7 @@
   "angler_analysis": {
     "quality_score": 5.0,
     "quality_label": "Fair",
-    "best_window": "day1 morning",
+    "best_window": "day1 evening",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
