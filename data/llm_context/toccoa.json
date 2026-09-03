@@ -25,32 +25,32 @@
     "flow_cfs": 205.0,
     "gage_height_ft": 1.12,
     "turbidity": null,
-    "observed_at": "2026-09-03T12:30:00.000-04:00"
+    "observed_at": "2026-09-03T17:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.13,
+    "pressure_inhg": 30.08,
     "air_temp": {
-      "current_f": 91,
+      "current_f": 90,
       "low_f": 71.0,
-      "high_f": 93.0
+      "high_f": 92.0
     },
     "sky_cover": {
       "min": 12,
       "max": 38,
-      "avg": 23.64
+      "avg": 23.61
     },
     "humidity": {
-      "min": 48,
+      "min": 47,
       "max": 92,
-      "avg": 71.02
+      "avg": 70.9
     },
     "rain": {
       "max_probability_percent": 23,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 1.4,
-      "max_gust_mph": 8.1,
+      "avg_mph": 2.0,
+      "max_gust_mph": 9.2,
       "predominant_direction": ""
     }
   },
@@ -63,32 +63,32 @@
         "sky_cover": {
           "min": 28,
           "max": 32,
-          "avg": 29.25
+          "avg": 30.0
         },
         "humidity": {
-          "min": 48,
+          "min": 54,
           "max": 61,
-          "avg": 53.2
+          "avg": 57.5
         },
         "rain_probability": {
-          "min": 11,
-          "max": 19,
-          "avg": 14.8
+          "min": 15,
+          "max": 17,
+          "avg": 16.0
         },
         "air_temp_f": {
           "min": 86.0,
-          "max": 93.0,
-          "avg": 90.0
+          "max": 89.0,
+          "avg": 87.5
         },
         "wind_mph": {
           "min": 0.0,
-          "max": 1.2,
-          "avg": 0.6
+          "max": 0.0,
+          "avg": 0.0
         },
         "wind_gust_mph": {
           "min": 4.6,
-          "max": 6.9,
-          "avg": 5.77
+          "max": 5.8,
+          "avg": 5.2
         }
       }
     },
@@ -277,9 +277,9 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 5.0,
-    "quality_label": "Fair",
-    "best_window": "day1 morning",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
+    "best_window": "day1 evening",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
@@ -288,20 +288,17 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
       "positioning": [
-        "shade",
-        "deeper runs",
-        "undercut banks",
+        "runs",
+        "seams",
         "structure"
       ],
       "tactics": [
-        "smaller natural flies",
-        "careful drifts",
-        "less aggressive presentations"
+        "balanced nymph approach"
       ],
-      "score_adjustment": -1.0
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -321,36 +318,27 @@
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "shade",
-      "deeper runs",
-      "undercut banks",
+      "runs",
+      "seams",
       "structure"
     ],
     "recommended_tactics": [
-      "smaller natural flies",
-      "careful drifts",
-      "less aggressive presentations"
+      "balanced nymph approach"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell",
-      "zebra_midge",
-      "pheasant_tail"
+      "duracell"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
-      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
-      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
     },
-    "caution_notes": [
-      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
-    ],
+    "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "High pressure and low cloud cover make this fishable but technical.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
