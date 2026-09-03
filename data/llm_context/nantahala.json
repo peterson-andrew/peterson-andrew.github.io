@@ -23,19 +23,19 @@
   "weather_summary": {
     "pressure_inhg": null,
     "air_temp": {
-      "current_f": 79,
+      "current_f": 74,
       "low_f": 67.0,
       "high_f": 84.0
     },
     "sky_cover": {
       "min": 5,
       "max": 69,
-      "avg": 29.93
+      "avg": 30.55
     },
     "humidity": {
       "min": 59,
       "max": 87,
-      "avg": 75.76
+      "avg": 76.08
     },
     "rain": {
       "max_probability_percent": 33,
@@ -49,34 +49,7 @@
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-09-02",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 35,
-          "max": 35,
-          "avg": 35.0
-        },
-        "humidity": {
-          "min": 78,
-          "max": 78,
-          "avg": 78.0
-        },
-        "rain_probability": {
-          "min": 19,
-          "max": 19,
-          "avg": 19.0
-        },
-        "air_temp_f": {
-          "min": 77.0,
-          "max": 77.0,
-          "avg": 77.0
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "morning": {
         "sky_cover": {
           "min": 5,
@@ -87,6 +60,11 @@
           "min": 80,
           "max": 82,
           "avg": 81.0
+        },
+        "rain_probability": {
+          "min": 1,
+          "max": 1,
+          "avg": 1.0
         },
         "rain_inches": {
           "min": 0.0,
@@ -168,6 +146,110 @@
           "avg": 0.6
         }
       }
+    },
+    "day2": {
+      "date": "2026-09-03",
+      "morning": {
+        "sky_cover": {
+          "min": 11,
+          "max": 15,
+          "avg": 13.0
+        },
+        "humidity": {
+          "min": 84,
+          "max": 87,
+          "avg": 85.6
+        },
+        "rain_probability": {
+          "min": 0,
+          "max": 1,
+          "avg": 0.5
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 67.0,
+          "max": 69.0,
+          "avg": 68.0
+        },
+        "wind_gust_mph": {
+          "min": 3.5,
+          "max": 3.5,
+          "avg": 3.5
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 5,
+          "max": 21,
+          "avg": 11.83
+        },
+        "humidity": {
+          "min": 61,
+          "max": 87,
+          "avg": 75.83
+        },
+        "rain_probability": {
+          "min": 1,
+          "max": 2,
+          "avg": 1.5
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 69.0,
+          "max": 82.0,
+          "avg": 76.2
+        },
+        "wind_gust_mph": {
+          "min": 4.6,
+          "max": 5.8,
+          "avg": 5.0
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 33,
+          "max": 55,
+          "avg": 47.67
+        },
+        "humidity": {
+          "min": 59,
+          "max": 78,
+          "avg": 67.0
+        },
+        "rain_probability": {
+          "min": 18,
+          "max": 33,
+          "avg": 25.83
+        },
+        "rain_inches": {
+          "min": 0.01,
+          "max": 0.01,
+          "avg": 0.01
+        },
+        "air_temp_f": {
+          "min": 76.0,
+          "max": 83.0,
+          "avg": 79.6
+        },
+        "wind_mph": {
+          "min": 0.0,
+          "max": 1.2,
+          "avg": 0.6
+        },
+        "wind_gust_mph": {
+          "min": 3.5,
+          "max": 3.5,
+          "avg": 3.5
+        }
+      }
     }
   },
   "stocking": {
@@ -242,7 +324,7 @@
   "angler_analysis": {
     "quality_score": 5.0,
     "quality_label": "Fair",
-    "best_window": "day2 morning",
+    "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
