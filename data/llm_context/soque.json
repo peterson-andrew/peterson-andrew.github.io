@@ -22,93 +22,72 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 44.3,
-    "gage_height_ft": 3.35,
+    "flow_cfs": 43.4,
+    "gage_height_ft": 3.34,
     "turbidity": null,
-    "observed_at": "2026-09-04T01:00:00.000-04:00"
+    "observed_at": "2026-09-04T10:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.06,
+    "pressure_inhg": 30.1,
     "air_temp": {
-      "current_f": 73,
-      "low_f": 71.0,
+      "current_f": 85,
+      "low_f": 70.0,
       "high_f": 94.0
     },
     "sky_cover": {
-      "min": 2,
+      "min": 4,
       "max": 59,
-      "avg": 19.43
+      "avg": 20.76
     },
     "humidity": {
       "min": 44,
-      "max": 94,
-      "avg": 71.7
+      "max": 93,
+      "avg": 71.44
     },
     "rain": {
       "max_probability_percent": 39,
       "expected_inches": 0.09
     },
     "wind": {
-      "avg_mph": 2.0,
+      "avg_mph": 2.1,
       "max_gust_mph": 9.2,
-      "predominant_direction": ""
+      "predominant_direction": "SW"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-09-04",
-      "morning": {
-        "sky_cover": {
-          "min": 6,
-          "max": 19,
-          "avg": 12.67
-        },
-        "humidity": {
-          "min": 90,
-          "max": 91,
-          "avg": 90.5
-        },
-        "air_temp_f": {
-          "min": 71.0,
-          "max": 72.0,
-          "avg": 71.5
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 2,
-          "max": 8,
+          "min": 4,
+          "max": 6,
           "avg": 5.0
         },
         "humidity": {
           "min": 54,
-          "max": 94,
-          "avg": 73.0
+          "max": 60,
+          "avg": 57.0
         },
         "rain_probability": {
           "min": 2,
           "max": 2,
           "avg": 2.0
         },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
         "air_temp_f": {
-          "min": 75.0,
+          "min": 88.0,
           "max": 90.0,
-          "avg": 83.8
+          "avg": 89.0
         },
         "wind_mph": {
-          "min": 1.2,
+          "min": 2.3,
           "max": 3.5,
-          "avg": 2.33
+          "avg": 2.9
         },
         "wind_gust_mph": {
-          "min": 2.3,
+          "min": 5.8,
           "max": 8.1,
-          "avg": 4.64
+          "avg": 6.95
         }
       },
       "evening": {
@@ -328,7 +307,7 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 5.0,
+    "quality_score": 4.0,
     "quality_label": "Fair",
     "best_window": "day2 morning",
     "water_temp_read": {
@@ -339,17 +318,20 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
       "positioning": [
-        "runs",
-        "seams",
+        "shade",
+        "deeper runs",
+        "undercut banks",
         "structure"
       ],
       "tactics": [
-        "balanced nymph approach"
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -365,19 +347,32 @@
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "runs",
-      "seams",
+      "shade",
+      "deeper runs",
+      "undercut banks",
       "structure"
     ],
     "recommended_tactics": [
-      "balanced nymph approach"
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
     ],
-    "recommended_fly_keys": [],
-    "fly_reasoning": {},
-    "caution_notes": [],
+    "recommended_fly_keys": [
+      "zebra_midge",
+      "pheasant_tail",
+      "haresear"
+    ],
+    "fly_reasoning": {
+      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious.",
+      "haresear": "General-purpose natural nymph for seams and runs."
+    },
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
