@@ -23,28 +23,28 @@
   "weather_summary": {
     "pressure_inhg": null,
     "air_temp": {
-      "current_f": 82,
+      "current_f": 80,
       "low_f": 65.0,
       "high_f": 83.0
     },
     "sky_cover": {
       "min": 3,
       "max": 60,
-      "avg": 29.38
+      "avg": 27.41
     },
     "humidity": {
       "min": 60,
       "max": 89,
-      "avg": 76.36
+      "avg": 76.22
     },
     "rain": {
-      "max_probability_percent": 39,
+      "max_probability_percent": 29,
       "expected_inches": 0.01
     },
     "wind": {
-      "avg_mph": 1.3,
+      "avg_mph": 1.7,
       "max_gust_mph": 9.2,
-      "predominant_direction": "N"
+      "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
@@ -54,29 +54,24 @@
       "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 45,
-          "max": 59,
-          "avg": 54.0
+          "min": 53,
+          "max": 53,
+          "avg": 53.0
         },
         "humidity": {
-          "min": 64,
+          "min": 75,
           "max": 75,
-          "avg": 68.25
+          "avg": 75.0
         },
         "rain_probability": {
           "min": 19,
-          "max": 39,
-          "avg": 29.6
+          "max": 29,
+          "avg": 24.0
         },
         "air_temp_f": {
           "min": 78.0,
-          "max": 83.0,
-          "avg": 80.75
-        },
-        "wind_mph": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "max": 78.0,
+          "avg": 78.0
         }
       }
     },
