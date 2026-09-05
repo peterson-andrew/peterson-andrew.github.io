@@ -22,68 +22,42 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 43.4,
-    "gage_height_ft": 3.34,
+    "flow_cfs": 44.3,
+    "gage_height_ft": 3.35,
     "turbidity": null,
-    "observed_at": "2026-09-05T00:00:00.000-04:00"
+    "observed_at": "2026-09-05T05:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 29.99,
+    "pressure_inhg": 29.98,
     "air_temp": {
-      "current_f": 73,
-      "low_f": 69.0,
+      "current_f": 70,
+      "low_f": 67.0,
       "high_f": 96.0
     },
     "sky_cover": {
       "min": 3,
       "max": 68,
-      "avg": 32.02
+      "avg": 36.77
     },
     "humidity": {
       "min": 43,
       "max": 100,
-      "avg": 72.12
+      "avg": 70.78
     },
     "rain": {
       "max_probability_percent": 52,
       "expected_inches": 0.2
     },
     "wind": {
-      "avg_mph": 4.5,
+      "avg_mph": 4.9,
       "max_gust_mph": 20.7,
-      "predominant_direction": "NNW"
+      "predominant_direction": "NW"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-09-05",
-      "morning": {
-        "sky_cover": {
-          "min": 6,
-          "max": 18,
-          "avg": 11.75
-        },
-        "humidity": {
-          "min": 89,
-          "max": 91,
-          "avg": 90.0
-        },
-        "rain_probability": {
-          "min": 1,
-          "max": 1,
-          "avg": 1.0
-        },
-        "air_temp_f": {
-          "min": 71.0,
-          "max": 72.0,
-          "avg": 71.5
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 4.6,
-          "avg": 4.6
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
           "min": 3,
@@ -335,7 +309,7 @@
   "angler_analysis": {
     "quality_score": 5.0,
     "quality_label": "Fair",
-    "best_window": "day1 morning",
+    "best_window": "day1 evening",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
