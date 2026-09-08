@@ -22,35 +22,35 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 48.9,
-    "gage_height_ft": 3.4,
+    "flow_cfs": 45.2,
+    "gage_height_ft": 3.36,
     "turbidity": null,
-    "observed_at": "2026-09-08T12:00:00.000-04:00"
+    "observed_at": "2026-09-08T18:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.3,
+    "pressure_inhg": 30.25,
     "air_temp": {
-      "current_f": 86,
+      "current_f": 84,
       "low_f": 62.0,
-      "high_f": 89.0
+      "high_f": 90.0
     },
     "sky_cover": {
       "min": 8,
       "max": 43,
-      "avg": 22.44
+      "avg": 22.53
     },
     "humidity": {
       "min": 48,
       "max": 95,
-      "avg": 73.58
+      "avg": 73.89
     },
     "rain": {
       "max_probability_percent": 3,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 2.6,
-      "max_gust_mph": 11.5,
+      "avg_mph": 2.3,
+      "max_gust_mph": 9.2,
       "predominant_direction": "E"
     }
   },
@@ -61,34 +61,34 @@
       "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 14,
+          "min": 31,
           "max": 31,
-          "avg": 18.75
+          "avg": 31.0
         },
         "humidity": {
-          "min": 53,
+          "min": 58,
           "max": 58,
-          "avg": 55.0
+          "avg": 58.0
         },
         "rain_probability": {
           "min": 0,
-          "max": 1,
-          "avg": 0.5
+          "max": 0,
+          "avg": 0.0
         },
         "air_temp_f": {
           "min": 82.0,
-          "max": 84.0,
-          "avg": 83.0
+          "max": 82.0,
+          "avg": 82.0
         },
         "wind_mph": {
           "min": 3.5,
-          "max": 5.8,
-          "avg": 4.65
+          "max": 3.5,
+          "avg": 3.5
         },
         "wind_gust_mph": {
           "min": 9.2,
-          "max": 11.5,
-          "avg": 10.37
+          "max": 9.2,
+          "avg": 9.2
         }
       }
     },
@@ -263,7 +263,7 @@
   "angler_analysis": {
     "quality_score": 4.0,
     "quality_label": "Fair",
-    "best_window": "day1 morning",
+    "best_window": "day1 evening",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
