@@ -21,84 +21,58 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 74.5,
-    "flow_cfs": 70.4,
-    "gage_height_ft": 3.47,
-    "turbidity": 11.9,
-    "observed_at": "2026-09-09T01:00:00.000-04:00"
+    "water_temp_f": 72.7,
+    "flow_cfs": 75.5,
+    "gage_height_ft": 3.52,
+    "turbidity": 11.5,
+    "observed_at": "2026-09-09T10:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.29,
+    "pressure_inhg": 30.34,
     "air_temp": {
-      "current_f": 65,
-      "low_f": 63.0,
+      "current_f": 78,
+      "low_f": 66.0,
       "high_f": 89.0
     },
     "sky_cover": {
-      "min": 10,
+      "min": 11,
       "max": 48,
-      "avg": 22.7
+      "avg": 22.96
     },
     "humidity": {
       "min": 49,
-      "max": 92,
-      "avg": 73.11
+      "max": 97,
+      "avg": 74.09
     },
     "rain": {
-      "max_probability_percent": 6,
-      "expected_inches": 0.0
+      "max_probability_percent": 17,
+      "expected_inches": 0.05
     },
     "wind": {
       "avg_mph": 1.4,
-      "max_gust_mph": 8.1,
-      "predominant_direction": "NE"
+      "max_gust_mph": 6.9,
+      "predominant_direction": "E"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-09-09",
-      "morning": {
-        "sky_cover": {
-          "min": 10,
-          "max": 18,
-          "avg": 13.0
-        },
-        "humidity": {
-          "min": 89,
-          "max": 90,
-          "avg": 89.5
-        },
-        "air_temp_f": {
-          "min": 63.0,
-          "max": 64.0,
-          "avg": 63.5
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 17,
-          "max": 26,
-          "avg": 22.17
+          "min": 20,
+          "max": 21,
+          "avg": 20.5
         },
         "humidity": {
           "min": 58,
-          "max": 89,
-          "avg": 73.5
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "max": 64,
+          "avg": 61.0
         },
         "air_temp_f": {
-          "min": 64.0,
+          "min": 81.0,
           "max": 84.0,
-          "avg": 74.83
-        },
-        "wind_gust_mph": {
-          "min": 6.9,
-          "max": 8.1,
-          "avg": 7.7
+          "avg": 82.5
         }
       },
       "evening": {
