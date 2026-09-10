@@ -21,35 +21,35 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 75.0,
-    "flow_cfs": 70.4,
-    "gage_height_ft": 3.47,
-    "turbidity": 11.4,
-    "observed_at": "2026-09-09T22:00:00.000-04:00"
+    "water_temp_f": 72.3,
+    "flow_cfs": 65.5,
+    "gage_height_ft": 3.42,
+    "turbidity": 10.8,
+    "observed_at": "2026-09-10T08:00:00.000-04:00"
   },
   "weather_summary": {
     "pressure_inhg": 30.18,
     "air_temp": {
-      "current_f": 67,
-      "low_f": 66.0,
+      "current_f": 79,
+      "low_f": 69.0,
       "high_f": 89.0
     },
     "sky_cover": {
-      "min": 5,
-      "max": 70,
-      "avg": 26.09
+      "min": 12,
+      "max": 72,
+      "avg": 33.02
     },
     "humidity": {
       "min": 51,
-      "max": 98,
-      "avg": 77.23
+      "max": 100,
+      "avg": 78.57
     },
     "rain": {
-      "max_probability_percent": 58,
-      "expected_inches": 0.11
+      "max_probability_percent": 66,
+      "expected_inches": 0.21
     },
     "wind": {
-      "avg_mph": 1.0,
+      "avg_mph": 1.3,
       "max_gust_mph": 6.9,
       "predominant_direction": ""
     }
@@ -57,58 +57,32 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-09-10",
-      "morning": {
+      "morning": {},
+      "afternoon": {
         "sky_cover": {
-          "min": 5,
-          "max": 8,
-          "avg": 6.67
+          "min": 12,
+          "max": 15,
+          "avg": 13.5
         },
         "humidity": {
-          "min": 89,
-          "max": 89,
-          "avg": 89.0
+          "min": 60,
+          "max": 67,
+          "avg": 63.5
         },
         "air_temp_f": {
-          "min": 66.0,
-          "max": 66.0,
-          "avg": 66.0
+          "min": 82.0,
+          "max": 86.0,
+          "avg": 84.0
+        },
+        "wind_mph": {
+          "min": 2.3,
+          "max": 2.3,
+          "avg": 2.3
         },
         "wind_gust_mph": {
           "min": 4.6,
           "max": 4.6,
           "avg": 4.6
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 9,
-          "max": 15,
-          "avg": 12.67
-        },
-        "humidity": {
-          "min": 60,
-          "max": 91,
-          "avg": 76.5
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 70.0,
-          "max": 86.0,
-          "avg": 78.4
-        },
-        "wind_mph": {
-          "min": 0.0,
-          "max": 2.3,
-          "avg": 1.17
-        },
-        "wind_gust_mph": {
-          "min": 3.5,
-          "max": 4.6,
-          "avg": 4.05
         }
       },
       "evening": {
