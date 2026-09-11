@@ -22,34 +22,34 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 37.6,
-    "gage_height_ft": 3.27,
+    "flow_cfs": 38.4,
+    "gage_height_ft": 3.28,
     "turbidity": null,
-    "observed_at": "2026-09-11T13:00:00.000-04:00"
+    "observed_at": "2026-09-11T17:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.0,
+    "pressure_inhg": 29.93,
     "air_temp": {
-      "current_f": 90,
+      "current_f": 87,
       "low_f": 68.0,
-      "high_f": 91.0
+      "high_f": 88.0
     },
     "sky_cover": {
       "min": 14,
       "max": 95,
-      "avg": 60.22
+      "avg": 60.8
     },
     "humidity": {
-      "min": 49,
+      "min": 59,
       "max": 100,
-      "avg": 79.09
+      "avg": 81.73
     },
     "rain": {
       "max_probability_percent": 92,
       "expected_inches": 0.34
     },
     "wind": {
-      "avg_mph": 2.2,
+      "avg_mph": 2.1,
       "max_gust_mph": 10.4,
       "predominant_direction": "SSW"
     }
@@ -61,34 +61,29 @@
       "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 33,
+          "min": 79,
           "max": 79,
-          "avg": 49.0
+          "avg": 79.0
         },
         "humidity": {
-          "min": 49,
+          "min": 68,
           "max": 68,
-          "avg": 55.6
-        },
-        "rain_probability": {
-          "min": 10,
-          "max": 21,
-          "avg": 15.75
+          "avg": 68.0
         },
         "air_temp_f": {
           "min": 83.0,
-          "max": 91.0,
-          "avg": 88.0
+          "max": 83.0,
+          "avg": 83.0
         },
         "wind_mph": {
           "min": 3.5,
-          "max": 4.6,
-          "avg": 4.05
+          "max": 3.5,
+          "avg": 3.5
         },
         "wind_gust_mph": {
           "min": 8.1,
-          "max": 9.2,
-          "avg": 8.65
+          "max": 8.1,
+          "avg": 8.1
         }
       }
     },
@@ -268,7 +263,7 @@
   "angler_analysis": {
     "quality_score": 6.0,
     "quality_label": "Fair to good",
-    "best_window": "day1 evening",
+    "best_window": "day2 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",

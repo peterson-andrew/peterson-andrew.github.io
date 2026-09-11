@@ -22,27 +22,27 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 181.0,
-    "gage_height_ft": 1.02,
+    "flow_cfs": 183.0,
+    "gage_height_ft": 1.03,
     "turbidity": null,
-    "observed_at": "2026-09-11T13:30:00.000-04:00"
+    "observed_at": "2026-09-11T16:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.04,
+    "pressure_inhg": 29.98,
     "air_temp": {
-      "current_f": 88,
+      "current_f": 86,
       "low_f": 67.0,
-      "high_f": 90.0
+      "high_f": 86.0
     },
     "sky_cover": {
-      "min": 24,
+      "min": 20,
       "max": 92,
-      "avg": 60.73
+      "avg": 58.25
     },
     "humidity": {
-      "min": 47,
+      "min": 59,
       "max": 100,
-      "avg": 79.96
+      "avg": 81.48
     },
     "rain": {
       "max_probability_percent": 85,
@@ -51,7 +51,7 @@
     "wind": {
       "avg_mph": 2.5,
       "max_gust_mph": 10.4,
-      "predominant_direction": ""
+      "predominant_direction": "S"
     }
   },
   "forecast_breakdown": {
@@ -61,34 +61,29 @@
       "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 36,
+          "min": 71,
           "max": 71,
-          "avg": 53.2
+          "avg": 71.0
         },
         "humidity": {
-          "min": 47,
+          "min": 65,
           "max": 65,
-          "avg": 54.0
+          "avg": 65.0
         },
         "rain_probability": {
-          "min": 9,
-          "max": 26,
-          "avg": 18.2
+          "min": 24,
+          "max": 24,
+          "avg": 24.0
         },
         "air_temp_f": {
           "min": 82.0,
-          "max": 90.0,
-          "avg": 86.8
-        },
-        "wind_mph": {
-          "min": 3.5,
-          "max": 3.5,
-          "avg": 3.5
+          "max": 82.0,
+          "avg": 82.0
         },
         "wind_gust_mph": {
-          "min": 6.9,
+          "min": 9.2,
           "max": 9.2,
-          "avg": 8.07
+          "avg": 9.2
         }
       }
     },
@@ -282,8 +277,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 7.0,
-    "quality_label": "Good",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
     "best_window": "day1 evening",
     "water_temp_read": {
       "status": "unknown",
@@ -293,20 +288,17 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "cloudy",
-      "read": "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
       "positioning": [
         "runs",
-        "riffle edges",
-        "banks",
-        "feeding lanes"
+        "seams",
+        "structure"
       ],
       "tactics": [
-        "soft hackles",
-        "streamers",
-        "nymphs"
+        "balanced nymph approach"
       ],
-      "score_adjustment": 1.0
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -327,31 +319,26 @@
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
       "runs",
-      "riffle edges",
-      "banks",
-      "feeding lanes"
+      "seams",
+      "structure"
     ],
     "recommended_tactics": [
-      "soft hackles",
-      "streamers",
-      "nymphs"
+      "balanced nymph approach"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell",
-      "woolly_bugger"
+      "duracell"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
-      "woolly_bugger": "Useful if clouds, stain, or low light make fish more willing to chase."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
     },
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
