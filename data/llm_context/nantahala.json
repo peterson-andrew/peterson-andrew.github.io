@@ -23,19 +23,19 @@
   "weather_summary": {
     "pressure_inhg": null,
     "air_temp": {
-      "current_f": 63,
+      "current_f": 74,
       "low_f": 62.0,
       "high_f": 81.0
     },
     "sky_cover": {
-      "min": 5,
+      "min": 15,
       "max": 86,
-      "avg": 57.75
+      "avg": 61.07
     },
     "humidity": {
       "min": 64,
       "max": 100,
-      "avg": 89.32
+      "avg": 90.34
     },
     "rain": {
       "max_probability_percent": 76,
@@ -50,48 +50,27 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-09-11",
-      "morning": {
-        "sky_cover": {
-          "min": 34,
-          "max": 39,
-          "avg": 36.67
-        },
-        "humidity": {
-          "min": 89,
-          "max": 90,
-          "avg": 89.5
-        },
-        "air_temp_f": {
-          "min": 62.0,
-          "max": 62.0,
-          "avg": 62.0
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 5,
-          "max": 31,
-          "avg": 18.0
+          "min": 15,
+          "max": 19,
+          "avg": 17.0
         },
         "humidity": {
           "min": 67,
-          "max": 90,
-          "avg": 77.4
+          "max": 69,
+          "avg": 68.0
         },
         "rain_probability": {
           "min": 3,
           "max": 5,
           "avg": 4.0
         },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
         "air_temp_f": {
-          "min": 65.0,
+          "min": 77.0,
           "max": 79.0,
-          "avg": 72.6
+          "avg": 78.0
         },
         "wind_mph": {
           "min": 1.2,
@@ -99,9 +78,9 @@
           "avg": 1.2
         },
         "wind_gust_mph": {
-          "min": 2.3,
+          "min": 4.6,
           "max": 4.6,
-          "avg": 3.47
+          "avg": 4.6
         }
       },
       "evening": {
@@ -324,7 +303,7 @@
   "angler_analysis": {
     "quality_score": 5.0,
     "quality_label": "Fair",
-    "best_window": "day1 morning",
+    "best_window": "day1 evening",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
