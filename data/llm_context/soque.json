@@ -22,99 +22,63 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 36.1,
-    "gage_height_ft": 3.25,
+    "flow_cfs": 37.6,
+    "gage_height_ft": 3.27,
     "turbidity": null,
-    "observed_at": "2026-09-11T10:00:00.000-04:00"
+    "observed_at": "2026-09-11T13:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 30.0,
     "air_temp": {
-      "current_f": 85,
-      "low_f": 67.0,
-      "high_f": 90.0
+      "current_f": 90,
+      "low_f": 68.0,
+      "high_f": 91.0
     },
     "sky_cover": {
-      "min": 6,
-      "max": 91,
-      "avg": 61.2
+      "min": 14,
+      "max": 95,
+      "avg": 60.22
     },
     "humidity": {
       "min": 49,
       "max": 100,
-      "avg": 78.92
+      "avg": 79.09
     },
     "rain": {
-      "max_probability_percent": 86,
-      "expected_inches": 0.27
+      "max_probability_percent": 92,
+      "expected_inches": 0.34
     },
     "wind": {
-      "avg_mph": 2.3,
+      "avg_mph": 2.2,
       "max_gust_mph": 10.4,
-      "predominant_direction": "W"
+      "predominant_direction": "SSW"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-09-11",
       "morning": {},
-      "afternoon": {
-        "sky_cover": {
-          "min": 6,
-          "max": 8,
-          "avg": 7.0
-        },
-        "humidity": {
-          "min": 53,
-          "max": 57,
-          "avg": 55.0
-        },
-        "rain_probability": {
-          "min": 1,
-          "max": 6,
-          "avg": 3.5
-        },
-        "air_temp_f": {
-          "min": 87.0,
-          "max": 89.0,
-          "avg": 88.0
-        },
-        "wind_mph": {
-          "min": 2.3,
-          "max": 3.5,
-          "avg": 2.9
-        },
-        "wind_gust_mph": {
-          "min": 5.8,
-          "max": 6.9,
-          "avg": 6.35
-        }
-      },
+      "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 16,
-          "max": 50,
-          "avg": 36.4
+          "min": 33,
+          "max": 79,
+          "avg": 49.0
         },
         "humidity": {
           "min": 49,
           "max": 68,
-          "avg": 55.67
+          "avg": 55.6
         },
         "rain_probability": {
-          "min": 11,
-          "max": 16,
-          "avg": 13.0
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "min": 10,
+          "max": 21,
+          "avg": 15.75
         },
         "air_temp_f": {
-          "min": 82.0,
-          "max": 90.0,
-          "avg": 87.0
+          "min": 83.0,
+          "max": 91.0,
+          "avg": 88.0
         },
         "wind_mph": {
           "min": 3.5,
@@ -124,7 +88,7 @@
         "wind_gust_mph": {
           "min": 8.1,
           "max": 9.2,
-          "avg": 8.47
+          "avg": 8.65
         }
       }
     },
@@ -132,88 +96,93 @@
       "date": "2026-09-11",
       "morning": {
         "sky_cover": {
-          "min": 69,
-          "max": 85,
-          "avg": 78.57
+          "min": 63,
+          "max": 93,
+          "avg": 79.57
         },
         "rain_probability": {
-          "min": 23,
-          "max": 47,
-          "avg": 35.0
+          "min": 20,
+          "max": 51,
+          "avg": 31.83
         },
         "rain_inches": {
-          "min": 0.06,
-          "max": 0.06,
-          "avg": 0.06
+          "min": 0.01,
+          "max": 0.01,
+          "avg": 0.01
         },
         "air_temp_f": {
-          "min": 68.0,
+          "min": 69.0,
           "max": 70.0,
-          "avg": 69.0
+          "avg": 69.5
+        },
+        "wind_gust_mph": {
+          "min": 1.2,
+          "max": 2.3,
+          "avg": 1.75
         }
       },
       "afternoon": {
         "sky_cover": {
-          "min": 75,
-          "max": 83,
-          "avg": 79.33
+          "min": 86,
+          "max": 95,
+          "avg": 89.5
         },
         "humidity": {
-          "min": 87,
-          "max": 99,
-          "avg": 93.0
+          "min": 93,
+          "max": 95,
+          "avg": 94.0
         },
         "rain_probability": {
-          "min": 45,
-          "max": 54,
-          "avg": 49.17
+          "min": 50,
+          "max": 92,
+          "avg": 68.0
         },
         "rain_inches": {
-          "min": 0.1,
-          "max": 0.1,
-          "avg": 0.1
+          "min": 0.34,
+          "max": 0.34,
+          "avg": 0.34
         },
         "air_temp_f": {
-          "min": 69.0,
-          "max": 79.0,
-          "avg": 74.33
+          "min": 71.0,
+          "max": 77.0,
+          "avg": 74.4
         },
         "wind_mph": {
           "min": 1.2,
           "max": 4.6,
-          "avg": 2.9
+          "avg": 3.1
         },
         "wind_gust_mph": {
           "min": 3.5,
           "max": 9.2,
-          "avg": 6.46
+          "avg": 6.65
         }
       },
       "evening": {
         "sky_cover": {
-          "min": 73,
-          "max": 91,
-          "avg": 81.17
+          "min": 62,
+          "max": 86,
+          "avg": 76.8
         },
         "humidity": {
           "min": 82,
-          "max": 93,
-          "avg": 86.2
+          "max": 87,
+          "avg": 85.0
         },
         "rain_probability": {
-          "min": 59,
-          "max": 86,
-          "avg": 70.5
+          "min": 42,
+          "max": 79,
+          "avg": 63.5
         },
         "rain_inches": {
-          "min": 0.27,
-          "max": 0.27,
-          "avg": 0.27
+          "min": 0.2,
+          "max": 0.2,
+          "avg": 0.2
         },
         "air_temp_f": {
-          "min": 77.0,
+          "min": 79.0,
           "max": 81.0,
-          "avg": 79.33
+          "avg": 80.0
         },
         "wind_mph": {
           "min": 2.3,
@@ -223,7 +192,7 @@
         "wind_gust_mph": {
           "min": 5.8,
           "max": 10.4,
-          "avg": 7.8
+          "avg": 8.38
         }
       }
     }
@@ -297,8 +266,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 5.0,
-    "quality_label": "Fair",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
     "best_window": "day1 evening",
     "water_temp_read": {
       "status": "unknown",
@@ -308,11 +277,20 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
-      "score_adjustment": 0.0
+      "status": "cloudy",
+      "read": "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
+      "positioning": [
+        "runs",
+        "riffle edges",
+        "banks",
+        "feeding lanes"
+      ],
+      "tactics": [
+        "soft hackles",
+        "streamers",
+        "nymphs"
+      ],
+      "score_adjustment": 1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -327,14 +305,29 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [],
-    "recommended_tactics": [],
-    "recommended_fly_keys": [],
-    "fly_reasoning": {},
+    "likely_trout_positioning": [
+      "runs",
+      "riffle edges",
+      "banks",
+      "feeding lanes"
+    ],
+    "recommended_tactics": [
+      "soft hackles",
+      "streamers",
+      "nymphs"
+    ],
+    "recommended_fly_keys": [
+      "woolly_bugger",
+      "duracell"
+    ],
+    "fly_reasoning": {
+      "woolly_bugger": "Useful if clouds, stain, or low light make fish more willing to chase.",
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+    },
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure read is unavailable.",
+      "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
