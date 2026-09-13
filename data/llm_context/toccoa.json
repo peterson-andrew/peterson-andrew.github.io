@@ -22,36 +22,36 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 227.0,
-    "gage_height_ft": 1.2,
+    "flow_cfs": 225.0,
+    "gage_height_ft": 1.19,
     "turbidity": null,
-    "observed_at": "2026-09-13T13:30:00.000-04:00"
+    "observed_at": "2026-09-13T15:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.1,
+    "pressure_inhg": 30.07,
     "air_temp": {
-      "current_f": 85,
+      "current_f": 82,
       "low_f": 64.0,
       "high_f": 90.0
     },
     "sky_cover": {
       "min": 1,
       "max": 30,
-      "avg": 15.12
+      "avg": 15.55
     },
     "humidity": {
       "min": 48,
-      "max": 98,
-      "avg": 74.44
+      "max": 99,
+      "avg": 76.0
     },
     "rain": {
       "max_probability_percent": 10,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 3.2,
+      "avg_mph": 3.3,
       "max_gust_mph": 15.0,
-      "predominant_direction": "NW"
+      "predominant_direction": "N"
     }
   },
   "forecast_breakdown": {
@@ -62,28 +62,28 @@
       "evening": {
         "sky_cover": {
           "min": 1,
-          "max": 14,
-          "avg": 9.0
+          "max": 7,
+          "avg": 4.0
         },
         "humidity": {
-          "min": 50,
-          "max": 58,
-          "avg": 53.4
+          "min": 61,
+          "max": 66,
+          "avg": 63.5
         },
         "air_temp_f": {
-          "min": 82.0,
-          "max": 87.0,
-          "avg": 85.0
+          "min": 79.0,
+          "max": 81.0,
+          "avg": 80.0
         },
         "wind_mph": {
           "min": 3.5,
-          "max": 3.5,
-          "avg": 3.5
+          "max": 4.6,
+          "avg": 4.05
         },
         "wind_gust_mph": {
-          "min": 9.2,
-          "max": 9.2,
-          "avg": 9.2
+          "min": 5.8,
+          "max": 6.9,
+          "avg": 6.35
         }
       }
     },
@@ -96,9 +96,9 @@
           "avg": 18.0
         },
         "humidity": {
-          "min": 93,
-          "max": 98,
-          "avg": 96.0
+          "min": 95,
+          "max": 99,
+          "avg": 97.0
         },
         "rain_inches": {
           "min": 0.0,
@@ -124,8 +124,8 @@
         },
         "humidity": {
           "min": 54,
-          "max": 97,
-          "avg": 75.0
+          "max": 98,
+          "avg": 75.5
         },
         "rain_probability": {
           "min": 0,
@@ -139,8 +139,8 @@
         },
         "air_temp_f": {
           "min": 68.0,
-          "max": 86.0,
-          "avg": 78.4
+          "max": 87.0,
+          "avg": 78.6
         },
         "wind_mph": {
           "min": 1.2,
@@ -162,7 +162,7 @@
         "humidity": {
           "min": 48,
           "max": 58,
-          "avg": 51.67
+          "avg": 51.5
         },
         "rain_probability": {
           "min": 1,
@@ -177,7 +177,7 @@
         "air_temp_f": {
           "min": 85.0,
           "max": 90.0,
-          "avg": 87.83
+          "avg": 88.0
         },
         "wind_mph": {
           "min": 3.5,
@@ -277,8 +277,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 5.0,
-    "quality_label": "Fair",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
     "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
@@ -288,20 +288,17 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
       "positioning": [
-        "shade",
-        "deeper runs",
-        "undercut banks",
+        "runs",
+        "seams",
         "structure"
       ],
       "tactics": [
-        "smaller natural flies",
-        "careful drifts",
-        "less aggressive presentations"
+        "balanced nymph approach"
       ],
-      "score_adjustment": -1.0
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -321,36 +318,27 @@
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "shade",
-      "deeper runs",
-      "undercut banks",
+      "runs",
+      "seams",
       "structure"
     ],
     "recommended_tactics": [
-      "smaller natural flies",
-      "careful drifts",
-      "less aggressive presentations"
+      "balanced nymph approach"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell",
-      "zebra_midge",
-      "pheasant_tail"
+      "duracell"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
-      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
-      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
     },
-    "caution_notes": [
-      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
-    ],
+    "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "High pressure and low cloud cover make this fishable but technical.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
