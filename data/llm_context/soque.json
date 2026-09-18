@@ -22,73 +22,41 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 46.1,
-    "gage_height_ft": 3.37,
+    "flow_cfs": 45.2,
+    "gage_height_ft": 3.36,
     "turbidity": null,
-    "observed_at": "2026-09-17T16:00:00.000-04:00"
+    "observed_at": "2026-09-17T22:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.24,
+    "pressure_inhg": 30.25,
     "air_temp": {
-      "current_f": 88,
+      "current_f": 76,
       "low_f": 68.0,
       "high_f": 93.0
     },
     "sky_cover": {
       "min": 3,
       "max": 78,
-      "avg": 29.29
+      "avg": 32.76
     },
     "humidity": {
       "min": 44,
       "max": 96,
-      "avg": 73.22
+      "avg": 74.85
     },
     "rain": {
       "max_probability_percent": 66,
       "expected_inches": 0.3
     },
     "wind": {
-      "avg_mph": 1.9,
+      "avg_mph": 2.2,
       "max_gust_mph": 8.1,
-      "predominant_direction": "SE"
+      "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-09-17",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 19,
-          "max": 19,
-          "avg": 19.0
-        },
-        "humidity": {
-          "min": 55,
-          "max": 55,
-          "avg": 55.0
-        },
-        "air_temp_f": {
-          "min": 85.0,
-          "max": 85.0,
-          "avg": 85.0
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 1.2,
-          "avg": 1.2
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 4.6,
-          "avg": 4.6
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "morning": {
         "sky_cover": {
           "min": 3,
@@ -200,6 +168,105 @@
           "avg": 5.8
         }
       }
+    },
+    "day2": {
+      "date": "2026-09-18",
+      "morning": {
+        "sky_cover": {
+          "min": 14,
+          "max": 39,
+          "avg": 28.67
+        },
+        "humidity": {
+          "min": 94,
+          "max": 95,
+          "avg": 94.5
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 69.0,
+          "max": 71.0,
+          "avg": 70.0
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 14,
+          "max": 34,
+          "avg": 21.83
+        },
+        "humidity": {
+          "min": 57,
+          "max": 96,
+          "avg": 75.83
+        },
+        "rain_probability": {
+          "min": 1,
+          "max": 2,
+          "avg": 1.5
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 73.0,
+          "max": 89.0,
+          "avg": 82.0
+        },
+        "wind_mph": {
+          "min": 2.3,
+          "max": 3.5,
+          "avg": 2.9
+        },
+        "wind_gust_mph": {
+          "min": 5.8,
+          "max": 6.9,
+          "avg": 6.35
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 56,
+          "max": 78,
+          "avg": 69.67
+        },
+        "humidity": {
+          "min": 56,
+          "max": 81,
+          "avg": 66.0
+        },
+        "rain_probability": {
+          "min": 34,
+          "max": 66,
+          "avg": 54.33
+        },
+        "rain_inches": {
+          "min": 0.3,
+          "max": 0.3,
+          "avg": 0.3
+        },
+        "air_temp_f": {
+          "min": 79.0,
+          "max": 87.0,
+          "avg": 83.25
+        },
+        "wind_mph": {
+          "min": 2.3,
+          "max": 2.3,
+          "avg": 2.3
+        },
+        "wind_gust_mph": {
+          "min": 6.9,
+          "max": 8.1,
+          "avg": 7.5
+        }
+      }
     }
   },
   "stocking": {
@@ -273,7 +340,7 @@
   "angler_analysis": {
     "quality_score": 4.0,
     "quality_label": "Fair",
-    "best_window": "day2 morning",
+    "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
