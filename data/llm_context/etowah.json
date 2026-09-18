@@ -21,28 +21,28 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 74.8,
+    "water_temp_f": 73.6,
     "flow_cfs": 76.5,
     "gage_height_ft": 3.53,
-    "turbidity": 16.2,
-    "observed_at": "2026-09-18T03:00:00.000-04:00"
+    "turbidity": 16.4,
+    "observed_at": "2026-09-18T08:00:00.000-04:00"
   },
   "weather_summary": {
     "pressure_inhg": 30.23,
     "air_temp": {
-      "current_f": 70,
-      "low_f": 69.0,
+      "current_f": 86,
+      "low_f": 68.0,
       "high_f": 94.0
     },
     "sky_cover": {
-      "min": 4,
+      "min": 6,
       "max": 79,
-      "avg": 31.23
+      "avg": 35.82
     },
     "humidity": {
       "min": 46,
-      "max": 99,
-      "avg": 75.0
+      "max": 100,
+      "avg": 76.85
     },
     "rain": {
       "max_probability_percent": 44,
@@ -57,53 +57,27 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-09-18",
-      "morning": {
+      "morning": {},
+      "afternoon": {
         "sky_cover": {
-          "min": 7,
-          "max": 8,
+          "min": 6,
+          "max": 9,
           "avg": 7.5
         },
         "humidity": {
-          "min": 85,
-          "max": 85,
-          "avg": 85.0
-        },
-        "air_temp_f": {
-          "min": 69.0,
-          "max": 69.0,
-          "avg": 69.0
-        },
-        "wind_gust_mph": {
-          "min": 5.8,
-          "max": 5.8,
-          "avg": 5.8
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 4,
-          "max": 9,
-          "avg": 6.4
-        },
-        "humidity": {
           "min": 50,
-          "max": 86,
-          "avg": 67.17
+          "max": 54,
+          "avg": 52.0
         },
         "rain_probability": {
           "min": 2,
           "max": 3,
           "avg": 2.5
         },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
         "air_temp_f": {
-          "min": 73.0,
+          "min": 89.0,
           "max": 91.0,
-          "avg": 83.6
+          "avg": 90.0
         },
         "wind_gust_mph": {
           "min": 6.9,
@@ -329,7 +303,7 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 1.0,
+    "quality_score": 2.0,
     "quality_label": "Tough",
     "best_window": "day2 morning",
     "water_temp_read": {
@@ -345,20 +319,17 @@
       "score_adjustment": -4.0
     },
     "light_pressure_read": {
-      "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
       "positioning": [
-        "shade",
-        "deeper runs",
-        "undercut banks",
+        "runs",
+        "seams",
         "structure"
       ],
       "tactics": [
-        "smaller natural flies",
-        "careful drifts",
-        "less aggressive presentations"
+        "balanced nymph approach"
       ],
-      "score_adjustment": -1.0
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -380,38 +351,30 @@
     "likely_trout_positioning": [
       "cold-water refuge",
       "oxygenated water",
-      "shade",
-      "deeper runs",
-      "undercut banks",
+      "runs",
+      "seams",
       "structure"
     ],
     "recommended_tactics": [
       "consider not targeting trout",
-      "smaller natural flies",
-      "careful drifts",
-      "less aggressive presentations"
+      "balanced nymph approach"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell",
-      "zebra_midge",
-      "pheasant_tail"
+      "duracell"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
-      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
-      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
     },
     "caution_notes": [
-      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving.",
       "Warm water may increase trout stress."
     ],
     "reasoning": [
       "Water is very warm for trout.",
-      "High pressure and low cloud cover make this fishable but technical.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
