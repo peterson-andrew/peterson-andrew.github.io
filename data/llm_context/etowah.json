@@ -21,35 +21,35 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 75.7,
-    "flow_cfs": 73.4,
-    "gage_height_ft": 3.5,
-    "turbidity": 14.9,
-    "observed_at": "2026-09-19T01:00:00.000-04:00"
+    "water_temp_f": 74.7,
+    "flow_cfs": 70.4,
+    "gage_height_ft": 3.47,
+    "turbidity": 15.0,
+    "observed_at": "2026-09-19T09:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.08,
+    "pressure_inhg": 30.11,
     "air_temp": {
-      "current_f": 70,
-      "low_f": 69.0,
+      "current_f": 77,
+      "low_f": 67.0,
       "high_f": 90.0
     },
     "sky_cover": {
-      "min": 8,
+      "min": 16,
       "max": 57,
-      "avg": 32.85
+      "avg": 33.92
     },
     "humidity": {
       "min": 56,
-      "max": 99,
-      "avg": 81.3
+      "max": 100,
+      "avg": 81.36
     },
     "rain": {
       "max_probability_percent": 38,
       "expected_inches": 0.09
     },
     "wind": {
-      "avg_mph": 1.7,
+      "avg_mph": 1.3,
       "max_gust_mph": 8.1,
       "predominant_direction": ""
     }
@@ -57,53 +57,27 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-09-19",
-      "morning": {
-        "sky_cover": {
-          "min": 17,
-          "max": 25,
-          "avg": 21.0
-        },
-        "humidity": {
-          "min": 92,
-          "max": 93,
-          "avg": 92.5
-        },
-        "rain_probability": {
-          "min": 1,
-          "max": 2,
-          "avg": 1.5
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 8,
+          "min": 16,
           "max": 20,
-          "avg": 14.0
+          "avg": 17.67
         },
         "humidity": {
           "min": 60,
-          "max": 93,
-          "avg": 75.83
+          "max": 69,
+          "avg": 64.0
         },
         "rain_probability": {
-          "min": 2,
+          "min": 4,
           "max": 4,
-          "avg": 3.0
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "avg": 4.0
         },
         "air_temp_f": {
-          "min": 72.0,
+          "min": 83.0,
           "max": 87.0,
-          "avg": 80.8
-        },
-        "wind_gust_mph": {
-          "min": 5.8,
-          "max": 5.8,
-          "avg": 5.8
+          "avg": 85.0
         }
       },
       "evening": {
@@ -319,7 +293,7 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 2.0,
+    "quality_score": 1.0,
     "quality_label": "Tough",
     "best_window": "day2 morning",
     "water_temp_read": {
@@ -335,17 +309,20 @@
       "score_adjustment": -4.0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
       "positioning": [
-        "runs",
-        "seams",
+        "shade",
+        "deeper runs",
+        "undercut banks",
         "structure"
       ],
       "tactics": [
-        "balanced nymph approach"
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -367,30 +344,38 @@
     "likely_trout_positioning": [
       "cold-water refuge",
       "oxygenated water",
-      "runs",
-      "seams",
+      "shade",
+      "deeper runs",
+      "undercut banks",
       "structure"
     ],
     "recommended_tactics": [
       "consider not targeting trout",
-      "balanced nymph approach"
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
       "squirmy_worm",
-      "duracell"
+      "duracell",
+      "zebra_midge",
+      "pheasant_tail"
     ],
     "fly_reasoning": {
       "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
       "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
+      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
     },
     "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving.",
       "Warm water may increase trout stress."
     ],
     "reasoning": [
       "Water is very warm for trout.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
