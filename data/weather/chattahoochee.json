@@ -1,22 +1,22 @@
 {
   "river_key": "chattahoochee",
   "river_name": "Chattahoochee River",
-  "generated_at_utc": "2026-09-22T19:17:39.507677+00:00",
+  "generated_at_utc": "2026-09-22T22:26:47.692704+00:00",
   "current": {
     "latitude": 34.1567,
     "longitude": -84.0784,
-    "forecast_time": "2026-09-22T15:00:00-04:00",
-    "air_temp_f": 84,
+    "forecast_time": "2026-09-22T18:00:00-04:00",
+    "air_temp_f": 81,
     "temperature_unit": "F",
     "wind_speed": "5 mph",
     "wind_direction": "NE",
     "short_forecast": "Chance Showers And Thunderstorms",
     "pressure_station": "KCNI",
-    "pressure_mb": 1017.6,
-    "pressure_inhg": 30.05
+    "pressure_mb": 1016.9,
+    "pressure_inhg": 30.03
   },
   "pressure_trend": {
-    "current_inhg": 30.05,
+    "current_inhg": 30.03,
     "previous_inhg": null,
     "change_since_last_run": null,
     "trend": "unknown"
@@ -26,14 +26,6 @@
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-09-22T20:00:00+00:00",
-          "value": 55
-        },
-        {
-          "time": "2026-09-22T21:00:00+00:00",
-          "value": 66
-        },
         {
           "time": "2026-09-22T23:00:00+00:00",
           "value": 77
@@ -209,30 +201,30 @@
         {
           "time": "2026-09-24T19:00:00+00:00",
           "value": 62
+        },
+        {
+          "time": "2026-09-24T20:00:00+00:00",
+          "value": 56
+        },
+        {
+          "time": "2026-09-24T21:00:00+00:00",
+          "value": 50
+        },
+        {
+          "time": "2026-09-24T22:00:00+00:00",
+          "value": 45
         }
       ],
       "summary": {
-        "min": 51,
+        "min": 45,
         "max": 91,
-        "avg": 75.02
+        "avg": 74.06
       }
     },
     "relativeHumidity": {
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-09-22T20:00:00+00:00",
-          "value": 65
-        },
-        {
-          "time": "2026-09-22T21:00:00+00:00",
-          "value": 69
-        },
-        {
-          "time": "2026-09-22T22:00:00+00:00",
-          "value": 77
-        },
         {
           "time": "2026-09-22T23:00:00+00:00",
           "value": 83
@@ -332,30 +324,26 @@
         {
           "time": "2026-09-24T19:00:00+00:00",
           "value": 86
+        },
+        {
+          "time": "2026-09-24T20:00:00+00:00",
+          "value": 84
+        },
+        {
+          "time": "2026-09-24T21:00:00+00:00",
+          "value": 83
         }
       ],
       "summary": {
-        "min": 65,
+        "min": 83,
         "max": 100,
-        "avg": 91.61
+        "avg": 93.37
       }
     },
     "probabilityOfPrecipitation": {
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-09-22T20:00:00+00:00",
-          "value": 48
-        },
-        {
-          "time": "2026-09-22T21:00:00+00:00",
-          "value": 51
-        },
-        {
-          "time": "2026-09-22T22:00:00+00:00",
-          "value": 49
-        },
         {
           "time": "2026-09-22T23:00:00+00:00",
           "value": 46
@@ -507,8 +495,8 @@
       ],
       "summary": {
         "min": 1,
-        "max": 51,
-        "avg": 22.45
+        "max": 46,
+        "avg": 20.27
       }
     },
     "quantitativePrecipitation": {
@@ -558,18 +546,6 @@
       "available": true,
       "unit": "wmoUnit:degC",
       "values": [
-        {
-          "time": "2026-09-22T20:00:00+00:00",
-          "value": 29.444444444444443
-        },
-        {
-          "time": "2026-09-22T21:00:00+00:00",
-          "value": 28.88888888888889
-        },
-        {
-          "time": "2026-09-22T22:00:00+00:00",
-          "value": 27.22222222222222
-        },
         {
           "time": "2026-09-22T23:00:00+00:00",
           "value": 26.11111111111111
@@ -681,22 +657,30 @@
         {
           "time": "2026-09-24T19:00:00+00:00",
           "value": 20.555555555555557
+        },
+        {
+          "time": "2026-09-24T20:00:00+00:00",
+          "value": 21.11111111111111
+        },
+        {
+          "time": "2026-09-24T21:00:00+00:00",
+          "value": 21.666666666666668
+        },
+        {
+          "time": "2026-09-24T22:00:00+00:00",
+          "value": 21.11111111111111
         }
       ],
       "summary": {
         "min": 17.22,
-        "max": 29.44,
-        "avg": 22.1
+        "max": 26.11,
+        "avg": 21.4
       }
     },
     "dewpoint": {
       "available": true,
       "unit": "wmoUnit:degC",
       "values": [
-        {
-          "time": "2026-09-22T21:00:00+00:00",
-          "value": 22.77777777777778
-        },
         {
           "time": "2026-09-23T04:00:00+00:00",
           "value": 22.22222222222222
@@ -776,22 +760,26 @@
         {
           "time": "2026-09-24T19:00:00+00:00",
           "value": 18.333333333333332
+        },
+        {
+          "time": "2026-09-24T21:00:00+00:00",
+          "value": 18.88888888888889
+        },
+        {
+          "time": "2026-09-24T22:00:00+00:00",
+          "value": 18.333333333333332
         }
       ],
       "summary": {
         "min": 16.67,
-        "max": 22.78,
-        "avg": 20.03
+        "max": 22.22,
+        "avg": 19.77
       }
     },
     "windSpeed": {
       "available": true,
       "unit": "wmoUnit:km_h-1",
       "values": [
-        {
-          "time": "2026-09-22T21:00:00+00:00",
-          "value": 7.408
-        },
         {
           "time": "2026-09-23T03:00:00+00:00",
           "value": 9.26
@@ -870,27 +858,15 @@
         }
       ],
       "summary": {
-        "min": 7.41,
+        "min": 9.26,
         "max": 25.93,
-        "avg": 17.69
+        "avg": 18.23
       }
     },
     "windGust": {
       "available": true,
       "unit": "wmoUnit:km_h-1",
       "values": [
-        {
-          "time": "2026-09-22T20:00:00+00:00",
-          "value": 11.112
-        },
-        {
-          "time": "2026-09-22T21:00:00+00:00",
-          "value": 12.964
-        },
-        {
-          "time": "2026-09-22T22:00:00+00:00",
-          "value": 16.668
-        },
         {
           "time": "2026-09-22T23:00:00+00:00",
           "value": 14.816
@@ -970,26 +946,22 @@
         {
           "time": "2026-09-24T19:00:00+00:00",
           "value": 25.928
+        },
+        {
+          "time": "2026-09-24T20:00:00+00:00",
+          "value": 24.076
         }
       ],
       "summary": {
-        "min": 11.11,
+        "min": 12.96,
         "max": 35.19,
-        "avg": 23.83
+        "avg": 25.31
       }
     },
     "windDirection": {
       "available": true,
       "unit": "wmoUnit:degree_(angle)",
       "values": [
-        {
-          "time": "2026-09-22T20:00:00+00:00",
-          "value": 40
-        },
-        {
-          "time": "2026-09-22T22:00:00+00:00",
-          "value": 50
-        },
         {
           "time": "2026-09-22T23:00:00+00:00",
           "value": 40
@@ -1021,12 +993,16 @@
         {
           "time": "2026-09-24T00:00:00+00:00",
           "value": 70
+        },
+        {
+          "time": "2026-09-24T20:00:00+00:00",
+          "value": 80
         }
       ],
       "summary": {
         "min": 40,
         "max": 80,
-        "avg": 64.0
+        "avg": 70.0
       }
     }
   }
