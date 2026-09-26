@@ -25,96 +25,65 @@
     "flow_cfs": 174.0,
     "gage_height_ft": 0.99,
     "turbidity": null,
-    "observed_at": "2026-09-26T09:30:00.000-04:00"
+    "observed_at": "2026-09-26T12:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.13,
+    "pressure_inhg": 30.08,
     "air_temp": {
-      "current_f": 63,
-      "low_f": 46.0,
-      "high_f": 76.0
+      "current_f": 74,
+      "low_f": 47.0,
+      "high_f": 75.0
     },
     "sky_cover": {
-      "min": 1,
-      "max": 41,
-      "avg": 16.36
+      "min": 3,
+      "max": 37,
+      "avg": 19.77
     },
     "humidity": {
-      "min": 35,
-      "max": 94,
-      "avg": 65.09
+      "min": 32,
+      "max": 84,
+      "avg": 59.4
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 4.6,
+      "avg_mph": 4.3,
       "max_gust_mph": 16.1,
-      "predominant_direction": ""
+      "predominant_direction": "NW"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-09-26",
       "morning": {},
-      "afternoon": {
-        "sky_cover": {
-          "min": 6,
-          "max": 10,
-          "avg": 8.0
-        },
-        "humidity": {
-          "min": 45,
-          "max": 53,
-          "avg": 49.0
-        },
-        "air_temp_f": {
-          "min": 70.0,
-          "max": 73.0,
-          "avg": 71.5
-        },
-        "wind_mph": {
-          "min": 3.5,
-          "max": 4.6,
-          "avg": 4.05
-        },
-        "wind_gust_mph": {
-          "min": 6.9,
-          "max": 9.2,
-          "avg": 8.05
-        }
-      },
+      "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 11,
-          "max": 22,
-          "avg": 17.17
+          "min": 4,
+          "max": 21,
+          "avg": 11.0
         },
         "humidity": {
-          "min": 35,
-          "max": 45,
-          "avg": 39.17
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "min": 32,
+          "max": 42,
+          "avg": 35.8
         },
         "air_temp_f": {
-          "min": 68.0,
-          "max": 76.0,
-          "avg": 73.33
+          "min": 66.0,
+          "max": 75.0,
+          "avg": 71.5
         },
         "wind_mph": {
           "min": 5.8,
           "max": 8.1,
-          "avg": 6.92
+          "avg": 6.93
         },
         "wind_gust_mph": {
-          "min": 11.5,
+          "min": 12.7,
           "max": 15.0,
-          "avg": 13.36
+          "avg": 13.83
         }
       }
     },
@@ -122,14 +91,14 @@
       "date": "2026-09-26",
       "morning": {
         "sky_cover": {
-          "min": 12,
-          "max": 40,
-          "avg": 26.14
+          "min": 18,
+          "max": 32,
+          "avg": 26.57
         },
         "humidity": {
-          "min": 77,
-          "max": 85,
-          "avg": 80.6
+          "min": 66,
+          "max": 77,
+          "avg": 70.4
         },
         "rain_inches": {
           "min": 0.0,
@@ -138,8 +107,8 @@
         },
         "air_temp_f": {
           "min": 47.0,
-          "max": 53.0,
-          "avg": 50.0
+          "max": 54.0,
+          "avg": 50.33
         },
         "wind_mph": {
           "min": 0.0,
@@ -154,14 +123,14 @@
       },
       "afternoon": {
         "sky_cover": {
-          "min": 20,
-          "max": 41,
-          "avg": 28.5
+          "min": 17,
+          "max": 37,
+          "avg": 24.2
         },
         "humidity": {
-          "min": 43,
-          "max": 84,
-          "avg": 61.4
+          "min": 38,
+          "max": 78,
+          "avg": 56.17
         },
         "rain_inches": {
           "min": 0.0,
@@ -169,9 +138,9 @@
           "avg": 0.0
         },
         "air_temp_f": {
-          "min": 50.0,
+          "min": 51.0,
           "max": 71.0,
-          "avg": 61.4
+          "avg": 62.2
         },
         "wind_mph": {
           "min": 2.3,
@@ -181,19 +150,19 @@
         "wind_gust_mph": {
           "min": 3.5,
           "max": 12.7,
-          "avg": 7.62
+          "avg": 7.16
         }
       },
       "evening": {
         "sky_cover": {
-          "min": 4,
+          "min": 14,
           "max": 23,
-          "avg": 8.83
+          "avg": 17.67
         },
         "humidity": {
-          "min": 38,
-          "max": 51,
-          "avg": 42.2
+          "min": 36,
+          "max": 49,
+          "avg": 41.0
         },
         "rain_inches": {
           "min": 0.0,
@@ -201,43 +170,27 @@
           "avg": 0.0
         },
         "air_temp_f": {
-          "min": 67.0,
+          "min": 66.0,
           "max": 74.0,
-          "avg": 71.6
+          "avg": 71.2
         },
         "wind_mph": {
-          "min": 8.1,
+          "min": 6.9,
           "max": 9.2,
-          "avg": 8.47
+          "avg": 8.07
         },
         "wind_gust_mph": {
-          "min": 15.0,
+          "min": 13.8,
           "max": 16.1,
-          "avg": 15.37
+          "avg": 14.98
         }
       }
     }
   },
   "stocking": {
-    "stocked": true,
-    "last_stocked": "9/4/2026",
-    "matched_waterbodies": [
-      {
-        "date": "9/2/2026",
-        "county": "Fannin",
-        "waterbody": "Blueridge TW"
-      },
-      {
-        "date": "9/4/2026",
-        "county": "Fannin",
-        "waterbody": "Blueridge TW"
-      },
-      {
-        "date": "9/4/2026",
-        "county": "Fannin",
-        "waterbody": "Toccoa River (F)"
-      }
-    ]
+    "stocked": false,
+    "last_stocked": null,
+    "matched_waterbodies": []
   },
   "available_flies": {
     "zebra_midge": {
@@ -314,20 +267,17 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
       "positioning": [
-        "shade",
-        "deeper runs",
-        "undercut banks",
+        "runs",
+        "seams",
         "structure"
       ],
       "tactics": [
-        "smaller natural flies",
-        "careful drifts",
-        "less aggressive presentations"
+        "balanced nymph approach"
       ],
-      "score_adjustment": -1.0
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -335,50 +285,29 @@
       "score_adjustment": 0.0
     },
     "stocking_read": {
-      "status": "recently_stocked",
-      "read": "Recent stocking supports eggs, worms, and attractor nymphs.",
-      "fly_bias": [
-        "egg_pattern",
-        "squirmy_worm",
-        "duracell"
-      ],
-      "score_adjustment": 1.0
+      "status": "not_recently_stocked",
+      "read": "No recent stocking signal is available.",
+      "fly_bias": [],
+      "score_adjustment": 0.0
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "shade",
-      "deeper runs",
-      "undercut banks",
+      "runs",
+      "seams",
       "structure"
     ],
     "recommended_tactics": [
-      "smaller natural flies",
-      "careful drifts",
-      "less aggressive presentations"
+      "balanced nymph approach"
     ],
-    "recommended_fly_keys": [
-      "egg_pattern",
-      "squirmy_worm",
-      "duracell",
-      "zebra_midge",
-      "pheasant_tail"
-    ],
-    "fly_reasoning": {
-      "egg_pattern": "Recent stocking makes eggs a logical confidence fly.",
-      "squirmy_worm": "A simple stocked-trout attractor and good dirty-water option.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive.",
-      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
-      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious."
-    },
-    "caution_notes": [
-      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
-    ],
+    "recommended_fly_keys": [],
+    "fly_reasoning": {},
+    "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "High pressure and low cloud cover make this fishable but technical.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
-      "Recent stocking supports eggs, worms, and attractor nymphs."
+      "No recent stocking signal is available."
     ]
   }
 }
