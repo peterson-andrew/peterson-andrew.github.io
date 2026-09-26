@@ -21,37 +21,37 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 66.6,
+    "water_temp_f": 68.7,
     "flow_cfs": 81.8,
     "gage_height_ft": 3.58,
-    "turbidity": 14.1,
-    "observed_at": "2026-09-26T13:00:00.000-04:00"
+    "turbidity": 13.4,
+    "observed_at": "2026-09-26T16:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.06,
+    "pressure_inhg": 29.99,
     "air_temp": {
-      "current_f": 75,
+      "current_f": 73,
       "low_f": 51.0,
-      "high_f": 77.0
+      "high_f": 80.0
     },
     "sky_cover": {
-      "min": 3,
+      "min": 4,
       "max": 37,
-      "avg": 16.55
+      "avg": 17.24
     },
     "humidity": {
       "min": 30,
       "max": 76,
-      "avg": 54.34
+      "avg": 53.64
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 3.9,
+      "avg_mph": 3.6,
       "max_gust_mph": 13.8,
-      "predominant_direction": "W"
+      "predominant_direction": "NW"
     }
   },
   "forecast_breakdown": {
@@ -61,29 +61,24 @@
       "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 3,
+          "min": 13,
           "max": 13,
-          "avg": 6.25
+          "avg": 13.0
         },
         "humidity": {
-          "min": 37,
+          "min": 44,
           "max": 44,
-          "avg": 40.0
+          "avg": 44.0
         },
         "air_temp_f": {
           "min": 68.0,
-          "max": 76.0,
-          "avg": 73.0
-        },
-        "wind_mph": {
-          "min": 5.8,
-          "max": 6.9,
-          "avg": 6.17
+          "max": 68.0,
+          "avg": 68.0
         },
         "wind_gust_mph": {
-          "min": 11.5,
+          "min": 12.7,
           "max": 12.7,
-          "avg": 12.3
+          "avg": 12.7
         }
       }
     },
@@ -256,22 +251,21 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 5.0,
-    "quality_label": "Fair",
+    "quality_score": 3.0,
+    "quality_label": "Tough",
     "best_window": "day1 morning",
     "water_temp_read": {
-      "status": "warm",
-      "read": "Water is warming; trout may favor more oxygenated water.",
+      "status": "hot",
+      "read": "Water is warm enough to make trout stress a concern.",
       "positioning": [
-        "riffles",
-        "pocket water",
-        "oxygenated runs"
+        "fast oxygenated water",
+        "deep plunge pools"
       ],
       "tactics": [
-        "early and late windows",
-        "active nymphs"
+        "early morning only",
+        "shorter sessions"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": -2.0
     },
     "light_pressure_read": {
       "status": "neutral",
@@ -300,23 +294,24 @@
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "riffles",
-      "pocket water",
-      "oxygenated runs",
+      "fast oxygenated water",
+      "deep plunge pools",
       "runs",
       "seams",
       "structure"
     ],
     "recommended_tactics": [
-      "early and late windows",
-      "active nymphs",
+      "early morning only",
+      "shorter sessions",
       "balanced nymph approach"
     ],
     "recommended_fly_keys": [],
     "fly_reasoning": {},
-    "caution_notes": [],
+    "caution_notes": [
+      "Warm water may increase trout stress."
+    ],
     "reasoning": [
-      "Water is warming; trout may favor more oxygenated water.",
+      "Water is warm enough to make trout stress a concern.",
       "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
