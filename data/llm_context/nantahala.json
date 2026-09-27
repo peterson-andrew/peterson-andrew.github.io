@@ -23,19 +23,19 @@
   "weather_summary": {
     "pressure_inhg": null,
     "air_temp": {
-      "current_f": 45,
+      "current_f": 62,
       "low_f": 44.0,
       "high_f": 73.0
     },
     "sky_cover": {
       "min": 0,
       "max": 22,
-      "avg": 8.95
+      "avg": 8.88
     },
     "humidity": {
       "min": 33,
       "max": 81,
-      "avg": 59.13
+      "avg": 60.18
     },
     "rain": {
       "max_probability_percent": null,
@@ -44,64 +44,38 @@
     "wind": {
       "avg_mph": 1.5,
       "max_gust_mph": 11.5,
-      "predominant_direction": ""
+      "predominant_direction": "NNW"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-09-27",
-      "morning": {
-        "sky_cover": {
-          "min": 11,
-          "max": 12,
-          "avg": 11.5
-        },
-        "humidity": {
-          "min": 66,
-          "max": 66,
-          "avg": 66.0
-        },
-        "air_temp_f": {
-          "min": 44.0,
-          "max": 44.0,
-          "avg": 44.0
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 4.6,
-          "avg": 4.6
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
           "min": 1,
-          "max": 9,
-          "avg": 4.17
+          "max": 3,
+          "avg": 2.0
         },
         "humidity": {
           "min": 36,
-          "max": 66,
-          "avg": 50.0
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "max": 38,
+          "avg": 37.0
         },
         "air_temp_f": {
-          "min": 47.0,
+          "min": 65.0,
           "max": 67.0,
-          "avg": 58.8
+          "avg": 66.0
         },
         "wind_mph": {
-          "min": 1.2,
+          "min": 2.3,
           "max": 2.3,
-          "avg": 1.75
+          "avg": 2.3
         },
         "wind_gust_mph": {
-          "min": 5.8,
+          "min": 8.1,
           "max": 9.2,
-          "avg": 7.5
+          "avg": 8.65
         }
       },
       "evening": {
@@ -173,9 +147,9 @@
       },
       "afternoon": {
         "sky_cover": {
-          "min": 2,
+          "min": 6,
           "max": 12,
-          "avg": 7.17
+          "avg": 9.0
         },
         "humidity": {
           "min": 39,
