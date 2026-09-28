@@ -25,24 +25,24 @@
     "flow_cfs": 51.7,
     "gage_height_ft": 3.43,
     "turbidity": null,
-    "observed_at": "2026-09-27T17:00:00.000-04:00"
+    "observed_at": "2026-09-27T19:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 29.88,
+    "pressure_inhg": 29.92,
     "air_temp": {
-      "current_f": 78,
+      "current_f": 61,
       "low_f": 52.0,
       "high_f": 82.0
     },
     "sky_cover": {
       "min": 0,
       "max": 13,
-      "avg": 4.14
+      "avg": 4.48
     },
     "humidity": {
       "min": 29,
       "max": 80,
-      "avg": 57.88
+      "avg": 58.51
     },
     "rain": {
       "max_probability_percent": null,
@@ -50,40 +50,13 @@
     },
     "wind": {
       "avg_mph": 2.5,
-      "max_gust_mph": 15.0,
-      "predominant_direction": "NW"
+      "max_gust_mph": 12.7,
+      "predominant_direction": "NNW"
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-09-27",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 2,
-          "max": 2,
-          "avg": 2.0
-        },
-        "humidity": {
-          "min": 36,
-          "max": 36,
-          "avg": 36.0
-        },
-        "air_temp_f": {
-          "min": 74.0,
-          "max": 74.0,
-          "avg": 74.0
-        },
-        "wind_gust_mph": {
-          "min": 15.0,
-          "max": 15.0,
-          "avg": 15.0
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-09-27",
+      "date": "2026-09-28",
       "morning": {
         "sky_cover": {
           "min": 4,
@@ -91,9 +64,9 @@
           "avg": 8.43
         },
         "humidity": {
-          "min": 69,
+          "min": 68,
           "max": 79,
-          "avg": 74.4
+          "avg": 74.67
         },
         "rain_inches": {
           "min": 0.0,
@@ -124,8 +97,8 @@
         },
         "humidity": {
           "min": 34,
-          "max": 80,
-          "avg": 56.17
+          "max": 78,
+          "avg": 53.83
         },
         "rain_inches": {
           "min": 0.0,
@@ -178,6 +151,100 @@
           "min": 5.8,
           "max": 6.9,
           "avg": 6.17
+        }
+      }
+    },
+    "day2": {
+      "date": "2026-09-28",
+      "morning": {
+        "sky_cover": {
+          "min": 3,
+          "max": 6,
+          "avg": 4.5
+        },
+        "humidity": {
+          "min": 73,
+          "max": 79,
+          "avg": 76.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 56.0,
+          "max": 59.0,
+          "avg": 57.5
+        },
+        "wind_gust_mph": {
+          "min": 5.8,
+          "max": 6.9,
+          "avg": 6.17
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 0,
+          "max": 4,
+          "avg": 1.67
+        },
+        "humidity": {
+          "min": 43,
+          "max": 80,
+          "avg": 62.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 60.0,
+          "max": 77.0,
+          "avg": 69.2
+        },
+        "wind_mph": {
+          "min": 3.5,
+          "max": 3.5,
+          "avg": 3.5
+        },
+        "wind_gust_mph": {
+          "min": 6.9,
+          "max": 8.1,
+          "avg": 7.3
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 2,
+          "max": 2,
+          "avg": 2.0
+        },
+        "humidity": {
+          "min": 36,
+          "max": 46,
+          "avg": 39.17
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 75.0,
+          "max": 82.0,
+          "avg": 79.2
+        },
+        "wind_mph": {
+          "min": 1.2,
+          "max": 2.3,
+          "avg": 1.75
+        },
+        "wind_gust_mph": {
+          "min": 4.6,
+          "max": 5.8,
+          "avg": 5.2
         }
       }
     }
