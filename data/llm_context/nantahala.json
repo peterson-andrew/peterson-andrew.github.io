@@ -23,87 +23,35 @@
   "weather_summary": {
     "pressure_inhg": null,
     "air_temp": {
-      "current_f": 53,
-      "low_f": 54.0,
+      "current_f": 73,
+      "low_f": 57.0,
       "high_f": 76.0
     },
     "sky_cover": {
       "min": 0,
-      "max": 75,
-      "avg": 36.0
+      "max": 78,
+      "avg": 46.45
     },
     "humidity": {
       "min": 62,
-      "max": 96,
-      "avg": 83.95
+      "max": 100,
+      "avg": 85.75
     },
     "rain": {
-      "max_probability_percent": 37,
-      "expected_inches": 0.02
+      "max_probability_percent": 53,
+      "expected_inches": 0.19
     },
     "wind": {
       "avg_mph": 1.0,
       "max_gust_mph": 9.2,
-      "predominant_direction": "S"
+      "predominant_direction": "SSW"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-10-01",
-      "morning": {
-        "sky_cover": {
-          "min": 23,
-          "max": 23,
-          "avg": 23.0
-        },
-        "humidity": {
-          "min": 90,
-          "max": 90,
-          "avg": 90.0
-        },
-        "rain_probability": {
-          "min": 0,
-          "max": 0,
-          "avg": 0.0
-        },
-        "wind_gust_mph": {
-          "min": 5.8,
-          "max": 5.8,
-          "avg": 5.8
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 3,
-          "max": 14,
-          "avg": 10.33
-        },
-        "humidity": {
-          "min": 67,
-          "max": 94,
-          "avg": 80.8
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 54.0,
-          "max": 73.0,
-          "avg": 64.8
-        },
-        "wind_mph": {
-          "min": 0.0,
-          "max": 2.3,
-          "avg": 1.17
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 6.9,
-          "avg": 5.75
-        }
-      },
+      "morning": {},
+      "afternoon": {},
       "evening": {
         "sky_cover": {
           "min": 0,
