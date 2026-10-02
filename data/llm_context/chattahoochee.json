@@ -21,31 +21,31 @@
   },
   "usgs_summary": {
     "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-    "water_temp_f": 55.9,
+    "water_temp_f": 57.0,
     "flow_cfs": 685.0,
     "gage_height_ft": 1.86,
-    "turbidity": 2.6,
-    "observed_at": "2026-10-01T16:15:00.000-04:00"
+    "turbidity": 2.8,
+    "observed_at": "2026-10-01T19:15:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.12,
+    "pressure_inhg": null,
     "air_temp": {
-      "current_f": 82,
+      "current_f": 74,
       "low_f": 69.0,
       "high_f": 85.0
     },
     "sky_cover": {
-      "min": 7,
-      "max": 82,
-      "avg": 41.58
+      "min": 8,
+      "max": 83,
+      "avg": 45.58
     },
     "humidity": {
       "min": 65,
       "max": 100,
-      "avg": 85.68
+      "avg": 87.02
     },
     "rain": {
-      "max_probability_percent": 73,
+      "max_probability_percent": 75,
       "expected_inches": 0.25
     },
     "wind": {
@@ -380,16 +380,10 @@
       "score_adjustment": 2.0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
-      "positioning": [
-        "runs",
-        "seams",
-        "structure"
-      ],
-      "tactics": [
-        "balanced nymph approach"
-      ],
+      "status": "unknown",
+      "read": "Light and pressure read is unavailable.",
+      "positioning": [],
+      "tactics": [],
       "score_adjustment": 0.0
     },
     "pressure_trend_read": {
@@ -419,8 +413,7 @@
       "nymphs",
       "midges",
       "soft hackles",
-      "opportunistic streamers",
-      "balanced nymph approach"
+      "opportunistic streamers"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
@@ -439,7 +432,7 @@
     "caution_notes": [],
     "reasoning": [
       "Water temperature is in a favorable trout range.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "Light and pressure read is unavailable.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]

@@ -21,37 +21,37 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 68.5,
+    "water_temp_f": 67.8,
     "flow_cfs": 68.4,
     "gage_height_ft": 3.45,
-    "turbidity": 10.0,
-    "observed_at": "2026-10-01T16:00:00.000-04:00"
+    "turbidity": 10.3,
+    "observed_at": "2026-10-01T20:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.12,
+    "pressure_inhg": null,
     "air_temp": {
-      "current_f": 79,
+      "current_f": 70,
       "low_f": 63.0,
       "high_f": 84.0
     },
     "sky_cover": {
-      "min": 9,
-      "max": 83,
-      "avg": 43.07
+      "min": 13,
+      "max": 85,
+      "avg": 47.28
     },
     "humidity": {
       "min": 62,
       "max": 100,
-      "avg": 84.88
+      "avg": 86.37
     },
     "rain": {
       "max_probability_percent": 73,
       "expected_inches": 0.31
     },
     "wind": {
-      "avg_mph": 1.8,
+      "avg_mph": 1.7,
       "max_gust_mph": 8.1,
-      "predominant_direction": "SE"
+      "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
@@ -355,16 +355,10 @@
       "score_adjustment": -2.0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
-      "positioning": [
-        "runs",
-        "seams",
-        "structure"
-      ],
-      "tactics": [
-        "balanced nymph approach"
-      ],
+      "status": "unknown",
+      "read": "Light and pressure read is unavailable.",
+      "positioning": [],
+      "tactics": [],
       "score_adjustment": 0.0
     },
     "pressure_trend_read": {
@@ -382,15 +376,11 @@
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
       "fast oxygenated water",
-      "deep plunge pools",
-      "runs",
-      "seams",
-      "structure"
+      "deep plunge pools"
     ],
     "recommended_tactics": [
       "early morning only",
-      "shorter sessions",
-      "balanced nymph approach"
+      "shorter sessions"
     ],
     "recommended_fly_keys": [],
     "fly_reasoning": {},
@@ -399,7 +389,7 @@
     ],
     "reasoning": [
       "Water is warm enough to make trout stress a concern.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "Light and pressure read is unavailable.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
