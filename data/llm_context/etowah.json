@@ -21,28 +21,28 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 69.3,
+    "water_temp_f": 71.2,
     "flow_cfs": 60.7,
     "gage_height_ft": 3.46,
-    "turbidity": 11.9,
-    "observed_at": "2026-10-03T12:00:00.000-04:00"
+    "turbidity": 10.6,
+    "observed_at": "2026-10-03T18:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.11,
+    "pressure_inhg": 30.07,
     "air_temp": {
-      "current_f": 81,
+      "current_f": 79,
       "low_f": 65.0,
-      "high_f": 82.0
+      "high_f": 77.0
     },
     "sky_cover": {
-      "min": 49,
+      "min": 34,
       "max": 95,
-      "avg": 84.54
+      "avg": 80.31
     },
     "humidity": {
-      "min": 73,
+      "min": 77,
       "max": 100,
-      "avg": 90.53
+      "avg": 91.94
     },
     "rain": {
       "max_probability_percent": 83,
@@ -51,7 +51,7 @@
     "wind": {
       "avg_mph": 2.6,
       "max_gust_mph": 10.4,
-      "predominant_direction": "SW"
+      "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
@@ -62,33 +62,33 @@
       "evening": {
         "sky_cover": {
           "min": 75,
-          "max": 81,
-          "avg": 78.6
+          "max": 75,
+          "avg": 75.0
         },
         "humidity": {
-          "min": 73,
+          "min": 88,
           "max": 88,
-          "avg": 79.0
+          "avg": 88.0
         },
         "rain_probability": {
           "min": 46,
-          "max": 64,
-          "avg": 55.6
+          "max": 46,
+          "avg": 46.0
         },
         "air_temp_f": {
           "min": 75.0,
-          "max": 82.0,
-          "avg": 79.4
+          "max": 75.0,
+          "avg": 75.0
         },
         "wind_mph": {
           "min": 1.2,
-          "max": 2.3,
-          "avg": 1.75
+          "max": 1.2,
+          "avg": 1.2
         },
         "wind_gust_mph": {
           "min": 4.6,
-          "max": 5.8,
-          "avg": 5.2
+          "max": 4.6,
+          "avg": 4.6
         }
       }
     },
@@ -266,21 +266,20 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 4.0,
-    "quality_label": "Fair",
-    "best_window": "day1 morning",
+    "quality_score": 2.0,
+    "quality_label": "Tough",
+    "best_window": "day1 evening",
     "water_temp_read": {
-      "status": "hot",
-      "read": "Water is warm enough to make trout stress a concern.",
+      "status": "very_hot",
+      "read": "Water is very warm for trout.",
       "positioning": [
-        "fast oxygenated water",
-        "deep plunge pools"
+        "cold-water refuge",
+        "oxygenated water"
       ],
       "tactics": [
-        "early morning only",
-        "shorter sessions"
+        "consider not targeting trout"
       ],
-      "score_adjustment": -2.0
+      "score_adjustment": -4.0
     },
     "light_pressure_read": {
       "status": "cloudy",
@@ -312,16 +311,15 @@
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "fast oxygenated water",
-      "deep plunge pools",
+      "cold-water refuge",
+      "oxygenated water",
       "runs",
       "riffle edges",
       "banks",
       "feeding lanes"
     ],
     "recommended_tactics": [
-      "early morning only",
-      "shorter sessions",
+      "consider not targeting trout",
       "soft hackles",
       "streamers",
       "nymphs"
@@ -338,7 +336,7 @@
       "Warm water may increase trout stress."
     ],
     "reasoning": [
-      "Water is warm enough to make trout stress a concern.",
+      "Water is very warm for trout.",
       "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
