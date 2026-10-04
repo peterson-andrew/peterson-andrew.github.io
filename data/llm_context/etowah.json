@@ -22,46 +22,47 @@
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
     "water_temp_f": 69.8,
-    "flow_cfs": 55.3,
-    "gage_height_ft": 3.4,
-    "turbidity": 13.7,
-    "observed_at": "2026-10-04T05:00:00.000-04:00"
+    "flow_cfs": 59.8,
+    "gage_height_ft": 3.45,
+    "turbidity": 12.2,
+    "observed_at": "2026-10-04T10:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.11,
+    "pressure_inhg": 30.16,
     "air_temp": {
-      "current_f": 67,
+      "current_f": 69,
       "low_f": 57.0,
       "high_f": 78.0
     },
     "sky_cover": {
-      "min": 13,
+      "min": 5,
       "max": 95,
-      "avg": 64.95
+      "avg": 54.15
     },
     "humidity": {
-      "min": 76,
+      "min": 71,
       "max": 100,
-      "avg": 91.76
+      "avg": 88.54
     },
     "rain": {
       "max_probability_percent": 77,
       "expected_inches": 0.29
     },
     "wind": {
-      "avg_mph": 2.9,
-      "max_gust_mph": 12.7,
+      "avg_mph": 3.9,
+      "max_gust_mph": 17.3,
       "predominant_direction": "E"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-10-04",
-      "morning": {
+      "morning": {},
+      "afternoon": {
         "sky_cover": {
-          "min": 93,
-          "max": 93,
-          "avg": 93.0
+          "min": 91,
+          "max": 91,
+          "avg": 91.0
         },
         "rain_probability": {
           "min": 49,
@@ -69,46 +70,9 @@
           "avg": 49.0
         },
         "air_temp_f": {
-          "min": 66.0,
-          "max": 66.0,
-          "avg": 66.0
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 90,
-          "max": 94,
-          "avg": 91.8
-        },
-        "humidity": {
-          "min": 98,
-          "max": 100,
-          "avg": 98.75
-        },
-        "rain_probability": {
-          "min": 49,
-          "max": 59,
-          "avg": 53.33
-        },
-        "rain_inches": {
-          "min": 0.12,
-          "max": 0.12,
-          "avg": 0.12
-        },
-        "air_temp_f": {
-          "min": 67.0,
+          "min": 70.0,
           "max": 70.0,
-          "avg": 68.5
-        },
-        "wind_mph": {
-          "min": 3.5,
-          "max": 4.6,
-          "avg": 3.87
-        },
-        "wind_gust_mph": {
-          "min": 8.1,
-          "max": 8.1,
-          "avg": 8.1
+          "avg": 70.0
         }
       },
       "evening": {
@@ -323,8 +287,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 4.0,
-    "quality_label": "Fair",
+    "quality_score": 3.0,
+    "quality_label": "Tough",
     "best_window": "day2 afternoon",
     "water_temp_read": {
       "status": "hot",
@@ -340,20 +304,17 @@
       "score_adjustment": -2.0
     },
     "light_pressure_read": {
-      "status": "cloudy",
-      "read": "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
       "positioning": [
         "runs",
-        "riffle edges",
-        "banks",
-        "feeding lanes"
+        "seams",
+        "structure"
       ],
       "tactics": [
-        "soft hackles",
-        "streamers",
-        "nymphs"
+        "balanced nymph approach"
       ],
-      "score_adjustment": 1.0
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -372,31 +333,22 @@
       "fast oxygenated water",
       "deep plunge pools",
       "runs",
-      "riffle edges",
-      "banks",
-      "feeding lanes"
+      "seams",
+      "structure"
     ],
     "recommended_tactics": [
       "early morning only",
       "shorter sessions",
-      "soft hackles",
-      "streamers",
-      "nymphs"
+      "balanced nymph approach"
     ],
-    "recommended_fly_keys": [
-      "woolly_bugger",
-      "duracell"
-    ],
-    "fly_reasoning": {
-      "woolly_bugger": "Useful if clouds, stain, or low light make fish more willing to chase.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
-    },
+    "recommended_fly_keys": [],
+    "fly_reasoning": {},
     "caution_notes": [
       "Warm water may increase trout stress."
     ],
     "reasoning": [
       "Water is warm enough to make trout stress a concern.",
-      "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]

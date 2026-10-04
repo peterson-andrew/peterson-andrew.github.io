@@ -22,27 +22,27 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 163.0,
-    "gage_height_ft": 0.94,
+    "flow_cfs": 161.0,
+    "gage_height_ft": 0.93,
     "turbidity": null,
-    "observed_at": "2026-10-04T04:30:00.000-04:00"
+    "observed_at": "2026-10-04T10:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.14,
+    "pressure_inhg": 30.17,
     "air_temp": {
-      "current_f": 66,
-      "low_f": 53.0,
+      "current_f": 71,
+      "low_f": 52.0,
       "high_f": 78.0
     },
     "sky_cover": {
       "min": 4,
       "max": 96,
-      "avg": 57.34
+      "avg": 49.68
     },
     "humidity": {
       "min": 63,
       "max": 100,
-      "avg": 86.17
+      "avg": 84.2
     },
     "rain": {
       "max_probability_percent": 68,
@@ -57,53 +57,27 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-10-04",
-      "morning": {
-        "rain_probability": {
-          "min": 36,
-          "max": 36,
-          "avg": 36.0
-        },
-        "wind_gust_mph": {
-          "min": 3.5,
-          "max": 3.5,
-          "avg": 3.5
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 88,
-          "max": 92,
-          "avg": 90.4
+          "min": 91,
+          "max": 91,
+          "avg": 91.0
         },
         "humidity": {
           "min": 95,
-          "max": 100,
-          "avg": 97.5
+          "max": 95,
+          "avg": 95.0
         },
         "rain_probability": {
-          "min": 49,
+          "min": 68,
           "max": 68,
-          "avg": 59.2
-        },
-        "rain_inches": {
-          "min": 0.18,
-          "max": 0.18,
-          "avg": 0.18
+          "avg": 68.0
         },
         "air_temp_f": {
-          "min": 67.0,
+          "min": 72.0,
           "max": 72.0,
-          "avg": 70.0
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 1.2,
-          "avg": 1.2
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 4.6,
-          "avg": 4.6
+          "avg": 72.0
         }
       },
       "evening": {
