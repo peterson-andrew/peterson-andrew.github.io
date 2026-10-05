@@ -23,27 +23,27 @@
   "weather_summary": {
     "pressure_inhg": null,
     "air_temp": {
-      "current_f": 63,
-      "low_f": 48.0,
+      "current_f": 61,
+      "low_f": 45.0,
       "high_f": 72.0
     },
     "sky_cover": {
-      "min": 4,
-      "max": 97,
-      "avg": 37.0
+      "min": 1,
+      "max": 90,
+      "avg": 31.7
     },
     "humidity": {
-      "min": 56,
+      "min": 59,
       "max": 100,
-      "avg": 82.4
+      "avg": 82.98
     },
     "rain": {
-      "max_probability_percent": 8,
+      "max_probability_percent": 2,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 1.1,
-      "max_gust_mph": 8.1,
+      "avg_mph": 0.9,
+      "max_gust_mph": 6.9,
       "predominant_direction": ""
     }
   },
@@ -52,19 +52,41 @@
       "date": "2026-10-05",
       "morning": {
         "sky_cover": {
-          "min": 87,
-          "max": 97,
-          "avg": 92.83
+          "min": 90,
+          "max": 90,
+          "avg": 90.0
         },
         "humidity": {
           "min": 98,
-          "max": 100,
-          "avg": 99.0
+          "max": 98,
+          "avg": 98.0
         },
         "rain_probability": {
           "min": 1,
-          "max": 4,
-          "avg": 2.5
+          "max": 1,
+          "avg": 1.0
+        },
+        "air_temp_f": {
+          "min": 60.0,
+          "max": 60.0,
+          "avg": 60.0
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 62,
+          "max": 78,
+          "avg": 72.5
+        },
+        "humidity": {
+          "min": 72,
+          "max": 97,
+          "avg": 88.5
+        },
+        "rain_probability": {
+          "min": 0,
+          "max": 2,
+          "avg": 1.4
         },
         "rain_inches": {
           "min": 0.0,
@@ -72,51 +94,14 @@
           "avg": 0.0
         },
         "air_temp_f": {
-          "min": 59.0,
-          "max": 61.0,
-          "avg": 60.0
+          "min": 62.0,
+          "max": 68.0,
+          "avg": 64.5
         },
         "wind_mph": {
           "min": 1.2,
           "max": 1.2,
           "avg": 1.2
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 8.1,
-          "avg": 6.35
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 42,
-          "max": 75,
-          "avg": 59.83
-        },
-        "humidity": {
-          "min": 69,
-          "max": 98,
-          "avg": 85.67
-        },
-        "rain_probability": {
-          "min": 0,
-          "max": 0,
-          "avg": 0.0
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 60.0,
-          "max": 69.0,
-          "avg": 64.4
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 2.3,
-          "avg": 1.75
         },
         "wind_gust_mph": {
           "min": 5.8,
@@ -126,19 +111,19 @@
       },
       "evening": {
         "sky_cover": {
-          "min": 11,
-          "max": 36,
-          "avg": 25.17
+          "min": 19,
+          "max": 58,
+          "avg": 35.67
         },
         "humidity": {
-          "min": 56,
-          "max": 75,
-          "avg": 62.67
+          "min": 59,
+          "max": 70,
+          "avg": 63.67
         },
         "rain_probability": {
-          "min": 0,
+          "min": 1,
           "max": 1,
-          "avg": 0.5
+          "avg": 1.0
         },
         "rain_inches": {
           "min": 0.0,
@@ -146,9 +131,9 @@
           "avg": 0.0
         },
         "air_temp_f": {
-          "min": 63.0,
+          "min": 66.0,
           "max": 72.0,
-          "avg": 68.4
+          "avg": 69.6
         },
         "wind_mph": {
           "min": 0.0,
@@ -166,36 +151,14 @@
       "date": "2026-10-05",
       "morning": {
         "sky_cover": {
-          "min": 7,
-          "max": 11,
-          "avg": 8.33
+          "min": 13,
+          "max": 71,
+          "avg": 43.0
         },
         "humidity": {
-          "min": 84,
-          "max": 97,
-          "avg": 89.43
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 48.0,
-          "max": 54.0,
-          "avg": 51.0
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 4,
-          "max": 5,
-          "avg": 4.5
-        },
-        "humidity": {
-          "min": 75,
-          "max": 91,
-          "avg": 82.17
+          "min": 88,
+          "max": 99,
+          "avg": 93.6
         },
         "rain_inches": {
           "min": 0.0,
@@ -204,8 +167,35 @@
         },
         "air_temp_f": {
           "min": 49.0,
-          "max": 67.0,
-          "avg": 58.67
+          "max": 54.0,
+          "avg": 51.25
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 1,
+          "max": 69,
+          "avg": 32.0
+        },
+        "humidity": {
+          "min": 64,
+          "max": 100,
+          "avg": 83.33
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 55.0,
+          "max": 68.0,
+          "avg": 62.75
+        },
+        "wind_mph": {
+          "min": 1.2,
+          "max": 1.2,
+          "avg": 1.2
         },
         "wind_gust_mph": {
           "min": 3.5,
@@ -215,14 +205,14 @@
       },
       "evening": {
         "sky_cover": {
-          "min": 6,
-          "max": 12,
-          "avg": 9.5
+          "min": 9,
+          "max": 15,
+          "avg": 11.75
         },
         "humidity": {
-          "min": 71,
-          "max": 81,
-          "avg": 74.0
+          "min": 60,
+          "max": 78,
+          "avg": 66.4
         },
         "rain_inches": {
           "min": 0.0,
@@ -230,19 +220,19 @@
           "avg": 0.0
         },
         "air_temp_f": {
-          "min": 64.0,
-          "max": 70.0,
-          "avg": 67.83
+          "min": 63.0,
+          "max": 72.0,
+          "avg": 69.17
         },
         "wind_mph": {
           "min": 0.0,
-          "max": 1.2,
-          "avg": 0.6
+          "max": 0.0,
+          "avg": 0.0
         },
         "wind_gust_mph": {
           "min": 4.6,
-          "max": 5.8,
-          "avg": 5.2
+          "max": 4.6,
+          "avg": 4.6
         }
       }
     }
