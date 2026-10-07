@@ -22,90 +22,48 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 172.0,
-    "gage_height_ft": 0.98,
+    "flow_cfs": 167.0,
+    "gage_height_ft": 0.96,
     "turbidity": null,
-    "observed_at": "2026-10-07T03:30:00.000-04:00"
+    "observed_at": "2026-10-07T11:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.1,
+    "pressure_inhg": 30.14,
     "air_temp": {
-      "current_f": 50,
-      "low_f": 49.0,
+      "current_f": 75,
+      "low_f": 52.0,
       "high_f": 82.0
     },
     "sky_cover": {
-      "min": 2,
-      "max": 42,
-      "avg": 15.33
+      "min": 1,
+      "max": 63,
+      "avg": 23.93
     },
     "humidity": {
       "min": 45,
       "max": 100,
-      "avg": 71.03
+      "avg": 70.74
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 1.7,
-      "max_gust_mph": 10.4,
+      "avg_mph": 2.3,
+      "max_gust_mph": 11.5,
       "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-10-07",
-      "morning": {
-        "sky_cover": {
-          "min": 4,
-          "max": 4,
-          "avg": 4.0
-        },
-        "air_temp_f": {
-          "min": 49.0,
-          "max": 49.0,
-          "avg": 49.0
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 3,
-          "max": 6,
-          "avg": 4.67
-        },
-        "humidity": {
-          "min": 54,
-          "max": 88,
-          "avg": 70.0
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 53.0,
-          "max": 75.0,
-          "avg": 65.2
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 1.2,
-          "avg": 1.2
-        },
-        "wind_gust_mph": {
-          "min": 1.2,
-          "max": 3.5,
-          "avg": 2.33
-        }
-      },
+      "morning": {},
+      "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 7,
-          "max": 9,
-          "avg": 7.8
+          "min": 2,
+          "max": 4,
+          "avg": 3.0
         },
         "humidity": {
           "min": 48,
@@ -138,9 +96,9 @@
       "date": "2026-10-07",
       "morning": {
         "sky_cover": {
-          "min": 7,
-          "max": 26,
-          "avg": 15.43
+          "min": 5,
+          "max": 18,
+          "avg": 10.83
         },
         "rain_inches": {
           "min": 0.0,
@@ -152,6 +110,11 @@
           "max": 57.0,
           "avg": 54.5
         },
+        "wind_mph": {
+          "min": 0.0,
+          "max": 1.2,
+          "avg": 0.6
+        },
         "wind_gust_mph": {
           "min": 1.2,
           "max": 2.3,
@@ -160,9 +123,9 @@
       },
       "afternoon": {
         "sky_cover": {
-          "min": 3,
-          "max": 23,
-          "avg": 12.17
+          "min": 5,
+          "max": 17,
+          "avg": 11.5
         },
         "humidity": {
           "min": 49,
@@ -182,7 +145,7 @@
         "wind_mph": {
           "min": 1.2,
           "max": 4.6,
-          "avg": 2.7
+          "avg": 3.1
         },
         "wind_gust_mph": {
           "min": 3.5,
@@ -192,9 +155,9 @@
       },
       "evening": {
         "sky_cover": {
-          "min": 2,
-          "max": 17,
-          "avg": 7.0
+          "min": 10,
+          "max": 47,
+          "avg": 22.5
         },
         "humidity": {
           "min": 45,
@@ -213,13 +176,13 @@
         },
         "wind_mph": {
           "min": 3.5,
-          "max": 3.5,
-          "avg": 3.5
+          "max": 5.8,
+          "avg": 4.63
         },
         "wind_gust_mph": {
-          "min": 8.1,
-          "max": 10.4,
-          "avg": 9.23
+          "min": 9.2,
+          "max": 11.5,
+          "avg": 10.38
         }
       }
     }
@@ -295,7 +258,7 @@
   "angler_analysis": {
     "quality_score": 4.0,
     "quality_label": "Fair",
-    "best_window": "day2 morning",
+    "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
