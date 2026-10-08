@@ -22,80 +22,43 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 51.7,
-    "gage_height_ft": 3.43,
+    "flow_cfs": 48.9,
+    "gage_height_ft": 3.4,
     "turbidity": null,
-    "observed_at": "2026-10-08T04:00:00.000-04:00"
+    "observed_at": "2026-10-08T11:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.03,
+    "pressure_inhg": 30.07,
     "air_temp": {
-      "current_f": 52,
-      "low_f": 52.0,
+      "current_f": 83,
+      "low_f": 57.0,
       "high_f": 84.0
     },
     "sky_cover": {
-      "min": 5,
+      "min": 16,
       "max": 91,
-      "avg": 58.24
+      "avg": 69.44
     },
     "humidity": {
       "min": 44,
-      "max": 87,
-      "avg": 66.74
+      "max": 92,
+      "avg": 70.74
     },
     "rain": {
-      "max_probability_percent": 37,
-      "expected_inches": 0.08
+      "max_probability_percent": 75,
+      "expected_inches": 0.64
     },
     "wind": {
-      "avg_mph": 6.0,
-      "max_gust_mph": 25.3,
-      "predominant_direction": "NW"
+      "avg_mph": 7.8,
+      "max_gust_mph": 32.2,
+      "predominant_direction": "ESE"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-10-08",
-      "morning": {
-        "sky_cover": {
-          "min": 32,
-          "max": 32,
-          "avg": 32.0
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 5,
-          "max": 17,
-          "avg": 13.0
-        },
-        "humidity": {
-          "min": 49,
-          "max": 79,
-          "avg": 61.75
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 52.0,
-          "max": 81.0,
-          "avg": 68.5
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 2.3,
-          "avg": 1.75
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 6.9,
-          "avg": 5.77
-        }
-      },
+      "morning": {},
+      "afternoon": {},
       "evening": {
         "sky_cover": {
           "min": 16,
@@ -105,17 +68,12 @@
         "humidity": {
           "min": 44,
           "max": 60,
-          "avg": 49.2
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "avg": 50.25
         },
         "air_temp_f": {
           "min": 77.0,
           "max": 84.0,
-          "avg": 81.4
+          "avg": 81.0
         },
         "wind_mph": {
           "min": 1.2,
@@ -298,8 +256,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 5.0,
-    "quality_label": "Fair",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
     "best_window": "day2 morning",
     "water_temp_read": {
       "status": "unknown",
@@ -309,17 +267,20 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
+      "status": "cloudy",
+      "read": "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
       "positioning": [
         "runs",
-        "seams",
-        "structure"
+        "riffle edges",
+        "banks",
+        "feeding lanes"
       ],
       "tactics": [
-        "balanced nymph approach"
+        "soft hackles",
+        "streamers",
+        "nymphs"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": 1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -336,18 +297,27 @@
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
       "runs",
-      "seams",
-      "structure"
+      "riffle edges",
+      "banks",
+      "feeding lanes"
     ],
     "recommended_tactics": [
-      "balanced nymph approach"
+      "soft hackles",
+      "streamers",
+      "nymphs"
     ],
-    "recommended_fly_keys": [],
-    "fly_reasoning": {},
+    "recommended_fly_keys": [
+      "woolly_bugger",
+      "duracell"
+    ],
+    "fly_reasoning": {
+      "woolly_bugger": "Useful if clouds, stain, or low light make fish more willing to chase.",
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+    },
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
