@@ -21,84 +21,58 @@
   },
   "usgs_summary": {
     "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-    "water_temp_f": 53.2,
-    "flow_cfs": 2220.0,
-    "gage_height_ft": 3.99,
-    "turbidity": 9.8,
-    "observed_at": "2026-10-10T02:15:00.000-04:00"
+    "water_temp_f": 54.1,
+    "flow_cfs": 1470.0,
+    "gage_height_ft": 3.02,
+    "turbidity": 7.5,
+    "observed_at": "2026-10-10T08:15:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 29.93,
+    "pressure_inhg": null,
     "air_temp": {
       "current_f": 63,
       "low_f": 63.0,
-      "high_f": 70.0
+      "high_f": 73.0
     },
     "sky_cover": {
       "min": 0,
-      "max": 94,
-      "avg": 61.5
+      "max": 92,
+      "avg": 52.0
     },
     "humidity": {
-      "min": 88,
+      "min": 81,
       "max": 100,
-      "avg": 96.48
+      "avg": 95.11
     },
     "rain": {
-      "max_probability_percent": 96,
-      "expected_inches": 0.77
+      "max_probability_percent": 94,
+      "expected_inches": 0.57
     },
     "wind": {
-      "avg_mph": 15.4,
-      "max_gust_mph": 46.0,
+      "avg_mph": 14.0,
+      "max_gust_mph": 40.3,
       "predominant_direction": "E"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-10-10",
-      "morning": {
-        "sky_cover": {
-          "min": 90,
-          "max": 90,
-          "avg": 90.0
-        },
-        "humidity": {
-          "min": 97,
-          "max": 97,
-          "avg": 97.0
-        },
-        "rain_probability": {
-          "min": 87,
-          "max": 87,
-          "avg": 87.0
-        },
-        "wind_gust_mph": {
-          "min": 46.0,
-          "max": 46.0,
-          "avg": 46.0
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
-          "min": 88,
-          "max": 94,
-          "avg": 91.0
+          "min": 92,
+          "max": 92,
+          "avg": 92.0
         },
         "humidity": {
           "min": 96,
-          "max": 100,
-          "avg": 98.0
+          "max": 96,
+          "avg": 96.0
         },
         "rain_probability": {
-          "min": 63,
-          "max": 96,
-          "avg": 74.2
-        },
-        "rain_inches": {
-          "min": 0.77,
-          "max": 0.77,
-          "avg": 0.77
+          "min": 67,
+          "max": 67,
+          "avg": 67.0
         },
         "air_temp_f": {
           "min": 65.0,
@@ -107,13 +81,8 @@
         },
         "wind_mph": {
           "min": 21.9,
-          "max": 25.3,
-          "avg": 23.6
-        },
-        "wind_gust_mph": {
-          "min": 42.6,
-          "max": 44.9,
-          "avg": 43.73
+          "max": 21.9,
+          "avg": 21.9
         }
       },
       "evening": {
@@ -344,9 +313,9 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 9.0,
+    "quality_score": 8.0,
     "quality_label": "Very good",
-    "best_window": "day2 morning",
+    "best_window": "day1 morning",
     "water_temp_read": {
       "status": "ideal",
       "read": "Water temperature is in a favorable trout range.",
@@ -365,20 +334,11 @@
       "score_adjustment": 2.0
     },
     "light_pressure_read": {
-      "status": "cloudy",
-      "read": "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
-      "positioning": [
-        "runs",
-        "riffle edges",
-        "banks",
-        "feeding lanes"
-      ],
-      "tactics": [
-        "soft hackles",
-        "streamers",
-        "nymphs"
-      ],
-      "score_adjustment": 1.0
+      "status": "unknown",
+      "read": "Light and pressure read is unavailable.",
+      "positioning": [],
+      "tactics": [],
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -401,17 +361,13 @@
       "riffles",
       "runs",
       "seams",
-      "structure",
-      "riffle edges",
-      "banks",
-      "feeding lanes"
+      "structure"
     ],
     "recommended_tactics": [
       "nymphs",
       "midges",
       "soft hackles",
-      "opportunistic streamers",
-      "streamers"
+      "opportunistic streamers"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
@@ -430,7 +386,7 @@
     "caution_notes": [],
     "reasoning": [
       "Water temperature is in a favorable trout range.",
-      "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
+      "Light and pressure read is unavailable.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
