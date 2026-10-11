@@ -1,22 +1,22 @@
 {
   "river_key": "soque",
   "river_name": "Soque River",
-  "generated_at_utc": "2026-10-10T22:58:52.307492+00:00",
+  "generated_at_utc": "2026-10-11T02:19:12.985179+00:00",
   "current": {
     "latitude": 34.6186,
     "longitude": -83.5289,
-    "forecast_time": "2026-10-10T18:00:00-04:00",
-    "air_temp_f": 62,
+    "forecast_time": "2026-10-10T22:00:00-04:00",
+    "air_temp_f": 63,
     "temperature_unit": "F",
-    "wind_speed": "15 mph",
-    "wind_direction": "ENE",
+    "wind_speed": "10 mph",
+    "wind_direction": "E",
     "short_forecast": "Patchy Fog",
     "pressure_station": "KAJR",
-    "pressure_mb": 1014.6,
-    "pressure_inhg": 29.96
+    "pressure_mb": 1014.2,
+    "pressure_inhg": 29.95
   },
   "pressure_trend": {
-    "current_inhg": 29.96,
+    "current_inhg": 29.95,
     "previous_inhg": null,
     "change_since_last_run": null,
     "trend": "unknown"
@@ -26,14 +26,6 @@
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-10-10T23:00:00+00:00",
-          "value": 91
-        },
-        {
-          "time": "2026-10-11T00:00:00+00:00",
-          "value": 94
-        },
         {
           "time": "2026-10-11T04:00:00+00:00",
           "value": 95
@@ -201,22 +193,22 @@
         {
           "time": "2026-10-12T21:00:00+00:00",
           "value": 2
+        },
+        {
+          "time": "2026-10-13T01:00:00+00:00",
+          "value": 1
         }
       ],
       "summary": {
         "min": 1,
         "max": 97,
-        "avg": 48.27
+        "avg": 45.12
       }
     },
     "relativeHumidity": {
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-10-10T23:00:00+00:00",
-          "value": 99
-        },
         {
           "time": "2026-10-11T04:00:00+00:00",
           "value": 100
@@ -300,30 +292,34 @@
         {
           "time": "2026-10-12T22:00:00+00:00",
           "value": 60
+        },
+        {
+          "time": "2026-10-12T23:00:00+00:00",
+          "value": 68
+        },
+        {
+          "time": "2026-10-13T00:00:00+00:00",
+          "value": 78
+        },
+        {
+          "time": "2026-10-13T01:00:00+00:00",
+          "value": 87
+        },
+        {
+          "time": "2026-10-13T02:00:00+00:00",
+          "value": 95
         }
       ],
       "summary": {
         "min": 52,
         "max": 100,
-        "avg": 82.27
+        "avg": 81.56
       }
     },
     "probabilityOfPrecipitation": {
       "available": true,
       "unit": "wmoUnit:percent",
       "values": [
-        {
-          "time": "2026-10-10T23:00:00+00:00",
-          "value": 81
-        },
-        {
-          "time": "2026-10-11T00:00:00+00:00",
-          "value": 85
-        },
-        {
-          "time": "2026-10-11T01:00:00+00:00",
-          "value": 89
-        },
         {
           "time": "2026-10-11T03:00:00+00:00",
           "value": 84
@@ -412,17 +408,13 @@
       "summary": {
         "min": 0,
         "max": 89,
-        "avg": 40.71
+        "avg": 34.38
       }
     },
     "quantitativePrecipitation": {
       "available": true,
       "unit": "wmoUnit:mm",
       "values": [
-        {
-          "time": "2026-10-11T00:00:00+00:00",
-          "value": 19.304
-        },
         {
           "time": "2026-10-11T06:00:00+00:00",
           "value": 2.794
@@ -450,22 +442,22 @@
         {
           "time": "2026-10-12T18:00:00+00:00",
           "value": 0
+        },
+        {
+          "time": "2026-10-13T00:00:00+00:00",
+          "value": 0
         }
       ],
       "summary": {
         "min": 0,
-        "max": 19.3,
-        "avg": 2.79
+        "max": 2.79,
+        "avg": 0.38
       }
     },
     "temperature": {
       "available": true,
       "unit": "wmoUnit:degC",
       "values": [
-        {
-          "time": "2026-10-11T02:00:00+00:00",
-          "value": 17.22222222222222
-        },
         {
           "time": "2026-10-11T04:00:00+00:00",
           "value": 17.77777777777778
@@ -585,22 +577,34 @@
         {
           "time": "2026-10-12T22:00:00+00:00",
           "value": 25.555555555555557
+        },
+        {
+          "time": "2026-10-12T23:00:00+00:00",
+          "value": 23.333333333333332
+        },
+        {
+          "time": "2026-10-13T00:00:00+00:00",
+          "value": 21.11111111111111
+        },
+        {
+          "time": "2026-10-13T01:00:00+00:00",
+          "value": 18.88888888888889
+        },
+        {
+          "time": "2026-10-13T02:00:00+00:00",
+          "value": 17.22222222222222
         }
       ],
       "summary": {
         "min": 15,
         "max": 27.78,
-        "avg": 19.43
+        "avg": 19.58
       }
     },
     "dewpoint": {
       "available": true,
       "unit": "wmoUnit:degC",
       "values": [
-        {
-          "time": "2026-10-10T23:00:00+00:00",
-          "value": 16.666666666666668
-        },
         {
           "time": "2026-10-11T03:00:00+00:00",
           "value": 17.22222222222222
@@ -700,34 +704,26 @@
         {
           "time": "2026-10-12T22:00:00+00:00",
           "value": 17.22222222222222
+        },
+        {
+          "time": "2026-10-13T01:00:00+00:00",
+          "value": 16.666666666666668
+        },
+        {
+          "time": "2026-10-13T02:00:00+00:00",
+          "value": 16.11111111111111
         }
       ],
       "summary": {
         "min": 15,
         "max": 18.33,
-        "avg": 16.86
+        "avg": 16.83
       }
     },
     "windSpeed": {
       "available": true,
       "unit": "wmoUnit:km_h-1",
       "values": [
-        {
-          "time": "2026-10-10T23:00:00+00:00",
-          "value": 22.224
-        },
-        {
-          "time": "2026-10-11T00:00:00+00:00",
-          "value": 20.372
-        },
-        {
-          "time": "2026-10-11T01:00:00+00:00",
-          "value": 18.52
-        },
-        {
-          "time": "2026-10-11T02:00:00+00:00",
-          "value": 16.668
-        },
         {
           "time": "2026-10-11T03:00:00+00:00",
           "value": 14.816
@@ -815,30 +811,30 @@
         {
           "time": "2026-10-12T22:00:00+00:00",
           "value": 11.112
+        },
+        {
+          "time": "2026-10-12T23:00:00+00:00",
+          "value": 9.26
+        },
+        {
+          "time": "2026-10-13T00:00:00+00:00",
+          "value": 7.408
+        },
+        {
+          "time": "2026-10-13T01:00:00+00:00",
+          "value": 5.556
         }
       ],
       "summary": {
-        "min": 7.41,
-        "max": 22.22,
-        "avg": 14.25
+        "min": 5.56,
+        "max": 18.52,
+        "avg": 12.59
       }
     },
     "windGust": {
       "available": true,
       "unit": "wmoUnit:km_h-1",
       "values": [
-        {
-          "time": "2026-10-10T23:00:00+00:00",
-          "value": 40.744
-        },
-        {
-          "time": "2026-10-11T01:00:00+00:00",
-          "value": 37.04
-        },
-        {
-          "time": "2026-10-11T02:00:00+00:00",
-          "value": 35.188
-        },
         {
           "time": "2026-10-11T03:00:00+00:00",
           "value": 29.632
@@ -942,22 +938,34 @@
         {
           "time": "2026-10-12T22:00:00+00:00",
           "value": 22.224
+        },
+        {
+          "time": "2026-10-12T23:00:00+00:00",
+          "value": 18.52
+        },
+        {
+          "time": "2026-10-13T00:00:00+00:00",
+          "value": 16.668
+        },
+        {
+          "time": "2026-10-13T01:00:00+00:00",
+          "value": 14.816
+        },
+        {
+          "time": "2026-10-13T02:00:00+00:00",
+          "value": 12.964
         }
       ],
       "summary": {
-        "min": 20.37,
-        "max": 40.74,
-        "avg": 29.18
+        "min": 12.96,
+        "max": 37.04,
+        "avg": 26.55
       }
     },
     "windDirection": {
       "available": true,
       "unit": "wmoUnit:degree_(angle)",
       "values": [
-        {
-          "time": "2026-10-11T02:00:00+00:00",
-          "value": 80
-        },
         {
           "time": "2026-10-11T05:00:00+00:00",
           "value": 90
@@ -1032,9 +1040,9 @@
         }
       ],
       "summary": {
-        "min": 80,
+        "min": 90,
         "max": 320,
-        "avg": 227.89
+        "avg": 236.11
       }
     }
   }
