@@ -21,74 +21,42 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 64.9,
-    "flow_cfs": 96.5,
-    "gage_height_ft": 3.8,
-    "turbidity": 12.9,
-    "observed_at": "2026-10-13T13:00:00.000-04:00"
+    "water_temp_f": 65.8,
+    "flow_cfs": 90.7,
+    "gage_height_ft": 3.75,
+    "turbidity": 14.2,
+    "observed_at": "2026-10-13T21:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.11,
+    "pressure_inhg": 30.13,
     "air_temp": {
-      "current_f": 83,
+      "current_f": 66,
       "low_f": 60.0,
       "high_f": 86.0
     },
     "sky_cover": {
       "min": 0,
       "max": 16,
-      "avg": 3.77
+      "avg": 3.66
     },
     "humidity": {
       "min": 45,
       "max": 94,
-      "avg": 71.77
+      "avg": 71.36
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 2.4,
-      "max_gust_mph": 10.4,
-      "predominant_direction": "W"
+      "avg_mph": 2.2,
+      "max_gust_mph": 8.1,
+      "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-10-13",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 0,
-          "max": 0,
-          "avg": 0.0
-        },
-        "humidity": {
-          "min": 50,
-          "max": 66,
-          "avg": 56.67
-        },
-        "air_temp_f": {
-          "min": 74.0,
-          "max": 80.0,
-          "avg": 77.0
-        },
-        "wind_mph": {
-          "min": 3.5,
-          "max": 3.5,
-          "avg": 3.5
-        },
-        "wind_gust_mph": {
-          "min": 8.1,
-          "max": 10.4,
-          "avg": 9.25
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "morning": {
         "sky_cover": {
           "min": 2,
@@ -178,6 +146,100 @@
           "min": 6.9,
           "max": 8.1,
           "avg": 7.3
+        }
+      }
+    },
+    "day2": {
+      "date": "2026-10-14",
+      "morning": {
+        "sky_cover": {
+          "min": 2,
+          "max": 12,
+          "avg": 5.17
+        },
+        "humidity": {
+          "min": 92,
+          "max": 94,
+          "avg": 92.8
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 62.0,
+          "max": 65.0,
+          "avg": 63.5
+        },
+        "wind_gust_mph": {
+          "min": 3.5,
+          "max": 4.6,
+          "avg": 3.87
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 1,
+          "max": 16,
+          "avg": 7.2
+        },
+        "humidity": {
+          "min": 57,
+          "max": 91,
+          "avg": 72.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 65.0,
+          "max": 82.0,
+          "avg": 74.8
+        },
+        "wind_mph": {
+          "min": 2.3,
+          "max": 2.3,
+          "avg": 2.3
+        },
+        "wind_gust_mph": {
+          "min": 4.6,
+          "max": 6.9,
+          "avg": 5.77
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 2,
+          "max": 2,
+          "avg": 2.0
+        },
+        "humidity": {
+          "min": 50,
+          "max": 61,
+          "avg": 53.67
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 79.0,
+          "max": 86.0,
+          "avg": 83.67
+        },
+        "wind_mph": {
+          "min": 2.3,
+          "max": 3.5,
+          "avg": 2.9
+        },
+        "wind_gust_mph": {
+          "min": 6.9,
+          "max": 8.1,
+          "avg": 7.5
         }
       }
     }
