@@ -21,74 +21,42 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 68.7,
+    "water_temp_f": 68.4,
     "flow_cfs": 74.5,
     "gage_height_ft": 3.6,
-    "turbidity": 9.1,
-    "observed_at": "2026-10-16T18:00:00.000-04:00"
+    "turbidity": 9.4,
+    "observed_at": "2026-10-16T20:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 29.95,
+    "pressure_inhg": 30.03,
     "air_temp": {
-      "current_f": 77,
+      "current_f": 64,
       "low_f": 40.0,
-      "high_f": 72.0
+      "high_f": 63.0
     },
     "sky_cover": {
       "min": 0,
       "max": 52,
-      "avg": 16.55
+      "avg": 14.9
     },
     "humidity": {
       "min": 33,
       "max": 85,
-      "avg": 65.08
+      "avg": 62.76
     },
     "rain": {
       "max_probability_percent": 3,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 9.2,
+      "avg_mph": 8.6,
       "max_gust_mph": 25.3,
-      "predominant_direction": "W"
+      "predominant_direction": "NW"
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-10-16",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 29,
-          "max": 29,
-          "avg": 29.0
-        },
-        "humidity": {
-          "min": 72,
-          "max": 72,
-          "avg": 72.0
-        },
-        "rain_probability": {
-          "min": 2,
-          "max": 2,
-          "avg": 2.0
-        },
-        "air_temp_f": {
-          "min": 72.0,
-          "max": 72.0,
-          "avg": 72.0
-        },
-        "wind_gust_mph": {
-          "min": 20.7,
-          "max": 20.7,
-          "avg": 20.7
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "morning": {
         "sky_cover": {
           "min": 22,
@@ -185,6 +153,100 @@
           "avg": 19.58
         }
       }
+    },
+    "day2": {
+      "date": "2026-10-17",
+      "morning": {
+        "sky_cover": {
+          "min": 2,
+          "max": 4,
+          "avg": 3.0
+        },
+        "humidity": {
+          "min": 80,
+          "max": 82,
+          "avg": 80.75
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 40.0,
+          "max": 44.0,
+          "avg": 42.0
+        },
+        "wind_mph": {
+          "min": 3.5,
+          "max": 3.5,
+          "avg": 3.5
+        },
+        "wind_gust_mph": {
+          "min": 6.9,
+          "max": 9.2,
+          "avg": 8.07
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 0,
+          "max": 2,
+          "avg": 1.0
+        },
+        "humidity": {
+          "min": 37,
+          "max": 78,
+          "avg": 55.83
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 42.0,
+          "max": 59.0,
+          "avg": 51.2
+        },
+        "wind_mph": {
+          "min": 4.6,
+          "max": 9.2,
+          "avg": 7.2
+        },
+        "wind_gust_mph": {
+          "min": 10.4,
+          "max": 17.3,
+          "avg": 13.82
+        }
+      },
+      "evening": {
+        "humidity": {
+          "min": 33,
+          "max": 44,
+          "avg": 37.2
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 57.0,
+          "max": 63.0,
+          "avg": 60.5
+        },
+        "wind_mph": {
+          "min": 4.6,
+          "max": 8.1,
+          "avg": 6.35
+        },
+        "wind_gust_mph": {
+          "min": 11.5,
+          "max": 16.1,
+          "avg": 14.1
+        }
+      }
     }
   },
   "stocking": {
@@ -258,7 +320,7 @@
   "angler_analysis": {
     "quality_score": 3.0,
     "quality_label": "Tough",
-    "best_window": "day2 morning",
+    "best_window": "day1 morning",
     "water_temp_read": {
       "status": "hot",
       "read": "Water is warm enough to make trout stress a concern.",
