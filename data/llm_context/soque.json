@@ -22,73 +22,41 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 72.7,
-    "gage_height_ft": 3.54,
+    "flow_cfs": 68.3,
+    "gage_height_ft": 3.5,
     "turbidity": null,
-    "observed_at": "2026-10-17T15:00:00.000-04:00"
+    "observed_at": "2026-10-17T22:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.24,
+    "pressure_inhg": null,
     "air_temp": {
-      "current_f": 64,
+      "current_f": 50,
       "low_f": 38.0,
       "high_f": 69.0
     },
     "sky_cover": {
       "min": 0,
       "max": 4,
-      "avg": 1.75
+      "avg": 1.93
     },
     "humidity": {
       "min": 28,
       "max": 74,
-      "avg": 52.13
+      "avg": 52.16
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 5.9,
+      "avg_mph": 5.2,
       "max_gust_mph": 19.6,
       "predominant_direction": "NNE"
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-10-17",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 1,
-          "max": 1,
-          "avg": 1.0
-        },
-        "humidity": {
-          "min": 45,
-          "max": 52,
-          "avg": 48.5
-        },
-        "air_temp_f": {
-          "min": 57.0,
-          "max": 60.0,
-          "avg": 58.5
-        },
-        "wind_mph": {
-          "min": 6.9,
-          "max": 6.9,
-          "avg": 6.9
-        },
-        "wind_gust_mph": {
-          "min": 13.8,
-          "max": 15.0,
-          "avg": 14.4
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "morning": {
         "sky_cover": {
           "min": 2,
@@ -185,6 +153,105 @@
           "avg": 16.4
         }
       }
+    },
+    "day2": {
+      "date": "2026-10-18",
+      "morning": {
+        "sky_cover": {
+          "min": 2,
+          "max": 4,
+          "avg": 3.25
+        },
+        "humidity": {
+          "min": 61,
+          "max": 67,
+          "avg": 63.57
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 38.0,
+          "max": 44.0,
+          "avg": 41.17
+        },
+        "wind_mph": {
+          "min": 3.5,
+          "max": 4.6,
+          "avg": 4.05
+        },
+        "wind_gust_mph": {
+          "min": 6.9,
+          "max": 11.5,
+          "avg": 9.22
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 0,
+          "max": 1,
+          "avg": 0.67
+        },
+        "humidity": {
+          "min": 35,
+          "max": 63,
+          "avg": 48.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 40.0,
+          "max": 65.0,
+          "avg": 52.67
+        },
+        "wind_mph": {
+          "min": 3.5,
+          "max": 4.6,
+          "avg": 4.05
+        },
+        "wind_gust_mph": {
+          "min": 5.8,
+          "max": 6.9,
+          "avg": 6.35
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 2,
+          "max": 2,
+          "avg": 2.0
+        },
+        "humidity": {
+          "min": 33,
+          "max": 51,
+          "avg": 38.5
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 61.0,
+          "max": 69.0,
+          "avg": 66.5
+        },
+        "wind_mph": {
+          "min": 1.2,
+          "max": 2.3,
+          "avg": 1.75
+        },
+        "wind_gust_mph": {
+          "min": 3.5,
+          "max": 5.8,
+          "avg": 4.65
+        }
+      }
     }
   },
   "stocking": {
@@ -256,7 +323,7 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 4.0,
+    "quality_score": 5.0,
     "quality_label": "Fair",
     "best_window": "day1 morning",
     "water_temp_read": {
@@ -267,20 +334,11 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover make this fishable but technical.",
-      "positioning": [
-        "shade",
-        "deeper runs",
-        "undercut banks",
-        "structure"
-      ],
-      "tactics": [
-        "smaller natural flies",
-        "careful drifts",
-        "less aggressive presentations"
-      ],
-      "score_adjustment": -1.0
+      "status": "unknown",
+      "read": "Light and pressure read is unavailable.",
+      "positioning": [],
+      "tactics": [],
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -295,33 +353,14 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [
-      "shade",
-      "deeper runs",
-      "undercut banks",
-      "structure"
-    ],
-    "recommended_tactics": [
-      "smaller natural flies",
-      "careful drifts",
-      "less aggressive presentations"
-    ],
-    "recommended_fly_keys": [
-      "zebra_midge",
-      "pheasant_tail",
-      "haresear"
-    ],
-    "fly_reasoning": {
-      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
-      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious.",
-      "haresear": "General-purpose natural nymph for seams and runs."
-    },
-    "caution_notes": [
-      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
-    ],
+    "likely_trout_positioning": [],
+    "recommended_tactics": [],
+    "recommended_fly_keys": [],
+    "fly_reasoning": {},
+    "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "High pressure and low cloud cover make this fishable but technical.",
+      "Light and pressure read is unavailable.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
