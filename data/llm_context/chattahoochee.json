@@ -21,69 +21,42 @@
   },
   "usgs_summary": {
     "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-    "water_temp_f": 54.9,
-    "flow_cfs": 790.0,
-    "gage_height_ft": 1.94,
-    "turbidity": 2.8,
-    "observed_at": "2026-10-20T17:15:00.000-04:00"
+    "water_temp_f": 55.2,
+    "flow_cfs": 767.0,
+    "gage_height_ft": 1.89,
+    "turbidity": 2.6,
+    "observed_at": "2026-10-20T20:15:00.000-04:00"
   },
   "weather_summary": {
     "pressure_inhg": 30.24,
     "air_temp": {
-      "current_f": 71,
+      "current_f": 60,
       "low_f": 53.0,
       "high_f": 74.0
     },
     "sky_cover": {
       "min": 0,
-      "max": 5,
-      "avg": 2.0
+      "max": 3,
+      "avg": 1.75
     },
     "humidity": {
-      "min": 38,
+      "min": 42,
       "max": 97,
-      "avg": 74.69
+      "avg": 75.57
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 3.4,
+      "avg_mph": 3.5,
       "max_gust_mph": 10.4,
       "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-10-20",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 5,
-          "max": 5,
-          "avg": 5.0
-        },
-        "humidity": {
-          "min": 38,
-          "max": 38,
-          "avg": 38.0
-        },
-        "air_temp_f": {
-          "min": 69.0,
-          "max": 69.0,
-          "avg": 69.0
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 4.6,
-          "avg": 4.6
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "morning": {
         "sky_cover": {
           "min": 2,
@@ -178,6 +151,100 @@
           "min": 4.6,
           "max": 10.4,
           "avg": 7.62
+        }
+      }
+    },
+    "day2": {
+      "date": "2026-10-21",
+      "morning": {
+        "sky_cover": {
+          "min": 1,
+          "max": 3,
+          "avg": 2.0
+        },
+        "humidity": {
+          "min": 91,
+          "max": 97,
+          "avg": 94.25
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 53.0,
+          "max": 57.0,
+          "avg": 55.25
+        },
+        "wind_mph": {
+          "min": 2.3,
+          "max": 2.3,
+          "avg": 2.3
+        },
+        "wind_gust_mph": {
+          "min": 4.6,
+          "max": 5.8,
+          "avg": 5.2
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 0,
+          "max": 2,
+          "avg": 1.0
+        },
+        "humidity": {
+          "min": 55,
+          "max": 97,
+          "avg": 77.83
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 55.0,
+          "max": 70.0,
+          "avg": 63.2
+        },
+        "wind_mph": {
+          "min": 1.2,
+          "max": 1.2,
+          "avg": 1.2
+        },
+        "wind_gust_mph": {
+          "min": 4.6,
+          "max": 5.8,
+          "avg": 5.2
+        }
+      },
+      "evening": {
+        "humidity": {
+          "min": 42,
+          "max": 59,
+          "avg": 49.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 68.0,
+          "max": 74.0,
+          "avg": 71.6
+        },
+        "wind_mph": {
+          "min": 2.3,
+          "max": 2.3,
+          "avg": 2.3
+        },
+        "wind_gust_mph": {
+          "min": 5.8,
+          "max": 5.8,
+          "avg": 5.8
         }
       }
     }
