@@ -25,24 +25,24 @@
     "flow_cfs": 156.0,
     "gage_height_ft": 0.91,
     "turbidity": null,
-    "observed_at": "2026-10-24T03:30:00.000-04:00"
+    "observed_at": "2026-10-24T07:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.37,
+    "pressure_inhg": 30.46,
     "air_temp": {
-      "current_f": 44,
-      "low_f": 41.0,
+      "current_f": 50,
+      "low_f": 40.0,
       "high_f": 71.0
     },
     "sky_cover": {
       "min": 2,
       "max": 23,
-      "avg": 10.2
+      "avg": 10.33
     },
     "humidity": {
       "min": 37,
       "max": 100,
-      "avg": 71.27
+      "avg": 69.0
     },
     "rain": {
       "max_probability_percent": null,
@@ -57,58 +57,27 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-10-24",
-      "morning": {
-        "sky_cover": {
-          "min": 6,
-          "max": 9,
-          "avg": 7.0
-        },
-        "humidity": {
-          "min": 95,
-          "max": 97,
-          "avg": 96.0
-        },
-        "air_temp_f": {
-          "min": 42.0,
-          "max": 43.0,
-          "avg": 42.5
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 4.6,
-          "avg": 4.6
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
           "min": 2,
-          "max": 5,
-          "avg": 3.5
+          "max": 3,
+          "avg": 2.5
         },
         "humidity": {
           "min": 43,
-          "max": 100,
-          "avg": 77.5
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "max": 77,
+          "avg": 60.33
         },
         "air_temp_f": {
-          "min": 43.0,
+          "min": 56.0,
           "max": 67.0,
-          "avg": 55.6
+          "avg": 61.67
         },
         "wind_mph": {
           "min": 2.3,
           "max": 2.3,
           "avg": 2.3
-        },
-        "wind_gust_mph": {
-          "min": 6.9,
-          "max": 6.9,
-          "avg": 6.9
         }
       },
       "evening": {
