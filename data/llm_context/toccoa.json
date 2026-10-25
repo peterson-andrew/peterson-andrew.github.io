@@ -22,34 +22,34 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 156.0,
-    "gage_height_ft": 0.91,
+    "flow_cfs": 154.0,
+    "gage_height_ft": 0.9,
     "turbidity": null,
-    "observed_at": "2026-10-25T00:30:00.000-04:00"
+    "observed_at": "2026-10-25T10:30:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 30.53,
     "air_temp": {
-      "current_f": 43,
+      "current_f": 55,
       "low_f": 41.0,
       "high_f": 72.0
     },
     "sky_cover": {
       "min": 2,
       "max": 39,
-      "avg": 15.67
+      "avg": 17.18
     },
     "humidity": {
       "min": 41,
       "max": 100,
-      "avg": 72.31
+      "avg": 70.9
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 1.6,
+      "avg_mph": 1.7,
       "max_gust_mph": 9.2,
       "predominant_direction": ""
     }
@@ -57,58 +57,32 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-10-25",
-      "morning": {
-        "sky_cover": {
-          "min": 8,
-          "max": 10,
-          "avg": 9.0
-        },
-        "humidity": {
-          "min": 98,
-          "max": 98,
-          "avg": 98.0
-        },
-        "air_temp_f": {
-          "min": 42.0,
-          "max": 42.0,
-          "avg": 42.0
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 4.6,
-          "avg": 4.6
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
           "min": 2,
-          "max": 7,
-          "avg": 3.4
+          "max": 3,
+          "avg": 2.5
         },
         "humidity": {
           "min": 49,
-          "max": 100,
-          "avg": 80.0
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "max": 62,
+          "avg": 55.5
         },
         "air_temp_f": {
-          "min": 43.0,
+          "min": 62.0,
           "max": 67.0,
-          "avg": 55.0
+          "avg": 64.5
         },
         "wind_mph": {
-          "min": 0.0,
+          "min": 3.5,
           "max": 3.5,
-          "avg": 1.86
+          "avg": 3.5
         },
         "wind_gust_mph": {
-          "min": 3.5,
+          "min": 8.1,
           "max": 9.2,
-          "avg": 6.94
+          "avg": 8.65
         }
       },
       "evening": {
@@ -303,7 +277,7 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 5.0,
+    "quality_score": 4.0,
     "quality_label": "Fair",
     "best_window": "day1 morning",
     "water_temp_read": {
@@ -314,11 +288,20 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
-      "score_adjustment": 0.0
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "positioning": [
+        "shade",
+        "deeper runs",
+        "undercut banks",
+        "structure"
+      ],
+      "tactics": [
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
+      ],
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -333,14 +316,33 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [],
-    "recommended_tactics": [],
-    "recommended_fly_keys": [],
-    "fly_reasoning": {},
-    "caution_notes": [],
+    "likely_trout_positioning": [
+      "shade",
+      "deeper runs",
+      "undercut banks",
+      "structure"
+    ],
+    "recommended_tactics": [
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
+    ],
+    "recommended_fly_keys": [
+      "zebra_midge",
+      "pheasant_tail",
+      "haresear"
+    ],
+    "fly_reasoning": {
+      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious.",
+      "haresear": "General-purpose natural nymph for seams and runs."
+    },
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure read is unavailable.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
