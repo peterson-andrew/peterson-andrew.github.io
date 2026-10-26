@@ -23,77 +23,35 @@
   "weather_summary": {
     "pressure_inhg": null,
     "air_temp": {
-      "current_f": 39,
-      "low_f": 37.0,
+      "current_f": 63,
+      "low_f": 42.0,
       "high_f": 70.0
     },
     "sky_cover": {
       "min": 1,
       "max": 69,
-      "avg": 26.37
+      "avg": 34.71
     },
     "humidity": {
       "min": 47,
-      "max": 98,
-      "avg": 75.1
+      "max": 94,
+      "avg": 74.38
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 0.7,
+      "avg_mph": 0.6,
       "max_gust_mph": 5.8,
-      "predominant_direction": ""
+      "predominant_direction": "N"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-10-26",
-      "morning": {
-        "sky_cover": {
-          "min": 8,
-          "max": 11,
-          "avg": 9.5
-        },
-        "humidity": {
-          "min": 98,
-          "max": 98,
-          "avg": 98.0
-        },
-        "air_temp_f": {
-          "min": 38.0,
-          "max": 38.0,
-          "avg": 38.0
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 9,
-          "max": 25,
-          "avg": 16.2
-        },
-        "humidity": {
-          "min": 54,
-          "max": 97,
-          "avg": 77.6
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 37.0,
-          "max": 63.0,
-          "avg": 49.33
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 1.2,
-          "avg": 1.2
-        }
-      },
+      "morning": {},
+      "afternoon": {},
       "evening": {
         "sky_cover": {
           "min": 23,
@@ -279,7 +237,7 @@
   "angler_analysis": {
     "quality_score": 5.0,
     "quality_label": "Fair",
-    "best_window": "day1 evening",
+    "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
