@@ -22,88 +22,57 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 66.1,
-    "gage_height_ft": 3.48,
+    "flow_cfs": 65.1,
+    "gage_height_ft": 3.47,
     "turbidity": null,
-    "observed_at": "2026-10-27T01:00:00.000-04:00"
+    "observed_at": "2026-10-27T12:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.17,
+    "pressure_inhg": null,
     "air_temp": {
-      "current_f": 44,
-      "low_f": 42.0,
+      "current_f": 67,
+      "low_f": 46.0,
       "high_f": 73.0
     },
     "sky_cover": {
       "min": 0,
       "max": 90,
-      "avg": 39.38
+      "avg": 38.58
     },
     "humidity": {
       "min": 38,
       "max": 100,
-      "avg": 73.38
+      "avg": 73.61
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 4.8,
+      "avg_mph": 5.0,
       "max_gust_mph": 16.1,
-      "predominant_direction": "N"
+      "predominant_direction": "E"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-10-27",
-      "morning": {
-        "sky_cover": {
-          "min": 29,
-          "max": 36,
-          "avg": 32.5
-        },
-        "humidity": {
-          "min": 100,
-          "max": 100,
-          "avg": 100.0
-        },
-        "air_temp_f": {
-          "min": 43.0,
-          "max": 43.0,
-          "avg": 43.0
-        }
-      },
+      "morning": {},
       "afternoon": {
-        "sky_cover": {
-          "min": 1,
-          "max": 30,
-          "avg": 17.25
-        },
         "humidity": {
           "min": 46,
-          "max": 94,
-          "avg": 65.2
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "max": 46,
+          "avg": 46.0
         },
         "air_temp_f": {
-          "min": 42.0,
+          "min": 69.0,
           "max": 69.0,
-          "avg": 58.0
-        },
-        "wind_mph": {
-          "min": 2.3,
-          "max": 4.6,
-          "avg": 3.47
+          "avg": 69.0
         },
         "wind_gust_mph": {
-          "min": 4.6,
+          "min": 10.4,
           "max": 10.4,
-          "avg": 7.62
+          "avg": 10.4
         }
       },
       "evening": {
@@ -319,16 +288,10 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
-      "positioning": [
-        "runs",
-        "seams",
-        "structure"
-      ],
-      "tactics": [
-        "balanced nymph approach"
-      ],
+      "status": "unknown",
+      "read": "Light and pressure read is unavailable.",
+      "positioning": [],
+      "tactics": [],
       "score_adjustment": 0.0
     },
     "pressure_trend_read": {
@@ -344,20 +307,14 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [
-      "runs",
-      "seams",
-      "structure"
-    ],
-    "recommended_tactics": [
-      "balanced nymph approach"
-    ],
+    "likely_trout_positioning": [],
+    "recommended_tactics": [],
     "recommended_fly_keys": [],
     "fly_reasoning": {},
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "Light and pressure read is unavailable.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
