@@ -21,86 +21,44 @@
   },
   "usgs_summary": {
     "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-    "water_temp_f": 54.1,
-    "flow_cfs": 1920.0,
-    "gage_height_ft": 3.55,
-    "turbidity": 8.8,
-    "observed_at": "2026-10-30T05:15:00.000-04:00"
+    "water_temp_f": 53.2,
+    "flow_cfs": 989.0,
+    "gage_height_ft": 2.33,
+    "turbidity": 4.9,
+    "observed_at": "2026-10-30T11:15:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.22,
+    "pressure_inhg": 30.25,
     "air_temp": {
-      "current_f": 57,
-      "low_f": 56.0,
+      "current_f": 74,
+      "low_f": 58.0,
       "high_f": 77.0
     },
     "sky_cover": {
-      "min": 19,
-      "max": 91,
-      "avg": 58.69
+      "min": 28,
+      "max": 92,
+      "avg": 67.17
     },
     "humidity": {
       "min": 48,
-      "max": 98,
-      "avg": 69.28
+      "max": 80,
+      "avg": 68.03
     },
     "rain": {
-      "max_probability_percent": 7,
+      "max_probability_percent": 9,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 9.2,
+      "avg_mph": 11.0,
       "max_gust_mph": 23.0,
-      "predominant_direction": "N"
+      "predominant_direction": "E"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-10-30",
-      "morning": {
-        "sky_cover": {
-          "min": 19,
-          "max": 19,
-          "avg": 19.0
-        },
-        "air_temp_f": {
-          "min": 56.0,
-          "max": 56.0,
-          "avg": 56.0
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 20,
-          "max": 30,
-          "avg": 25.0
-        },
-        "humidity": {
-          "min": 55,
-          "max": 98,
-          "avg": 79.0
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 58.0,
-          "max": 74.0,
-          "avg": 66.6
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 3.5,
-          "avg": 2.33
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 8.1,
-          "avg": 5.78
-        }
-      },
+      "morning": {},
+      "afternoon": {},
       "evening": {
         "sky_cover": {
           "min": 28,
@@ -304,7 +262,7 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 8.0,
+    "quality_score": 9.0,
     "quality_label": "Very good",
     "best_window": "day2 morning",
     "water_temp_read": {
@@ -325,17 +283,20 @@
       "score_adjustment": 2.0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
+      "status": "cloudy",
+      "read": "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
       "positioning": [
         "runs",
-        "seams",
-        "structure"
+        "riffle edges",
+        "banks",
+        "feeding lanes"
       ],
       "tactics": [
-        "balanced nymph approach"
+        "soft hackles",
+        "streamers",
+        "nymphs"
       ],
-      "score_adjustment": 0.0
+      "score_adjustment": 1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -358,14 +319,17 @@
       "riffles",
       "runs",
       "seams",
-      "structure"
+      "structure",
+      "riffle edges",
+      "banks",
+      "feeding lanes"
     ],
     "recommended_tactics": [
       "nymphs",
       "midges",
       "soft hackles",
       "opportunistic streamers",
-      "balanced nymph approach"
+      "streamers"
     ],
     "recommended_fly_keys": [
       "egg_pattern",
@@ -384,7 +348,7 @@
     "caution_notes": [],
     "reasoning": [
       "Water temperature is in a favorable trout range.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
       "Pressure trend is unavailable.",
       "Recent stocking supports eggs, worms, and attractor nymphs."
     ]
