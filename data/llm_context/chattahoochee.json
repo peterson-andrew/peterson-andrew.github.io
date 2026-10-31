@@ -21,35 +21,35 @@
   },
   "usgs_summary": {
     "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-    "water_temp_f": 54.0,
-    "flow_cfs": 2350.0,
-    "gage_height_ft": 4.07,
-    "turbidity": 10.3,
-    "observed_at": "2026-10-31T03:15:00.000-04:00"
+    "water_temp_f": 54.1,
+    "flow_cfs": 1060.0,
+    "gage_height_ft": 2.46,
+    "turbidity": 3.9,
+    "observed_at": "2026-10-31T09:15:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.28,
+    "pressure_inhg": 30.4,
     "air_temp": {
-      "current_f": 62,
+      "current_f": 64,
       "low_f": 57.0,
       "high_f": 68.0
     },
     "sky_cover": {
       "min": 74,
       "max": 95,
-      "avg": 83.7
+      "avg": 83.97
     },
     "humidity": {
       "min": 50,
-      "max": 73,
-      "avg": 61.2
+      "max": 81,
+      "avg": 63.1
     },
     "rain": {
       "max_probability_percent": 15,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 15.1,
+      "avg_mph": 14.8,
       "max_gust_mph": 24.2,
       "predominant_direction": "E"
     }
@@ -57,68 +57,27 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-10-31",
-      "morning": {
-        "sky_cover": {
-          "min": 82,
-          "max": 83,
-          "avg": 82.5
-        },
-        "humidity": {
-          "min": 63,
-          "max": 63,
-          "avg": 63.0
-        },
-        "air_temp_f": {
-          "min": 63.0,
-          "max": 63.0,
-          "avg": 63.0
-        },
-        "wind_mph": {
-          "min": 13.8,
-          "max": 16.1,
-          "avg": 14.95
-        },
-        "wind_gust_mph": {
-          "min": 21.9,
-          "max": 23.0,
-          "avg": 22.45
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
           "min": 74,
-          "max": 84,
-          "avg": 79.0
+          "max": 74,
+          "avg": 74.0
         },
         "humidity": {
           "min": 54,
-          "max": 66,
-          "avg": 61.2
-        },
-        "rain_probability": {
-          "min": 0,
-          "max": 1,
-          "avg": 0.67
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "max": 54,
+          "avg": 54.0
         },
         "air_temp_f": {
-          "min": 62.0,
+          "min": 65.0,
           "max": 65.0,
-          "avg": 63.5
+          "avg": 65.0
         },
         "wind_mph": {
           "min": 15.0,
-          "max": 17.3,
-          "avg": 16.13
-        },
-        "wind_gust_mph": {
-          "min": 23.0,
-          "max": 24.2,
-          "avg": 23.8
+          "max": 15.0,
+          "avg": 15.0
         }
       },
       "evening": {
@@ -346,7 +305,7 @@
   "angler_analysis": {
     "quality_score": 9.0,
     "quality_label": "Very good",
-    "best_window": "day2 morning",
+    "best_window": "day1 afternoon",
     "water_temp_read": {
       "status": "ideal",
       "read": "Water temperature is in a favorable trout range.",
