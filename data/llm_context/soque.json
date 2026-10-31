@@ -22,36 +22,36 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 61.9,
-    "gage_height_ft": 3.44,
+    "flow_cfs": 65.1,
+    "gage_height_ft": 3.47,
     "turbidity": null,
-    "observed_at": "2026-10-30T17:00:00.000-04:00"
+    "observed_at": "2026-10-30T21:00:00.000-04:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.2,
+    "pressure_inhg": null,
     "air_temp": {
-      "current_f": 72,
+      "current_f": 60,
       "low_f": 50.0,
       "high_f": 68.0
     },
     "sky_cover": {
-      "min": 29,
+      "min": 54,
       "max": 98,
-      "avg": 78.89
+      "avg": 81.89
     },
     "humidity": {
       "min": 46,
       "max": 79,
-      "avg": 62.42
+      "avg": 62.74
     },
     "rain": {
-      "max_probability_percent": 9,
+      "max_probability_percent": 11,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 9.2,
+      "avg_mph": 9.0,
       "max_gust_mph": 25.3,
-      "predominant_direction": "ESE"
+      "predominant_direction": "NE"
     }
   },
   "forecast_breakdown": {
@@ -343,8 +343,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 6.0,
-    "quality_label": "Fair to good",
+    "quality_score": 5.0,
+    "quality_label": "Fair",
     "best_window": "day1 afternoon",
     "water_temp_read": {
       "status": "unknown",
@@ -354,20 +354,11 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "cloudy",
-      "read": "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
-      "positioning": [
-        "runs",
-        "riffle edges",
-        "banks",
-        "feeding lanes"
-      ],
-      "tactics": [
-        "soft hackles",
-        "streamers",
-        "nymphs"
-      ],
-      "score_adjustment": 1.0
+      "status": "unknown",
+      "read": "Light and pressure read is unavailable.",
+      "positioning": [],
+      "tactics": [],
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -382,29 +373,14 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [
-      "runs",
-      "riffle edges",
-      "banks",
-      "feeding lanes"
-    ],
-    "recommended_tactics": [
-      "soft hackles",
-      "streamers",
-      "nymphs"
-    ],
-    "recommended_fly_keys": [
-      "woolly_bugger",
-      "duracell"
-    ],
-    "fly_reasoning": {
-      "woolly_bugger": "Useful if clouds, stain, or low light make fish more willing to chase.",
-      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
-    },
+    "likely_trout_positioning": [],
+    "recommended_tactics": [],
+    "recommended_fly_keys": [],
+    "fly_reasoning": {},
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
+      "Light and pressure read is unavailable.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
