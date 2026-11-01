@@ -25,97 +25,40 @@
     "flow_cfs": 66.1,
     "gage_height_ft": 3.48,
     "turbidity": null,
-    "observed_at": "2026-11-01T03:00:00.000-05:00"
+    "observed_at": "2026-11-01T10:00:00.000-05:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 30.45,
     "air_temp": {
-      "current_f": 51,
+      "current_f": 58,
       "low_f": 49.0,
       "high_f": 68.0
     },
     "sky_cover": {
       "min": 41,
-      "max": 97,
-      "avg": 70.19
+      "max": 92,
+      "avg": 66.22
     },
     "humidity": {
       "min": 52,
-      "max": 95,
-      "avg": 72.39
+      "max": 97,
+      "avg": 75.74
     },
     "rain": {
       "max_probability_percent": 27,
       "expected_inches": 0.01
     },
     "wind": {
-      "avg_mph": 8.9,
-      "max_gust_mph": 24.2,
-      "predominant_direction": "ENE"
+      "avg_mph": 8.5,
+      "max_gust_mph": 20.7,
+      "predominant_direction": "E"
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-11-01",
-      "morning": {
-        "sky_cover": {
-          "min": 97,
-          "max": 97,
-          "avg": 97.0
-        },
-        "humidity": {
-          "min": 66,
-          "max": 66,
-          "avg": 66.0
-        },
-        "rain_probability": {
-          "min": 25,
-          "max": 25,
-          "avg": 25.0
-        },
-        "wind_mph": {
-          "min": 11.5,
-          "max": 11.5,
-          "avg": 11.5
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 81,
-          "max": 93,
-          "avg": 88.83
-        },
-        "humidity": {
-          "min": 57,
-          "max": 73,
-          "avg": 65.8
-        },
-        "rain_probability": {
-          "min": 13,
-          "max": 23,
-          "avg": 17.83
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 54.0,
-          "max": 58.0,
-          "avg": 56.25
-        },
-        "wind_mph": {
-          "min": 11.5,
-          "max": 12.7,
-          "avg": 12.1
-        },
-        "wind_gust_mph": {
-          "min": 21.9,
-          "max": 24.2,
-          "avg": 23.02
-        }
-      },
+      "morning": {},
+      "afternoon": {},
       "evening": {
         "sky_cover": {
           "min": 77,
@@ -323,8 +266,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 5.0,
-    "quality_label": "Fair",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
     "best_window": "day2 morning",
     "water_temp_read": {
       "status": "unknown",
@@ -334,11 +277,20 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
-      "score_adjustment": 0.0
+      "status": "cloudy",
+      "read": "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
+      "positioning": [
+        "runs",
+        "riffle edges",
+        "banks",
+        "feeding lanes"
+      ],
+      "tactics": [
+        "soft hackles",
+        "streamers",
+        "nymphs"
+      ],
+      "score_adjustment": 1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -353,14 +305,29 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [],
-    "recommended_tactics": [],
-    "recommended_fly_keys": [],
-    "fly_reasoning": {},
+    "likely_trout_positioning": [
+      "runs",
+      "riffle edges",
+      "banks",
+      "feeding lanes"
+    ],
+    "recommended_tactics": [
+      "soft hackles",
+      "streamers",
+      "nymphs"
+    ],
+    "recommended_fly_keys": [
+      "woolly_bugger",
+      "duracell"
+    ],
+    "fly_reasoning": {
+      "woolly_bugger": "Useful if clouds, stain, or low light make fish more willing to chase.",
+      "duracell": "A strong attractor nymph when fish will move a little but are not fully aggressive."
+    },
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure read is unavailable.",
+      "Higher cloud cover should reduce overhead exposure and may improve fish confidence.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
