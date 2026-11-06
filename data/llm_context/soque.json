@@ -28,28 +28,28 @@
     "observed_at": "2026-11-06T10:00:00.000-05:00"
   },
   "weather_summary": {
-    "pressure_inhg": 29.92,
+    "pressure_inhg": null,
     "air_temp": {
-      "current_f": 52,
-      "low_f": 35.0,
-      "high_f": 73.0
+      "current_f": 75,
+      "low_f": 36.0,
+      "high_f": 74.0
     },
     "sky_cover": {
       "min": 1,
-      "max": 70,
-      "avg": 17.0
+      "max": 51,
+      "avg": 18.62
     },
     "humidity": {
-      "min": 45,
+      "min": 39,
       "max": 100,
-      "avg": 72.42
+      "avg": 71.7
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 4.1,
+      "avg_mph": 3.7,
       "max_gust_mph": 16.1,
       "predominant_direction": "NW"
     }
@@ -58,58 +58,22 @@
     "day1": {
       "date": "2026-11-06",
       "morning": {},
-      "afternoon": {
-        "sky_cover": {
-          "min": 23,
-          "max": 70,
-          "avg": 58.17
-        },
-        "humidity": {
-          "min": 49,
-          "max": 86,
-          "avg": 70.83
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 60.0,
-          "max": 71.0,
-          "avg": 66.25
-        },
-        "wind_mph": {
-          "min": 3.5,
-          "max": 5.8,
-          "avg": 4.62
-        },
-        "wind_gust_mph": {
-          "min": 8.1,
-          "max": 11.5,
-          "avg": 9.8
-        }
-      },
+      "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 2,
-          "max": 11,
-          "avg": 6.8
+          "min": 9,
+          "max": 25,
+          "avg": 18.0
         },
         "humidity": {
-          "min": 45,
-          "max": 70,
-          "avg": 51.83
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "min": 39,
+          "max": 64,
+          "avg": 49.75
         },
         "air_temp_f": {
-          "min": 61.0,
-          "max": 73.0,
-          "avg": 69.5
+          "min": 63.0,
+          "max": 74.0,
+          "avg": 70.0
         },
         "wind_mph": {
           "min": 6.9,
@@ -119,7 +83,7 @@
         "wind_gust_mph": {
           "min": 13.8,
           "max": 16.1,
-          "avg": 14.98
+          "avg": 15.2
         }
       }
     },
@@ -127,41 +91,14 @@
       "date": "2026-11-06",
       "morning": {
         "sky_cover": {
-          "min": 3,
-          "max": 14,
-          "avg": 7.5
-        },
-        "humidity": {
-          "min": 100,
-          "max": 100,
-          "avg": 100.0
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 43.0,
-          "max": 48.0,
-          "avg": 45.4
-        },
-        "wind_gust_mph": {
-          "min": 9.2,
-          "max": 10.4,
-          "avg": 9.8
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 1,
+          "min": 2,
           "max": 3,
-          "avg": 2.0
+          "avg": 2.5
         },
         "humidity": {
-          "min": 52,
-          "max": 82,
-          "avg": 64.75
+          "min": 97,
+          "max": 100,
+          "avg": 98.5
         },
         "rain_inches": {
           "min": 0.0,
@@ -170,8 +107,40 @@
         },
         "air_temp_f": {
           "min": 42.0,
-          "max": 64.0,
-          "avg": 53.67
+          "max": 48.0,
+          "avg": 45.17
+        },
+        "wind_mph": {
+          "min": 4.6,
+          "max": 4.6,
+          "avg": 4.6
+        },
+        "wind_gust_mph": {
+          "min": 9.2,
+          "max": 11.5,
+          "avg": 10.38
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 1,
+          "max": 4,
+          "avg": 2.5
+        },
+        "humidity": {
+          "min": 54,
+          "max": 82,
+          "avg": 65.5
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 41.0,
+          "max": 62.0,
+          "avg": 53.0
         },
         "wind_mph": {
           "min": 2.3,
@@ -186,14 +155,14 @@
       },
       "evening": {
         "sky_cover": {
-          "min": 3,
-          "max": 20,
-          "avg": 9.17
+          "min": 6,
+          "max": 47,
+          "avg": 30.5
         },
         "humidity": {
-          "min": 47,
-          "max": 65,
-          "avg": 52.5
+          "min": 46,
+          "max": 60,
+          "avg": 50.4
         },
         "rain_inches": {
           "min": 0.0,
@@ -203,7 +172,7 @@
         "air_temp_f": {
           "min": 59.0,
           "max": 66.0,
-          "avg": 63.5
+          "avg": 63.4
         },
         "wind_mph": {
           "min": 2.3,
@@ -289,7 +258,7 @@
   "angler_analysis": {
     "quality_score": 5.0,
     "quality_label": "Fair",
-    "best_window": "day1 afternoon",
+    "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
@@ -298,16 +267,10 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "neutral",
-      "read": "Light and pressure do not strongly push the outlook either way.",
-      "positioning": [
-        "runs",
-        "seams",
-        "structure"
-      ],
-      "tactics": [
-        "balanced nymph approach"
-      ],
+      "status": "unknown",
+      "read": "Light and pressure read is unavailable.",
+      "positioning": [],
+      "tactics": [],
       "score_adjustment": 0.0
     },
     "pressure_trend_read": {
@@ -323,20 +286,14 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [
-      "runs",
-      "seams",
-      "structure"
-    ],
-    "recommended_tactics": [
-      "balanced nymph approach"
-    ],
+    "likely_trout_positioning": [],
+    "recommended_tactics": [],
     "recommended_fly_keys": [],
     "fly_reasoning": {},
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure do not strongly push the outlook either way.",
+      "Light and pressure read is unavailable.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
