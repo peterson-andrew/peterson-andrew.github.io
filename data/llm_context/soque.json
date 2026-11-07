@@ -22,78 +22,46 @@
   "usgs_summary": {
     "site_name": "SOQUE RIVER AT GA 197, NEAR CLARKESVILLE, GA",
     "water_temp_f": null,
-    "flow_cfs": 142.0,
-    "gage_height_ft": 4.1,
+    "flow_cfs": 121.0,
+    "gage_height_ft": 3.94,
     "turbidity": null,
-    "observed_at": "2026-11-06T10:00:00.000-05:00"
+    "observed_at": "2026-11-06T20:00:00.000-05:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 29.97,
     "air_temp": {
-      "current_f": 75,
+      "current_f": 52,
       "low_f": 36.0,
-      "high_f": 74.0
+      "high_f": 67.0
     },
     "sky_cover": {
       "min": 1,
       "max": 51,
-      "avg": 18.62
+      "avg": 18.18
     },
     "humidity": {
-      "min": 39,
+      "min": 45,
       "max": 100,
-      "avg": 71.7
+      "avg": 70.24
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 3.7,
-      "max_gust_mph": 16.1,
+      "avg_mph": 2.9,
+      "max_gust_mph": 11.5,
       "predominant_direction": "NW"
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-11-06",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 9,
-          "max": 25,
-          "avg": 18.0
-        },
-        "humidity": {
-          "min": 39,
-          "max": 64,
-          "avg": 49.75
-        },
-        "air_temp_f": {
-          "min": 63.0,
-          "max": 74.0,
-          "avg": 70.0
-        },
-        "wind_mph": {
-          "min": 6.9,
-          "max": 8.1,
-          "avg": 7.3
-        },
-        "wind_gust_mph": {
-          "min": 13.8,
-          "max": 16.1,
-          "avg": 15.2
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "morning": {
         "sky_cover": {
-          "min": 2,
+          "min": 1,
           "max": 3,
-          "avg": 2.5
+          "avg": 2.0
         },
         "humidity": {
           "min": 97,
@@ -110,11 +78,6 @@
           "max": 48.0,
           "avg": 45.17
         },
-        "wind_mph": {
-          "min": 4.6,
-          "max": 4.6,
-          "avg": 4.6
-        },
         "wind_gust_mph": {
           "min": 9.2,
           "max": 11.5,
@@ -124,8 +87,8 @@
       "afternoon": {
         "sky_cover": {
           "min": 1,
-          "max": 4,
-          "avg": 2.5
+          "max": 2,
+          "avg": 1.5
         },
         "humidity": {
           "min": 54,
@@ -183,6 +146,105 @@
           "min": 6.9,
           "max": 8.1,
           "avg": 7.5
+        }
+      }
+    },
+    "day2": {
+      "date": "2026-11-07",
+      "morning": {
+        "sky_cover": {
+          "min": 17,
+          "max": 28,
+          "avg": 22.86
+        },
+        "humidity": {
+          "min": 94,
+          "max": 100,
+          "avg": 97.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 37.0,
+          "max": 42.0,
+          "avg": 39.5
+        },
+        "wind_mph": {
+          "min": 0.0,
+          "max": 1.2,
+          "avg": 0.6
+        },
+        "wind_gust_mph": {
+          "min": 2.3,
+          "max": 6.9,
+          "avg": 4.62
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 3,
+          "max": 20,
+          "avg": 11.4
+        },
+        "humidity": {
+          "min": 52,
+          "max": 83,
+          "avg": 63.75
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 36.0,
+          "max": 63.0,
+          "avg": 50.83
+        },
+        "wind_mph": {
+          "min": 1.2,
+          "max": 3.5,
+          "avg": 2.33
+        },
+        "wind_gust_mph": {
+          "min": 3.5,
+          "max": 8.1,
+          "avg": 5.78
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 3,
+          "max": 5,
+          "avg": 4.0
+        },
+        "humidity": {
+          "min": 45,
+          "max": 61,
+          "avg": 50.17
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 60.0,
+          "max": 67.0,
+          "avg": 64.2
+        },
+        "wind_mph": {
+          "min": 4.6,
+          "max": 5.8,
+          "avg": 5.0
+        },
+        "wind_gust_mph": {
+          "min": 10.4,
+          "max": 11.5,
+          "avg": 10.77
         }
       }
     }
@@ -258,7 +320,7 @@
   "angler_analysis": {
     "quality_score": 5.0,
     "quality_label": "Fair",
-    "best_window": "day1 morning",
+    "best_window": "day1 evening",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
@@ -267,10 +329,16 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
+      "positioning": [
+        "runs",
+        "seams",
+        "structure"
+      ],
+      "tactics": [
+        "balanced nymph approach"
+      ],
       "score_adjustment": 0.0
     },
     "pressure_trend_read": {
@@ -286,14 +354,20 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [],
-    "recommended_tactics": [],
+    "likely_trout_positioning": [
+      "runs",
+      "seams",
+      "structure"
+    ],
+    "recommended_tactics": [
+      "balanced nymph approach"
+    ],
     "recommended_fly_keys": [],
     "fly_reasoning": {},
     "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure read is unavailable.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
