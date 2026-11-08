@@ -21,35 +21,35 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 55.9,
-    "flow_cfs": 96.5,
-    "gage_height_ft": 3.8,
-    "turbidity": 10.1,
-    "observed_at": "2026-11-08T05:00:00.000-05:00"
+    "water_temp_f": 55.2,
+    "flow_cfs": 94.2,
+    "gage_height_ft": 3.78,
+    "turbidity": 9.8,
+    "observed_at": "2026-11-08T11:00:00.000-05:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 30.17,
     "air_temp": {
-      "current_f": 43,
+      "current_f": 63,
       "low_f": 41.0,
       "high_f": 69.0
     },
     "sky_cover": {
-      "min": 1,
-      "max": 45,
-      "avg": 14.31
+      "min": 0,
+      "max": 47,
+      "avg": 10.84
     },
     "humidity": {
       "min": 36,
-      "max": 100,
-      "avg": 68.59
+      "max": 91,
+      "avg": 66.24
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 4.0,
+      "avg_mph": 3.6,
       "max_gust_mph": 12.7,
       "predominant_direction": ""
     }
@@ -57,55 +57,13 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-11-08",
-      "morning": {
-        "sky_cover": {
-          "min": 40,
-          "max": 40,
-          "avg": 40.0
-        },
-        "humidity": {
-          "min": 100,
-          "max": 100,
-          "avg": 100.0
-        },
-        "air_temp_f": {
-          "min": 42.0,
-          "max": 42.0,
-          "avg": 42.0
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 16,
-          "max": 42,
-          "avg": 29.67
-        },
-        "humidity": {
-          "min": 57,
-          "max": 99,
-          "avg": 72.6
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 44.0,
-          "max": 63.0,
-          "avg": 55.0
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 6.9,
-          "avg": 5.78
-        }
-      },
+      "morning": {},
+      "afternoon": {},
       "evening": {
         "sky_cover": {
-          "min": 1,
-          "max": 45,
-          "avg": 23.5
+          "min": 0,
+          "max": 6,
+          "avg": 3.33
         },
         "humidity": {
           "min": 52,
@@ -138,9 +96,9 @@
       "date": "2026-11-08",
       "morning": {
         "sky_cover": {
-          "min": 3,
-          "max": 3,
-          "avg": 3.0
+          "min": 1,
+          "max": 14,
+          "avg": 9.6
         },
         "humidity": {
           "min": 72,
@@ -163,16 +121,16 @@
           "avg": 4.6
         },
         "wind_gust_mph": {
-          "min": 8.1,
+          "min": 9.2,
           "max": 9.2,
-          "avg": 8.65
+          "avg": 9.2
         }
       },
       "afternoon": {
         "sky_cover": {
           "min": 2,
-          "max": 3,
-          "avg": 2.5
+          "max": 4,
+          "avg": 3.0
         },
         "humidity": {
           "min": 41,
@@ -195,9 +153,9 @@
           "avg": 4.05
         },
         "wind_gust_mph": {
-          "min": 9.2,
+          "min": 8.1,
           "max": 11.5,
-          "avg": 10.35
+          "avg": 9.22
         }
       },
       "evening": {
@@ -303,8 +261,8 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 7.0,
-    "quality_label": "Good",
+    "quality_score": 6.0,
+    "quality_label": "Fair to good",
     "best_window": "day1 morning",
     "water_temp_read": {
       "status": "ideal",
@@ -324,11 +282,20 @@
       "score_adjustment": 2.0
     },
     "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
-      "score_adjustment": 0.0
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "positioning": [
+        "shade",
+        "deeper runs",
+        "undercut banks",
+        "structure"
+      ],
+      "tactics": [
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
+      ],
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -347,13 +314,19 @@
       "riffles",
       "runs",
       "seams",
-      "structure"
+      "structure",
+      "shade",
+      "deeper runs",
+      "undercut banks"
     ],
     "recommended_tactics": [
       "nymphs",
       "midges",
       "soft hackles",
-      "opportunistic streamers"
+      "opportunistic streamers",
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
     ],
     "recommended_fly_keys": [
       "zebra_midge",
@@ -365,10 +338,12 @@
       "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious.",
       "haresear": "General-purpose natural nymph for seams and runs."
     },
-    "caution_notes": [],
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
     "reasoning": [
       "Water temperature is in a favorable trout range.",
-      "Light and pressure read is unavailable.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]

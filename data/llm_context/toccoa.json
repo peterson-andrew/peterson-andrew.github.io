@@ -22,90 +22,48 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 208.0,
-    "gage_height_ft": 1.13,
+    "flow_cfs": 203.0,
+    "gage_height_ft": 1.11,
     "turbidity": null,
-    "observed_at": "2026-11-08T05:30:00.000-05:00"
+    "observed_at": "2026-11-08T11:30:00.000-05:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 30.17,
     "air_temp": {
-      "current_f": 35,
+      "current_f": 62,
       "low_f": 33.0,
       "high_f": 65.0
     },
     "sky_cover": {
       "min": 1,
-      "max": 32,
-      "avg": 8.93
+      "max": 44,
+      "avg": 10.43
     },
     "humidity": {
       "min": 42,
       "max": 100,
-      "avg": 70.03
+      "avg": 70.39
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 2.9,
-      "max_gust_mph": 12.7,
+      "avg_mph": 2.8,
+      "max_gust_mph": 13.8,
       "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
     "day1": {
       "date": "2026-11-08",
-      "morning": {
-        "sky_cover": {
-          "min": 31,
-          "max": 31,
-          "avg": 31.0
-        },
-        "air_temp_f": {
-          "min": 33.0,
-          "max": 33.0,
-          "avg": 33.0
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 20,
-          "max": 32,
-          "avg": 25.67
-        },
-        "humidity": {
-          "min": 55,
-          "max": 81,
-          "avg": 66.33
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 35.0,
-          "max": 62.0,
-          "avg": 47.67
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 2.3,
-          "avg": 1.75
-        },
-        "wind_gust_mph": {
-          "min": 1.2,
-          "max": 6.9,
-          "avg": 4.23
-        }
-      },
+      "morning": {},
+      "afternoon": {},
       "evening": {
         "sky_cover": {
           "min": 1,
-          "max": 25,
-          "avg": 8.83
+          "max": 2,
+          "avg": 1.5
         },
         "humidity": {
           "min": 47,
@@ -130,7 +88,7 @@
         "wind_gust_mph": {
           "min": 6.9,
           "max": 10.4,
-          "avg": 8.76
+          "avg": 8.45
         }
       }
     },
@@ -138,9 +96,9 @@
       "date": "2026-11-08",
       "morning": {
         "sky_cover": {
-          "min": 3,
-          "max": 6,
-          "avg": 4.4
+          "min": 7,
+          "max": 10,
+          "avg": 8.17
         },
         "rain_inches": {
           "min": 0.0,
@@ -159,15 +117,15 @@
         },
         "wind_gust_mph": {
           "min": 3.5,
-          "max": 4.6,
-          "avg": 3.87
+          "max": 3.5,
+          "avg": 3.5
         }
       },
       "afternoon": {
         "sky_cover": {
-          "min": 3,
-          "max": 7,
-          "avg": 4.4
+          "min": 4,
+          "max": 9,
+          "avg": 6.25
         },
         "humidity": {
           "min": 48,
@@ -185,20 +143,20 @@
           "avg": 46.5
         },
         "wind_mph": {
-          "min": 1.2,
+          "min": 2.3,
           "max": 5.8,
-          "avg": 3.24
+          "avg": 4.23
         },
         "wind_gust_mph": {
           "min": 4.6,
-          "max": 11.5,
-          "avg": 7.6
+          "max": 12.7,
+          "avg": 8.08
         }
       },
       "evening": {
         "sky_cover": {
-          "min": 1,
-          "max": 4,
+          "min": 2,
+          "max": 3,
           "avg": 2.5
         },
         "humidity": {
@@ -219,12 +177,12 @@
         "wind_mph": {
           "min": 3.5,
           "max": 6.9,
-          "avg": 5.2
+          "avg": 5.4
         },
         "wind_gust_mph": {
           "min": 9.2,
-          "max": 12.7,
-          "avg": 10.95
+          "max": 13.8,
+          "avg": 11.52
         }
       }
     }
@@ -298,7 +256,7 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 5.0,
+    "quality_score": 4.0,
     "quality_label": "Fair",
     "best_window": "day1 morning",
     "water_temp_read": {
@@ -309,11 +267,20 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
-      "score_adjustment": 0.0
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "positioning": [
+        "shade",
+        "deeper runs",
+        "undercut banks",
+        "structure"
+      ],
+      "tactics": [
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
+      ],
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -328,14 +295,33 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [],
-    "recommended_tactics": [],
-    "recommended_fly_keys": [],
-    "fly_reasoning": {},
-    "caution_notes": [],
+    "likely_trout_positioning": [
+      "shade",
+      "deeper runs",
+      "undercut banks",
+      "structure"
+    ],
+    "recommended_tactics": [
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
+    ],
+    "recommended_fly_keys": [
+      "zebra_midge",
+      "pheasant_tail",
+      "haresear"
+    ],
+    "fly_reasoning": {
+      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
+      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious.",
+      "haresear": "General-purpose natural nymph for seams and runs."
+    },
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
     "reasoning": [
       "Water temperature is unavailable.",
-      "Light and pressure read is unavailable.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
