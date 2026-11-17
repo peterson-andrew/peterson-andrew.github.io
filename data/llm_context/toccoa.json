@@ -25,101 +25,48 @@
     "flow_cfs": 163.0,
     "gage_height_ft": 0.94,
     "turbidity": null,
-    "observed_at": "2026-11-16T12:30:00.000-05:00"
+    "observed_at": "2026-11-16T19:30:00.000-05:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.43,
+    "pressure_inhg": null,
     "air_temp": {
-      "current_f": 28,
-      "low_f": 30.0,
-      "high_f": 61.0
+      "current_f": 48,
+      "low_f": 32.0,
+      "high_f": 65.0
     },
     "sky_cover": {
       "min": 1,
-      "max": 8,
-      "avg": 3.73
+      "max": 10,
+      "avg": 4.32
     },
     "humidity": {
-      "min": 35,
-      "max": 100,
-      "avg": 68.03
+      "min": 33,
+      "max": 94,
+      "avg": 69.53
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 1.5,
-      "max_gust_mph": 8.1,
+      "avg_mph": 2.1,
+      "max_gust_mph": 10.4,
       "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-11-16",
-      "morning": {},
-      "afternoon": {
-        "sky_cover": {
-          "min": 1,
-          "max": 5,
-          "avg": 2.6
-        },
-        "humidity": {
-          "min": 49,
-          "max": 88,
-          "avg": 67.25
-        },
-        "air_temp_f": {
-          "min": 30.0,
-          "max": 54.0,
-          "avg": 42.4
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 1.2,
-          "avg": 1.2
-        },
-        "wind_gust_mph": {
-          "min": 1.2,
-          "max": 4.6,
-          "avg": 2.9
-        }
-      },
-      "evening": {
-        "humidity": {
-          "min": 41,
-          "max": 58,
-          "avg": 47.17
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 51.0,
-          "max": 58.0,
-          "avg": 55.33
-        },
-        "wind_mph": {
-          "min": 1.2,
-          "max": 2.3,
-          "avg": 1.75
-        },
-        "wind_gust_mph": {
-          "min": 4.6,
-          "max": 6.9,
-          "avg": 5.78
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "morning": {
         "sky_cover": {
-          "min": 3,
-          "max": 6,
-          "avg": 4.25
+          "min": 4,
+          "max": 10,
+          "avg": 6.83
+        },
+        "humidity": {
+          "min": 92,
+          "max": 94,
+          "avg": 92.67
         },
         "rain_inches": {
           "min": 0.0,
@@ -127,21 +74,21 @@
           "avg": 0.0
         },
         "air_temp_f": {
-          "min": 30.0,
-          "max": 36.0,
-          "avg": 32.67
+          "min": 32.0,
+          "max": 37.0,
+          "avg": 34.5
         }
       },
       "afternoon": {
         "sky_cover": {
-          "min": 4,
+          "min": 2,
           "max": 8,
-          "avg": 5.67
+          "avg": 4.8
         },
         "humidity": {
-          "min": 46,
-          "max": 92,
-          "avg": 67.25
+          "min": 43,
+          "max": 94,
+          "avg": 71.33
         },
         "rain_inches": {
           "min": 0.0,
@@ -149,31 +96,31 @@
           "avg": 0.0
         },
         "air_temp_f": {
-          "min": 31.0,
-          "max": 57.0,
-          "avg": 44.2
+          "min": 33.0,
+          "max": 56.0,
+          "avg": 44.6
         },
         "wind_mph": {
           "min": 1.2,
-          "max": 2.3,
-          "avg": 1.75
+          "max": 3.5,
+          "avg": 2.33
         },
         "wind_gust_mph": {
-          "min": 2.3,
-          "max": 6.9,
-          "avg": 4.05
+          "min": 3.5,
+          "max": 9.2,
+          "avg": 6.24
         }
       },
       "evening": {
         "sky_cover": {
           "min": 3,
-          "max": 5,
-          "avg": 3.8
+          "max": 3,
+          "avg": 3.0
         },
         "humidity": {
-          "min": 35,
-          "max": 54,
-          "avg": 41.67
+          "min": 34,
+          "max": 50,
+          "avg": 39.0
         },
         "rain_inches": {
           "min": 0.0,
@@ -183,17 +130,111 @@
         "air_temp_f": {
           "min": 52.0,
           "max": 61.0,
-          "avg": 58.0
+          "avg": 58.17
         },
         "wind_mph": {
           "min": 2.3,
-          "max": 3.5,
-          "avg": 2.9
+          "max": 4.6,
+          "avg": 3.45
         },
         "wind_gust_mph": {
           "min": 6.9,
+          "max": 10.4,
+          "avg": 8.65
+        }
+      }
+    },
+    "day2": {
+      "date": "2026-11-17",
+      "morning": {
+        "sky_cover": {
+          "min": 3,
+          "max": 4,
+          "avg": 3.5
+        },
+        "humidity": {
+          "min": 80,
+          "max": 87,
+          "avg": 83.17
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 32.0,
+          "max": 37.0,
+          "avg": 34.5
+        },
+        "wind_mph": {
+          "min": 0.0,
+          "max": 1.2,
+          "avg": 0.4
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 2,
+          "max": 3,
+          "avg": 2.5
+        },
+        "humidity": {
+          "min": 42,
+          "max": 90,
+          "avg": 68.83
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 33.0,
+          "max": 59.0,
+          "avg": 46.4
+        },
+        "wind_mph": {
+          "min": 1.2,
+          "max": 3.5,
+          "avg": 2.33
+        },
+        "wind_gust_mph": {
+          "min": 4.6,
           "max": 8.1,
-          "avg": 7.5
+          "avg": 6.17
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 1,
+          "max": 3,
+          "avg": 2.0
+        },
+        "humidity": {
+          "min": 33,
+          "max": 50,
+          "avg": 38.8
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 56.0,
+          "max": 65.0,
+          "avg": 62.0
+        },
+        "wind_mph": {
+          "min": 3.5,
+          "max": 4.6,
+          "avg": 4.05
+        },
+        "wind_gust_mph": {
+          "min": 8.1,
+          "max": 9.2,
+          "avg": 8.65
         }
       }
     }
@@ -267,7 +308,7 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 4.0,
+    "quality_score": 5.0,
     "quality_label": "Fair",
     "best_window": "day1 morning",
     "water_temp_read": {
@@ -278,20 +319,11 @@
       "score_adjustment": 0
     },
     "light_pressure_read": {
-      "status": "bright_high_pressure",
-      "read": "High pressure and low cloud cover make this fishable but technical.",
-      "positioning": [
-        "shade",
-        "deeper runs",
-        "undercut banks",
-        "structure"
-      ],
-      "tactics": [
-        "smaller natural flies",
-        "careful drifts",
-        "less aggressive presentations"
-      ],
-      "score_adjustment": -1.0
+      "status": "unknown",
+      "read": "Light and pressure read is unavailable.",
+      "positioning": [],
+      "tactics": [],
+      "score_adjustment": 0.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -306,33 +338,14 @@
     },
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
-    "likely_trout_positioning": [
-      "shade",
-      "deeper runs",
-      "undercut banks",
-      "structure"
-    ],
-    "recommended_tactics": [
-      "smaller natural flies",
-      "careful drifts",
-      "less aggressive presentations"
-    ],
-    "recommended_fly_keys": [
-      "zebra_midge",
-      "pheasant_tail",
-      "haresear"
-    ],
-    "fly_reasoning": {
-      "zebra_midge": "Small and natural for clear, pressured, technical conditions.",
-      "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious.",
-      "haresear": "General-purpose natural nymph for seams and runs."
-    },
-    "caution_notes": [
-      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
-    ],
+    "likely_trout_positioning": [],
+    "recommended_tactics": [],
+    "recommended_fly_keys": [],
+    "fly_reasoning": {},
+    "caution_notes": [],
     "reasoning": [
       "Water temperature is unavailable.",
-      "High pressure and low cloud cover make this fishable but technical.",
+      "Light and pressure read is unavailable.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
