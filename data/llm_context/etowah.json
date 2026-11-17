@@ -21,37 +21,37 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 46.4,
+    "water_temp_f": 44.1,
     "flow_cfs": 69.4,
     "gage_height_ft": 3.55,
-    "turbidity": 5.1,
-    "observed_at": "2026-11-16T20:00:00.000-05:00"
+    "turbidity": 5.2,
+    "observed_at": "2026-11-17T04:00:00.000-05:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 30.46,
     "air_temp": {
-      "current_f": 47,
+      "current_f": 39,
       "low_f": 37.0,
       "high_f": 62.0
     },
     "sky_cover": {
       "min": 1,
-      "max": 7,
-      "avg": 3.07
+      "max": 9,
+      "avg": 3.5
     },
     "humidity": {
       "min": 36,
       "max": 87,
-      "avg": 63.17
+      "avg": 61.85
     },
     "rain": {
       "max_probability_percent": null,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 6.7,
+      "avg_mph": 6.8,
       "max_gust_mph": 17.3,
-      "predominant_direction": "E"
+      "predominant_direction": "NE"
     }
   },
   "forecast_breakdown": {
@@ -61,12 +61,12 @@
         "sky_cover": {
           "min": 3,
           "max": 4,
-          "avg": 3.67
+          "avg": 3.5
         },
         "humidity": {
-          "min": 84,
+          "min": 85,
           "max": 87,
-          "avg": 85.6
+          "avg": 86.0
         },
         "rain_inches": {
           "min": 0.0,
@@ -318,32 +318,39 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 7.0,
-    "quality_label": "Good",
+    "quality_score": 3.0,
+    "quality_label": "Tough",
     "best_window": "day1 morning",
     "water_temp_read": {
-      "status": "ideal",
-      "read": "Water temperature is in a favorable trout range.",
+      "status": "cold",
+      "read": "Cold water should slow trout down and push them toward deeper, softer holding water.",
       "positioning": [
-        "riffles",
-        "runs",
-        "seams",
+        "deep pools",
+        "slow seams",
+        "softer edges"
+      ],
+      "tactics": [
+        "slow presentations",
+        "small midges",
+        "dead drifts"
+      ],
+      "score_adjustment": -1.0
+    },
+    "light_pressure_read": {
+      "status": "bright_high_pressure",
+      "read": "High pressure and low cloud cover make this fishable but technical.",
+      "positioning": [
+        "shade",
+        "deeper runs",
+        "undercut banks",
         "structure"
       ],
       "tactics": [
-        "nymphs",
-        "midges",
-        "soft hackles",
-        "opportunistic streamers"
+        "smaller natural flies",
+        "careful drifts",
+        "less aggressive presentations"
       ],
-      "score_adjustment": 2.0
-    },
-    "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
-      "score_adjustment": 0.0
+      "score_adjustment": -1.0
     },
     "pressure_trend_read": {
       "status": "unknown",
@@ -359,16 +366,21 @@
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "riffles",
-      "runs",
-      "seams",
+      "deep pools",
+      "slow seams",
+      "softer edges",
+      "shade",
+      "deeper runs",
+      "undercut banks",
       "structure"
     ],
     "recommended_tactics": [
-      "nymphs",
-      "midges",
-      "soft hackles",
-      "opportunistic streamers"
+      "slow presentations",
+      "small midges",
+      "dead drifts",
+      "smaller natural flies",
+      "careful drifts",
+      "less aggressive presentations"
     ],
     "recommended_fly_keys": [
       "zebra_midge",
@@ -380,10 +392,12 @@
       "pheasant_tail": "A reliable natural nymph when trout are feeding but cautious.",
       "haresear": "General-purpose natural nymph for seams and runs."
     },
-    "caution_notes": [],
+    "caution_notes": [
+      "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
+    ],
     "reasoning": [
-      "Water temperature is in a favorable trout range.",
-      "Light and pressure read is unavailable.",
+      "Cold water should slow trout down and push them toward deeper, softer holding water.",
+      "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
