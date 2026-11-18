@@ -21,35 +21,35 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 46.0,
-    "flow_cfs": 74.5,
-    "gage_height_ft": 3.6,
-    "turbidity": 5.0,
-    "observed_at": "2026-11-17T20:00:00.000-05:00"
+    "water_temp_f": 43.7,
+    "flow_cfs": 73.4,
+    "gage_height_ft": 3.59,
+    "turbidity": 5.4,
+    "observed_at": "2026-11-18T04:00:00.000-05:00"
   },
   "weather_summary": {
     "pressure_inhg": 30.49,
     "air_temp": {
-      "current_f": 45,
-      "low_f": 37.0,
-      "high_f": 64.0
+      "current_f": 37,
+      "low_f": 38.0,
+      "high_f": 63.0
     },
     "sky_cover": {
       "min": 1,
-      "max": 46,
-      "avg": 14.93
+      "max": 61,
+      "avg": 28.17
     },
     "humidity": {
-      "min": 28,
-      "max": 86,
-      "avg": 64.11
+      "min": 33,
+      "max": 85,
+      "avg": 54.72
     },
     "rain": {
       "max_probability_percent": 6,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 7.2,
+      "avg_mph": 6.8,
       "max_gust_mph": 17.3,
       "predominant_direction": "NE"
     }
@@ -57,75 +57,44 @@
   "forecast_breakdown": {
     "day1": {
       "date": "2026-11-18",
-      "morning": {
-        "sky_cover": {
-          "min": 1,
-          "max": 2,
-          "avg": 1.33
-        },
-        "humidity": {
-          "min": 83,
-          "max": 86,
-          "avg": 85.0
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 37.0,
-          "max": 40.0,
-          "avg": 38.5
-        },
-        "wind_gust_mph": {
-          "min": 12.7,
-          "max": 13.8,
-          "avg": 13.25
-        }
-      },
+      "morning": {},
       "afternoon": {
         "sky_cover": {
           "min": 1,
-          "max": 3,
-          "avg": 2.0
+          "max": 2,
+          "avg": 1.5
         },
         "humidity": {
-          "min": 37,
-          "max": 84,
-          "avg": 64.67
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
+          "min": 34,
+          "max": 73,
+          "avg": 51.0
         },
         "air_temp_f": {
           "min": 38.0,
-          "max": 58.0,
-          "avg": 49.0
+          "max": 59.0,
+          "avg": 49.4
         },
         "wind_mph": {
           "min": 6.9,
-          "max": 9.2,
-          "avg": 8.07
+          "max": 8.1,
+          "avg": 7.5
         },
         "wind_gust_mph": {
           "min": 15.0,
           "max": 17.3,
-          "avg": 16.15
+          "avg": 16.13
         }
       },
       "evening": {
         "sky_cover": {
-          "min": 2,
-          "max": 4,
-          "avg": 3.0
+          "min": 1,
+          "max": 2,
+          "avg": 1.67
         },
         "humidity": {
-          "min": 28,
-          "max": 39,
-          "avg": 31.67
+          "min": 33,
+          "max": 43,
+          "avg": 36.0
         },
         "rain_inches": {
           "min": 0.0,
@@ -133,19 +102,19 @@
           "avg": 0.0
         },
         "air_temp_f": {
-          "min": 56.0,
+          "min": 55.0,
           "max": 62.0,
-          "avg": 59.83
+          "avg": 59.6
         },
         "wind_mph": {
           "min": 5.8,
-          "max": 8.1,
-          "avg": 6.93
+          "max": 6.9,
+          "avg": 6.35
         },
         "wind_gust_mph": {
-          "min": 13.8,
+          "min": 12.7,
           "max": 16.1,
-          "avg": 14.97
+          "avg": 14.4
         }
       }
     },
@@ -153,19 +122,14 @@
       "date": "2026-11-18",
       "morning": {
         "sky_cover": {
-          "min": 7,
-          "max": 13,
-          "avg": 10.2
+          "min": 4,
+          "max": 16,
+          "avg": 9.4
         },
         "humidity": {
-          "min": 70,
-          "max": 71,
-          "avg": 70.5
-        },
-        "rain_probability": {
-          "min": 3,
-          "max": 3,
-          "avg": 3.0
+          "min": 50,
+          "max": 58,
+          "avg": 54.33
         },
         "rain_inches": {
           "min": 0.0,
@@ -174,8 +138,40 @@
         },
         "air_temp_f": {
           "min": 45.0,
-          "max": 46.0,
-          "avg": 45.5
+          "max": 45.0,
+          "avg": 45.0
+        },
+        "wind_gust_mph": {
+          "min": 15.0,
+          "max": 16.1,
+          "avg": 15.55
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 20,
+          "max": 25,
+          "avg": 22.17
+        },
+        "humidity": {
+          "min": 41,
+          "max": 49,
+          "avg": 44.8
+        },
+        "rain_probability": {
+          "min": 0,
+          "max": 2,
+          "avg": 1.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 50.0,
+          "max": 61.0,
+          "avg": 56.0
         },
         "wind_mph": {
           "min": 8.1,
@@ -185,56 +181,24 @@
         "wind_gust_mph": {
           "min": 16.1,
           "max": 17.3,
-          "avg": 16.5
-        }
-      },
-      "afternoon": {
-        "sky_cover": {
-          "min": 13,
-          "max": 36,
-          "avg": 25.83
-        },
-        "humidity": {
-          "min": 62,
-          "max": 74,
-          "avg": 67.2
-        },
-        "rain_probability": {
-          "min": 6,
-          "max": 6,
-          "avg": 6.0
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 49.0,
-          "max": 61.0,
-          "avg": 55.75
-        },
-        "wind_mph": {
-          "min": 6.9,
-          "max": 8.1,
-          "avg": 7.5
-        },
-        "wind_gust_mph": {
-          "min": 17.3,
-          "max": 17.3,
-          "avg": 17.3
+          "avg": 16.7
         }
       },
       "evening": {
         "sky_cover": {
-          "min": 38,
-          "max": 44,
-          "avg": 41.0
+          "min": 23,
+          "max": 39,
+          "avg": 32.0
         },
         "humidity": {
-          "min": 60,
-          "max": 74,
-          "avg": 64.33
+          "min": 44,
+          "max": 53,
+          "avg": 48.0
+        },
+        "rain_probability": {
+          "min": 0,
+          "max": 1,
+          "avg": 0.67
         },
         "rain_inches": {
           "min": 0.0,
@@ -243,8 +207,8 @@
         },
         "air_temp_f": {
           "min": 59.0,
-          "max": 64.0,
-          "avg": 62.0
+          "max": 63.0,
+          "avg": 61.4
         },
         "wind_mph": {
           "min": 5.8,
@@ -328,25 +292,23 @@
     "Use SEO-friendly language like fishing report, trout fishing, stocked, hatches, and recommended flies."
   ],
   "angler_analysis": {
-    "quality_score": 6.0,
-    "quality_label": "Fair to good",
-    "best_window": "day2 evening",
+    "quality_score": 3.0,
+    "quality_label": "Tough",
+    "best_window": "day1 morning",
     "water_temp_read": {
-      "status": "ideal",
-      "read": "Water temperature is in a favorable trout range.",
+      "status": "cold",
+      "read": "Cold water should slow trout down and push them toward deeper, softer holding water.",
       "positioning": [
-        "riffles",
-        "runs",
-        "seams",
-        "structure"
+        "deep pools",
+        "slow seams",
+        "softer edges"
       ],
       "tactics": [
-        "nymphs",
-        "midges",
-        "soft hackles",
-        "opportunistic streamers"
+        "slow presentations",
+        "small midges",
+        "dead drifts"
       ],
-      "score_adjustment": 2.0
+      "score_adjustment": -1.0
     },
     "light_pressure_read": {
       "status": "bright_high_pressure",
@@ -378,19 +340,18 @@
     "expected_trout_behavior": "Expect trout to favor the most comfortable feeding lanes while staying close to cover when light is high.",
     "presentation_style": "Prioritize clean drifts, smaller natural patterns, and stocked-trout attractors where appropriate.",
     "likely_trout_positioning": [
-      "riffles",
-      "runs",
-      "seams",
-      "structure",
+      "deep pools",
+      "slow seams",
+      "softer edges",
       "shade",
       "deeper runs",
-      "undercut banks"
+      "undercut banks",
+      "structure"
     ],
     "recommended_tactics": [
-      "nymphs",
-      "midges",
-      "soft hackles",
-      "opportunistic streamers",
+      "slow presentations",
+      "small midges",
+      "dead drifts",
       "smaller natural flies",
       "careful drifts",
       "less aggressive presentations"
@@ -409,7 +370,7 @@
       "Bright/high-pressure conditions may make fish cover-oriented and less forgiving."
     ],
     "reasoning": [
-      "Water temperature is in a favorable trout range.",
+      "Cold water should slow trout down and push them toward deeper, softer holding water.",
       "High pressure and low cloud cover make this fishable but technical.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
