@@ -25,106 +25,43 @@
     "flow_cfs": 158.0,
     "gage_height_ft": 0.92,
     "turbidity": null,
-    "observed_at": "2026-11-19T12:30:00.000-05:00"
+    "observed_at": "2026-11-19T18:30:00.000-05:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.48,
+    "pressure_inhg": 30.39,
     "air_temp": {
-      "current_f": 54,
+      "current_f": 51,
       "low_f": 40.0,
       "high_f": 69.0
     },
     "sky_cover": {
       "min": 5,
-      "max": 58,
-      "avg": 30.36
+      "max": 49,
+      "avg": 31.0
     },
     "humidity": {
-      "min": 32,
+      "min": 33,
       "max": 93,
-      "avg": 60.22
+      "avg": 61.02
     },
     "rain": {
       "max_probability_percent": 1,
       "expected_inches": 0.0
     },
     "wind": {
-      "avg_mph": 2.1,
-      "max_gust_mph": 9.2,
+      "avg_mph": 2.7,
+      "max_gust_mph": 11.5,
       "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-11-19",
-      "morning": {},
-      "afternoon": {
-        "sky_cover": {
-          "min": 24,
-          "max": 24,
-          "avg": 24.0
-        },
-        "humidity": {
-          "min": 41,
-          "max": 41,
-          "avg": 41.0
-        },
-        "air_temp_f": {
-          "min": 61.0,
-          "max": 61.0,
-          "avg": 61.0
-        },
-        "wind_mph": {
-          "min": 2.3,
-          "max": 2.3,
-          "avg": 2.3
-        },
-        "wind_gust_mph": {
-          "min": 6.9,
-          "max": 6.9,
-          "avg": 6.9
-        }
-      },
-      "evening": {
-        "sky_cover": {
-          "min": 12,
-          "max": 20,
-          "avg": 16.0
-        },
-        "humidity": {
-          "min": 32,
-          "max": 49,
-          "avg": 37.67
-        },
-        "rain_inches": {
-          "min": 0.0,
-          "max": 0.0,
-          "avg": 0.0
-        },
-        "air_temp_f": {
-          "min": 60.0,
-          "max": 68.0,
-          "avg": 64.83
-        },
-        "wind_mph": {
-          "min": 2.3,
-          "max": 3.5,
-          "avg": 2.9
-        },
-        "wind_gust_mph": {
-          "min": 5.8,
-          "max": 8.1,
-          "avg": 6.93
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "morning": {
         "sky_cover": {
-          "min": 44,
+          "min": 39,
           "max": 49,
-          "avg": 46.0
+          "avg": 44.43
         },
         "humidity": {
           "min": 82,
@@ -140,13 +77,18 @@
           "min": 40.0,
           "max": 44.0,
           "avg": 42.0
+        },
+        "wind_gust_mph": {
+          "min": 2.3,
+          "max": 3.5,
+          "avg": 2.9
         }
       },
       "afternoon": {
         "sky_cover": {
-          "min": 35,
-          "max": 58,
-          "avg": 44.17
+          "min": 31,
+          "max": 47,
+          "avg": 37.6
         },
         "humidity": {
           "min": 45,
@@ -169,16 +111,16 @@
           "avg": 1.75
         },
         "wind_gust_mph": {
-          "min": 3.5,
+          "min": 2.3,
           "max": 6.9,
-          "avg": 5.4
+          "avg": 4.62
         }
       },
       "evening": {
         "sky_cover": {
-          "min": 37,
+          "min": 38,
           "max": 47,
-          "avg": 41.6
+          "avg": 42.33
         },
         "humidity": {
           "min": 33,
@@ -196,14 +138,118 @@
           "avg": 66.2
         },
         "wind_mph": {
-          "min": 2.3,
-          "max": 3.5,
-          "avg": 2.9
+          "min": 3.5,
+          "max": 4.6,
+          "avg": 3.87
         },
         "wind_gust_mph": {
           "min": 8.1,
-          "max": 9.2,
+          "max": 10.4,
+          "avg": 9.22
+        }
+      }
+    },
+    "day2": {
+      "date": "2026-11-20",
+      "morning": {
+        "sky_cover": {
+          "min": 10,
+          "max": 26,
+          "avg": 17.0
+        },
+        "humidity": {
+          "min": 65,
+          "max": 66,
+          "avg": 65.5
+        },
+        "rain_probability": {
+          "min": 1,
+          "max": 1,
+          "avg": 1.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 42.0,
+          "max": 46.0,
+          "avg": 44.0
+        },
+        "wind_mph": {
+          "min": 1.2,
+          "max": 1.2,
+          "avg": 1.2
+        },
+        "wind_gust_mph": {
+          "min": 4.6,
+          "max": 4.6,
+          "avg": 4.6
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 5,
+          "max": 24,
+          "avg": 13.75
+        },
+        "humidity": {
+          "min": 40,
+          "max": 67,
+          "avg": 55.33
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 47.0,
+          "max": 63.0,
+          "avg": 55.75
+        },
+        "wind_mph": {
+          "min": 2.3,
+          "max": 4.6,
+          "avg": 3.47
+        },
+        "wind_gust_mph": {
+          "min": 6.9,
+          "max": 10.4,
           "avg": 8.47
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 15,
+          "max": 17,
+          "avg": 16.0
+        },
+        "humidity": {
+          "min": 35,
+          "max": 55,
+          "avg": 41.17
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 59.0,
+          "max": 68.0,
+          "avg": 64.6
+        },
+        "wind_mph": {
+          "min": 3.5,
+          "max": 3.5,
+          "avg": 3.5
+        },
+        "wind_gust_mph": {
+          "min": 8.1,
+          "max": 11.5,
+          "avg": 9.8
         }
       }
     }
@@ -279,7 +325,7 @@
   "angler_analysis": {
     "quality_score": 4.0,
     "quality_label": "Fair",
-    "best_window": "day2 morning",
+    "best_window": "day1 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",
