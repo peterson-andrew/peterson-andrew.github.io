@@ -21,69 +21,42 @@
   },
   "usgs_summary": {
     "site_name": "CHATTAHOOCHEE RIVER NEAR NORCROSS, GA",
-    "water_temp_f": 56.3,
-    "flow_cfs": 759.0,
-    "gage_height_ft": 1.9,
-    "turbidity": 3.4,
-    "observed_at": "2026-11-20T17:15:00.000-05:00"
+    "water_temp_f": 53.6,
+    "flow_cfs": 1620.0,
+    "gage_height_ft": 3.2,
+    "turbidity": 9.1,
+    "observed_at": "2026-11-21T06:15:00.000-05:00"
   },
   "weather_summary": {
-    "pressure_inhg": 30.22,
+    "pressure_inhg": 30.21,
     "air_temp": {
-      "current_f": 66,
+      "current_f": 57,
       "low_f": 54.0,
       "high_f": 66.0
     },
     "sky_cover": {
-      "min": 15,
+      "min": 12,
       "max": 94,
-      "avg": 72.76
+      "avg": 66.79
     },
     "humidity": {
-      "min": 37,
+      "min": 49,
       "max": 97,
-      "avg": 69.1
+      "avg": 75.59
     },
     "rain": {
       "max_probability_percent": 50,
       "expected_inches": 0.22
     },
     "wind": {
-      "avg_mph": 10.6,
+      "avg_mph": 9.3,
       "max_gust_mph": 25.3,
       "predominant_direction": "E"
     }
   },
   "forecast_breakdown": {
     "day1": {
-      "date": "2026-11-20",
-      "morning": {},
-      "afternoon": {},
-      "evening": {
-        "sky_cover": {
-          "min": 82,
-          "max": 82,
-          "avg": 82.0
-        },
-        "humidity": {
-          "min": 37,
-          "max": 37,
-          "avg": 37.0
-        },
-        "air_temp_f": {
-          "min": 64.0,
-          "max": 64.0,
-          "avg": 64.0
-        },
-        "wind_gust_mph": {
-          "min": 17.3,
-          "max": 17.3,
-          "avg": 17.3
-        }
-      }
-    },
-    "day2": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "morning": {
         "sky_cover": {
           "min": 90,
@@ -195,6 +168,120 @@
           "avg": 23.02
         }
       }
+    },
+    "day2": {
+      "date": "2026-11-21",
+      "morning": {
+        "sky_cover": {
+          "min": 52,
+          "max": 80,
+          "avg": 67.0
+        },
+        "humidity": {
+          "min": 90,
+          "max": 92,
+          "avg": 91.0
+        },
+        "rain_probability": {
+          "min": 50,
+          "max": 50,
+          "avg": 50.0
+        },
+        "rain_inches": {
+          "min": 0.06,
+          "max": 0.06,
+          "avg": 0.06
+        },
+        "air_temp_f": {
+          "min": 55.0,
+          "max": 56.0,
+          "avg": 55.33
+        },
+        "wind_mph": {
+          "min": 5.8,
+          "max": 11.5,
+          "avg": 8.65
+        },
+        "wind_gust_mph": {
+          "min": 10.4,
+          "max": 19.6,
+          "avg": 15.14
+        }
+      },
+      "afternoon": {
+        "sky_cover": {
+          "min": 41,
+          "max": 63,
+          "avg": 50.67
+        },
+        "humidity": {
+          "min": 79,
+          "max": 97,
+          "avg": 88.5
+        },
+        "rain_probability": {
+          "min": 7,
+          "max": 7,
+          "avg": 7.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 56.0,
+          "max": 63.0,
+          "avg": 59.25
+        },
+        "wind_mph": {
+          "min": 4.6,
+          "max": 5.8,
+          "avg": 5.2
+        },
+        "wind_gust_mph": {
+          "min": 11.5,
+          "max": 11.5,
+          "avg": 11.5
+        }
+      },
+      "evening": {
+        "sky_cover": {
+          "min": 13,
+          "max": 38,
+          "avg": 22.83
+        },
+        "humidity": {
+          "min": 69,
+          "max": 79,
+          "avg": 72.67
+        },
+        "rain_probability": {
+          "min": 0,
+          "max": 0,
+          "avg": 0.0
+        },
+        "rain_inches": {
+          "min": 0.0,
+          "max": 0.0,
+          "avg": 0.0
+        },
+        "air_temp_f": {
+          "min": 64.0,
+          "max": 66.0,
+          "avg": 64.67
+        },
+        "wind_mph": {
+          "min": 4.6,
+          "max": 4.6,
+          "avg": 4.6
+        },
+        "wind_gust_mph": {
+          "min": 9.2,
+          "max": 12.7,
+          "avg": 10.95
+        }
+      }
     }
   },
   "stocking": {
@@ -268,7 +355,7 @@
   "angler_analysis": {
     "quality_score": 8.0,
     "quality_label": "Very good",
-    "best_window": "day1 morning",
+    "best_window": "day2 afternoon",
     "water_temp_read": {
       "status": "ideal",
       "read": "Water temperature is in a favorable trout range.",
