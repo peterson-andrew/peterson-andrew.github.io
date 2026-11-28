@@ -22,36 +22,36 @@
   "usgs_summary": {
     "site_name": "TOCCOA RIVER NEAR DIAL, GA",
     "water_temp_f": null,
-    "flow_cfs": 233.0,
-    "gage_height_ft": 1.22,
+    "flow_cfs": 222.0,
+    "gage_height_ft": 1.18,
     "turbidity": null,
-    "observed_at": "2026-11-27T17:30:00.000-05:00"
+    "observed_at": "2026-11-28T00:30:00.000-05:00"
   },
   "weather_summary": {
-    "pressure_inhg": 29.94,
+    "pressure_inhg": 29.98,
     "air_temp": {
-      "current_f": 40,
+      "current_f": 35,
       "low_f": 27.0,
       "high_f": 58.0
     },
     "sky_cover": {
       "min": 3,
-      "max": 91,
-      "avg": 46.66
+      "max": 92,
+      "avg": 51.13
     },
     "humidity": {
       "min": 44,
       "max": 100,
-      "avg": 83.45
+      "avg": 82.9
     },
     "rain": {
       "max_probability_percent": 99,
       "expected_inches": 0.67
     },
     "wind": {
-      "avg_mph": 5.5,
-      "max_gust_mph": 27.6,
-      "predominant_direction": "W"
+      "avg_mph": 6.8,
+      "max_gust_mph": 28.8,
+      "predominant_direction": ""
     }
   },
   "forecast_breakdown": {
@@ -60,13 +60,13 @@
       "morning": {
         "sky_cover": {
           "min": 12,
-          "max": 36,
-          "avg": 25.86
+          "max": 34,
+          "avg": 24.17
         },
         "humidity": {
-          "min": 98,
+          "min": 99,
           "max": 100,
-          "avg": 99.25
+          "avg": 99.67
         },
         "rain_probability": {
           "min": 0,
@@ -80,18 +80,18 @@
         },
         "air_temp_f": {
           "min": 28.0,
-          "max": 35.0,
-          "avg": 31.33
+          "max": 33.0,
+          "avg": 30.6
         },
         "wind_mph": {
           "min": 0.0,
-          "max": 1.2,
-          "avg": 0.6
+          "max": 0.0,
+          "avg": 0.0
         },
         "wind_gust_mph": {
           "min": 1.2,
-          "max": 4.6,
-          "avg": 2.7
+          "max": 2.3,
+          "avg": 1.75
         }
       },
       "afternoon": {
@@ -345,7 +345,7 @@
   "angler_analysis": {
     "quality_score": 5.0,
     "quality_label": "Fair",
-    "best_window": "day1 morning",
+    "best_window": "day2 morning",
     "water_temp_read": {
       "status": "unknown",
       "read": "Water temperature is unavailable.",

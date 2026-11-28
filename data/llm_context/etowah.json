@@ -21,36 +21,36 @@
   },
   "usgs_summary": {
     "site_name": "ETOWAH RIVER AT GA 9, NEAR DAWSONVILLE, GA",
-    "water_temp_f": 48.0,
-    "flow_cfs": 131.0,
-    "gage_height_ft": 4.05,
-    "turbidity": 10.2,
-    "observed_at": "2026-11-27T17:00:00.000-05:00"
+    "water_temp_f": 46.6,
+    "flow_cfs": 118.0,
+    "gage_height_ft": 3.96,
+    "turbidity": 8.2,
+    "observed_at": "2026-11-28T00:00:00.000-05:00"
   },
   "weather_summary": {
-    "pressure_inhg": null,
+    "pressure_inhg": 30.02,
     "air_temp": {
-      "current_f": 42,
+      "current_f": 38,
       "low_f": 32.0,
       "high_f": 59.0
     },
     "sky_cover": {
       "min": 2,
       "max": 90,
-      "avg": 38.74
+      "avg": 43.69
     },
     "humidity": {
       "min": 46,
       "max": 100,
-      "avg": 84.52
+      "avg": 84.76
     },
     "rain": {
       "max_probability_percent": 96,
       "expected_inches": 0.62
     },
     "wind": {
-      "avg_mph": 5.5,
-      "max_gust_mph": 25.3,
+      "avg_mph": 6.7,
+      "max_gust_mph": 27.6,
       "predominant_direction": "W"
     }
   },
@@ -60,13 +60,13 @@
       "morning": {
         "sky_cover": {
           "min": 2,
-          "max": 19,
-          "avg": 11.14
+          "max": 17,
+          "avg": 9.83
         },
         "humidity": {
-          "min": 96,
+          "min": 98,
           "max": 100,
-          "avg": 98.4
+          "avg": 99.0
         },
         "rain_probability": {
           "min": 0,
@@ -80,18 +80,18 @@
         },
         "air_temp_f": {
           "min": 33.0,
-          "max": 38.0,
-          "avg": 35.2
+          "max": 36.0,
+          "avg": 34.5
         },
         "wind_mph": {
           "min": 4.6,
-          "max": 6.9,
-          "avg": 5.54
+          "max": 5.8,
+          "avg": 5.2
         },
         "wind_gust_mph": {
           "min": 10.4,
-          "max": 15.0,
-          "avg": 12.3
+          "max": 12.7,
+          "avg": 11.76
         }
       },
       "afternoon": {
@@ -364,10 +364,16 @@
       "score_adjustment": 2.0
     },
     "light_pressure_read": {
-      "status": "unknown",
-      "read": "Light and pressure read is unavailable.",
-      "positioning": [],
-      "tactics": [],
+      "status": "neutral",
+      "read": "Light and pressure do not strongly push the outlook either way.",
+      "positioning": [
+        "runs",
+        "seams",
+        "structure"
+      ],
+      "tactics": [
+        "balanced nymph approach"
+      ],
       "score_adjustment": 0.0
     },
     "pressure_trend_read": {
@@ -393,7 +399,8 @@
       "nymphs",
       "midges",
       "soft hackles",
-      "opportunistic streamers"
+      "opportunistic streamers",
+      "balanced nymph approach"
     ],
     "recommended_fly_keys": [
       "zebra_midge",
@@ -408,7 +415,7 @@
     "caution_notes": [],
     "reasoning": [
       "Water temperature is in a favorable trout range.",
-      "Light and pressure read is unavailable.",
+      "Light and pressure do not strongly push the outlook either way.",
       "Pressure trend is unavailable.",
       "No recent stocking signal is available."
     ]
